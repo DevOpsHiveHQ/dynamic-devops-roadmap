@@ -3,7 +3,7 @@
 
 Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet).
 
-For that reason, in this roadmap our main hands-on project will be for the bees! We will utilize the technology and open source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
+For that reason, in this roadmap, our main hands-on project will be for the bees! We will utilize the technology and open-source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
 
 > [!TIP]
 > If you are looking for the full roadmap including this project, back to the repo [home page](../../README.md).
@@ -51,23 +51,23 @@ For that reason, in this roadmap our main hands-on project will be for the bees!
 
 ## Approach
 
-This project follows the same Dynamic MVP-style mindset used in the [roadmap](../../). Which aims to cover the whole Software Development Life Cycle (SDLC). That mean each phase of this project will cover all aspects of the DevOps areas like planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
+This project follows the same Dynamic MVP-style mindset used in the [roadmap](../../), which aims to cover the whole Software Development Life Cycle (SDLC). That means each phase of this project will cover all aspects of the DevOps areas like planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
 
-This project works the best in `Peering` mode where you have another person helps you whenever you stuck (like a mentor or so). But in case you don't have that, always back to the `Related Module` where it has more details could help you in the project.
+This project works the best in `Peering` mode where you have another person help you whenever you stuck (like a mentor or so). But in case you don't have that, always back to the `Related Module` which has more details that could help you in the project.
 
 > [!NOTE]
-> Each phase of this project is tackled gradually part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+> Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
 
 > [!CAUTION]
 > Remember, the goal is not only to implement the project but also to learn industry best practices in the DevOps field!
-> Just applying this project without understanding what the problems to solve will not help you to be a DevOps Engineer!
+> Applying this project without understanding the problems to solve will not help you be a DevOps Engineer!
 
 
 ## Goal
 
-The goal of this project is to build a scalable RESTful API around [openSenseMap](https://opensensemap.org/) but customized to help beekeeper with their chores. The API output should be in JSON. You will start with a basic implementation, then extend the whole system to handles thousands of requests per second. But always remember, every decision has a cost.
+The goal of this project is to build a scalable RESTful API around [openSenseMap](https://opensensemap.org/) but customized to help beekeeper with their chores. The API output should be in JSON. You will start with a basic implementation, then extend the whole system to handle thousands of requests per second. But always remember, every decision has a cost.
 
-You can get senseBox IDs by checking the [openSenseMap](https://opensensemap.org/) website. Use 3 senseBox IDs close to each other (you can use this one [5eba5fbad46fb8001b799786](https://opensensemap.org/explore/5eba5fbad46fb8001b799786) as starting point). Just copy the IDs, you will need them in the next steps.
+You can get senseBox IDs by checking the [openSenseMap](https://opensensemap.org/) website. Use 3 senseBox IDs close to each other (you can use this one [5eba5fbad46fb8001b799786](https://opensensemap.org/explore/5eba5fbad46fb8001b799786) as a starting point). Just copy the IDs, you will need them in the next steps.
 
 ---
 
@@ -97,17 +97,17 @@ Related Module: [Basics - DevOps Core](../../content/02-module.md)
 
 ### 2.2 Code
 
-- Create GitHub repository for the project.
+- Create a GitHub repository for the project.
 - Implement the code requirements.
 
 **Requirements:**
 
-- Create a function that print current app version. It should print the version then exit the application.
+- Create a function that prints the current app version. It should print the version and then exit the application.
 - Use [Semantic Versioning](https://semver.org/) for the app version starting with `v0.0.1`.
 
 ### 2.3 Containers
 
-- Create Dockerfile for the project.
+- Create a Dockerfile for the project.
 - Build the Docker image and run it locally.
 
 ### 2.4 Testing
@@ -145,7 +145,7 @@ Related Module: [Start - Laying the Foundation](../../content/03-module.md)
 - Parameters: No parameters.
 - Requirements:
   - Return current average temperature based on all senseBox data.
-  - Ensure that the data is no older 1 hour.
+  - Ensure that the data is no older than 1 hour.
 
 ### 3.3 Containers
 
@@ -154,8 +154,8 @@ Related Module: [Start - Laying the Foundation](../../content/03-module.md)
 ### 3.4 Continuous Integration
 
 - Create a GitHub Actions workflow for CI.
-- Add step to lint code and Dockerfile.
-- Add step to build the Docker image.
+- Add a step to lint code and Dockerfile.
+- Add a step to build the Docker image.
 - Add step to unit tests.
 - Setup [OpenSSF Scorecard GitHub Action](https://securityscorecards.dev/#using-the-github-action) and fix any issues reported by it.
 
@@ -194,7 +194,7 @@ Related Module: [Expand - Constructing a Shell](../../content/04-module.md)
 - Endpoint: `/temperature`
 - Parameters: No parameters.
 - Requirements:
-  - Add "status" field based on the temperature average value.
+  - Add a "status" field based on the temperature average value.
     - Less than 10: Too Cold
     - Between 11-36: Good
     - More than 37: Too Hot
@@ -207,7 +207,7 @@ Related Module: [Expand - Constructing a Shell](../../content/04-module.md)
 ### 4.4 Continuous Integration
 
 - Run code integration tests.
-- Run SonarQube for code quality, security and static analysis (Hint: [Use SonarQube Quality Gate check](https://github.com/marketplace/actions/sonarqube-quality-gate-check) action, also consider [Semgrep](https://github.com/semgrep/semgrep)).
+- Run SonarQube for code quality, security, and static analysis (Hint: [Use SonarQube Quality Gate check](https://github.com/marketplace/actions/sonarqube-quality-gate-check) action, also consider [Semgrep](https://github.com/semgrep/semgrep)).
 - Run Terrascan for Kubernetes manifest misconfigurations and vulnerabilities (Hint: [Terrascan GitHub Action](https://github.com/marketplace/actions/terrascan-iac-scanner)).
 - Apply Best Practices for CI (Hint: [10 CI/CD Best Practices for DevOps Success](https://codefresh.io/learn/ci-cd/10-ci-cd-best-practices-for-devops-success/)).
 
