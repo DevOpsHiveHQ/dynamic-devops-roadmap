@@ -1,7 +1,7 @@
 [![Google Forms Register](https://img.shields.io/badge/Register-4285f4?style=for-the-badge&logo=google&logoColor=white&label=Google%20Forms)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform)
 [![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-15%25-ffcb00?style=for-the-badge)](#status)
+[![Progress](https://img.shields.io/badge/Progress-30%25-ffcb00?style=for-the-badge)](#status)
 
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
@@ -17,13 +17,14 @@
 Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](projects/hivebox/README.md)
 if you are interested in the DevOps hands-on project only.
 
-Fill [![Google Forms](https://img.shields.io/badge/Google%20Forms-4285f4?style=flat-square&logo=google&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform) to register and receive an invitation to the professorial [mentorship](#mentorship) for **free** (Only **limited slots are available**).
+Fill [![Google Forms](https://img.shields.io/badge/Google%20Forms-4285f4?style=flat-square&logo=google&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform) to register and receive an invitation to the professorial [mentorship](#3-mentorship-program) for **free** (Only **limited slots are available**).
 
 Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive) for discussions and to stay updated (Note: This is a multilingual group).
 
 
 <!-- omit from toc -->
 ## ToC
+
 - [Status](#status)
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
@@ -39,7 +40,7 @@ Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?st
 
 Please note that this repo is still a work in progress.
 
-- **Roadmap Content**: 20%
+- **Roadmap Content**: 30%
 - **Hands-on Project**: 100%
 
 ## The Problem
@@ -53,7 +54,7 @@ Please note that this repo is still a work in progress.
 </p>
 
 <a href="img/linear-devops-roadmap.png" imageanchor="1">
-  <img align="right" width="30%" src="img/linear-devops-roadmap.png" />
+  <img alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="img/linear-devops-roadmap.png" />
 </a>
 
 The `DevOps Engineer` role remains one of the top 10 most in-demand jobs across all industries (not just the tech field!). However, starting that role is super challenging because the DevOps model has various patterns and topologies. Also, the Cloud Native landscape keeps expanding, and there is something new every day!
@@ -75,7 +76,7 @@ For more details about the problem aspects, please read: [Your DevOps learning r
 
 Based on experience for years mentoring people in different stages (starting their first job, career shift, moving to another work style or company), using a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer has been highly successful.
 
-That means **first, understand the problem instead of just learning a bunch of tools** then **using iterative style each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
+That means **first, understand the problem instead of just learning a bunch of tools** then **using iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
 
 ## Roadmap Modes
 
@@ -85,7 +86,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 This mode is the default and is available for everyone in this repo. In this mode, you are not expected to have DevOps experience, and you want to go from zero to hero, transforming your knowledge to land your first job as a DevOps Engineer.
 
-You just need to follow the roadmap in modules which defines the areas you should know as a DevOps Engineer, and provide you all resources to learn about them. In this mode you manage all your learning plans by yourself, and we highly recommend asking a Senior DevOps Engineer (a friend or someone from the community) to review your plans and progress.
+You just need to follow the roadmap in modules which defines the areas you should know as a DevOps Engineer, and provide you all resources to learn about them. In this mode, you manage all your learning plans by yourself, and we highly recommend asking a Senior DevOps Engineer (a friend or someone from the community) to review your plans and progress.
 
 <p align="center">
   <a href="#roadmap-index" imageanchor="1">
@@ -95,7 +96,7 @@ You just need to follow the roadmap in modules which defines the areas you shoul
 
 ### 2. Hands-on Project
 
-In this mode, you already have some experience with DevOps (usually between 1-2 years of work experience), but you want to step up your skills with real hands-on industry-grad project to learn DevOps in pragmatic manner. This mode is also available to everyone in this repo.
+In this mode, you already have some experience with DevOps (usually between 1-2 years of work experience), but you want to step up your skills with a real hands-on industry-grad project to learn DevOps in a pragmatic manner. This mode is also available to everyone in this repo.
 
 The project follows `Learning by Doing` method (aka `Problem-based Learning`) which is done in iterative phases where you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure.
 
@@ -106,7 +107,7 @@ The project follows `Learning by Doing` method (aka `Problem-based Learning`) wh
 </p>
 
 > [!NOTE]
-> Each phase of this project is tackled gradually part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+> Each phase of this project is tackled gradually, part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
 
 ### 3. Mentorship Program
 
@@ -140,10 +141,12 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 ---
 
 [**Overview**](./content/00-overview.md)
+
 - Introduction
 - BSET Methodology and Focus Areas
 
 [**Module 1: Welcome to the DevOps World**](./content/01-module.md)
+
 - 1.1 Introduction - What and Why DevOps?
 - 1.2 Software Production - Software Development Life Cycle
 - 1.3 Software Production - Agile Software Development
@@ -154,17 +157,19 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 - 1.8 Project - HiveBox Phase 1
 
 [**Module 2: Basics - DevOps Core**](./content/02-module.md)
-- 2.1 Code - Python Fundamentals
-- 2.2 Code - Common Development Tools
-- 2.3 Code - Git Basics
-- 2.4 Operating System - Linux Fundamentals
-- 2.5 Operating System - Common Tools and Commands
-- 2.6 Operating System - Bash Scripting Basics
-- 2.7 Containers - Docker Fundamentals
-- 2.8 Containers - Docker CLI Basics
-- 2.9 Project - HiveBox Phase 2
+
+- [2.1 Code - Python Fundamentals](./content/02-module.md#21-code---python-fundamentals)
+- [2.2 Code - Common Development Tools](./content/02-module.md#22-code---common-development-tools)
+- [2.3 Code - Git Basics](./content/02-module.md#23-code---git-basics)
+- [2.4 Operating System - Linux Fundamentals](./content/02-module.md#24-operating-system---linux-fundamentals)
+- [2.5 Operating System - Common Tools and Commands](./content/02-module.md#25-operating-system---common-tools-and-commands)
+- [2.6 Operating System - Bash Scripting Basics](./content/02-module.md#26-operating-system---bash-scripting-basics)
+- [2.7 Containers - Docker Fundamentals](./content/02-module.md#27-containers---docker-fundamentals)
+- [2.8 Containers - Docker CLI Basics](./content/02-module.md#28-containers---docker-cli-basics)
+- [2.9 Project - HiveBox Phase 2](./content/02-module.md#29-project---hivebox-phase-2)
 
 [**Module 3: Start - Laying the Foundation**](./content/03-module.md)
+
 - 3.1 Planning - Define Goals and Requirements
 - 3.2 Code - Modularity and Reusability
 - 3.3 Code - Testing and Quality Assurance
@@ -176,6 +181,7 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 - 3.9 Project - HiveBox Phase 3
 
 [**Module 4: Expand - Constructing a Shell**](./content/04-module.md)
+
 - 4.1 Planning - Review the Goals and Requirements
 - 4.2 Code - Twelve-Factor App Methodology
 - 4.3 Code - REST API Best Practices
@@ -187,6 +193,7 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 - 4.9 Project - HiveBox Phase 4
 
 [**Module 5: Transform - Finishing the Structure**](./content/05-module.md)
+
 - 5.1 Planning - Refine the Goals and Requirements
 - 5.2 Code - Working with External Systems
 - 5.3 Code - Writing Integration Tests
@@ -198,6 +205,7 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 - 5.9 Project - HiveBox Phase 5
 
 [**Module 6: Keep Improving**](./content/06-module.md)
+
 - 6.1 Planning - Agile Retrospective
 - 6.2 Code - Performance Optimizations
 - 6.3 Continuous Integration - Software Supply Chain Security
@@ -208,14 +216,16 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 - 6.8 Project - HiveBox Phase 6
 
 [**Module 7: Capstone Project**](./content/07-module.md)
+
 - 7.1 Requirements
 - 7.2 Plan
 - 7.3 Implementation
 - 7.4 Review
 
 [**Next Steps**](./content/08-next-steps.md)
+
 - Review - Write Your CV and Cover Letter
-- Review - Build Your Skills Radar Chart
+- Review - Build Your Skills   Radar Chart
 - Discussion - DevOps Certificates
 - Discussion - Next Steps as a DevOps Engineer
 
@@ -223,4 +233,4 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 
 ## License
 
-This project is by [DevOps Hive](https://devopshive.net/) and licensed under the open-source license [Creative Commons  Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). For more details, please review [LICENSE](LICENSE).
+This project is by [DevOps Hive](https://devopshive.net/) and licensed under the open-source license, [Creative Commons  Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). For more details, please review [LICENSE](LICENSE).
