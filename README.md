@@ -1,7 +1,7 @@
 [![Google Forms Register](https://img.shields.io/badge/Register-4285f4?style=for-the-badge&logo=google&logoColor=white&label=Google%20Forms)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform)
 [![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-30%25-ffcb00?style=for-the-badge)](#status)
+[![Progress](https://img.shields.io/badge/Progress-40%25-ffcb00?style=for-the-badge)](#status)
 
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
@@ -33,6 +33,9 @@ Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?st
   - [2. Hands-on Project](#2-hands-on-project)
   - [3. Mentorship Program](#3-mentorship-program)
 - [Roadmap Index](#roadmap-index)
+  - [Overview](#overview)
+  - [Module 1: Welcome to the DevOps World](#module-1-welcome-to-the-devops-world)
+  - [Module 2: Basics - DevOps Core](#module-2-basics---devops-core)
 - [License](#license)
 
 
@@ -40,7 +43,7 @@ Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?st
 
 Please note that this repo is still a work in progress.
 
-- **Roadmap Content**: 30%
+- **Roadmap Content**: 40%
 - **Hands-on Project**: 100%
 
 ## The Problem
@@ -132,6 +135,9 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 
 ## Roadmap Index
 
+Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](projects/hivebox/README.md)
+if you are interested in the DevOps hands-on project **only**.
+
 <p align="center">
   <a href="https://devopshive.net/" style="display: block; padding: 1em 0; text-align: center;">
     <img alt="DevSecOps Loop" border="0" width="600" data-original-height="602" data-original-width="1046" src="https://devopshive.net/images/devsecops.svg"/>
@@ -140,23 +146,23 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 
 ---
 
-[**Overview**](./content/00-overview.md)
+### [Overview](./content/00-overview.md)
 
 - Introduction
 - BSET Methodology and Focus Areas
 
-[**Module 1: Welcome to the DevOps World**](./content/01-module.md)
+### [Module 1: Welcome to the DevOps World](./content/01-module.md)
 
-- 1.1 Introduction - What and Why DevOps?
-- 1.2 Software Production - Software Development Life Cycle
-- 1.3 Software Production - Agile Software Development
-- 1.4 Software Production - J-Curve and Golden Triangle
-- 1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars
-- 1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer and SRE
-- 1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer
-- 1.8 Project - HiveBox Phase 1
+- [1.1 Introduction - What and Why DevOps?](./content/01-module.md#11-introduction---what-and-why-devops)
+- [1.2 Software Production - Software Development Life Cycle](./content/01-module.md#12-software-production---software-development-life-cycle)
+- [1.3 Software Production - Agile Software Development](./content/01-module.md#13-software-production---agile-software-development)
+- [1.4 Software Production - Change Management and Golden Triangle](./content/01-module.md#14-software-production---change-management-and-golden-triangle)
+- [1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars](./content/01-module.md#15-devops-methodology---devops-and-devsecops-core-pillars)
+- [1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE](./content/01-module.md#16-devops-methodology---devops-cloud-platform-engineer-and-sre)
+- [1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer](./content/01-module.md#17-devops-methodology---t-shaped-skills-devops-engineer)
+- [1.8 Project - HiveBox Phase 1](./content/01-module.md#18-project---hivebox-phase-1)
 
-[**Module 2: Basics - DevOps Core**](./content/02-module.md)
+### [Module 2: Basics - DevOps Core](./content/02-module.md)
 
 - [2.1 Code - Python Fundamentals](./content/02-module.md#21-code---python-fundamentals)
 - [2.2 Code - Common Development Tools](./content/02-module.md#22-code---common-development-tools)
