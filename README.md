@@ -56,8 +56,8 @@ Please note that this repo is still a work in progress.
   A subset of the Cloud Native landscape in December 2023 (click for the full landscape)
 </p>
 
-<a href="img/linear-devops-roadmap.png" imageanchor="1">
-  <img alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="img/linear-devops-roadmap.png" />
+<a href="img/devops-roadmap-linear.png" imageanchor="1">
+  <img alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="img/devops-roadmap-linear.png" />
 </a>
 
 The `DevOps Engineer` role remains one of the top 10 most in-demand jobs across all industries (not just the tech field!). However, starting that role is super challenging because the DevOps model has various patterns and topologies. Also, the Cloud Native landscape keeps expanding, and there is something new every day!
@@ -66,7 +66,7 @@ Simply, **you cannot start a DevOps position by merely learning the tools!** It'
 
 For that reason, almost every day, I see people struggling on their way to start as fresh/junior DevOps engineers or even progress in their early career years in general. They usually follow some `linear` roadmap like [roadmap.sh/devops](https://roadmap.sh/devops). But still, they cannot land their first job or straggle a lot when they find one! And sadly, many of them eventually give up!
 
-For more details about the problem aspects, please read: [Your DevOps learning roadmap is broken! - Career](https://tech.aabouzaid.com/2023/06/your-devops-learning-roadmap-is-broken.html).
+For more details about the problem aspects, please read: [Your DevOps learning roadmap is broken!](https://tech.aabouzaid.com/2023/06/your-devops-learning-roadmap-is-broken.html).
 
 
 ## The Solution
@@ -148,8 +148,8 @@ if you are interested in the DevOps hands-on project **only**.
 
 ### [Overview](./content/00-overview.md)
 
-- Introduction
-- BSET Methodology and Focus Areas
+- [Introduction](./content/00-overview.md#introduction)
+- [BSET Model and Focus Areas](./content/00-overview.md#bset-model-and-focus-areas)
 
 ### [Module 1: Welcome to the DevOps World](./content/01-module.md)
 
