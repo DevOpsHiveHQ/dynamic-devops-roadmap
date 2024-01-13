@@ -8,6 +8,21 @@ For that reason, in this roadmap our main hands-on project will be for the bees!
 > [!TIP]
 > If you are looking for the full roadmap including this project, back to the repo [home page](../../README.md).
 
+## Project Badge
+
+Push it forward and add the project badge in your repo to support the community! ⭐
+
+Code:
+
+```
+[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
+```
+Preview:
+
+[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
+
+---
+
 <p align="center">
   <a href="beekeeping.png">
     <img alt="Beekeeping" border="0" src="beekeeping.png"/>
@@ -19,6 +34,7 @@ For that reason, in this roadmap our main hands-on project will be for the bees!
 <!-- omit in toc -->
 ## ToC
 
+- [Project Badge](#project-badge)
 - [Approach](#approach)
 - [Goal](#goal)
 - [Phase 1](#phase-1)
