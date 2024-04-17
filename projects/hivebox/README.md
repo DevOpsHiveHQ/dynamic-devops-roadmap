@@ -145,7 +145,7 @@ Related Module: [Start - Laying the Foundation](../../content/03-module.md)
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for Git commits.
 - Familiarize yourself with [openSenseMap API](https://docs.opensensemap.org/).
-- Implement the code requirements (Hint: [Flask Quickstart](https://flask.palletsprojects.com/en/2.3.x/quickstart/)).
+- Implement the code requirements (Hint: [Flask Quickstart](https://flask.palletsprojects.com/en/2.3.x/quickstart/) or [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/)) .
 - Write unit tests for all endpoints.
 
 **Requirements:**
