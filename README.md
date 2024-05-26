@@ -1,7 +1,7 @@
 [![Google Forms Register](https://img.shields.io/badge/Register-4285f4?style=for-the-badge&logo=google&logoColor=white&label=Google%20Forms)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform)
 [![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-40%25-ffcb00?style=for-the-badge)](#status)
+[![Progress](https://img.shields.io/badge/Progress-50%25-ffcb00?style=for-the-badge)](#status)
 
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
@@ -49,6 +49,7 @@ Preview:
   - [Overview](#overview)
   - [Module 1: Welcome to the DevOps World](#module-1-welcome-to-the-devops-world)
   - [Module 2: Basics - DevOps Core](#module-2-basics---devops-core)
+  - [Module 3: Start - Laying the Foundation](#module-3-start---laying-the-foundation)
 - [License](#license)
 
 
@@ -56,7 +57,7 @@ Preview:
 
 Please note that this repo is still a work in progress.
 
-- **Roadmap Content**: 40%
+- **Roadmap Content**: 50%
 - **Hands-on Project**: 100%
 
 ## The Problem
@@ -77,9 +78,9 @@ The `DevOps Engineer` role remains one of the top 10 most in-demand jobs across 
 
 Simply, **you cannot start a DevOps position by merely learning the tools!** It's even more complicated if that's your first job without previous software industry experience (coming from either Dev or Ops).
 
-For that reason, almost every day, I see people struggling on their way to start as fresh/junior DevOps engineers or even progress in their early career years in general. They usually follow some `linear` roadmap like [roadmap.sh/devops](https://roadmap.sh/devops). But still, they cannot land their first job or straggle a lot when they find one! And sadly, many of them eventually give up!
+For that reason, almost every day, I see people struggling on their way to start as fresh/junior DevOps engineers or even progress in their early career years in general. They usually follow some `linear` roadmap like [roadmap.sh/devops](https://roadmap.sh/devops). But still, they cannot land their first job or struggle a lot when they find one! And sadly, many of them eventually give up!
 
-For more details about the problem aspects, please read: [Your DevOps learning roadmap is broken!](https://tech.aabouzaid.com/2023/06/your-devops-learning-roadmap-is-broken.html).
+For more details about the problem aspects, please read: [Your DevOps learning roadmap is broken!](https://tech.aabouzaid.com/2023/06/your-devops-learning-roadmap-is-broken.html)
 
 
 ## The Solution
@@ -92,7 +93,7 @@ For more details about the problem aspects, please read: [Your DevOps learning r
 
 Based on experience for years mentoring people in different stages (starting their first job, career shift, moving to another work style or company), using a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer has been highly successful.
 
-That means **first, understand the problem instead of just learning a bunch of tools** then **using iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
+That means **first, understanding the problem instead of just learning a bunch of tools** and then **using an iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
 
 ## Roadmap Modes
 
@@ -102,7 +103,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 This mode is the default and is available for everyone in this repo. In this mode, you are not expected to have DevOps experience, and you want to go from zero to hero, transforming your knowledge to land your first job as a DevOps Engineer.
 
-You just need to follow the roadmap in modules which defines the areas you should know as a DevOps Engineer, and provide you all resources to learn about them. In this mode, you manage all your learning plans by yourself, and we highly recommend asking a Senior DevOps Engineer (a friend or someone from the community) to review your plans and progress.
+You just need to follow the roadmap in modules that define the areas you should know as a DevOps Engineer, and provide you with all the resources to learn about them. In this mode, you manage all your learning plans by yourself, and we highly recommend asking a Senior DevOps Engineer (a friend or someone from the community) to review your plans and progress.
 
 <p align="center">
   <a href="#roadmap-index" imageanchor="1">
@@ -114,7 +115,7 @@ You just need to follow the roadmap in modules which defines the areas you shoul
 
 In this mode, you already have some experience with DevOps (usually between 1-2 years of work experience), but you want to step up your skills with a real hands-on industry-grad project to learn DevOps in a pragmatic manner. This mode is also available to everyone in this repo.
 
-The project follows `Learning by Doing` method (aka `Problem-based Learning`) which is done in iterative phases where you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure.
+The project follows the `Learning by Doing` method (aka `Problem-based Learning`) which is done in iterative phases where you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure.
 
 <p align="center">
   <a href="projects/hivebox/README.md" imageanchor="1">
@@ -187,17 +188,17 @@ if you are interested in the DevOps hands-on project **only**.
 - [2.8 Containers - Docker CLI Basics](./content/02-module.md#28-containers---docker-cli-basics)
 - [2.9 Project - HiveBox Phase 2](./content/02-module.md#29-project---hivebox-phase-2)
 
-[**Module 3: Start - Laying the Foundation**](./content/03-module.md)
+### [Module 3: Start - Laying the Foundation](./content/03-module.md)
 
-- 3.1 Planning - Define Goals and Requirements
-- 3.2 Code - Modularity and Reusability
-- 3.3 Code - Testing and Quality Assurance
-- 3.4 Code - Writing Unit Tests
-- 3.5 Containers - Docker Best Practices
-- 3.6 Continuous Integration - Introduction and Solutions in the Market
-- 3.7 Continuous Integration - GitHub Actions Essentials
-- 3.8 Continuous Integration - Pipelines and Quality Gates
-- 3.9 Project - HiveBox Phase 3
+- [3.1 Planning - Define Goals and Requirements](./content/03-module.md#31-planning---define-goals-and-requirements)
+- [3.2 Code - Modularity and Reusability](./content/03-module.md#32-code---modularity-and-reusability)
+- [3.3 Code - Testing and Quality Assurance](./content/03-module.md#33-code---testing-and-quality-assurance)
+- [3.4 Code - Writing Unit Tests](./content/03-module.md#34-code---writing-unit-tests)
+- [3.5 Containers - Docker Best Practices](./content/03-module.md#35-containers---docker-best-practices)
+- [3.6 Continuous Integration - Introduction and Solutions in the Market](./content/03-module.md#36-continuous-integration---introduction-and-solutions-in-the-market)
+- [3.7 Continuous Integration - GitHub Actions Essentials](./main/content/03-module.md#37-continuous-integration---github-actions-essentials)
+- [3.8 Continuous Integration - Pipelines and Quality Gates](./content/03-module.md#38-continuous-integration---pipelines-and-quality-gates)
+- [3.9 Project - HiveBox Phase 3](./content/03-module.md#39-project---hivebox-phase-3)
 
 [**Module 4: Expand - Constructing a Shell**](./content/04-module.md)
 
