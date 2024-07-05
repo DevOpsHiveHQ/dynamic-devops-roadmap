@@ -91,7 +91,7 @@
 ### Resources
 
 - [Bash Track - Exercism](https://exercism.org/tracks/bash): More than 90 exercises in different levels (finish only the easy and medium tasks).
-- [Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners - freeCodeCamp](https://www.freecodecamp.org/news/introduction-to-linux/): Pretty good and structured guide to start with Bash scripting.
+- [Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners - freeCodeCamp](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/): Pretty good and structured guide to start with Bash scripting.
 - [How to Write a Bash Script - A Simple Bash Scripting Tutorial - DataCamp](https://www.datacamp.com/tutorial/how-to-write-bash-script-tutorial): A simple getting started guide with integrated AI to explain the code.
 
 
