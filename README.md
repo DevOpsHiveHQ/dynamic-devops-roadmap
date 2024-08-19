@@ -203,9 +203,9 @@ if you are interested in the DevOps hands-on project **only**.
 [**Module 4: Expand - Constructing a Shell**](./content/04-module.md)
 
 - [4.1 Planning - Review the Goals and Requirements](./content/04-module.md#41-planning---review-the-goals-and-requirements)
-- [4.2 Code - Twelve-Factor App Methodology](./content/04-module.md#41-code---twelve-factor-app-methodology)
-- 4.3 Code - REST API Best Practices
-- 4.4 Continuous Integration - CI Best Practices
+- [4.2 Code - Twelve-Factor App Methodology](./content/04-module.md#42-code---twelve-factor-app-methodology)
+- [4.3 Code - REST API Best Practices](./content/04-module.md#43-code---rest-api-best-practices)
+- [4.4 Continuous Integration - CI Best Practices](./content/04-module.md#44-continuous-integration---ci-best-practices)
 - 4.5 Containers - Kubernetes Architecture and Core Concepts
 - 4.6 Observability - Monitoring Application and Infrastructure
 - 4.7 Continuous Delivery - Introduction and Solutions in the Market

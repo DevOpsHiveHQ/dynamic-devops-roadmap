@@ -225,7 +225,7 @@ Related Module: [Expand - Constructing a Shell](../../content/04-module.md)
 - Run code integration tests.
 - Run SonarQube for code quality, security and static analysis (Hint: [Use SonarQube Quality Gate check](https://github.com/marketplace/actions/sonarqube-quality-gate-check) action, also consider [Semgrep](https://github.com/semgrep/semgrep)).
 - Run Terrascan for Kubernetes manifest misconfigurations and vulnerabilities (Hint: [Terrascan GitHub Action](https://github.com/marketplace/actions/terrascan-iac-scanner)).
-- Apply Best Practices for CI (Hint: [10 CI/CD Best Practices for DevOps Success](https://codefresh.io/learn/ci-cd/10-ci-cd-best-practices-for-devops-success/)).
+- Apply Best Practices for CI (Hint: [Best practices when adopting continuous integration](https://github.com/resources/articles/devops/continuous-integration#best-practices-when-adopting-continuous-integration)).
 
 ### 4.5 Continuous Delivery
 

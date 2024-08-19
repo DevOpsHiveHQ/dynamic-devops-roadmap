@@ -106,6 +106,7 @@
 
 ### Resources
 
+- [The fundamentals of continuous integration in DevOps - GitHub](https://github.com/resources/articles/devops/continuous-integration)
 - [What is continuous integration? - Atlassian](https://www.atlassian.com/continuous-delivery/continuous-integration)
 - [7 CI/CD Concepts You Must Know - Codefresh](https://codefresh.io/learn/ci-cd/7-ci-cd-concepts-you-must-know/)
 
