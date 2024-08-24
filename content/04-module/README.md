@@ -1,6 +1,6 @@
 # Module 4: Expand - Constructing a Shell
 
-[🗂 Back to the Roadmap Index](../README.md#roadmap-index)
+[🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
 ## 4.1 Planning - Review the Goals and Requirements
 
@@ -84,7 +84,7 @@
 - [Continuous integration best practices - GitLab](https://about.gitlab.com/topics/ci-cd/continuous-integration-best-practices/)
 - [11 CI/CD Best Practices for DevOps Success - Codefresh](https://codefresh.io/learn/ci-cd/11-ci-cd-best-practices-for-devops-success/)
 
-## 4.5 Containers - Kubernetes Architecture and Core Concepts
+## 4.5 Containers - Kubernetes Overview and Core Concepts
 
 ### What you need to know
 
@@ -130,4 +130,4 @@ Follow the instructions in the [HiveBox project phase 4](../projects/hivebox/REA
 
 ---
 
-If you are done, [🗂 Back to the Roadmap Index](../README.md#roadmap-index)
+If you are done, [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)

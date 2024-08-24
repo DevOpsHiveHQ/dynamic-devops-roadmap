@@ -1,6 +1,6 @@
 # Module 3: Start - Laying the Foundation
 
-[🗂 Back to the Roadmap Index](../README.md#roadmap-index)
+[🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
 ## 3.1 Planning - Define Goals and Requirements
 
@@ -149,4 +149,4 @@ Follow the instructions in the [HiveBox project phase 3](../projects/hivebox/REA
 
 ---
 
-If you are done, [🗂 Back to the Roadmap Index](../README.md#roadmap-index)
+If you are done, [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)

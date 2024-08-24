@@ -28,9 +28,10 @@ Push it forward and add the project badge in your repo to support the community!
 
 Markdown:
 
-```
+```text
 [![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
 ```
+
 Preview:
 
 [![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
@@ -150,69 +151,69 @@ A plus point in the mentorship is that you will get access to the roadmap board 
 ## Roadmap Index
 
 Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](projects/hivebox/README.md)
-if you are interested in the DevOps hands-on project **only**.
+if you are interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
 
 <p align="center">
   <a href="https://devopshive.net/" style="display: block; padding: 1em 0; text-align: center;">
-    <img alt="DevSecOps Loop" border="0" width="600" data-original-height="602" data-original-width="1046" src="https://devopshive.net/images/devsecops.svg"/>
+    <img alt="DevSecOps Loop" border="0" width="600" data-original-height="602" data-original-width="1046" src="https://devopshive.net/images/devsecops.png"/>
   </a>
 </p>
 
 ---
 
-### [Overview](./content/00-overview.md)
+### [Overview](./content/00-overview)
 
-- [Introduction](./content/00-overview.md#introduction)
-- [BSET Model and Focus Areas](./content/00-overview.md#bset-model-and-focus-areas)
+- [Introduction](./content/00-overview#introduction)
+- [BSET Model and Focus Areas](./content/00-overview#bset-model-and-focus-areas)
 
-### [Module 1: Welcome to the DevOps World](./content/01-module.md)
+### [Module 1: Welcome to the DevOps World](./content/01-module/)
 
-- [1.1 Introduction - What and Why DevOps?](./content/01-module.md#11-introduction---what-and-why-devops)
-- [1.2 Software Production - Software Development Life Cycle](./content/01-module.md#12-software-production---software-development-life-cycle)
-- [1.3 Software Production - Agile Software Development](./content/01-module.md#13-software-production---agile-software-development)
-- [1.4 Software Production - Change Management and Golden Triangle](./content/01-module.md#14-software-production---change-management-and-golden-triangle)
-- [1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars](./content/01-module.md#15-devops-methodology---devops-and-devsecops-core-pillars)
-- [1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE](./content/01-module.md#16-devops-methodology---devops-cloud-platform-engineer-and-sre)
-- [1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer](./content/01-module.md#17-devops-methodology---t-shaped-skills-devops-engineer)
-- [1.8 Project - HiveBox Phase 1](./content/01-module.md#18-project---hivebox-phase-1)
+- [1.1 Introduction - What and Why DevOps?](./content/01-module#11-introduction---what-and-why-devops)
+- [1.2 Software Production - Software Development Life Cycle](./content/01-module#12-software-production---software-development-life-cycle)
+- [1.3 Software Production - Agile Software Development](./content/01-module#13-software-production---agile-software-development)
+- [1.4 Software Production - Change Management and Golden Triangle](./content/01-module#14-software-production---change-management-and-golden-triangle)
+- [1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars](./content/01-module#15-devops-methodology---devops-and-devsecops-core-pillars)
+- [1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE](./content/01-module#16-devops-methodology---devops-cloud-platform-engineer-and-sre)
+- [1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer](./content/01-module#17-devops-methodology---t-shaped-skills-devops-engineer)
+- [1.8 Project - HiveBox Phase 1](./content/01-module#18-project---hivebox-phase-1)
 
-### [Module 2: Basics - DevOps Core](./content/02-module.md)
+### [Module 2: Basics - DevOps Core](./content/02-module/)
 
-- [2.1 Code - Python Fundamentals](./content/02-module.md#21-code---python-fundamentals)
-- [2.2 Code - Common Development Tools](./content/02-module.md#22-code---common-development-tools)
-- [2.3 Code - Git Basics](./content/02-module.md#23-code---git-basics)
-- [2.4 Operating System - Linux Fundamentals](./content/02-module.md#24-operating-system---linux-fundamentals)
-- [2.5 Operating System - Common Tools and Commands](./content/02-module.md#25-operating-system---common-tools-and-commands)
-- [2.6 Operating System - Bash Scripting Basics](./content/02-module.md#26-operating-system---bash-scripting-basics)
-- [2.7 Containers - Docker Fundamentals](./content/02-module.md#27-containers---docker-fundamentals)
-- [2.8 Containers - Docker CLI Basics](./content/02-module.md#28-containers---docker-cli-basics)
-- [2.9 Project - HiveBox Phase 2](./content/02-module.md#29-project---hivebox-phase-2)
+- [2.1 Code - Python Fundamentals](./content/02-module#21-code---python-fundamentals)
+- [2.2 Code - Common Development Tools](./content/02-module#22-code---common-development-tools)
+- [2.3 Code - Git Basics](./content/02-module#23-code---git-basics)
+- [2.4 Operating System - Linux Fundamentals](./content/02-module#24-operating-system---linux-fundamentals)
+- [2.5 Operating System - Common Tools and Commands](./content/02-module#25-operating-system---common-tools-and-commands)
+- [2.6 Operating System - Bash Scripting Basics](./content/02-module#26-operating-system---bash-scripting-basics)
+- [2.7 Containers - Docker Fundamentals](./content/02-module#27-containers---docker-fundamentals)
+- [2.8 Containers - Docker CLI Basics](./content/02-module#28-containers---docker-cli-basics)
+- [2.9 Project - HiveBox Phase 2](./content/02-module#29-project---hivebox-phase-2)
 
-### [Module 3: Start - Laying the Foundation](./content/03-module.md)
+### [Module 3: Start - Laying the Foundation](./content/03-module/)
 
-- [3.1 Planning - Define Goals and Requirements](./content/03-module.md#31-planning---define-goals-and-requirements)
-- [3.2 Code - Modularity and Reusability](./content/03-module.md#32-code---modularity-and-reusability)
-- [3.3 Code - Testing and Quality Assurance](./content/03-module.md#33-code---testing-and-quality-assurance)
-- [3.4 Code - Writing Unit Tests](./content/03-module.md#34-code---writing-unit-tests)
-- [3.5 Containers - Docker Best Practices](./content/03-module.md#35-containers---docker-best-practices)
-- [3.6 Continuous Integration - Introduction and Solutions in the Market](./content/03-module.md#36-continuous-integration---introduction-and-solutions-in-the-market)
-- [3.7 Continuous Integration - GitHub Actions Essentials](./main/content/03-module.md#37-continuous-integration---github-actions-essentials)
-- [3.8 Continuous Integration - Pipelines and Quality Gates](./content/03-module.md#38-continuous-integration---pipelines-and-quality-gates)
-- [3.9 Project - HiveBox Phase 3](./content/03-module.md#39-project---hivebox-phase-3)
+- [3.1 Planning - Define Goals and Requirements](./content/03-module#31-planning---define-goals-and-requirements)
+- [3.2 Code - Modularity and Reusability](./content/03-module#32-code---modularity-and-reusability)
+- [3.3 Code - Testing and Quality Assurance](./content/03-module#33-code---testing-and-quality-assurance)
+- [3.4 Code - Writing Unit Tests](./content/03-module#34-code---writing-unit-tests)
+- [3.5 Containers - Docker Best Practices](./content/03-module#35-containers---docker-best-practices)
+- [3.6 Continuous Integration - Introduction and Solutions in the Market](./content/03-module#36-continuous-integration---introduction-and-solutions-in-the-market)
+- [3.7 Continuous Integration - GitHub Actions Essentials](./main/content/03-module#37-continuous-integration---github-actions-essentials)
+- [3.8 Continuous Integration - Pipelines and Quality Gates](./content/03-module#38-continuous-integration---pipelines-and-quality-gates)
+- [3.9 Project - HiveBox Phase 3](./content/03-module#39-project---hivebox-phase-3)
 
-[**Module 4: Expand - Constructing a Shell**](./content/04-module.md)
+[**Module 4: Expand - Constructing a Shell**](./content/04-module/)
 
-- [4.1 Planning - Review the Goals and Requirements](./content/04-module.md#41-planning---review-the-goals-and-requirements)
-- [4.2 Code - Twelve-Factor App Methodology](./content/04-module.md#42-code---twelve-factor-app-methodology)
-- [4.3 Code - REST API Best Practices](./content/04-module.md#43-code---rest-api-best-practices)
-- [4.4 Continuous Integration - CI Best Practices](./content/04-module.md#44-continuous-integration---ci-best-practices)
-- 4.5 Containers - Kubernetes Architecture and Core Concepts
+- [4.1 Planning - Review the Goals and Requirements](./content/04-module#41-planning---review-the-goals-and-requirements)
+- [4.2 Code - Twelve-Factor App Methodology](./content/04-module#42-code---twelve-factor-app-methodology)
+- [4.3 Code - REST API Best Practices](./content/04-module#43-code---rest-api-best-practices)
+- [4.4 Continuous Integration - CI Best Practices](./content/04-module#44-continuous-integration---ci-best-practices)
+- 4.5 Containers - Kubernetes Overview and Core Concepts
 - 4.6 Observability - Monitoring Application and Infrastructure
 - 4.7 Continuous Delivery - Introduction and Solutions in the Market
 - 4.8 Infrastructure - Cloud Computing and Cloud Native Applications
 - 4.9 Project - HiveBox Phase 4
 
-[**Module 5: Transform - Finishing the Structure**](./content/05-module.md)
+[**Module 5: Transform - Finishing the Structure**](./content/05-module/)
 
 - 5.1 Planning - Refine the Goals and Requirements
 - 5.2 Code - Working with External Systems
@@ -224,7 +225,7 @@ if you are interested in the DevOps hands-on project **only**.
 - 5.8 Continuous Delivery - CD Best Practices
 - 5.9 Project - HiveBox Phase 5
 
-[**Module 6: Keep Improving**](./content/06-module.md)
+[**Module 6: Keep Improving**](./content/06-module/)
 
 - 6.1 Planning - Agile Retrospective
 - 6.2 Code - Performance Optimizations
@@ -235,14 +236,14 @@ if you are interested in the DevOps hands-on project **only**.
 - 6.7 Continuous Deployment - GitOps and Argo CD Essentials
 - 6.8 Project - HiveBox Phase 6
 
-[**Module 7: Capstone Project**](./content/07-module.md)
+[**Module 7: Capstone Project**](./content/07-module/)
 
 - 7.1 Requirements
 - 7.2 Plan
 - 7.3 Implementation
 - 7.4 Review
 
-[**Next Steps**](./content/08-next-steps.md)
+[**Next Steps**](./content/08-next-steps)
 
 - Review - Write Your CV and Cover Letter
 - Review - Build Your Skills   Radar Chart

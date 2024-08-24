@@ -1,6 +1,6 @@
 # Module 2: Basics - DevOps Core
 
-[🗂 Back to the Roadmap Index](../README.md#roadmap-index)
+[🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
 ## 2.1 Code - Python Fundamentals
 
@@ -132,4 +132,4 @@ Follow the instructions in the [HiveBox project phase 2](../projects/hivebox/REA
 
 ---
 
-If you are done, [🗂 Back to the Roadmap Index](../README.md#roadmap-index)
+If you are done, [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
