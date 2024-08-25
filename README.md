@@ -1,7 +1,7 @@
 [![Google Forms Register](https://img.shields.io/badge/Register-4285f4?style=for-the-badge&logo=google&logoColor=white&label=Google%20Forms)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform)
 [![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-50%25-ffcb00?style=for-the-badge)](#status)
+[![Progress](https://img.shields.io/badge/Progress-60%25-ffcb00?style=for-the-badge)](#status)
 
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
@@ -14,12 +14,10 @@
 
 [DevOps Hive](https://devopshive.net/) master plan for **roadmap**, **mentorship**, and **bootcamp** to start a DevOps Engineer career in the Agile way!
 
-Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](projects/hivebox/README.md)
+- Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](projects/hivebox/README.md)
 if you are interested in the DevOps hands-on project only.
-
-Fill [![Google Forms](https://img.shields.io/badge/Google%20Forms-4285f4?style=flat-square&logo=google&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform) to register and receive an invitation to the professorial [mentorship](#3-mentorship-program) for **free** (Only **limited slots are available**).
-
-Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive) for discussions and to stay updated (Note: This is a multilingual group).
+- Fill [![Google Forms](https://img.shields.io/badge/Google%20Forms-4285f4?style=flat-square&logo=google&logoColor=white)](https://docs.google.com/forms/d/e/1FAIpQLSfvTweNNgdV26-EnI15dnaJbY6i8X5i3lMjXssUphdrkJ0Sfw/viewform) to register and receive an invitation to the professorial [mentorship](#3-mentorship-program) for **free** (Only **limited slots are available**).
+- Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive) for discussions and to stay updated (Note: This is a multilingual group).
 
 <!-- omit from toc -->
 ## Project Badge
@@ -58,7 +56,7 @@ Preview:
 
 Please note that this repo is still a work in progress.
 
-- **Roadmap Content**: 50%
+- **Roadmap Content**: 60%
 - **Hands-on Project**: 100%
 
 ## The Problem
@@ -207,11 +205,11 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [4.2 Code - Twelve-Factor App Methodology](./content/04-module#42-code---twelve-factor-app-methodology)
 - [4.3 Code - REST API Best Practices](./content/04-module#43-code---rest-api-best-practices)
 - [4.4 Continuous Integration - CI Best Practices](./content/04-module#44-continuous-integration---ci-best-practices)
-- 4.5 Containers - Kubernetes Overview and Core Concepts
-- 4.6 Observability - Monitoring Application and Infrastructure
-- 4.7 Continuous Delivery - Introduction and Solutions in the Market
-- 4.8 Infrastructure - Cloud Computing and Cloud Native Applications
-- 4.9 Project - HiveBox Phase 4
+- [4.5 Containers - Kubernetes Overview and Core Concepts](./content/04-module#45-containers---kubernetes-overview-and-core-concepts)
+- [4.6 Observability - Monitoring Application and Infrastructure](./content/04-module#46-observability---monitoring-application-and-infrastructure)
+- [4.7 Continuous Delivery - Introduction and Solutions in the Market](./content/04-module#47-continuous-delivery---introduction-and-solutions-in-the-market))
+- [4.8 Infrastructure - Cloud Computing and Cloud Native Applications](./content/04-module#48-infrastructure---cloud-computing-and-cloud-native-applications)
+- [4.9 Project - HiveBox Phase 4](./content/04-module#49-project---hivebox-phase-4)
 
 [**Module 5: Transform - Finishing the Structure**](./content/05-module/)
 

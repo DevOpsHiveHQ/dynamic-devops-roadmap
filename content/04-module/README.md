@@ -2,6 +2,18 @@
 
 [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
+## Table of Content
+
+- [4.1 Planning - Review the Goals and Requirements](#41-planning---review-the-goals-and-requirements)
+- [4.2 Code - Twelve-Factor App Methodology](#42-code---twelve-factor-app-methodology)
+- [4.3 Code - REST API Best Practices](#43-code---rest-api-best-practices)
+- [4.4 Continuous Integration - CI Best Practices](#44-continuous-integration---ci-best-practices)
+- [4.5 Containers - Kubernetes Overview and Core Concepts](#45-containers---kubernetes-overview-and-core-concepts)
+- [4.6 Observability - Monitoring Application and Infrastructure](#46-observability---monitoring-application-and-infrastructure)
+- [4.7 Continuous Delivery - Introduction and Solutions in the Market](#47-continuous-delivery---introduction-and-solutions-in-the-market)
+- [4.8 Infrastructure - Cloud Computing and Cloud Native Applications](#48-infrastructure---cloud-computing-and-cloud-native-applications)
+- [4.9 Project - HiveBox Phase 4](#49-project---hivebox-phase-4)
+
 ## 4.1 Planning - Review the Goals and Requirements
 
 ### What you need to know
@@ -88,41 +100,93 @@
 
 ### What you need to know
 
-- 
+- Arguably, Kubernetes is one of the best tech inventions of the last ten years, having reshaped the whole tech scene. But first, we need to know what problem Kubernetes is trying to solve.
+- When the Docker container was introduced in 2013, and many companies adopted the new technology, everything changed, from developing code to working in containers to deploying, monitoring, and operating the software.
+- Hence, the need for a new system emerged to deal with this new ecosystem. And that is exactly what happened. Many systems were born to solve this problem ... "How to manage the containers [in production]?" which implies "How to create and manage Cloud-native software?".
+- Many systems entered the race, and Kubernetes was the winning horse. Since then, Kubernetes (aka K8s) has been the leading container management platform.
+- Kubernetes has many features like open-source, no vendor lock-in, maturity, extensive community and ecosystem, and extensible architecture.
+- Those features are translated into the following
+  - Support a lot of features out-of-the-box.
+  - Easy to automate manual tasks and processes.
+  - Help to manage massive infrastructure with less effort.
+  - Increased productivity and speed up the development cycle.
+  - Efficiency in managing infrastructure and reducing costs.
+  - Scalability and modularity are supported efficiently.
+- Kubernetes has become the *de facto* standard for container orchestration and is widely adopted in private and public sectors. According to a survey by the [Cloud Native Computing Foundation (CNCF) 2023](https://www.cncf.io/reports/cncf-annual-survey-2023/), **66% of consumers were using Kubernetes in production** and **18% were evaluating it** (84% total).
+
+<img align="right" width="40%" style="margin:0 0 10px 10px" src="./4.5-kubernetes-core-concepts.png">
+
+- Let's have a quick overview about Containers, Docker, and Kubernetes Containers:
+  - **Containers:** Technology for packaging an application and its Docker runtime dependencies.
+  - **Docker:** A de facto standard to build and share containerized apps.
+  - **Kubernetes:** A cloud-native platform to manage and orchestrate container workloads.
+- Kubernetes core concepts:
+  - **Cluster:** A collection of nodes grouped together to share resources and balance workloads.
+  - **Node:** The computing unit in Kubernetes is easily thought of as one individual machine that runs Pods.
+  - **Pod:** A logical host with a collection of one or more containers, the smallest computing unit in Kubernetes.
+- In the next module, we will dive more into Kubernetes and how to use it.
 
 ### Resources
 
-- 
+- [Kubernetes in 5 mins - VMware Cloud Native Apps](https://www.youtube.com/watch?v=PH-2FfFD2PU)
+- [Learn Kubernetes Basics - Kubernetes Docs](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Introduction to Kubernetes course - Linux Foundation](https://training.linuxfoundation.org/training/introduction-to-kubernetes/).
 
 ## 4.6 Observability - Monitoring Application and Infrastructure
 
 ### What you need to know
 
-- 
+- A wise person once said, "**You can't manage what you can't measure.**" Maybe it's not always the case, but in the DevOps world, observability plays a major role. Basically, if you don't monitor your managed resources, you will just be walking into darkness!
+- As a start, you need to know the 3 pillars of observability which are `logs`, `metrics`, and `traces`. Each one of them works differently and serves a different purpose.
+- Observability is crucial for both application and infrastructure. DevOps teams can detect and troubleshoot issues faster, ensuring higher reliability and stability.
+- Ultimately, observability helps to reduce downtime, enhance user experience, and optimize resource utilization and costs.
+- Like everything in this roadmap, start small, then expand. Start with essential metrics monitoring and basic alerts, then add more of the observability components.
+- The most known open-source tools in this domain are [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/).
 
 ### Resources
 
-- 
+- [What is observability? - Grafana](https://grafana.com/docs/grafana-cloud/introduction/what-is-observability/)
+- [Logs vs Metrics vs Traces - Engineering Fundamentals Playbook](https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/)
+- [The Three Pillars of Observability - Sematext](https://sematext.com/glossary/three-pillars-of-observability/)
+- [The Site Reliability Workbook -Chapter 4 - Monitoring](https://sre.google/workbook/monitoring/) 
 
 ## 4.7 Continuous Delivery - Introduction and Solutions in the Market
 
 ### What you need to know
 
-- 
+- In simple words, `Continuous Delivery` is a practice where code changes are automatically prepared for release to multiple environments, especially production. This involves deploying all code changes to a testing environment and then to a production-like environment after passing automated tests, ensuring the software is always in a deployable state. 
+- Following CD practices allows teams to deliver new features and bug fixes more safely and quickly to users, reducing the risk of deployment errors.
+- It's important to know that `CD` could refer to two different things: `Continuous Delivery` and `Continuous Deployment`. They are usually used interchangeably, but in reality, they are two different stages.
+- In many cases, the same [Continuous Integration solutions](../03-module#36-continuous-integration---introduction-and-solutions-in-the-market) could be used for continuous delivery/deployment; however, there are specialized solutions that work best for CD.
+- There are different CD systems, most famous ones within the Kubernetes ecosystem are [Argo CD](https://argo-cd.readthedocs.io/) (we will use that one) and [Flux CD](https://fluxcd.io/).
+- The system doesn't matter as long as you understand the CD principles.
+- The CD is a critical practice for modern software development for faster delivery. However, using a dedicated system could be postponed until your project is more mature. So, until then, use the CI solution as a start for the CD.
 
 ### Resources
 
-- 
+- [The fundamentals of continuous deployment in DevOps - GitHub](https://github.com/resources/articles/devops/ci-cd-deployment)
+- [Continuous delivery principles - Atlassian](https://www.atlassian.com/continuous-delivery/principles)
 
 ## 4.8 Infrastructure - Cloud Computing and Cloud Native Applications
 
 ### What you need to know
 
-- 
+- The term `Cloud Computing` refers to a service delivery model where software, storage, and computing power are made available over the internet to users on demand. In this model, users do not own or manage the physical infrastructure that supports these resources but instead access them as a utility provided by a third-party service provider.
+- Cloud computing could be categorized into three groups:
+  - **Public Cloud** is a computing environment owned and operated by a third-party Cloud services provider, such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform. Public clouds are designed to be accessed over the Internet and are generally available to any organization or individual who wants to use them.
+  - **Private Cloud** is a computing environment owned and operated by a single organization for exclusive use. Private clouds can be implemented on-premises or hosted by a third-party provider. It offers the benefits of Cloud computing, such as scalability and flexibility, but with the added security and control of an on-premises environment.
+  - **Hybrid Cloud** is a computing environment that combines public and private clouds. It allows organizations to use the best of both worlds by using public clouds for specific workloads and private clouds for others.
+- Cloud computing has different management modes; there are three main types which are:
+  - **Infrastructure as a Service (IaaS)** provides users with access to virtualized computing resources, such as virtual machines, storage, and networking.
+  - **Platform as a Service (PaaS)** provides users access to a platform for developing, testing, and deploying applications.
+  - **Software as a Service (SaaS)** provides users with access to software applications that can be used over the Internet without the need to install and maintain the software on their computers.
+- The term `Cloud-Native` refers to the architecture and design of an application built specifically to take advantage of the Cloud computing model. In other words, a Cloud-Native application is designed to be scalable and resilient and take advantage of the automatic provisioning of resources provided by Cloud platforms.
+- In general, Cloud-Native software works best on Cloud-Native platforms like Kubernetes, an open-source platform for automating the deployment, scaling, and management of containerized applications.
 
 ### Resources
 
-- 
+- [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
+- [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)
 
 ## 4.9 Project - HiveBox Phase 4
 
