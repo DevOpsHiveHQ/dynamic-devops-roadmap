@@ -2,6 +2,18 @@
 
 [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
+## Table of Content
+
+- [3.1 Planning - Define Goals and Requirements](#31-planning---define-goals-and-requirements)
+- [3.2 Code - Modularity and Reusability](#32-code---modularity-and-reusability)
+- [3.3 Code - Testing and Quality Assurance](#33-code---testing-and-quality-assurance)
+- [3.4 Code - Writing Unit Tests](#34-code---writing-unit-tests)
+- [3.5 Containers - Docker Best Practices](#35-containers---docker-best-practices)
+- [3.6 Continuous Integration - Introduction and Solutions in the Market](#36-continuous-integration---introduction-and-solutions-in-the-market)
+- [3.7 Continuous Integration - GitHub Actions Essentials](./main/content/03-module#37-continuous-integration---github-actions-essentials)
+- [3.8 Continuous Integration - Pipelines and Quality Gates](#38-continuous-integration---pipelines-and-quality-gates)
+- [3.9 Project - HiveBox Phase 3](#39-project---hivebox-phase-3)
+
 ## 3.1 Planning - Define Goals and Requirements
 
 ### What you need to know

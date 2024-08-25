@@ -2,6 +2,17 @@
 
 [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
+## Table of Content
+
+- [1.1 Introduction - What and Why DevOps?](#11-introduction---what-and-why-devops)
+- [1.2 Software Production - Software Development Life Cycle](#12-software-production---software-development-life-cycle)
+- [1.3 Software Production - Agile Software Development](#13-software-production---agile-software-development)
+- [1.4 Software Production - Change Management and Golden Triangle](#14-software-production---change-management-and-golden-triangle)
+- [1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars](#15-devops-methodology---devops-and-devsecops-core-pillars)
+- [1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE](#16-devops-methodology---devops-cloud-platform-engineer-and-sre)
+- [1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer](#17-devops-methodology---t-shaped-skills-devops-engineer)
+- [1.8 Project - HiveBox Phase 1](#18-project---hivebox-phase-1)
+
 ## 1.1 Introduction - What and Why DevOps?
 
 DevOps is a set of `practices`, `cultural`, `tools` and most importantly `mindset` which aims to improving collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos and promotes a collaborative, automated, and sustainable culture. Which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).

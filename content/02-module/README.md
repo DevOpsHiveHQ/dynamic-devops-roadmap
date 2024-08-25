@@ -2,6 +2,18 @@
 
 [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
+## Table of Content
+
+- [2.1 Code - Python Fundamentals](#21-code---python-fundamentals)
+- [2.2 Code - Common Development Tools](#22-code---common-development-tools)
+- [2.3 Code - Git Basics](#23-code---git-basics)
+- [2.4 Operating System - Linux Fundamentals](#24-operating-system---linux-fundamentals)
+- [2.5 Operating System - Common Tools and Commands](#25-operating-system---common-tools-and-commands)
+- [2.6 Operating System - Bash Scripting Basics](#26-operating-system---bash-scripting-basics)
+- [2.7 Containers - Docker Fundamentals](#27-containers---docker-fundamentals)
+- [2.8 Containers - Docker CLI Basics](#28-containers---docker-cli-basics)
+- [2.9 Project - HiveBox Phase 2](#29-project---hivebox-phase-2)
+
 ## 2.1 Code - Python Fundamentals
 
 ### What you need to know

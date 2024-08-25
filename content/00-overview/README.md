@@ -2,6 +2,11 @@
 
 [🗂 Back to the Roadmap Index](../../README.md#roadmap-index)
 
+## Table of Content
+
+- [Introduction](#introduction)
+- [BSET Model and Focus Areas](#bset-model-and-focus-areas)
+
 ## Introduction
 
 <a href="../img/devops-roadmap-dynamic.png" imageanchor="1">
