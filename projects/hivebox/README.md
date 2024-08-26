@@ -89,7 +89,7 @@ You can get senseBox IDs by checking the [openSenseMap](https://opensensemap.org
 
 ## Phase 1
 
-Related Module: [Welcome to the DevOps World](../../content/01-module.md)
+Roadmap Module: [Welcome to the DevOps World](../../content/01-module)
 
 - Understand your role in this project and how you work with other teams.
 - Brush up on your knowledge about Software Project management (Hint: [What is agile project management?](https://www.apm.org.uk/resources/find-a-resource/agile-project-management/) And [Introduction to Software Product Management](https://www.coursera.org/learn/introduction-to-software-product-management)).
@@ -103,7 +103,7 @@ Related Module: [Welcome to the DevOps World](../../content/01-module.md)
 
 ## Phase 2
 
-Related Module: [Basics - DevOps Core](../../content/02-module.md)
+Roadmap Module: [Basics - DevOps Core](../../content/02-module)
 
 ### 2.1 Tools
 
@@ -134,7 +134,7 @@ Related Module: [Basics - DevOps Core](../../content/02-module.md)
 
 ## Phase 3
 
-Related Module: [Start - Laying the Foundation](../../content/03-module.md)
+Roadmap Module: [Start - Laying the Foundation](../../content/03-module)
 
 ### 3.1 Tools
 
@@ -183,7 +183,7 @@ Related Module: [Start - Laying the Foundation](../../content/03-module.md)
 
 ## Phase 4
 
-Related Module: [Expand - Constructing a Shell](../../content/04-module.md)
+Roadmap Module: [Expand - Constructing a Shell](../../content/04-module)
 
 ### 4.1 Tools
 
@@ -236,7 +236,7 @@ Related Module: [Expand - Constructing a Shell](../../content/04-module.md)
 
 ## Phase 5
 
-Related Module: [Transform - Finishing the Structure](../../content/05-module.md)
+Roadmap Module: [Transform - Finishing the Structure](../../content/05-module)
 
 ### 5.1 Tools
 
@@ -291,7 +291,7 @@ Related Module: [Transform - Finishing the Structure](../../content/05-module.md
 
 ## Phase 6
 
-Related Module: [Keep Improving](../../content/06-module.md)
+Roadmap Module: [Keep Improving](../../content/06-module)
 
 This phase a free-style user-defined enhancements which means the enhancements could be related to any part of the project.
 

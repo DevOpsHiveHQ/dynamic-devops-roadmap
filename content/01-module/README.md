@@ -147,7 +147,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.8 Project - HiveBox Phase 1
 
-Follow the instructions in the [HiveBox project phase 1](../projects/hivebox/README.md#phase-1).
+Follow the instructions in the [HiveBox project phase 1](../../projects/hivebox/README.md#phase-1).
 
 ---
 

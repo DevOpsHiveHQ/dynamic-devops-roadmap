@@ -140,7 +140,7 @@
 
 ## 2.9 Project - HiveBox Phase 2
 
-Follow the instructions in the [HiveBox project phase 2](../projects/hivebox/README.md#phase-2).
+Follow the instructions in the [HiveBox project phase 2](../../projects/hivebox/README.md#phase-2).
 
 ---
 

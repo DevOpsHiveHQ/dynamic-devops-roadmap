@@ -157,7 +157,7 @@
 
 ## 3.9 Project - HiveBox Phase 3
 
-Follow the instructions in the [HiveBox project phase 3](../projects/hivebox/README.md#phase-3).
+Follow the instructions in the [HiveBox project phase 3](../../projects/hivebox/README.md#phase-3).
 
 ---
 
