@@ -49,6 +49,7 @@ Preview:
   - [Module 1: Welcome to the DevOps World](#module-1-welcome-to-the-devops-world)
   - [Module 2: Basics - DevOps Core](#module-2-basics---devops-core)
   - [Module 3: Start - Laying the Foundation](#module-3-start---laying-the-foundation)
+  - [Module 4: Expand - Constructing a Shell](#module-4-expand---constructing-a-shell)
 - [License](#license)
 
 
@@ -199,7 +200,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [3.8 Continuous Integration - Pipelines and Quality Gates](./content/03-module#38-continuous-integration---pipelines-and-quality-gates)
 - [3.9 Project - HiveBox Phase 3](./content/03-module#39-project---hivebox-phase-3)
 
-[**Module 4: Expand - Constructing a Shell**](./content/04-module/)
+### [**Module 4: Expand - Constructing a Shell**](./content/04-module/)
 
 - [4.1 Planning - Review the Goals and Requirements](./content/04-module#41-planning---review-the-goals-and-requirements)
 - [4.2 Code - Twelve-Factor App Methodology](./content/04-module#42-code---twelve-factor-app-methodology)
