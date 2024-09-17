@@ -4,6 +4,7 @@
 
 ## Table of Content
 
+- [Table of Content](#table-of-content)
 - [5.1 Planning - Refine the Goals and Requirements](#51-planning---refine-the-goals-and-requirements)
 - [5.2 Code - Working with External Systems](#52-code---working-with-external-systems)
 - [5.3 Code - Writing Integration Tests](#53-code---writing-integration-tests)
@@ -34,11 +35,20 @@
 
 ### What you need to know
 
-- 
+- As a DevOps Engineer, you will work or integrate with external systems using code or tools. Those external systems could be third-party APIs, databases, cloud services, or microservices.
+- You will mostly use REST APIs to interact with those services, but there are many ways to communicate with those systems according to each use case.
+- Here, we will cover some essential points when working with external systems programmatically.
+  - If it's a known system, it's usually better to use a library or SDK for that system. Don't write everything from scratch.
+  - Ensure to handle errors and rate limits. Know how to implement rate-limiting strategies (e.g., exponential backoff).
+  - Ensure you handle paginated responses (e.g., retrieving data in chunks), especially if you expect a big load of data.
+  - Use caching whenever possible. Don't hummer the systems with unnecessary calls.
+  - Always use secure connection with external systems even if the use case is trivial.
+  - Not every connection should be synced; you could use async communication by using message queues to deal with lagging and latency under pressure.
 
 ### Resources
 
-- 
+- [System Integration: Types, Approaches, and Implementation Steps - AltexSoft](https://www.altexsoft.com/blog/system-integration/)
+- [System Integration vs Software Development - Budibase](https://budibase.com/blog/app-building/system-integration-vs-software-development/)
 
 ## 5.3 Code - Writing Integration Tests
 

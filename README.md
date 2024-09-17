@@ -50,6 +50,7 @@ Preview:
   - [Module 2: Basics - DevOps Core](#module-2-basics---devops-core)
   - [Module 3: Start - Laying the Foundation](#module-3-start---laying-the-foundation)
   - [Module 4: Expand - Constructing a Shell](#module-4-expand---constructing-a-shell)
+  - [Module 5: Transform - Finishing the Structure](#module-5-transform---finishing-the-structure)
 - [License](#license)
 
 
@@ -200,7 +201,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [3.8 Continuous Integration - Pipelines and Quality Gates](./content/03-module#38-continuous-integration---pipelines-and-quality-gates)
 - [3.9 Project - HiveBox Phase 3](./content/03-module#39-project---hivebox-phase-3)
 
-### [**Module 4: Expand - Constructing a Shell**](./content/04-module/)
+### [Module 4: Expand - Constructing a Shell](./content/04-module/)
 
 - [4.1 Planning - Review the Goals and Requirements](./content/04-module#41-planning---review-the-goals-and-requirements)
 - [4.2 Code - Twelve-Factor App Methodology](./content/04-module#42-code---twelve-factor-app-methodology)
@@ -208,14 +209,14 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [4.4 Continuous Integration - CI Best Practices](./content/04-module#44-continuous-integration---ci-best-practices)
 - [4.5 Containers - Kubernetes Overview and Core Concepts](./content/04-module#45-containers---kubernetes-overview-and-core-concepts)
 - [4.6 Observability - Monitoring Application and Infrastructure](./content/04-module#46-observability---monitoring-application-and-infrastructure)
-- [4.7 Continuous Delivery - Introduction and Solutions in the Market](./content/04-module#47-continuous-delivery---introduction-and-solutions-in-the-market))
+- [4.7 Continuous Delivery - Introduction and Solutions in the Market](./content/04-module#47-continuous-delivery---introduction-and-solutions-in-the-market)
 - [4.8 Infrastructure - Cloud Computing and Cloud Native Applications](./content/04-module#48-infrastructure---cloud-computing-and-cloud-native-applications)
 - [4.9 Project - HiveBox Phase 4](./content/04-module#49-project---hivebox-phase-4)
 
-[**Module 5: Transform - Finishing the Structure**](./content/05-module/)
+### [Module 5: Transform - Finishing the Structure](./content/05-module/)
 
 - [5.1 Planning - Refine the Goals and Requirements](./content/05-module#51-planning---refine-the-goals-and-requirements)
-- 5.2 Code - Working with External Systems
+- [5.2 Code - Working with External Systems](./content/05-module#52-code---working-with-external-systems)
 - 5.3 Code - Writing Integration Tests
 - 5.4 Infrastructure - Infrastructure as Code and Configuration Management
 - 5.5 Infrastructure - Terraform Essentials
@@ -248,8 +249,6 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - Review - Build Your Skills   Radar Chart
 - Discussion - DevOps Certificates
 - Discussion - Next Steps as a DevOps Engineer
-
----
 
 ## License
 
