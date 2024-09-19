@@ -165,6 +165,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 
 - [Introduction](./content/00-overview#introduction)
 - [BSET Model and Focus Areas](./content/00-overview#bset-model-and-focus-areas)
+- [How to use this roadmap?](./content/00-overview#how-to-use-this-roadmap)
 
 ### [Module 1: Welcome to the DevOps World](./content/01-module/)
 
