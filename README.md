@@ -218,7 +218,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 
 - [5.1 Planning - Refine the Goals and Requirements](./content/05-module#51-planning---refine-the-goals-and-requirements)
 - [5.2 Code - Working with External Systems](./content/05-module#52-code---working-with-external-systems)
-- 5.3 Code - Writing Integration Tests
+- [5.3 Code - Writing Integration Tests](./content/05-module#53-code---writing-integration-tests)
 - 5.4 Infrastructure - Infrastructure as Code and Configuration Management
 - 5.5 Infrastructure - Terraform Essentials
 - 5.6 Containers - Kubernetes Configuration Management

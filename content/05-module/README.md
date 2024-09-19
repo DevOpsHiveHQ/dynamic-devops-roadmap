@@ -54,11 +54,22 @@
 
 ### What you need to know
 
-- 
+- The second level of the tests is the `Integration Test`. Its primary role is to ensure that different components or modules of your system work well together. To have a good integration test, you need to remember a couple of points.
+- As usual, start with basic tests, then extend the test scenarios as you go.
+- Tests should be as simple as possible; otherwise, you will end up with complex test code that needs another test to ensure it's working as expected!
+- Ensure maintainability and readability using well-known tools and frameworks, and avoid writing your own code as a test framework.
+- Always try to use real systems and avoid mocking too much. For example, if you are testing interactions with a database, run an actual database instance and code test against it.
+- Always verify both paths to success and failure! Don't test the happy path only.
+- Try to run the integration tests in an environment as close as possible to production, at least one that has the same technology as production. For example, if you are using containers in production, then the integration tests should also be run in containers.
+- Try to use realistic (but minimal) test data to cover a variety of cases like your real users (e.g., using factories and/or fixtures).
+- As much as possible, isolate tests from each other so you get accurate results. Each test group should be independent and not rely on other test groups' actions.
+- Remember the external services (third-party APIs) when you write integration tests. Use sandbox or test environments provided by these services, or simulate them with API stubs (check the previous section about [Working with External Systems](#52-code---working-with-external-systems)).
+- By default, tests should be integrated with CI/CD pipelines and run automatically after each commit or before merging. But also think about providing an easy way to run locally.
 
 ### Resources
 
-- 
+- [What is Integration Testing - BrowserStack](https://www.browserstack.com/guide/integration-testing)
+- [The Complete Guide to Integration Testing - HubSpot](https://blog.hubspot.com/marketing/integration-testing)
 
 ## 5.4 Infrastructure - Infrastructure as Code and Configuration Management
 
