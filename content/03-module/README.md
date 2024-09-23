@@ -26,7 +26,7 @@
 
 ### Resources
 
-- [Why Agile Project Planning Is the Key to Adaptable Work Processes? - Businessmap](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [What Is Agile Project Management? - Businessmap](https://businessmap.io/agile/project-management)
 - [Top five causes of scope creep and what to do about them - Project Management Institute](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)
 - [Leadership - Managers of One - The GitLab Handbook](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)
 
