@@ -73,13 +73,21 @@
 
 ## 5.4 Infrastructure - Infrastructure as Code and Configuration Management
 
-### What you need to know
-
-- 
+- As a DevOps Engineer, you will hear (and use) the term "Infrastructure as Code" (IaC) a lot. And that's for a good reason, as it's considered one of the DevOps cores. You will also hear about tools like [Terraform](https://www.terraform.io/), [Crossplane](https://www.crossplane.io/), and [Pulumi](https://www.pulumi.com/).
+- In simple words, IaC allows you to manage and provide infrastructure resources (servers, networks, storage) using a code-like approach, which takes different forms.
+- So, instead of provisioning infrastructure manually (either via CLI or UI), you use machine-readable definition files (like YAML, JSON, or other DSL files like HCL) to create and configure the infrastructure.
+- Mostly, IaC is stored in a Source Code Management system like `Git`. However, IaC is less about using Git and more about the following:
+  - **Idempotent**: IaC works better when it's idempotent, which means it can produce the same outcome every time it runs. This reduces the risk of errors with every run, makes the outcome always predictable, and avoids side effects.
+  - **Declarative**: IaC works better when it's declarative (opposite to imperative) because that approach simplifies using IaC and moves the control flow logic to the IaC tool instead of dealing with it every time in the IaC.
+  - **Domain-specific language (DSL)**: There are two approaches to writing IaC: either using tools that utilize DSLs like Terraform and Crossplane or using tools that utilize programming languages like Pulumi and AWS CDK.
+- Without going into much detail about [what's declarative and what's not](https://leebriggs.co.uk/blog/2022/07/20/nobody-knows-what-declarative-is) ... you should look for tools that allow you to state how you want your infrastructure to look like [Terraform](https://www.terraform.io/) or [Crossplane](https://www.crossplane.io/) and use DSL for simplicity.
+- In all cases, using imperative scripts in any language (Bash, Python, etc.) is not recommended; that's not the ideal IaC and will hit you hard in the future when you try to automate the IaC via GitOps (it will be covered in the following modules).
+- Finally, in the current container era, Configuration Management tools like Ansible and SaltStack are less used in favor of using a container ecosystem (in this roadmap, we will not cover them).
 
 ### Resources
 
-- 
+- [What is Infrastructure as Code? - IaC Explained - AWS](https://aws.amazon.com/what-is/iac/)
+- [What is Infrastructure as Code with Terraform? | HashiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code)
 
 ## 5.5 Infrastructure - Terraform Essentials
 
