@@ -93,11 +93,24 @@
 
 ### What you need to know
 
-- 
+- Terraform is one of the key players in the infrastructure-as-code market. It's arguably the most popular IaC tool with multi-cloud support.
+- Terraform is known for the following:
+  - **Extensible**: It uses `Providers` (think of them as `plugins`), which allow Terraform to work with different systems, such as Cloud providers or applications like PostgreSQL.
+  - **Declarative**: It uses a declarative approach via its DSL called `HashiCorp Configuration Language (HCL)` (JSON is also supported), where you define what the desired infrastructure should look like (e.g., "create three AWS EC2 instances") rather than describing how to achieve it.
+  - **Stateful**: It has a source of truth as a state file `terraform.tfstate` to keep track of the current infrastructure. Terraform compares the actual state of the infrastructure with the desired state defined in the configuration files.
+  - **Modular**: It supports and recommends using modules, which allow you to abstract and reuse infrastructure patterns across multiple projects and reduce code duplication.
+- We will not dive into the hands-on; you will find that in the resources section. However, you should remember a couple of points when you start using Terraform.
+- First, if you build any work environment, never use local state files; always store the state on an S3-compatible service (AWS S3, GCP Cloud Storage, Azure Blob Storage, etc.).
+- Don't Repeat Yourself (DRY)! Don't write Terraform HCL code unless it's needed! [Terraform Registry](https://registry.terraform.io/) has many modules, and most popular cloud providers have official modules there. For example, use [AWS EKS module](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest) to create the EKS cluster.
+As the containers ecosystem grows, Terraform's use of pure infrastructure is limited, such as by creating a Kubernetes cluster and cloud database. But once you have a Kubernetes cluster, use the Kubernetes tools (i.e., don't set up Kubernetes apps using Terraform!).
+Remember to apply and enforce Terraform best practices in your CI pipelines, such as validating, formatting, linting, and securing Terraform IaC.
+- Terraform is a big topic, but that's the starting point. As usual, start small and expand.
 
 ### Resources
 
-- 
+- [Terraform Tutorial – Getting Started With Terraform - Spacelift](https://spacelift.io/blog/terraform-tutorial)
+- [Terraform Tutorial for Beginners + Labs: Complete Step by Step Guide! - KodeKloud](https://www.youtube.com/watch?v=YcJ9IeukJL8)
+- [Validate, format, lint, secure, and test Terraform IaC - Ahmed AbouZaid](https://tech.aabouzaid.com/2020/04/validate-format-lint-and-test-terraform-iac-ci.html)
 
 ## 5.6 Containers - Kubernetes Configuration Management
 
