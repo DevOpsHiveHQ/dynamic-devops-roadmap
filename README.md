@@ -232,10 +232,11 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - 6.2 Code - Performance Optimizations
 - 6.3 Continuous Integration - Software Supply Chain Security
 - 6.4 Infrastructure - Multi-environment Architecture
-- 6.5 Continuous Delivery - End-to-End Release Automation
-- 6.6 Continuous Deployment - Introduction and Solutions in the Market
-- 6.7 Continuous Deployment - GitOps and Argo CD Essentials
-- 6.8 Project - HiveBox Phase 6
+- 6.5 Containers - Kubernetes Operators
+- 6.6 Continuous Delivery - End-to-End Release Automation
+- 6.7 Continuous Deployment - Introduction and Solutions in the Market
+- 6.8 Continuous Deployment - GitOps and Argo CD Essentials
+- 6.9 Project - HiveBox Phase 6
 
 [**Module 7: Capstone Project**](./content/07-module/)
 
