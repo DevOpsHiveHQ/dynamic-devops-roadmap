@@ -135,11 +135,26 @@
 
 ### What you need to know
 
-- 
+- Logging is the second pillar of observability (`logs`, `metrics`, and `traces`). As mentioned before, each one works differently and serves a different purpose.
+- As modern infrastructure becomes more complex, it's essential to have a centralized login system for monitoring and analyzing the running systems.
+-  the running systems.
+- Applications logs are a rich source of information that could be beneficial for debugging, troubleshooting, and even reliability (e.g., monitoring error rate in the logs).
+- Usually, you don't want to alert on the logs if the metrics are already available. Still, you will need to do that in many cases, like when the application metrics are limited or when watching certain log patterns (e.g., repeated errors or failed service calls).
+- A centralized logs system will simplify access, debugging, and correlating events across systems. It will also be easier to manage log retention.
+- There are different types of logs: `Structured`, `Unstructured`, and `Semi-Structured`, learn about each one.
+- The following are some essential points to remember when working with logs:
+ - Always use the `Structured` whenever supported because it makes everything easier (store, query, and analysis).
+ - Avoid parsing logs with regex as much as possible. First, check if the log type already has a parser.
+ - Enrich logs with all needed metadata to be independent so that at any point in time, it's possible to understand them with no or minimal background about the logs producer.
+ - Ensure that sensitive information (e.g., personal data, credentials) is anonymized before being stored and that you follow compliance regulations like GDPR.
+ - Capture relevant logs only; otherwise, you will end up with a log swamp. That will reduce costs and make search in logs more efficient.
+- There are many logging solutions on the market, but if you have the choice, stick with the Cloud provider logging service or [Grafana Loki](https://grafana.com/oss/loki/).
 
 ### Resources
 
-- 
+- [The Three Pillars of Observability - Sematext](https://sematext.com/glossary/three-pillars-of-observability/)
+- [Log Aggregation: Everything You Need to Know for Aggregating Log Data - Splunk](https://www.splunk.com/en_us/blog/learn/log-aggregation.html)
+- [What are unstructured, structured, and semi-structured data types? - Matillion](https://www.matillion.com/blog/what-are-unstructured-structured-and-semi-structured-data-types)
 
 ## 5.8 Continuous Delivery - CD Best Practices
 
