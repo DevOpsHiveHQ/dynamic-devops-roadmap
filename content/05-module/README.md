@@ -102,8 +102,8 @@
 - We will not dive into the hands-on; you will find that in the resources section. However, you should remember a couple of points when you start using Terraform.
 - First, if you build any work environment, never use local state files; always store the state on an S3-compatible service (AWS S3, GCP Cloud Storage, Azure Blob Storage, etc.).
 - Don't Repeat Yourself (DRY)! Don't write Terraform HCL code unless it's needed! [Terraform Registry](https://registry.terraform.io/) has many modules, and most popular cloud providers have official modules there. For example, use [AWS EKS module](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest) to create the EKS cluster.
-As the containers ecosystem grows, Terraform's use of pure infrastructure is limited, such as by creating a Kubernetes cluster and cloud database. But once you have a Kubernetes cluster, use the Kubernetes tools (i.e., don't set up Kubernetes apps using Terraform!).
-Remember to apply and enforce Terraform best practices in your CI pipelines, such as validating, formatting, linting, and securing Terraform IaC.
+- As the containers ecosystem grows, Terraform's use of pure infrastructure is limited, such as by creating a Kubernetes cluster and cloud database. But once you have a Kubernetes cluster, use the Kubernetes tools (i.e., don't set up Kubernetes apps using Terraform!).
+- Remember to apply and enforce Terraform best practices in your CI pipelines, such as validating, formatting, linting, and securing Terraform IaC.
 - Terraform is a big topic, but that's the starting point. As usual, start small and expand.
 
 ### Resources
@@ -116,11 +116,20 @@ Remember to apply and enforce Terraform best practices in your CI pipelines, suc
 
 ### What you need to know
 
-- 
+- As the containers ecosystem grows, Kubernetes becomes the new platform. Hence, once you have a Kubernetes cluster up and running, you should do everything the Kubernetes way.
+- There are many tools for Kubernetes configuration management, but the most popular are:
+  - [Plain-Kubectl](https://kubernetes.io/docs/reference/kubectl/): The offical CLI tool communicating with a Kubernetes cluster's control plane, using the Kubernetes API.
+  - [Kustomize-Kubectl](https://kustomize.io): Part of Kubectl which uses a template-free approach where it patches and merges Kubernetes manifests.
+  - [Helm](https://helm.sh/): It is not part of the Kubernetes project, but it's a de facto standard tool that uses a template approach. A chart contains templates with placeholders that are replaced when it's rendered.
+- You will probably use more than one tool to manage Kubernetes configuration.
+- Always remember that Kubernetes configuration is still an Infrastructure as Code, and it should follow the same practices mentioned in the previous sections, like using a declarative approach and always keeping automation in mind, even if you haven't used any automation yet.
 
 ### Resources
 
-- 
+- [Application Configuration Management in Kubernetes - Giant Swarm](https://www.giantswarm.io/blog/application-configuration-management-in-kubernetes/)
+- [Managing Kubernetes Resources with Kustomize - INNOQ](https://www.innoq.com/en/blog/2022/04/kustomize-introduction/)
+- [Introduction to Helm - Helm Docs](https://helm.sh/docs/intro/)
+- [3 ways to customize off-the-shelf Helm charts with Kustomize - Ahmed AbouZaid](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html)
 
 ## 5.7 Observability - Log Aggregation Systems
 

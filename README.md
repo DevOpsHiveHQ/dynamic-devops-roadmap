@@ -221,7 +221,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [5.3 Code - Writing Integration Tests](./content/05-module#53-code---writing-integration-tests)
 - [5.4 Infrastructure - Infrastructure as Code and Configuration Management](./content/05-module#54-infrastructure---infrastructure-as-code-and-configuration-management)
 - [5.5 Infrastructure - Terraform Essentials](./content/05-module#55-infrastructure---terraform-essentials)
-- 5.6 Containers - Kubernetes Configuration Management
+- [5.6 Containers - Kubernetes Configuration Management](./content/05-module#56-containers---kubernetes-configuration-management)
 - 5.7 Observability - Log Aggregation Systems
 - 5.8 Continuous Delivery - CD Best Practices
 - 5.9 Project - HiveBox Phase 5
