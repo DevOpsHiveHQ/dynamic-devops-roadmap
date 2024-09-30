@@ -160,11 +160,22 @@
 
 ### What you need to know
 
-- 
+- As mentioned previously, `CD` could refer to two different things: `Continuous Delivery` and `Continuous Deployment`. They are usually used interchangeably, but in reality, they are two distinct stages.
+- Here, we are covering `delivery` only (Continuous deployment will be covered in the next module), where code changes are automatically prepared for release to multiple environments, especially production if they are a service or public if they are an artifact.
+- The following are some CD best practices to remember:
+  - Like in CI, automation is the key to effective CD. Automate as much of the CD pipeline as possible.
+  - Test the software the same way your customers will use it. Try to reduce drift between the test and real cases/environments.
+  - Build your artifacts once and promote them through the stages of your test pipelines so you are sure you test exactly the same thing.
+  - Ensure that each test environment is independent and doesn't influence others.
+  - Measure and monitor as much as possible. Treat your continuous delivery stages like production (or as close as possible) because, by the end of the pipeline, they will be just one step away from production.
+  - Collect human feedback and iterate! Don't rely solely on the system's feedback; always remember to get insights from the human side, such as developers and production users.
+- Always remember that CD is about continuous learning and improving the speed, quality, and reliability of your software delivery process.
+- Usually, you will use the same continuous integration solution for continuous delivery, so stick with GitHub Actions for that (but for continuous deployment, another solution will be used in the next module).
 
 ### Resources
 
-- 
+- [How to keep up with CI/CD best practices - Continuous delivery best practices - GitLab](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/#continuous-delivery-best-practices)
+- [What is Continuous Delivery? Tools and Best Practices - XenonStack](https://www.xenonstack.com/insights/what-is-continuous-delivery)
 
 ## 5.9 Project - HiveBox Phase 5
 

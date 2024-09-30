@@ -223,7 +223,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [5.5 Infrastructure - Terraform Essentials](./content/05-module#55-infrastructure---terraform-essentials)
 - [5.6 Containers - Kubernetes Configuration Management](./content/05-module#56-containers---kubernetes-configuration-management)
 - [5.7 Observability - Log Aggregation Systems](./content/05-module#57-observability---log-aggregation-systems)
-- 5.8 Continuous Delivery - CD Best Practices
+- [5.8 Continuous Delivery - CD Best Practices](./content/05-module#58-continuous-delivery---cd-best-practices)
 - 5.9 Project - HiveBox Phase 5
 
 [**Module 6: Keep Improving**](./content/06-module/)
