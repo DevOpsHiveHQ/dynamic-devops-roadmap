@@ -60,6 +60,19 @@ That means **first, understanding the problem instead of just learning a bunch o
 </p>
 
 
+## What is the approach used in this roadmap?
+
+<p align="center">
+  <img alt="Competency normal distribution curve" border="0" width="90%" src="/img/competency-normal-distribution-curve.png" />
+  <br/>
+  The roadmap aims to make you at least better than 80% of candidates at your level in the market.
+</p>
+
+This roadmap is very pragmatic! It follows the same ideas of a Minimum Viable Product (MVP). That means you will create a working solution from module one and iterate over it to build a hands-on industry-grad project (exactly like in the real world, you cannot tell your company to wait three months before you create a proper solution ... **you learn as you go**).
+
+Another point: the roadmap doesn't aim to cover everything in the market. If it's well followed, the roadmap will make you a good fit for 80-95% of the jobs in the market, and for those jobs, you will be better than 80-95% of the candidates, **that will significantly increase your chances of getting a job as a DevOps Engineer**.
+
+
 ## Who is the target audience for this roadmap?
 
 This roadmap is designed for a wide range of audiences, but each requires different efforts and risks (risk groups).

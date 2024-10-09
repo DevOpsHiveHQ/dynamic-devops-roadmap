@@ -84,13 +84,17 @@ That means **first, understanding the problem instead of just learning a bunch o
 
 ## The Roadmap
 
-This roadmap is `polymorphic`, which means it's designed to work in different modes. It depends on how fast you want to go (roadmap, mentorship, or bootcamp).
+This roadmap is `polymorphic`, which means it's designed to work in different modes. It depends on how fast you want to go (roadmap, mentorship, or BootCamp).
+
+---
 
 <p align="center">
   <a href="https://roadmap.devopshive.net" imageanchor="1">
-    ⭐ Get Started Now! ⭐
+    <img src="https://img.shields.io/badge/⭐_Get_Started_Now_⭐-559e11?style=for-the-badge" />
   </a>
 </p>
+
+---
 
 <p align="center">
   <a href="https://roadmap.devopshive.net" imageanchor="1">
