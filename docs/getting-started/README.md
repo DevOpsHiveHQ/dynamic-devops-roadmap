@@ -8,13 +8,7 @@ description: ""
   <img alt="Dynamic DevOps Roadmap Pillars " border="0" width="90%" src="/img/dynamic-devops-roadmap-pillars.png" />
 </p>
 
-## Audience
-
-This roadmap is designed for the following audience:
-
-- A fresh graduate who wants to approach a DevOps career as a first job **(high effort, high risk! If you are not a person who sticks to long-term plans, it's recommended to start the roadmap with a mentor)**.
-- A Dev or Ops engineer who wants to make a career shift and become a DevOps engineer **(mid-effort, low risk)**.
-- Already a DevOps engineer who wants to refresh their mind and ensure they are aware of essentials and best practices **(low effort, no risk)**.
+First of all, ensure to read the [frequently asked questions page](../faq/).
 
 ## How to use this roadmap?
 

@@ -84,8 +84,8 @@ const config: Config = {
       },
       items: [
         {
-          docId: "why/README",
-          label: 'Why?',
+          docId: "faq/README",
+          label: 'FAQ',
           position: "left",
           type: "doc",
         },
@@ -126,6 +126,10 @@ const config: Config = {
           title: 'Roadmap',
           items: [
             {
+              label: 'FAQ',
+              to: '/faq',
+            },
+            {
               label: 'Getting Started',
               to: '/getting-started',
             },
@@ -140,15 +144,19 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'DevOps Hive',
           items: [
             {
-              label: 'DevOps Hive Website',
+              label: 'Website',
               href: 'https://devopshive.net',
             },
             {
-              label: 'DevOps Hive GitHub',
+              label: 'GitHub',
               href: 'https://github.com/DevOpsHiveHQ',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/devopshive',
             },
           ],
         },
