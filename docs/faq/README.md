@@ -20,7 +20,7 @@ Yet, given that no size fits all, the extra reading resources are considered the
 
 No, it's a roadmap! It guides you on a high level following a `Guided Learning` model, which is learner-centric. It supports the learner's journey towards understanding the DevOps problems and hands-on application without spoon-feeding. That works best in pairing with other learners or with a mentor (you still could make it without a mentor if you can stick to the plan)
 
-So, you need to learn about each topic mentioned using external resources (such as a book, a self-paced course, or an instructor).
+The roadmap references some resources to start with, but you are free to learn about each topic mentioned using other external resources (such as a book, a self-paced course, or an instructor).
 
 
 ## What is the problem this roadmap is trying to solve?
