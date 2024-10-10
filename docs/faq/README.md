@@ -4,6 +4,7 @@ sidebar_label: "FAQ"
 sidebar_position: 1
 description: "The most common questions about Dynamic DevOps Roadmap"
 toc_max_heading_level: 2
+image: /img/competency-normal-distribution-curve.png
 ---
 
 Here are the most common questions about this roadmap.
@@ -18,10 +19,11 @@ Yet, given that no size fits all, the extra reading resources are considered the
 
 ## Is this a course?
 
-No, it's a roadmap! It guides you on a high level following a `Guided Learning` model, which is learner-centric. It supports the learner's journey towards understanding the DevOps problems and hands-on application without spoon-feeding. That works best in pairing with other learners or with a mentor (you still could make it without a mentor if you can stick to the plan)
+No, it's a roadmap! It guides you on a high level following a `Guided Learning` model, which is learner-centric. It supports the learner's journey towards understanding the DevOps problems and hands-on application without spoon-feeding. That works best in pairing with other learners or a mentor (you could make it without a mentor if you can stick to the plan, **but it's still not recommended as the outcome usually has many flaws**).
 
 The roadmap references some resources to start with, but you are free to learn about each topic mentioned using other external resources (such as a book, a self-paced course, or an instructor).
 
+**You still could use the roadmap in a course or a bootcamp mode when it's combined with guidance from an experienced mentor.**
 
 ## What is the problem this roadmap is trying to solve?
 
@@ -37,7 +39,7 @@ It's simple: Why is it so hard to start a DevOps career nowadays?
   A subset of the Cloud Native landscape in December 2023 (click for the full landscape)
 </p>
 
-<img alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
+<img class="img-right" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
 
 The `DevOps Engineer` role remains one of the top 10 most in-demand jobs across all industries (not just the tech field!). However, starting that role is super challenging because the DevOps model has various patterns and topologies. Also, the Cloud Native landscape keeps expanding, and there is something new every day!
 
@@ -55,7 +57,7 @@ That means **first, understanding the problem instead of just learning a bunch o
 
 <p align="center">
   <div class="buttons_src-pages-index-module">
-    <a class="button button--secondary button--lg" href="/getting-started">Get Started Now ⚡</a>
+    <a class="button button--secondary button--lg" href="/getting-started">⚡ Get Started Now ⚡</a>
   </div>
 </p>
 
@@ -72,6 +74,8 @@ This roadmap is very pragmatic! It follows the same ideas of a Minimum Viable Pr
 
 Another point: the roadmap doesn't aim to cover everything in the market. If it's well followed, the roadmap will make you a good fit for 80-95% of the jobs in the market, and for those jobs, you will be better than 80-95% of the candidates, **that will significantly increase your chances of getting a job as a DevOps Engineer**.
 
+Why not 100%? As the roadmap takes a pragmatic approach, the last 20% varies a lot between people, environments, and companies. So it will increase the go-to-market time, which also increases the chances of failure!
+
 
 ## Who is the target audience for this roadmap?
 
@@ -80,15 +84,21 @@ This roadmap is designed for a wide range of audiences, but each requires differ
 - **Group A (Low effort, no risk):** A DevOps engineer who wants to refresh their mind and ensure they are aware of essentials and best practices in the Cloud-Native area.
 - **Group B (Medium effort, low risk):** A Dev or Ops engineer who wants to make a career shift and become a DevOps engineer.
 - **Group C (Medium effort, medium risk):** A technical-related engineer who wants to make a career shift and become a DevOps engineer (the risk depends on how involved the engineer is in the Software Development Life Cycle).
-- **Group D (High effort, high risk):** A fresh graduate who wants to approach a DevOps career as a first job (If you are not a person who sticks to long-term plans, it's recommended to start the roadmap with a mentor).
-- **Group E (High effort, extra high risk):** A person from a non-technical background approaches a DevOps career as a first job (If you are not a person who sticks to long-term plans, it's recommended to start the roadmap with a mentor. Also, alternatively begin first as a Dev or Ops for 2-3 years then switch to DevOps).
+- **Group D (High effort, high risk):** A fresh graduate who wants to approach a DevOps career as a first job (If you are not a person who sticks to long-term plans, it's recommended to start the roadmap with a mentor or at least with a learning group).
+- **Group E (High effort, extra high risk):** A person from a non-technical background approaches a DevOps career as a first job (If you are not a person who sticks to long-term plans, it's recommended to start the roadmap with a mentor or at least with a learning group. Also, alternatively begin first as a Dev or Ops for 2-3 years then switch to DevOps).
 
 
 ## What is the expected timeline to finish this roadmap?
 
-It totally depends on your background, available time, and the risk group you are in, whether you are doing it alone or with a mentor.
+<img class="img-right" alt="Golden Triangle: Time, Effort, and Cost" align="right" width="30%" src="/img/golden-triangle.png" />
 
-Basically, the outcome is based on three factors: `time`, `effort`, and `cost` ... pick two!
+It totally depends on your background, available time, and the risk group you are in, whether you are doing it alone, with a learning group, or with a mentor.
+
+Basically, like many things in life, the outcome follows the Golden Triangle rule; there are three factors: `Time,` `Effort,` and `Cost` ... pick two!
+
+- **To save time:** Focus on `effort` and `cost` (e.g., use the roadmap in an intensive bootcamp with a mentor).
+- **To save effort:** Focus on `time` and `cost` (e.g., use the roadmap in a course mode with a mentor).
+- **To save cost:**: Focus on `time` and `effort` (e.g., use the roadmap in a self-learning mode with or without a learning group).
 
 Roughly, the timeline is the following:
 

@@ -161,7 +161,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `This project is by <a href="https://devopshive.net/">DevOps Hive</a> and licensed under the open-source license <Link href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</Link> © ${new Date().getFullYear()}`,
+      copyright: `By <a href="https://devopshive.net/">DevOps Hive</a> and under the open-source license <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,

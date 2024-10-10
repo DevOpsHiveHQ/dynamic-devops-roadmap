@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: ""
+description: "Intro to the Dynamic DevOps Roadmap"
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)

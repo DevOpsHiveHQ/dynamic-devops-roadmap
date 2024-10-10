@@ -1,6 +1,6 @@
 ---
-title: "Module 6: Optimiztion - Keep Improving"
-sidebar_label: "6. Optimiztion - Keep Improving"
+title: "Module 6: Optimize - Keep Improving"
+sidebar_label: "6. Optimize - Keep Improving"
 description: ""
 ---
 

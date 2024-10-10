@@ -1,14 +1,15 @@
 ---
 title: "Getting Started"
 sidebar_position: 2
-description: ""
+description: "How to start with the Dynamic DevOps Roadmap"
+image: /img/dynamic-devops-roadmap-flow-regular-bg.png
 ---
 
 <p align="center">
   <img alt="Dynamic DevOps Roadmap Pillars " border="0" width="90%" src="/img/dynamic-devops-roadmap-pillars.png" />
 </p>
 
-First of all, ensure to read the [frequently asked questions page](../faq/).
+First of all, ensure to read the [frequently asked questions page](../faq/) (**really, do it!**).
 
 ## How to use this roadmap?
 
