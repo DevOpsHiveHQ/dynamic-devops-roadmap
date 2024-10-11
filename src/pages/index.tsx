@@ -35,7 +35,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Your master plan to become a DevOps Engineer`}
+      title={`Your FREE master plan to become a DevOps Engineer`}
       description="A FREE master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile way! (roadmap, mentorship, and bootcamp)">
       <HomepageHeader />
       <main>

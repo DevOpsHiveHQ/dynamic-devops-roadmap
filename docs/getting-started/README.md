@@ -40,8 +40,9 @@ How to process:
 - Follow and implement the requests of each phase in the same order.
 - Each stage builds on the previous stage (the phases are continued, not separated).
 
-> **NOTE**
-> Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+:::note
+Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+:::
 
 ### 3. Mentorship Program
 

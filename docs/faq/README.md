@@ -32,11 +32,11 @@ It's simple: Why is it so hard to start a DevOps career nowadays?
 ### The Problem
 
 <p align="center">
-  <a href="/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">
+  <a target="_blank" href="/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">
     <img alt="Cloud Native Landscape Dec 2023" border="0" width="90%" src="/img/cloud-native-landscape-dec-2023-cropped.png" />
   </a>
   <br/>
-  A subset of the Cloud Native landscape in December 2023 (click for the full landscape)
+  A subset of the Cloud Native landscape in December 2023 (<a target="_blank" href="/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">click for the full landscape</a>)
 </p>
 
 <img class="img-right" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
