@@ -25,6 +25,14 @@ The roadmap references some resources to start with, but you are free to learn a
 
 **You still could use the roadmap in a course or a bootcamp mode when it's combined with guidance from an experienced mentor.**
 
+
+## Is this roadmap for DevOps Engineers only?
+
+This roadmap focuses on the DevOps and DevSecOps careers and provides at least 80% of the base for other **XOps careers, such as DataOps, MLOps, AIOps, etc.**
+
+It's also helpful for other engineers, like **frontend, backend, QA, etc.**, to learn about DevOps methodologies and use them in their daily work tasks.
+
+
 ## What is the problem this roadmap is trying to solve?
 
 It's simple: Why is it so hard to start a DevOps career nowadays?
