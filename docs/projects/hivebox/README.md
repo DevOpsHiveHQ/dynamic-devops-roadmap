@@ -35,9 +35,13 @@ Preview:
 
 ## Approach
 
+<p align="center">
+  <img alt="HiveBox Project Overview" border="0" width="90%" src={require('./hivebox-project-overview.png').default} />
+</p>
+
 This project follows the same Dynamic MVP-style mindset used in the [roadmap](../../getting-started). Which aims to cover the whole Software Development Life Cycle (SDLC). That mean each phase of this project will cover all aspects of the DevOps areas like planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
 
-This project works the best in `Peering` mode where you have another person helps you whenever you stuck (like a mentor or so). But in case you don't have that, always back to the `Related Module` where it has more details could help you in the project.
+This project works the best in `Pairing` mode where you have another person helps you whenever you stuck (like a mentor or so). But in case you don't have that, always back to the `Related Module` where it has more details could help you in the project.
 
 :::note
 Each phase of this project is tackled gradually part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.

@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/dynamic-devops-roadmap-t-shaped.svg').default,
     description: (
       <>
-        Depth in expertise, breadth in knowledgeNon-Linear
+        Depth in expertise, breadth in knowledge
       </>
     ),
   },
