@@ -1,7 +1,8 @@
 ---
 title: "Module 1: Welcome to the DevOps World"
 sidebar_label: "1. Welcome to the DevOps World"
-description: ""
+description: "Overview of the DevOps methodology and its pillars"
+image: ./devops-methodology-pillars-preview.png
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
@@ -12,7 +13,9 @@ description: ""
 
 ## 1.1 Overview - What and Why DevOps?
 
-DevOps is a set of `practices`, `cultural`, `tools` and most importantly `mindset` which aims to improving collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos and promotes a collaborative, automated, and sustainable culture. Which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
+<img class="img-right" align="right" width="40%" src={require('./devops-methodology-pillars.png').default} ></img>
+
+DevOps is methodology a set of `Practices`, `Tools`, `Culture`, and most importantly `Mindset` which aims to improving collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos and promotes a collaborative, automated, and sustainable culture. Which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
 
 In conclusion, adopting DevOps enhances collaboration between teams, enhances feedback loops, ensures faster time to market, improves quality, increases reliability and stability, increases cost efficiency, and first and foremost, aligns the tech goals with the business objectives.
 
@@ -66,6 +69,8 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ### What you need to know
 
+<img class="img-right" align="right" width="40%" src={require('./golden-triangle-ppt.png').default} ></img>
+
 - Software production is all about "change"! When, where, and why ... or in other words it's about "Change Management".
 - Every new feature done by developers includes a risk! And it should be calculated and mitigated.
 - Most of the time, changes affect the main 3 component of any organization which `People, Process, and Technology`. If the change doesn't consider those 3 elements, probably it will be ineffective! So DevOps is not only about technology!
@@ -87,7 +92,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - Because DevOps is a methodology, it actually has many [implementations and topologies](https://web.devopstopologies.com/) so always think of DevOps like Shawarma/Döner/Gyros! It comes in many different types and shapes!
 - However, there are a couple of DevOps pillars and principles.
 - **DevOps key pillars:**
-  - **Set of practices** (SCM, IaC, CI/CD, peer review, etc.).
+  - **Practices** (SCM, IaC, CI/CD, peer review, etc.).
   - **Tools** (modern tools used in the practices like Git, Jenkins, Kubernetes, etc.).
   - **Culture** (make sure to clear DevOps goals on a high level like organization or department).
   - **Mindset** (positive attitude, fix the right problems, focus on the solution not on the problem, no untracked changes, avoid heroism, etc.).
@@ -128,12 +133,16 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer
 
+<p align="center">
+  <img alt="Skill Set Shapes" border="0" width="90%" src={require('./skill-set-shapes.png').default} />
+</p>
+
 ### What you need to know
 
 - The `T-shaped skills` refer to combining broad and deep skills in a specific field. The horizontal bar of the "T" represents a broad range of general knowledge and skills across different disciplines or areas, and the vertical stem of the "T" represents deep expertise in a specific area. It's simply a mix between being a `specialist` and `generalist` at the same time!
 - It will help you to work in companies with different DevOps patterns. You can easily transition between different areas in the DevOps spectrum. Not only that, but also it will help you to handle new challenges effectively. In fact, the best DevOps engineers I have come across possessed T-shaped skills.
 - Does it mean there's no `I-shaped` DevOps engineer who specializes in certain areas and no little knowledge in other areas? I would say it's possible, but it may limit the available opportunities and companies you can work with.
-- Actually, as you progress in your career, it's better to develop more specialization (i.e., more vertical stems), and after a couple of years in the industry, your next step should be `Pi-Shaped` skills (search also for `M-Shaped` and `Comb-Shaped` skills, but it's a topic for another post).
+- Actually, as you progress in your career, it's better to develop more specialization (i.e., more vertical stems), and after a couple of years in the industry, your next step should be `Pi-Shaped` skills (search also for `M-Shaped`, `V-Shaped`, and even `Key-Shaped` skills, but that's a story for another day).
 - In summary, you should aim to gain exposure to various areas of DevOps practices and technologies without delving too deep into each one, yet, you need to dive in-depth into some of them (according to the market or organizations of your target). And due to that, your roadmap shouldn't be linear but follow the MVP-style approach!
 
 ### Resources

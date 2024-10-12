@@ -110,7 +110,7 @@ description: ""
   - Scalability and modularity are supported efficiently.
 - Kubernetes has become the *de facto* standard for container orchestration and is widely adopted in private and public sectors. According to a survey by the [Cloud Native Computing Foundation (CNCF) 2023](https://www.cncf.io/reports/cncf-annual-survey-2023/), **66% of consumers were using Kubernetes in production** and **18% were evaluating it** (84% total).
 
-<img align="right" width="40%" src={require('./4.5-kubernetes-core-concepts.png').default} ></img>
+<img class="img-right" align="right" width="40%" src={require('./4.5-kubernetes-core-concepts.png').default} ></img>
 
 - Let's have a quick overview about Containers, Docker, and Kubernetes Containers:
   - **Containers:** Technology for packaging an application and its Docker runtime dependencies.
