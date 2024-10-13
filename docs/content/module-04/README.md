@@ -12,7 +12,7 @@ description: ""
 
 ## 4.1 Planning - Review the Goals and Requirements
 
-### What you need to know
+### What you need to know {#41-what-you-need-to-know}
 
 - In the previous module, you should decided which Agile methodology you will use. You should create some sort of board to use (we will use [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)).
 - At this point, you need to review the goals and requirements. In other words, what has been achieved and what do you want to achieve from this phase?
@@ -22,14 +22,14 @@ description: ""
 - It should be easy for any newcomer to understand the plan and to know its main directions.
 - The next is to start working on the plan.
 
-### Resources
+### Resources {#41-resources}
 
 - [Agile Goal Setting: How to Get Started - Insights for Professionals](https://www.insightsforprofessionals.com/management/leadership/agile-goal-setting-how-to-get-started)
 - [Agile Planning: А Step-by-Step Guide with Examples - Businessmap](https://businessmap.io/agile/project-management/planning)
 
 ## 4.2 Code - Twelve-Factor App Methodology
 
-### What you need to know
+### What you need to know {#42-what-you-need-to-know}
 
 - In 2011 a manifest called [Twelve-Factor App methodology](https://12factor.net/) was introduced as a set of best practices for building modern, scalable, and maintainable web applications.
 - The 12-factor app methodology is meant to standardize how applications should be developed to take full advantage of cloud environments.
@@ -49,14 +49,14 @@ description: ""
   12. **Admin processes**: Run admin/management tasks as one-off processes.
 - Remember, those are the bare minimum, and there are many other points to consider.
 
-### Resources
+### Resources {#42-resources}
 
 - [The Twelve-Factor App methodology](https://12factor.net/)
 - [Beyond the 12 factors: 15-factor cloud-native Java applications - IBM Developer](https://developer.ibm.com/articles/15-factor-applications/) (there is also a small book called [Beyond the Twelve-Factor App](https://www.oreilly.com/library/view/beyond-the-twelve-factor/9781492042631/) for further reading).
 
 ## 4.3 Code - REST API Best Practices
 
-### What you need to know
+### What you need to know {#43-what-you-need-to-know}
 
 - In Linux/Unix, you probably heard that `Everything is a file`. In Kubernetes and many other modern software, `Everything is an API`!
 - As a DevOps Engineer, you probably will not write code daily. However, it's essential to understand the API concept and how it works because when you write code, it's likely to be a REST API.
@@ -64,7 +64,7 @@ description: ""
 - `API First` thinking will help you write better code. Define API first, then develop its implementation.
 - The resources section has more details about the API, and the roadmap code project is all around APIs.
 
-### Resources
+### Resources {#43-resources}
 
 - [Best practices for REST API design - Stack Overflow](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 - [Best Practices in API Design - Swagger](https://swagger.io/resources/articles/best-practices-in-api-design/)
@@ -72,7 +72,7 @@ description: ""
 
 ## 4.4 Continuous Integration - CI Best Practices
 
-### What you need to know
+### What you need to know {#44-what-you-need-to-know}
 
 - Continuous Integration was covered in the previous module. Now it's time to learn more about its best practices.
 - CI is meant to help you produce high-quality software, so it should be done correctly.
@@ -87,14 +87,14 @@ description: ""
   - Always try to make the CI environment (and test environment in general) as close as possible to production. You want to test your software as it will run in production.
   - Regularly review and refine CI processes based on the changes in the business and requirements. Creating CI pipelines is not a one-time thing.
 
-### Resources
+### Resources {#44-resources}
 
 - [Continuous integration best practices - GitLab](https://about.gitlab.com/topics/ci-cd/continuous-integration-best-practices/)
 - [11 CI/CD Best Practices for DevOps Success - Codefresh](https://codefresh.io/learn/ci-cd/11-ci-cd-best-practices-for-devops-success/)
 
 ## 4.5 Containers - Kubernetes Overview and Core Concepts
 
-### What you need to know
+### What you need to know {#45-what-you-need-to-know}
 
 - Arguably, Kubernetes is one of the best tech inventions of the last ten years, having reshaped the whole tech scene. But first, we need to know what problem Kubernetes is trying to solve.
 - When the Docker container was introduced in 2013, and many companies adopted the new technology, everything changed, from developing code to working in containers to deploying, monitoring, and operating the software.
@@ -122,7 +122,7 @@ description: ""
   - **Pod:** A logical host with a collection of one or more containers, the smallest computing unit in Kubernetes.
 - In the next module, we will dive more into Kubernetes and how to use it.
 
-### Resources
+### Resources {#45-resources}
 
 - [Kubernetes in 5 mins - VMware Cloud Native Apps](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 - [Learn Kubernetes Basics - Kubernetes Docs](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
@@ -130,7 +130,7 @@ description: ""
 
 ## 4.6 Observability - Monitoring Application and Infrastructure
 
-### What you need to know
+### What you need to know {#46-what-you-need-to-know}
 
 - A wise person once said, "**You can't manage what you can't measure.**" Maybe it's not always the case, but in the DevOps world, observability plays a major role. Basically, if you don't monitor your managed resources, you will just be walking into darkness!
 - As a start, you need to know the 3 pillars of observability which are `logs`, `metrics`, and `traces`. Each one of them works differently and serves a different purpose.
@@ -139,7 +139,7 @@ description: ""
 - Like everything in this roadmap, start small, then expand. Start with essential metrics monitoring and basic alerts, then add more of the observability components.
 - The most known open-source tools in this domain are [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/).
 
-### Resources
+### Resources {#46-resources}
 
 - [What is observability? - Grafana](https://grafana.com/docs/grafana-cloud/introduction/what-is-observability/)
 - [Logs vs Metrics vs Traces - Engineering Fundamentals Playbook](https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/)
@@ -148,7 +148,7 @@ description: ""
 
 ## 4.7 Continuous Delivery - Introduction and Solutions in the Market
 
-### What you need to know
+### What you need to know {#47-what-you-need-to-know}
 
 - In simple words, `Continuous Delivery` is a practice where code changes are automatically prepared for release to multiple environments, especially production. This involves deploying all code changes to a testing environment and then to a production-like environment after passing automated tests, ensuring the software is always in a deployable state. 
 - Following CD practices allows teams to deliver new features and bug fixes more safely and quickly to users, reducing the risk of deployment errors.
@@ -158,14 +158,14 @@ description: ""
 - The system doesn't matter as long as you understand the CD principles.
 - The CD is a critical practice for modern software development for faster delivery. However, using a dedicated system could be postponed until your project is more mature. So, until then, use the CI solution as a start for the CD.
 
-### Resources
+### Resources {#47-resources}
 
 - [The fundamentals of continuous deployment in DevOps - GitHub](https://github.com/resources/articles/devops/ci-cd-deployment)
 - [Continuous delivery principles - Atlassian](https://www.atlassian.com/continuous-delivery/principles)
 
 ## 4.8 Infrastructure - Cloud Computing and Cloud Native Applications
 
-### What you need to know
+### What you need to know {#48-what-you-need-to-know}
 
 - The term `Cloud Computing` refers to a service delivery model where software, storage, and computing power are made available over the internet to users on demand. In this model, users do not own or manage the physical infrastructure that supports these resources but instead access them as a utility provided by a third-party service provider.
 - Cloud computing could be categorized into three groups:
@@ -179,7 +179,7 @@ description: ""
 - The term `Cloud-Native` refers to the architecture and design of an application built specifically to take advantage of the Cloud computing model. In other words, a Cloud-Native application is designed to be scalable and resilient and take advantage of the automatic provisioning of resources provided by Cloud platforms.
 - In general, Cloud-Native software works best on Cloud-Native platforms like Kubernetes, an open-source platform for automating the deployment, scaling, and management of containerized applications.
 
-### Resources
+### Resources {#48-resources}
 
 - [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)

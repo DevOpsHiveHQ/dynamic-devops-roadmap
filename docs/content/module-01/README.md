@@ -19,7 +19,7 @@ DevOps is methodology a set of `Practices`, `Tools`, `Culture`, and most importa
 
 In conclusion, adopting DevOps enhances collaboration between teams, enhances feedback loops, ensures faster time to market, improves quality, increases reliability and stability, increases cost efficiency, and first and foremost, aligns the tech goals with the business objectives.
 
-### What you need to know
+### What you need to know {#11-what-you-need-to-know}
 
 - In the stone ages, Software Development Life Cycle was linear, that means in short, developers write the code, then send it to system admins to run it.
 - Usually the code doesn't work as expected then a loop of `throwing code over a different fence` started and the dev and ops teams blames each other.
@@ -27,7 +27,7 @@ In conclusion, adopting DevOps enhances collaboration between teams, enhances fe
 - It's also important to know that DevOps has many [implementations and topologies](https://web.devopstopologies.com/), and that's why it's a hard to land your first job as a DevOps Engineer (because that could mean many things! Sometimes that title makes sense, and some other times it's misleading!).
 - Finally, just remember that, DevOps is not about Dev doing Ops work or vice versa, but it's actually a `paradignm shift` (i.e., you need to think differently).
 
-### Resources
+### Resources {#11-resources}
 
 - [What is DevOps? - GitLab](https://about.gitlab.com/topics/devops/): A good starting point to have an overview about the technical aspects of the DevOps.
 - [State of DevOps Report 2023](https://services.google.com/fh/files/misc/2023_final_report_sodr.pdf): A detailed report about DevOps in 2023 by DevOps Research and Assessment (DORA) which covers many aspects of DevOps in real-world like organizational performance, team performance, and employee well-being. You don't really need to read the whole report as a fresh DevOps engineer, but it's good to understand whole aspects of the DevOps! It's not just about technology!
@@ -37,7 +37,7 @@ In conclusion, adopting DevOps enhances collaboration between teams, enhances fe
 
 The Software Development Life Cycle (SDLC) is a process or set of phases that guide the development of software. It covers the whole process of making the software which includes planning, designing, development, testing, deploying, and maintaining software systems.
 
-### What you need to know
+### What you need to know {#12-what-you-need-to-know}
 
 - There are many factors and drivers of the software production, but most common what's known as "iron triangle" or "triple constraint" which are: Time, Scope, and Cost. Those there play a key role of software project management.
 - There are different SDLC models, like Waterfall, Agile, Spiral, and iterative models. Each one of them works differently to achieve the project goals. For example, in the past, the Waterfall model was common which follows a linear sequence. Nowadays, Agile is more popular, which emphasizes iterative and incremental development with a focus on collaboration and flexibility.
@@ -45,21 +45,21 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - As a DevOps engineer, you need to understand the different kind of SDLCs so you are able to enhance and optimize the process from the early beginning (proactive, not reactive).
 - In short, you need a basic knowledge of software project management, especially Agile software product/project management.
 
-### Resources
+### Resources {#12-resources}
 
 - [The Software Development Life Cycle (SDLC) - The Product Manager](https://theproductmanager.com/topics/software-development-life-cycle/): A great resource that covers the main phases and common models of SDLC.
 - [Introduction to Software Product Management - Coursera](https://www.coursera.org/learn/introduction-to-software-product-management?specialization=product-management): 4 course that covers the foundation of software production.
 
 ## 1.3 Software Production - Agile Software Development
 
-### What you need to know
+### What you need to know {#13-what-you-need-to-know}
 
 - In the modern software production, the Agile methodologies are one of the most common practices. You can think about it as the default mode, but also remember there is no silver bullet!
 - As mentioned in the previous section, Agile at its core is `iterative` which means it works in phases incrementally to achieve goals instead of linearly (exactly like this roadmap!).
 - There are many implementations of frameworks of the Agile methodologies like Scrum, Kanban, and Extreme Programming (XP). And in many times there are new frameworks coming out of the original ones like [Scrumban](https://teamhood.com/agile-resources/what-is-scrumban/) (which is a mix between Scrum and Kanban).
 - The most important point here is to break down work into bite-size pieces, however, at the same time avoid [Scope Creep](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)! In short: **Make it work, then make it right, then make it fast!**
 
-### Resources
+### Resources {#13-resources}
 
 - [What Is Agile Product Management - The Product Manager](https://theproductmanager.com/topics/agile-product-management/)
 - [Software Processes and Agile Practices - Coursera](https://www.coursera.org/learn/software-processes-and-agile-practices?specialization=product-management): 8 hours course that covers the fundamentals of Agile software development and management practices.
@@ -67,7 +67,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.4 Software Production - Change Management and Golden Triangle
 
-### What you need to know
+### What you need to know {#14-what-you-need-to-know}
 
 <img class="img-right" align="right" width="40%" src={require('./golden-triangle-ppt.png').default} ></img>
 
@@ -78,7 +78,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - Using the mindset of MVP (Minimum Viable Product), which is one of the core Agile methodologies, helps you to manage and mitigate the change risks.
 - So, your role as a DevOps engineer that links between two core areas of the software production (Dev and Ops) requires you to have some change management knowledge.
 
-### Resources
+### Resources {#14-resources}
 
 - [Everything You Need to Know about the People, Process, Technology Framework - Smartsheet](https://www.smartsheet.com/content/people-process-technology): A pretty good overview about how any change touches the main elements of organization.
 - [10 tips for effective change management in Agile - TechTarget](https://www.techtarget.com/searchsoftwarequality/tip/Six-tips-for-successful-change-management-in-an-Agile-environment): Some essential topics to cover when doing a change.
@@ -86,7 +86,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars
 
-### What you need to know
+### What you need to know {#15-what-you-need-to-know}
 
 - DevOps is a methodology with an ultimate goal to enhance the software production.
 - Because DevOps is a methodology, it actually has many [implementations and topologies](https://web.devopstopologies.com/) so always think of DevOps like Shawarma/Döner/Gyros! It comes in many different types and shapes!
@@ -105,7 +105,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - However, DevOps is not just about Dev and Ops, it implicitly has in-between all other parts of the software production like security, testing, QA, data (science/engineering), etc. Otherwise, it will be something like `DevSecQADataMLOps` (you actually can add anything here).
 - So in this roadmap we will tread DevOps as DevSecOps, security is embedded by default.
 
-### Resources
+### Resources {#15-resources}
 
 - [What is DevOps? - GitLab](https://about.gitlab.com/topics/devops/): This article covers the aspects of DevOps like principles, phases, and benefits.
 - [DevOps is not just a culture, and it is also a role - Ahmed AbouZaid](https://tech.aabouzaid.com/2020/05/devops-is-not-just-a-culture-and-it-is-also-a-role.html): A blog post explains why "DevOps is a culture, not a role" became actually a cliché, and it doesn't stand in front of the reality.
@@ -113,7 +113,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE
 
-### What you need to know
+### What you need to know {#16-what-you-need-to-know}
 
 - Maybe the title "DevOps Engineer" is not the most accurate title in the software industry, that's because it could mean many things.
 - The different [implementations and topologies](https://web.devopstopologies.com/) of DevOps led to different DevOps Engineer criteria, which vary between companies and industries.
@@ -126,7 +126,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - In real-world, many companies use the roles and titles exchangeably! So don't rely too much on the naming but the actual job.
 - This roadmap focuses on the typical DevOps Engineer, yet, it still shares at least 90% of the needed skills with the other roles.
 
-### Resources
+### Resources {#16-resources}
 
 - [The Site Reliability Workbook - How SRE Relates to DevOps - Google](https://sre.google/workbook/how-sre-relates/): A great book in general, and its first chapter covers the relation between SRE and DevOps.
 - [What is platform engineering? - Platform Engineering](https://platformengineering.org/blog/what-is-platform-engineering): This article discusses the idea of platform engineering and how it evolved from DevOps.
@@ -137,7 +137,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
   <img alt="Skill Set Shapes" border="0" width="90%" src={require('./skill-set-shapes.png').default} />
 </p>
 
-### What you need to know
+### What you need to know {#17-what-you-need-to-know}
 
 - The `T-shaped skills` refer to combining broad and deep skills in a specific field. The horizontal bar of the "T" represents a broad range of general knowledge and skills across different disciplines or areas, and the vertical stem of the "T" represents deep expertise in a specific area. It's simply a mix between being a `specialist` and `generalist` at the same time!
 - It will help you to work in companies with different DevOps patterns. You can easily transition between different areas in the DevOps spectrum. Not only that, but also it will help you to handle new challenges effectively. In fact, the best DevOps engineers I have come across possessed T-shaped skills.
@@ -145,7 +145,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - Actually, as you progress in your career, it's better to develop more specialization (i.e., more vertical stems), and after a couple of years in the industry, your next step should be `Pi-Shaped` skills (search also for `M-Shaped`, `V-Shaped`, and even `Key-Shaped` skills, but that's a story for another day).
 - In summary, you should aim to gain exposure to various areas of DevOps practices and technologies without delving too deep into each one, yet, you need to dive in-depth into some of them (according to the market or organizations of your target). And due to that, your roadmap shouldn't be linear but follow the MVP-style approach!
 
-### Resources
+### Resources {#17-resources}
 
 - [Why T-Shaped Professionals Are Desirable – DevOps Agile Skills Association](https://www.devopsagileskills.org/blog/why-t-shaped-professionals-are-desirable/): This article that covers the benefits of being a T-Shaped DevOps engineer.
 - [3 Ways T-Shaped Skills are Important in DevOps Teams - EXIN](https://www.exin.com/article/devops-the-next-generation-3-ways-t-shaped-skills-are-important-in-devops-teams/): This article discusses what is a T-shaped professional, and why does it matter, and 3 areas where the T-shaped skills so important.

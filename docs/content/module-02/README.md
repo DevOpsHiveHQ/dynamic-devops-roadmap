@@ -15,7 +15,7 @@ image: ./devops-core-preview.png
 
 <img class="img-right" align="right" width="30%" src={require('./code.png').default} ></img>
 
-### What you need to know
+### What you need to know {#21-what-you-need-to-know}
 
 - Python syntax.
 - Data types.
@@ -23,21 +23,21 @@ image: ./devops-core-preview.png
 - Loops.
 - Functions.
 
-### Resources
+### Resources {#21-resources}
 
 - [Learn Python - Codecademy](https://www.codecademy.com/learn/learn-python): Interactive learning step by step to acquire the essential Python knowledge (the course is for Python 2, but it's fine).
 - [Python Track - Exercism](https://exercism.org/tracks/python): More than 130 exercises grouped into 16 Python concepts with code analysis (finish only the `Learning Exercise`).
 
 ## 2.2 Code - Common Development Tools
 
-### What you need to know
+### What you need to know {#22-what-you-need-to-know}
 
 - When you are writing code, you don't just use a text editor but code editor (maybe also IDE).
 - Development tools enhance productivity, streamline the development process, increase code quality.
 - Common features of development tools are syntax highlighting, code completion, code navigation, and debugging.
 - Through this roadmap, you will get more tools to help you in your daily work.
 
-### Resources
+### Resources {#22-resources}
 
 - [Visual Studio Code](https://code.visualstudio.com/): The main code editor will be used in this roadmap.
 - [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial): How to use VS Code as a development tool for Python.
@@ -46,14 +46,14 @@ image: ./devops-core-preview.png
 
 ## 2.3 Code - Git Basics
 
-### What you need to know
+### What you need to know {#23-what-you-need-to-know}
 
 - When you create the code, you need to store it in a safe place using a Source Code Management (SCM) system.
 - One of the known SCMs is [Git](https://git-scm.com/), which's widely used now via many platforms like GitHub and GitLab.
 - You need to understand the Git basics like repository, branch, pull, push, commit, and so on because you will use them almost every day.
 - Understanding Git is not important just for development, but also many workflows depend on it as a Source of Truth like `GitOps` (that will be covered in the next modules).
 
-### Resources
+### Resources {#23-resources}
 
 - [Git, The simple guide](https://rogerdudler.github.io/git-guide/): Step-by-step visual guide for getting started with Git.
 - [Git cheat sheet](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf): Quick reference for Git commands.
@@ -63,7 +63,7 @@ image: ./devops-core-preview.png
 
 <img class="img-right" align="right" width="30%" src={require('./operating-system.png').default} ></img>
 
-### What you need to know
+### What you need to know {#24-what-you-need-to-know}
 
 - In the servers world, Linux dominates the market. So it's necessary to learn and use Linux OS as a DevOps Engineer.
 - As a DevOps engineer, it's less likely to make it without good knowledge on Linux.
@@ -72,21 +72,21 @@ image: ./devops-core-preview.png
 - Even it's still possible as a user to do a lot using the UI, but `The Terminal Is Your Friend`!
 - As a starting point, you need at least to know `Directory Structure`, `Permissions`, and `Command Line Operations`.
 
-### Resources
+### Resources {#24-resources}
 
 - [Introduction to Linux - LinuxFoundationX](https://www.edx.org/learn/linux/the-linux-foundation-introduction-to-linux): A good starting point to get familiar with Linux OS (this course was promoted by Linus Torvalds, the founder of the Linux kernel).
 - [Introduction to Linux - Chapters 1-6 - freeCodeCamp](https://www.freecodecamp.org/news/introduction-to-linux/): A great resource to learn all Linux fundamentals.
 
 ## 2.5 Operating System - Common Tools and Commands
 
-### What you need to know
+### What you need to know {#25-what-you-need-to-know}
 
 - As mentioned, the terminal is your friend! The power of Linux is in the Terminal and you need to be used to it be because you will use it on a daily basis.
 - Get familiar with the GUI tool of the system you have, like Ubuntu.
 - There are a couple of tools you need to master them like `echo`, `vim`, `grep`, `find`, `top`, `cut`, `sort`, `uniq`, `less`, `head`, and `tail`.
 - You don't need to memorize all tools or their args, just think "what tool could help me to do that?" then you can always read its documentation.
 
-### Resources
+### Resources {#25-resources}
 
 - [Introduction to Linux - Chapter 7 - freeCodeCamp](https://www.freecodecamp.org/news/introduction-to-linux/#chapter-7-command-line-operations): This chapter focuses on the command line operations and the most common tools.
 - [Top 50+ Linux Commands You MUST Know - DigitalOcean](https://www.digitalocean.com/community/tutorials/linux-commands): Top Linux commands that everyone should know (but not memorize!).
@@ -94,14 +94,14 @@ image: ./devops-core-preview.png
 
 ## 2.6 Operating System - Bash Scripting Basics
 
-### What you need to know
+### What you need to know {#26-w6at-you-need-to-know}
 
 - Now you know a dozen of individual CLI commands, but Linux allows you to automate many tasks by simply chaining a series of commands together.
 - In shell scripts you can use all CLI commands plus a syntax similar to a programming language for if conditions, loops, and other helpers.
 - Even you know some programming language like Python, you still will need and use shell scripts frequently.
 - There are many shells and each one slightly different syntax, but `Bash` is one of the most popular ones.
 
-### Resources
+### Resources {#26-resources}
 
 - [Bash Track - Exercism](https://exercism.org/tracks/bash): More than 90 exercises in different levels (finish only the easy and medium tasks).
 - [Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners - freeCodeCamp](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/): Pretty good and structured guide to start with Bash scripting.
@@ -112,7 +112,7 @@ image: ./devops-core-preview.png
 
 <img class="img-right" align="right" width="30%" src={require('./containers.png').default} ></img>
 
-### What you need to know
+### What you need to know {#27-what-you-need-to-know}
 
 - The container revolution can be traced back to the introduction of Docker in 2013 when Docker debuted for the first time at PyCon.
 - Container adoption has been mainstream for a whole now, in fact, [containers are the new norm](https://www.cncf.io/reports/cncf-annual-survey-2022/)!
@@ -122,20 +122,20 @@ image: ./devops-core-preview.png
 - Docker is not the only tool for containers nowadays, but we will stick with it in this roadmap.
 - It's important to understand the difference between Dockerfile, Docker image, and Docker container.
 
-### Resources
+### Resources {#27-resources}
 
 - [Get started guide - Docker Docs](https://docs.docker.com/get-started/): The official getting started guide for Docker.
 - [Learn Docker in 2 Hours - KodeKloud](https://www.youtube.com/watch?v=zJ6WbK9zFpI): A crash course covers a full overview of all the Docker fundamentals.
 
 ## 2.8 Containers - Docker CLI Basics
 
-### What you need to know
+### What you need to know {#28-what-you-need-to-know}
 
 - There are a couple of GUIs for Docker, but you are a DevOps engineer, get yourself familiar with the Docker CLI!
 - You needed to know how to create, run, stop, and delete Docker containers from the CLI.
 - We are not going to cover Docker Compose in this roadmap because Kubernetes will be our focus as an orchestration platform. However, if you needed to use Docker Compose, then use V2, which is now embedded in the Docker CLI `docker compose`.
 
-### Resources
+### Resources {#28-resources}
 
 - [Use the Docker command line - Docker Docs](https://docs.docker.com/engine/reference/commandline/cli/): The official documentation for Docker CLI. It's pretty useful and straightforward.
 - [CLI Cheat Sheet - Docker Docs](https://docs.docker.com/get-started/docker_cheatsheet.pdf): One-page cheat sheet for Docker CLI commands.

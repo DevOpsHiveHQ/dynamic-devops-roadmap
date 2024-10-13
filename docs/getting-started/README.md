@@ -125,7 +125,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [5.8 Continuous Delivery - CD Best Practices](../content/module-05#58-continuous-delivery---cd-best-practices)
 - [5.9 Project - HiveBox Phase 5](../content/module-05#59-project---hivebox-phase-5)
 
-### [Module 6: Optmization - Keep Improving](../content/module-06)
+### [Module 6: Optimize - Keep Improving](../content/module-06)
 
 - 6.1 Planning - Agile Retrospective
 - 6.2 Code - Performance Optimizations

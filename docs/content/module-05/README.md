@@ -12,7 +12,7 @@ description: ""
 
 ## 5.1 Planning - Refine the Goals and Requirements
 
-### What you need to know
+### What you need to know {#51-what-you-need-to-know}
 
 - At this point, you should have a working [project](../../projects/hivebox). It might not be perfect but good enough as start. Now it's time to start polishing it.
 - First of all, you need to align with the business objectives. Is the project still relevant? Has the business changed direction, which requires changes in the tech side? Ensuring that the goals and requirements are aligned with the business means understanding the business context, market demands, and how you, as a DevOps engineer, can drive value to the company.
@@ -21,14 +21,14 @@ description: ""
 - From now on, you need to start building continuous feedback loops. They could have a simple structure, such as recutting meetings with different teams. We will cover this topic in detail in the next module.
 - In general, planning should be considered a moving target. Goals should always be iterated to ensure they meet the requirements.
 
-### Resources
+### Resources {#51-resources}
 
 - [Backlog Refinement Guide: How to & tips to be successful - Atlassian](https://www.atlassian.com/agile/scrum/backlog-refinement)
 - [5 Strategies for Product Backlog Refinement - Scrum.org](https://www.scrum.org/resources/blog/5-strategies-product-backlog-refinement)
 
 ## 5.2 Code - Working with External Systems
 
-### What you need to know
+### What you need to know {#52-what-you-need-to-know}
 
 - As a DevOps Engineer, you will work or integrate with external systems using code or tools. Those external systems could be third-party APIs, databases, cloud services, or microservices.
 - You will mostly use REST APIs to interact with those services, but there are many ways to communicate with those systems according to each use case.
@@ -40,14 +40,14 @@ description: ""
   - Always use secure connection with external systems even if the use case is trivial.
   - Not every connection should be synced; you could use async communication by using message queues to deal with lagging and latency under pressure.
 
-### Resources
+### Resources {#52-resources}
 
 - [System Integration: Types, Approaches, and Implementation Steps - AltexSoft](https://www.altexsoft.com/blog/system-integration/)
 - [System Integration vs Software Development - Budibase](https://budibase.com/blog/app-building/system-integration-vs-software-development/)
 
 ## 5.3 Code - Writing Integration Tests
 
-### What you need to know
+### What you need to know {#53-what-you-need-to-know}
 
 - The second level of the tests is the `Integration Test`. Its primary role is to ensure that different components or modules of your system work well together. To have a good integration test, you need to remember a couple of points.
 - As usual, start with basic tests, then extend the test scenarios as you go.
@@ -61,12 +61,14 @@ description: ""
 - Remember the external services (third-party APIs) when you write integration tests. Use sandbox or test environments provided by these services, or simulate them with API stubs (check the previous section about [Working with External Systems](#52-code---working-with-external-systems)).
 - By default, tests should be integrated with CI/CD pipelines and run automatically after each commit or before merging. But also think about providing an easy way to run locally.
 
-### Resources
+### Resources {#53-resources}
 
 - [What is Integration Testing - BrowserStack](https://www.browserstack.com/guide/integration-testing)
 - [The Complete Guide to Integration Testing - HubSpot](https://blog.hubspot.com/marketing/integration-testing)
 
 ## 5.4 Infrastructure - Infrastructure as Code and Configuration Management
+
+### What you need to know {#54-what-you-need-to-know}
 
 - As a DevOps Engineer, you will hear (and use) the term "Infrastructure as Code" (IaC) a lot. And that's for a good reason, as it's considered one of the DevOps cores. You will also hear about tools like [Terraform](https://www.terraform.io/), [Crossplane](https://www.crossplane.io/), and [Pulumi](https://www.pulumi.com/).
 - In simple words, IaC allows you to manage and provide infrastructure resources (servers, networks, storage) using a code-like approach, which takes different forms.
@@ -79,14 +81,14 @@ description: ""
 - In all cases, using imperative scripts in any language (Bash, Python, etc.) is not recommended; that's not the ideal IaC and will hit you hard in the future when you try to automate the IaC via GitOps (it will be covered in the following modules).
 - Finally, in the current container era, Configuration Management tools like Ansible and SaltStack are less used in favor of using a container ecosystem (in this roadmap, we will not cover them).
 
-### Resources
+### Resources {#54-resources}
 
 - [What is Infrastructure as Code? - IaC Explained - AWS](https://aws.amazon.com/what-is/iac/)
 - [What is Infrastructure as Code with Terraform? | HashiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code)
 
 ## 5.5 Infrastructure - Terraform Essentials
 
-### What you need to know
+### What you need to know {#55-what-you-need-to-know}
 
 - Terraform is one of the key players in the infrastructure-as-code market. It's arguably the most popular IaC tool with multi-cloud support.
 - Terraform is known for the following:
@@ -101,7 +103,7 @@ description: ""
 - Remember to apply and enforce Terraform best practices in your CI pipelines, such as validating, formatting, linting, and securing Terraform IaC.
 - Terraform is a big topic, but that's the starting point. As usual, start small and expand.
 
-### Resources
+### Resources {#55-resources}
 
 - [Terraform Tutorial – Getting Started With Terraform - Spacelift](https://spacelift.io/blog/terraform-tutorial)
 - [Terraform Tutorial for Beginners + Labs: Complete Step by Step Guide! - KodeKloud](https://www.youtube.com/watch?v=YcJ9IeukJL8)
@@ -109,7 +111,7 @@ description: ""
 
 ## 5.6 Containers - Kubernetes Configuration Management
 
-### What you need to know
+### What you need to know {#56-what-you-need-to-know}
 
 - As the containers ecosystem grows, Kubernetes becomes the new platform. Hence, once you have a Kubernetes cluster up and running, you should do everything the Kubernetes way.
 - There are many tools for Kubernetes configuration management, but the most popular are:
@@ -119,7 +121,7 @@ description: ""
 - You will probably use more than one tool to manage Kubernetes configuration.
 - Always remember that Kubernetes configuration is still an Infrastructure as Code, and it should follow the same practices mentioned in the previous sections, like using a declarative approach and always keeping automation in mind, even if you haven't used any automation yet.
 
-### Resources
+### Resources {#56-resources}
 
 - [Application Configuration Management in Kubernetes - Giant Swarm](https://www.giantswarm.io/blog/application-configuration-management-in-kubernetes/)
 - [Managing Kubernetes Resources with Kustomize - INNOQ](https://www.innoq.com/en/blog/2022/04/kustomize-introduction/)
@@ -128,7 +130,7 @@ description: ""
 
 ## 5.7 Observability - Log Aggregation Systems
 
-### What you need to know
+### What you need to know {#57-what-you-need-to-know}
 
 - Logging is the second pillar of observability (`logs`, `metrics`, and `traces`). As mentioned before, each one works differently and serves a different purpose.
 - As modern infrastructure becomes more complex, it's essential to have a centralized login system for monitoring and analyzing the running systems.
@@ -145,7 +147,7 @@ description: ""
  - Capture relevant logs only; otherwise, you will end up with a log swamp. That will reduce costs and make search in logs more efficient.
 - There are many logging solutions on the market, but if you have the choice, stick with the Cloud provider logging service or [Grafana Loki](https://grafana.com/oss/loki/).
 
-### Resources
+### Resources {#57-resources}
 
 - [The Three Pillars of Observability - Sematext](https://sematext.com/glossary/three-pillars-of-observability/)
 - [Log Aggregation: Everything You Need to Know for Aggregating Log Data - Splunk](https://www.splunk.com/en_us/blog/learn/log-aggregation.html)
@@ -153,7 +155,7 @@ description: ""
 
 ## 5.8 Continuous Delivery - CD Best Practices
 
-### What you need to know
+### What you need to know {#58-what-you-need-to-know}
 
 - As mentioned previously, `CD` could refer to two different things: `Continuous Delivery` and `Continuous Deployment`. They are usually used interchangeably, but in reality, they are two distinct stages.
 - Here, we are covering `delivery` only (Continuous deployment will be covered in the next module), where code changes are automatically prepared for release to multiple environments, especially production if they are a service or public if they are an artifact.
@@ -167,7 +169,7 @@ description: ""
 - Always remember that CD is about continuous learning and improving the speed, quality, and reliability of your software delivery process.
 - Usually, you will use the same continuous integration solution for continuous delivery, so stick with GitHub Actions for that (but for continuous deployment, another solution will be used in the next module).
 
-### Resources
+### Resources {#58-resources}
 
 - [How to keep up with CI/CD best practices - Continuous delivery best practices - GitLab](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/#continuous-delivery-best-practices)
 - [What is Continuous Delivery? Tools and Best Practices - XenonStack](https://www.xenonstack.com/insights/what-is-continuous-delivery)
