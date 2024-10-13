@@ -9,24 +9,12 @@ A **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Nat
 
 - Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](https://roadmap.devopshive.net/projects/hivebox)
 if you are interested in the DevOps hands-on project only.
-- Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive) for discussions and to stay updated (Note: This is a multilingual group).
-
+- Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive/985) for discussions and to stay updated.
 
 <!-- omit from toc -->
-## Project Badge
+## Give it a Star! ⭐
 
-Push it forward and add the project badge in your repo to support the community! ⭐
-
-Markdown:
-
-```text
-[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
-```
-
-Preview:
-
-[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
-
+If you like this project, please [give it a star](#top) for better visibility. Thanks!
 
 <!-- omit from toc -->
 ## Table of Contents
