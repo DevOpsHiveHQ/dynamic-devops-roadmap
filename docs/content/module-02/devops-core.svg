@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="640"
+   viewBox="0 0 1280 640"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="devops-core.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="devops-core.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="0.36972033"
+     inkscape:cx="823.59549"
+     inkscape:cy="-62.209183"
+     inkscape:window-width="1920"
+     inkscape:window-height="1173"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="1198.8744,526.30293"
+       orientation="1,0"
+       id="guide2364" />
+    <sodipodi:guide
+       position="78.791587,387.70683"
+       orientation="1,0"
+       id="guide2366" />
+    <sodipodi:guide
+       position="603.47684,561.65908"
+       orientation="0,-1"
+       id="guide2368" />
+    <sodipodi:guide
+       position="528.52181,75.158462"
+       orientation="0,-1"
+       id="guide2370" />
+  </sodipodi:namedview>
+  <rect
+     style="opacity:1;fill:#ffffff;stroke-width:1.12226;stroke-opacity:0"
+     id="rect2132"
+     width="1280"
+     height="640"
+     x="0"
+     y="0"
+     inkscape:export-filename="devops-core-preview.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="opacity:1;fill:#559e11;fill-opacity:1;stroke-width:0.397119;stroke-opacity:0"
+     id="rect2558"
+     width="1280"
+     height="80.137337"
+     x="0"
+     y="73.691566" />
+  <rect
+     style="opacity:1;fill:#f6f5f4;stroke-width:0.914994;stroke-opacity:0"
+     id="rect838"
+     width="1120.0828"
+     height="486.17108"
+     x="78.791588"
+     y="153.8289" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+     x="512.2135"
+     y="124.93891"
+     id="text56388-9-1-3"><tspan
+       sodipodi:role="line"
+       id="tspan56386-1-8-6"
+       x="512.2135"
+       y="124.93891"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">DevOps Core</tspan></text>
+  <g
+     id="g546"
+     transform="translate(-5.3970638e-6,30.914465)">
+    <path
+       id="path354-7-9-3-9-8"
+       style="fill:#add18b;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       transform="matrix(0.55859718,0,0,0.54146643,379.72911,834.50989)"
+       d="m 868.95253,-722.65297 -86.59492,150.00441 -316.42097,-0.009 -316.42099,0.009 -86.594892,-150.0044 -86.610172,-149.99561 86.610172,-149.99563 86.594922,-150.0044 316.42097,0.01 316.42099,-0.01 86.59489,150.0044 86.61017,149.99557 z"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34" />
+    <path
+       id="path1161"
+       style="fill:#8ebf56;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       transform="matrix(0.34912324,0,0,0.33841652,477.33069,657.31868)"
+       d="m 954.88207,-722.65297 -86.59492,150.00441 -402.35051,-0.009 -402.350532,0.009 -86.594892,-150.0044 -86.610166,-149.99561 86.610166,-149.99563 86.594922,-150.0044 402.350512,0.01 402.35053,-0.01 86.59489,150.0044 86.61013,149.99557 z"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34" />
+    <path
+       id="path1163"
+       style="fill:#64a725;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       transform="matrix(0.1396493,0,0,0.1353666,574.93228,480.12747)"
+       d="m 1298.6002,-722.65297 -86.5949,150.00441 -746.06866,-0.009 -746.06868,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99563 86.59492,-150.0044 746.06866,0.01 746.06865,-0.01 86.5949,150.0044 86.6102,149.99557 z"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+       x="605.57745"
+       y="373.16132"
+       id="text56388-9-1-3-3"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         id="tspan56386-1-8-6-6"
+         x="605.57745"
+         y="373.16132"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">Code</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+       x="573.80957"
+       y="301.99823"
+       id="text22558"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         id="tspan22556"
+         x="573.80957"
+         y="301.99823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">Container</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+       x="531.42676"
+       y="239.51607"
+       id="text25038-7"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         id="tspan25036-5"
+         x="531.42676"
+         y="239.51607"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">Operating System</tspan></text>
+  </g>
+</svg>

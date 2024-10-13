@@ -1,7 +1,8 @@
 ---
 title: "Module 2: Basics - DevOps Core"
 sidebar_label: "2. Basics - DevOps Core"
-description: ""
+description: "Besides Code and Operating System, now Container is the new norm in DevOps"
+image: ./devops-core-preview.png
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
@@ -11,6 +12,8 @@ description: ""
 </p>
 
 ## 2.1 Code - Python Fundamentals
+
+<img class="img-right" align="right" width="30%" src={require('./code.png').default} ></img>
 
 ### What you need to know
 
@@ -57,6 +60,8 @@ description: ""
 - [Getting Git right - Atlassian](https://www.atlassian.com/git): Detailed guide to Git with many tutorials and tips.
 
 ## 2.4 Operating System - Linux Fundamentals
+
+<img class="img-right" align="right" width="30%" src={require('./operating-system.png').default} ></img>
 
 ### What you need to know
 
@@ -105,10 +110,12 @@ description: ""
 
 ## 2.7 Containers - Docker Fundamentals
 
+<img class="img-right" align="right" width="30%" src={require('./containers.png').default} ></img>
+
 ### What you need to know
 
 - The container revolution can be traced back to the introduction of Docker in 2013 when Docker debuted for the first time at PyCon.
-- Container adoption has been mainstream for a whole now, in fact, [containers are the new normal](https://www.cncf.io/reports/cncf-annual-survey-2022/)!
+- Container adoption has been mainstream for a whole now, in fact, [containers are the new norm](https://www.cncf.io/reports/cncf-annual-survey-2022/)!
 - That means, containerizing your application is not an option, it's a must from day one!
 - First, you need to understand why containers have been invented and what are the problems that technology solves.
 - You also need to understand the relation between containers and Kubernetes (which will be covered in the next modules).
