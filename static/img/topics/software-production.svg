@@ -5,7 +5,7 @@
    viewBox="0 0 714.73956 600"
    version="1.1"
    id="svg34"
-   sodipodi:docname="operating-system (copy).svg"
+   sodipodi:docname="software-production.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    inkscape:export-filename="software-production.png"
    inkscape:export-xdpi="80.589996"
@@ -753,15 +753,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="true"
      showgrid="false"
-     inkscape:zoom="0.3922099"
-     inkscape:cx="200.14793"
-     inkscape:cy="290.66069"
+     inkscape:zoom="0.55466856"
+     inkscape:cx="392.12607"
+     inkscape:cy="263.22026"
      inkscape:window-width="1920"
      inkscape:window-height="1053"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g19729"
+     inkscape:current-layer="g20179"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false"
@@ -828,54 +828,65 @@
        inkscape:export-xdpi="80.589996"
        inkscape:export-ydpi="80.589996">
       <rect
-         style="fill:none;stroke:#ffffff;stroke-width:25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1514-2"
-         width="325.82697"
-         height="289.00705"
-         x="194.45633"
-         y="155.49654" />
-      <rect
          style="fill:#ffffff;stroke:none;stroke-width:11.8801"
          id="rect1410"
          width="23.587599"
          height="163.01849"
          x="253.19659"
-         y="218.49084" />
+         y="218.49084"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#ffffff;stroke:none;stroke-width:18.327;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
          id="rect1514"
          width="67.08432"
          height="64.084053"
          x="231.44826"
-         y="240.67203" />
+         y="240.67203"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#559e11;fill-opacity:1;stroke:none;stroke-width:6.92824;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4322"
          width="26.984869"
          height="22.76749"
          x="251.49799"
-         y="261.33032" />
+         y="261.33032"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#ffffff;stroke:none;stroke-width:11.8801"
          id="rect1410-3"
          width="23.587599"
          height="163.01849"
          x="345.57599"
-         y="218.49084" />
+         y="218.49084"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#ffffff;stroke:none;stroke-width:18.327;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
          id="rect1514-5"
          width="67.08432"
          height="64.084053"
          x="323.82761"
-         y="267.95804" />
+         y="267.95804"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#559e11;fill-opacity:1;stroke:none;stroke-width:6.92824;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4322-6"
          width="26.984869"
          height="22.76749"
          x="343.87735"
-         y="288.61633" />
+         y="288.61633"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#ffffff;stroke:none;stroke-width:11.8801"
          id="rect4669"
@@ -883,7 +894,10 @@
          height="163.01849"
          x="437.95535"
          y="-381.50928"
-         transform="scale(1,-1)" />
+         transform="scale(1,-1)"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#ffffff;stroke:none;stroke-width:18.327;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
          id="rect4671"
@@ -891,7 +905,10 @@
          height="64.084053"
          x="416.20697"
          y="-359.32806"
-         transform="scale(1,-1)" />
+         transform="scale(1,-1)"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
       <rect
          style="fill:#559e11;fill-opacity:1;stroke:none;stroke-width:6.92824;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4673"
@@ -899,7 +916,17 @@
          height="22.76749"
          x="436.25671"
          y="-338.66977"
-         transform="scale(1,-1)" />
+         transform="scale(1,-1)"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
+      <path
+         id="rect988"
+         style="fill:none;stroke:#ffffff;stroke-width:24.1763"
+         d="M 194.76573,164.6041 H 519.97382 V 435.39599 H 194.76573 Z m -10.52014,-8.75983 H 530.49396 V 444.15582 H 184.24559 Z"
+         inkscape:export-filename="software-production.png"
+         inkscape:export-xdpi="80.589996"
+         inkscape:export-ydpi="80.589996" />
     </g>
   </g>
 </svg>

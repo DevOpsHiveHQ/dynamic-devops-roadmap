@@ -126,6 +126,10 @@ const config: Config = {
           title: 'Roadmap',
           items: [
             {
+              label: 'GitHub',
+              to: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
+            },
+            {
               label: 'FAQ',
               to: '/faq',
             },
@@ -136,10 +140,6 @@ const config: Config = {
             {
               label: 'Content',
               to: '/category/content',
-            },
-            {
-              label: 'Projects',
-              to: '/category/projects',
             },
           ],
         },
