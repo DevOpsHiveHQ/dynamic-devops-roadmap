@@ -322,13 +322,17 @@ Roadmap Module: [Optimize - Keep Improving](../../content/module-06)
 
 This phase a free-style user-defined enhancements which means the enhancements could be related to any part of the project.
 
-Here are some suggestions:
+Here are some highly recommended suggestions:
 
 - Deploy the application in Declarative GitOps style using [Argo CD](https://argo-cd.readthedocs.io/en/stable/getting_started/).
 - Prepare for production by setup DNS ([ExternalDNS](https://kubernetes-sigs.github.io/external-dns/)) and Certificates ([Cert-Manager](https://cert-manager.io/)).
+- Automate dependency updates with [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide).
+- Move all external services (Like Grafana.com and Terraform Cloud) to Kubernetes cluster using open-source solutions.
+
+Here are some extra suggestions:
+
 - Build Multi-environment Kubernetes clusters (Dev, Stage, and Prod) with Terraform and Kustomize.
 - Use [TestKube](https://testkube.io/) for better testing execution.
-- Automate dependency updates with [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide).
 - Develop a Kubernetes Operator to handle the app operations (Hint: [Introduction to Kubernetes Operators](https://tech.aabouzaid.com/2020/03/introduction-to-kubernetes-operators-presentation.html)).
 
 ---
