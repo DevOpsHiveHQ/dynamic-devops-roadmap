@@ -13,7 +13,7 @@ image: ./devops-core-preview.png
 
 ## 2.1 Code - Python Fundamentals
 
-<img class="img-right" align="right" width="30%" src={require('./code.png').default} ></img>
+<img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
 ### What you need to know {#21-what-you-need-to-know}
 
@@ -61,7 +61,7 @@ image: ./devops-core-preview.png
 
 ## 2.4 Operating System - Linux Fundamentals
 
-<img class="img-right" align="right" width="30%" src={require('./operating-system.png').default} ></img>
+<img class="img-right" align="right" width="25%" src="/img/topics/operating-system.png"></img>
 
 ### What you need to know {#24-what-you-need-to-know}
 
@@ -110,7 +110,7 @@ image: ./devops-core-preview.png
 
 ## 2.7 Containers - Docker Fundamentals
 
-<img class="img-right" align="right" width="30%" src={require('./containers.png').default} ></img>
+<img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
 ### What you need to know {#27-what-you-need-to-know}
 

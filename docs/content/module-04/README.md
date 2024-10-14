@@ -12,6 +12,8 @@ description: ""
 
 ## 4.1 Planning - Review the Goals and Requirements
 
+<img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
 ### What you need to know {#41-what-you-need-to-know}
 
 - In the previous module, you should decided which Agile methodology you will use. You should create some sort of board to use (we will use [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)).
@@ -28,6 +30,8 @@ description: ""
 - [Agile Planning: А Step-by-Step Guide with Examples - Businessmap](https://businessmap.io/agile/project-management/planning)
 
 ## 4.2 Code - Twelve-Factor App Methodology
+
+<img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
 ### What you need to know {#42-what-you-need-to-know}
 
@@ -72,6 +76,8 @@ description: ""
 
 ## 4.4 Continuous Integration - CI Best Practices
 
+<img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
+
 ### What you need to know {#44-what-you-need-to-know}
 
 - Continuous Integration was covered in the previous module. Now it's time to learn more about its best practices.
@@ -93,6 +99,8 @@ description: ""
 - [11 CI/CD Best Practices for DevOps Success - Codefresh](https://codefresh.io/learn/ci-cd/11-ci-cd-best-practices-for-devops-success/)
 
 ## 4.5 Containers - Kubernetes Overview and Core Concepts
+
+<img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
 ### What you need to know {#45-what-you-need-to-know}
 
@@ -130,6 +138,8 @@ description: ""
 
 ## 4.6 Observability - Monitoring Application and Infrastructure
 
+<img class="img-right" align="right" width="25%" src="/img/topics/observability.png"></img>
+
 ### What you need to know {#46-what-you-need-to-know}
 
 - A wise person once said, "**You can't manage what you can't measure.**" Maybe it's not always the case, but in the DevOps world, observability plays a major role. Basically, if you don't monitor your managed resources, you will just be walking into darkness!
@@ -148,6 +158,8 @@ description: ""
 
 ## 4.7 Continuous Delivery - Introduction and Solutions in the Market
 
+<img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
+
 ### What you need to know {#47-what-you-need-to-know}
 
 - In simple words, `Continuous Delivery` is a practice where code changes are automatically prepared for release to multiple environments, especially production. This involves deploying all code changes to a testing environment and then to a production-like environment after passing automated tests, ensuring the software is always in a deployable state. 
@@ -164,6 +176,8 @@ description: ""
 - [Continuous delivery principles - Atlassian](https://www.atlassian.com/continuous-delivery/principles)
 
 ## 4.8 Infrastructure - Cloud Computing and Cloud Native Applications
+
+<img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
 ### What you need to know {#48-what-you-need-to-know}
 

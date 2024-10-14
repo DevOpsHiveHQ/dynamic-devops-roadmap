@@ -12,6 +12,8 @@ description: ""
 
 ## 5.1 Planning - Refine the Goals and Requirements
 
+<img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
 ### What you need to know {#51-what-you-need-to-know}
 
 - At this point, you should have a working [project](../../projects/hivebox). It might not be perfect but good enough as start. Now it's time to start polishing it.
@@ -27,6 +29,8 @@ description: ""
 - [5 Strategies for Product Backlog Refinement - Scrum.org](https://www.scrum.org/resources/blog/5-strategies-product-backlog-refinement)
 
 ## 5.2 Code - Working with External Systems
+
+<img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
 ### What you need to know {#52-what-you-need-to-know}
 
@@ -67,6 +71,8 @@ description: ""
 - [The Complete Guide to Integration Testing - HubSpot](https://blog.hubspot.com/marketing/integration-testing)
 
 ## 5.4 Infrastructure - Infrastructure as Code and Configuration Management
+
+<img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
 ### What you need to know {#54-what-you-need-to-know}
 
@@ -111,6 +117,8 @@ description: ""
 
 ## 5.6 Containers - Kubernetes Configuration Management
 
+<img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
+
 ### What you need to know {#56-what-you-need-to-know}
 
 - As the containers ecosystem grows, Kubernetes becomes the new platform. Hence, once you have a Kubernetes cluster up and running, you should do everything the Kubernetes way.
@@ -129,6 +137,8 @@ description: ""
 - [3 ways to customize off-the-shelf Helm charts with Kustomize - Ahmed AbouZaid](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html)
 
 ## 5.7 Observability - Log Aggregation Systems
+
+<img class="img-right" align="right" width="25%" src="/img/topics/observability.png"></img>
 
 ### What you need to know {#57-what-you-need-to-know}
 
@@ -154,6 +164,8 @@ description: ""
 - [What are unstructured, structured, and semi-structured data types? - Matillion](https://www.matillion.com/blog/what-are-unstructured-structured-and-semi-structured-data-types)
 
 ## 5.8 Continuous Delivery - CD Best Practices
+
+<img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
 
 ### What you need to know {#58-what-you-need-to-know}
 

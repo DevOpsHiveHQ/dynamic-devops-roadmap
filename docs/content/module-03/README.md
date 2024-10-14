@@ -12,6 +12,8 @@ description: ""
 
 ## 3.1 Planning - Define Goals and Requirements
 
+<img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
 ### What you need to know {#31-what-you-need-to-know}
 
 - The first step in the work is planning which starts with defining goals and requirements.
@@ -28,6 +30,8 @@ description: ""
 
 
 ## 3.2 Code - Modularity and Reusability
+
+<img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
 ### What you need to know {#32-what-you-need-to-know}
 
@@ -83,6 +87,8 @@ description: ""
 
 ## 3.5 Containers - Docker Best Practices
 
+<img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
+
 ### What you need to know {#35-what-you-need-to-know}
 
 - In the previous module, we covered Docker fundamentals. At this point, you should start applying Docker and container best practices.
@@ -103,6 +109,8 @@ description: ""
 - [Docker Best Practices Workshop - Ahmed AbouZaid](https://tech.aabouzaid.com/2021/09/docker-best-practices-workshop-presentation.html)
 
 ## 3.6 Continuous Integration - Introduction and Solutions in the Market
+
+<img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
 
 ### What you need to know {#36-what-you-need-to-know}
 

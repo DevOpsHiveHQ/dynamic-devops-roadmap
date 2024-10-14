@@ -35,6 +35,8 @@ In conclusion, adopting DevOps enhances collaboration between teams, enhances fe
 
 ## 1.2 Software Production - Software Development Life Cycle
 
+<img class="img-right" align="right" width="25%" src="/img/topics/software-production.png"></img>
+
 The Software Development Life Cycle (SDLC) is a process or set of phases that guide the development of software. It covers the whole process of making the software which includes planning, designing, development, testing, deploying, and maintaining software systems.
 
 ### What you need to know {#12-what-you-need-to-know}
@@ -85,6 +87,8 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - [DevOps, J-Curve, and change management - Ahmed AbouZaid](https://tech.aabouzaid.com/2019/05/devops-and-change-management-agile.html): A blog post show how change management is important in the DevOps world.
 
 ## 1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars
+
+<img class="img-right" align="right" width="25%" src="/img/topics/devops-methodology.png"></img>
 
 ### What you need to know {#15-what-you-need-to-know}
 
