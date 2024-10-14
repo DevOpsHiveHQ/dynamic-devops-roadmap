@@ -108,6 +108,12 @@ const config: Config = {
           type: "doc",
         },
         {
+          docId: "/category/interview",
+          label: 'Interview',
+          position: "left",
+          type: "doc",
+        },
+        {
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
           label: 'GitHub',
           position: 'right',
@@ -140,6 +146,23 @@ const config: Config = {
             {
               label: 'Content',
               to: '/category/content',
+            },
+          ],
+        },
+        {
+          title: 'Last Mile',
+          items: [
+            {
+              label: 'Next Steps',
+              to: '/content/next-steps',
+            },
+            {
+              label: 'Projects',
+              to: '/category/projects',
+            },
+            {
+              label: 'Interview',
+              to: '/category/interview',
             },
           ],
         },

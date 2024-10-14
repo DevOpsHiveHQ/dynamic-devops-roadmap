@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Link aria-label="Get started page" href="/getting-started">
-          <img alt="Dynamic DevOps Roadmap Flow" src="img/dynamic-devops-roadmap-flow-irregular-bg.png" width="60%" />
+          <img alt="Dynamic DevOps Roadmap Flow" src="img/dynamic-devops-roadmap-flow-irregular-bg.png" width="90%" />
         </Link>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
