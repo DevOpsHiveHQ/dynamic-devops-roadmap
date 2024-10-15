@@ -66,6 +66,9 @@ const config: Config = {
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         hashed: true,
+        indexBlog: false,
+        indexDocs: true,
+        docsRouteBasePath: "/",
         searchBarPosition: "right",
         language: ["en"],
         highlightSearchTermsOnTargetPage: true,
