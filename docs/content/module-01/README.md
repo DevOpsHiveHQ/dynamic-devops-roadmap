@@ -15,7 +15,7 @@ image: ./devops-methodology-pillars-preview.png
 
 <img class="img-right" align="right" width="40%" src={require('./devops-methodology-pillars.png').default} ></img>
 
-DevOps is methodology a set of `Practices`, `Tools`, `Culture`, and most importantly `Mindset` which aims to improving collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos and promotes a collaborative, automated, and sustainable culture. Which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
+DevOps methodology is a set of `Practices`, `Tools`, `Culture`, and most importantly `Mindset` which aims to improving collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos and promotes a collaborative, automated, and sustainable culture. Which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
 
 In conclusion, adopting DevOps enhances collaboration between teams, enhances feedback loops, ensures faster time to market, improves quality, increases reliability and stability, increases cost efficiency, and first and foremost, aligns the tech goals with the business objectives.
 

@@ -115,3 +115,14 @@ Roughly, the timeline is the following:
 - **Group C (Medium effort, medium risk):** 3-5 months.
 - **Group D (High effort, high risk):** 4-6 months.
 - **Group E (High effort, extra high risk):** 4-9 months.
+
+
+## Why it is not recommended to start this roadmap alone?
+
+<img class="img-right" alt="Ducklephant! Not a Duck not an Elephant!" align="right" width="30%" src={require('./ducklephant.jpg').default} />
+
+As mentioned above, this roadmap follows the `Guided Learning` model, which works best in a group, either as a mentor-mentee group or a peer group. Without that, many communication skills needed for the DevOps role will be lost!
+
+If you cannot get a **paid mentor**, try to get a **community mentor** like your tech local community or [ADPList](https://adplist.org/). If you couldn't get any mentor at all, try to start **group learning** with other peers who want to start a DevOps career because "**The whole is greater than the sum of its parts**". If you can't find anyone at all, then do it alone, but that should be the last resort.
+
+Why? Because you will probably waste a lot of time and end up with `Ducklephant`, not a Duck, not an Elephant! The final outcome will be unfunctional and doesn't fit the market.
