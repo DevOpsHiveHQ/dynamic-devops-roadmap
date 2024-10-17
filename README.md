@@ -5,9 +5,9 @@
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
 
-A **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile way! ⭐
+A **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style! ⭐
 
-- Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](https://roadmap.devopshive.net/projects/hivebox)
+- Visit [![HiveBox Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](https://roadmap.devopshive.net/projects/hivebox)
 if you are interested in the DevOps hands-on project only.
 - Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive/985) for discussions and to stay updated.
 
@@ -20,6 +20,7 @@ If you like this project, please [give it a star](#top) for better visibility. T
 ## Table of Contents
 
 - [Status](#status)
+- [Frequently Asked Questions](#frequently-asked-questions)
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
 - [The Roadmap](#the-roadmap)
@@ -33,6 +34,9 @@ Please note that this repo is still a work in progress.
 - **Roadmap Content**: 70%
 - **Hands-on Project**: 100%
 
+## Frequently Asked Questions
+
+It's highly recommended to read the [FAQ page](https://roadmap.devopshive.net/faq/) before starting with roadmap.
 
 ## The Problem
 
@@ -54,7 +58,7 @@ Simply, **you cannot start a DevOps position by merely learning the tools!** It'
 
 For that reason, almost every day, I see people struggling on their way to start as fresh/junior DevOps engineers or even progress in their early career years in general. They usually follow some `linear` roadmap like [roadmap.sh/devops](https://roadmap.sh/devops). But still, they cannot land their first job or struggle a lot when they find one! And sadly, many of them eventually give up!
 
-For more details about the problem aspects, please read: [Your DevOps learning roadmap is broken!](https://tech.aabouzaid.com/2023/06/your-devops-learning-roadmap-is-broken.html)
+For more details about the problem aspects, please read: [What is the problem this roadmap is trying to solve](https://roadmap.devopshive.net/faq/)
 
 
 ## The Solution
@@ -72,12 +76,12 @@ That means **first, understanding the problem instead of just learning a bunch o
 
 ## The Roadmap
 
-This roadmap is `polymorphic`, which means it's designed to work in different modes. It depends on how fast you want to go (roadmap, mentorship, or BootCamp).
+This roadmap is `polymorphic`, which means it's designed to work in different modes. It depends on how fast you want to go (roadmap, mentorship, or bootcamp).
 
 ---
 
 <p align="center">
-  <a href="https://roadmap.devopshive.net" imageanchor="1">
+  <a href="https://roadmap.devopshive.net/getting-started/" imageanchor="1">
     <img src="https://img.shields.io/badge/⭐_Get_Started_Now_⭐-559e11?style=for-the-badge" />
   </a>
 </p>
@@ -85,7 +89,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 ---
 
 <p align="center">
-  <a href="https://roadmap.devopshive.net" imageanchor="1">
+  <a href="https://roadmap.devopshive.net/getting-started/" imageanchor="1">
     <img alt="Dynamic DevOps Roadmap Flow" border="0" width="90%" src="static/img/dynamic-devops-roadmap-flow-regular-bg.png" />
   </a>
 </p>
@@ -102,4 +106,4 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 ## License
 
-This project is by [DevOps Hive](https://devopshive.net/) and licensed under the open-source license, [Creative Commons  Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). For more details, please review [LICENSE](LICENSE).
+Dynamic DevOps Roadmap by [DevOps Hive](https://devopshive.net/) and under the open-source license, [Creative Commons  Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). For more details, please review [LICENSE](LICENSE).

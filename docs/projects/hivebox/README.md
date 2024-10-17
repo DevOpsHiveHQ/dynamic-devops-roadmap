@@ -1,16 +1,14 @@
 ---
-title: "Project - Hive Box"
+title: "End-to-End Project - HiveBox"
 sidebar_label: "HiveBox"
 description: "An incremental industry-grad end-to-end project to learn DevOps in a hands-on way"
-keywords: ["project", "real project", "e2e"]
+keywords: ["project", "full project", "e2e", "end-to-end"]
 image: ./hivebox-architecture-preview.png
 ---
 
-# Project: Hive Box
-
 <img alt="Beekeeping" class="img-right" align="right" width="30%"  border="0" src={require('./beekeeping.png').default} />
 
-Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet).
+Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet).
 
 For that reason, in this roadmap our main hands-on project will be for the bees! We will utilize the technology and open source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
 

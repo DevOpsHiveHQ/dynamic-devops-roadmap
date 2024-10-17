@@ -52,7 +52,7 @@ A plus point in the mentorship is that you will get access to the roadmap board,
 
 ## Roadmap Index
 
-Visit [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](../projects/hivebox/)
+Visit [![HiveBox Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](../projects/hivebox/)
 if you are interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
 
 <p align="center">

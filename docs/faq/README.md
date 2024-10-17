@@ -7,12 +7,12 @@ toc_max_heading_level: 2
 image: /img/competency-normal-distribution-curve.png
 ---
 
-Here are the most common questions about this roadmap.
+Here are the most common questions about this roadmap. It's highly recommended to read this page before starting with roadmap.
 
 
 ## Is this roadmap free?
 
-Yes! This roadmap is licensed under the open-source license [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en). All extra reading resources referenced in the roadmap are publicly accessible.
+Yes! This roadmap is licensed under the open-source license [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). All extra reading resources referenced in the roadmap are publicly accessible.
 
 Yet, given that no size fits all, the extra reading resources are considered the best from the author's point of view. You can use any resources suitable for you (e.g., content in your language). You can use this roadmap with a local mentor or a senior friend.
 
@@ -87,7 +87,11 @@ Why not 100%? As the roadmap takes a pragmatic approach, the last 20% varies a l
 
 ## Who is the target audience for this roadmap?
 
-This roadmap is designed for a wide range of audiences, but each requires different efforts and risks (risk groups).
+This roadmap is designed for a wide range of audiences, but each requires different efforts and risks. The risk here is archiving the final goal, finishing the roadmap, and being a qualified DevOps Engineer.
+
+Low risk means it's more likely the learner will reach the goal, and high risk means it's less likely the learner will reach the goal (the time here is a significant factor in this formula. As the time increases, there are more chances that the learner will divert from the goal). 
+
+Audience groups:
 
 - **Group A (Low effort, no risk):** A DevOps engineer who wants to refresh their mind and ensure they are aware of essentials and best practices in the Cloud-Native area.
 - **Group B (Medium effort, low risk):** A Dev or Ops engineer who wants to make a career shift and become a DevOps engineer.
@@ -100,7 +104,7 @@ This roadmap is designed for a wide range of audiences, but each requires differ
 
 <img class="img-right" alt="Golden Triangle: Time, Effort, and Cost" align="right" width="30%" src="/img/golden-triangle.png" />
 
-It totally depends on your background, available time, and the risk group you are in, whether you are doing it alone, with a learning group, or with a mentor.
+It totally depends on your background, available time, and the audience group you are in, whether you are doing it alone, with a learning group, or with a mentor.
 
 Basically, like many things in life, the outcome follows the Golden Triangle rule; there are three factors: `Time,` `Effort,` and `Cost` ... pick two!
 
@@ -126,3 +130,9 @@ As mentioned above, this roadmap follows the `Guided Learning` model, which work
 If you cannot get a **paid mentor**, try to get a **community mentor** like your tech local community or [ADPList](https://adplist.org/). If you couldn't get any mentor at all, try to start **group learning** with other peers who want to start a DevOps career because "**The whole is greater than the sum of its parts**". If you can't find anyone at all, then do it alone, but that should be the last resort.
 
 Why? Because you will probably waste a lot of time and end up with `Ducklephant`, not a Duck, not an Elephant! The final outcome will be unfunctional and doesn't fit the market.
+
+<p align="center">
+  <div class="buttons_src-pages-index-module">
+    <a class="button button--secondary button--lg" href="/getting-started">⚡ Get Started Now ⚡</a>
+  </div>
+</p>

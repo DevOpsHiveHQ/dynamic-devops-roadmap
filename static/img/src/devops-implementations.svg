@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="640"
+   viewBox="0 0 1280 640"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="devops-implementations.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="devops-implementations.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs38">
+    <marker
+       style="overflow:visible"
+       id="marker19882"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-20"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="0.8021329"
+     inkscape:cx="620.22141"
+     inkscape:cy="228.14175"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="1459.3061,76.973381"
+       orientation="0,-1"
+       id="guide84966" />
+    <sodipodi:guide
+       position="1199.6568,141.77028"
+       orientation="1,0"
+       id="guide84968" />
+    <sodipodi:guide
+       position="81.078289,168.44378"
+       orientation="1,0"
+       id="guide84970" />
+    <sodipodi:guide
+       position="1430.1828,558.53963"
+       orientation="0,-1"
+       id="guide84972" />
+    <sodipodi:guide
+       position="163.08364,187.3327"
+       orientation="1,0"
+       id="guide40569" />
+    <sodipodi:guide
+       position="401.51599,237.78842"
+       orientation="1,0"
+       id="guide40571" />
+    <sodipodi:guide
+       position="639.55234,220.39019"
+       orientation="1,0"
+       id="guide40573" />
+    <sodipodi:guide
+       position="878.36864,261.09051"
+       orientation="1,0"
+       id="guide40575" />
+    <sodipodi:guide
+       position="1116.7442,247.76593"
+       orientation="1,0"
+       id="guide40577" />
+    <sodipodi:guide
+       position="384.59961,244.80364"
+       orientation="0,-1"
+       id="guide41017" />
+  </sodipodi:namedview>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:1.17404;stroke-opacity:0"
+     id="rect63916-3"
+     width="1280"
+     height="640"
+     x="-4.4726563e-05"
+     y="-3.0273436e-06"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#559e11;fill-opacity:1;stroke-width:0.646144;stroke-opacity:0"
+     id="rect64126-6"
+     width="1280"
+     height="193.85544"
+     x="0"
+     y="-3.0273436e-06"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.99572"
+     x="297.55786"
+     y="123.53573"
+     id="text7142-2-2-7"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"><tspan
+       sodipodi:role="line"
+       id="tspan7140-9-0-5"
+       x="297.55786"
+       y="123.53573"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.99572">Different DevOps Implementations</tspan></text>
+  <path
+     id="path1163-6"
+     style="fill:#64a725;stroke-width:1.37491;stroke-linecap:square;stop-color:#000000"
+     d="m 876.28081,302.5732 -12.0929,20.3056 h -224.188 -224.1879 l -12.093,-20.3056 -12.095,-20.3044 12.095,-20.3044 12.093,-20.3056 h 224.1879 224.188 l 12.0929,20.3056 12.0951,20.3044 z"
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+     x="493.39243"
+     y="293.43011"
+     id="text56388-9-1-3-3-7"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"><tspan
+       sodipodi:role="line"
+       id="tspan56386-1-8-6-6-5"
+       x="493.39243"
+       y="293.43011"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">DevOps Methodology</tspan></text>
+  <g
+     id="g28519"
+     transform="translate(-66.944784,40.344995)"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <path
+       sodipodi:type="star"
+       style="fill:#8ebf56;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path1195"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,119.78024,646.22497)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.2955"
+       x="229.26782"
+       y="438.47885"
+       id="text56388-9-1-3-3-7-3"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         id="tspan56386-1-8-6-6-5-5"
+         x="229.26782"
+         y="438.47885"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955">DevOps</tspan><tspan
+         sodipodi:role="line"
+         x="229.26782"
+         y="469.6243"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan16870">Engineer</tspan></text>
+  </g>
+  <g
+     id="g28501"
+     transform="translate(-140.39537,59.444465)"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <path
+       sodipodi:type="star"
+       style="fill:#8ebf56;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path16249"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,669.6375,627.1255)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.2955"
+       x="779.12506"
+       y="420.18338"
+       id="text25008"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         x="779.12506"
+         y="420.18338"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25006">Cloud</tspan><tspan
+         sodipodi:role="line"
+         x="779.12506"
+         y="451.32883"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25975">Engineer</tspan></text>
+  </g>
+  <g
+     id="g28565"
+     transform="translate(-161.18896,46.174185)"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <path
+       sodipodi:type="star"
+       style="fill:#8ebf56;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path16251"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,928.63448,640.39578)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.2955"
+       x="1038.1221"
+       y="433.45367"
+       id="text25014"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         x="1038.1221"
+         y="433.45367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25012">Platform</tspan><tspan
+         sodipodi:role="line"
+         x="1038.1221"
+         y="464.59912"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan27237">Engineer</tspan></text>
+  </g>
+  <g
+     id="g28565-2"
+     transform="translate(77.015985,44.595448)"
+     style="stroke:#8ebf56;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:3, 9;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <path
+       sodipodi:type="star"
+       style="fill:none;fill-opacity:1;stroke:#8ebf56;stroke-width:12.8601;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:12.8601, 38.5803;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path16251-7"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,928.63448,640.39578)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+  </g>
+  <g
+     id="g28513"
+     transform="translate(-114.88282,38.289925)"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <path
+       sodipodi:type="star"
+       style="fill:#8ebf56;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path16247"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,405.92165,648.28004)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.2955"
+       x="515.50525"
+       y="423.28519"
+       id="text25002"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         x="515.50525"
+         y="423.28519"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25000">Site</tspan><tspan
+         sodipodi:role="line"
+         x="515.50525"
+         y="454.43063"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25400">Reliability</tspan><tspan
+         sodipodi:role="line"
+         x="515.50525"
+         y="485.57605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25398">Engineer</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#8ebf56;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path25614"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,405.92165,648.28004)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.2955"
+       x="515.50525"
+       y="423.28519"
+       id="text25622"
+       inkscape:export-filename="devops-core-section2.png"
+       inkscape:export-xdpi="123.34"
+       inkscape:export-ydpi="123.34"><tspan
+         sodipodi:role="line"
+         x="515.50525"
+         y="423.28519"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25616">Site</tspan><tspan
+         sodipodi:role="line"
+         x="515.50525"
+         y="454.43063"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25618">Reliability</tspan><tspan
+         sodipodi:role="line"
+         x="515.50525"
+         y="485.57605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.2955"
+         id="tspan25620">Engineer</tspan></text>
+  </g>
+  <path
+     style="opacity:0.4;fill:none;stroke:#559e11;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:6, 3;stroke-dashoffset:0.9;stroke-opacity:1;marker-end:url(#marker19882);stop-color:#000000"
+     d="m 633.55234,334.54669 -470.4687,60.64967"
+     id="path16552-3"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="opacity:0.4;fill:none;stroke:#559e11;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:6, 3;stroke-dashoffset:0.9;stroke-opacity:1;marker-end:url(#marker19882-6);stop-color:#000000"
+     d="M 633.55234,340.54669 401.51599,395.19636"
+     id="path16552-3-6"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="opacity:0.4;fill:none;stroke:#559e11;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:6, 3;stroke-dashoffset:0.9;stroke-opacity:1;marker-end:url(#marker19882-2);stop-color:#000000"
+     d="m 639.55234,332.87726 v 62.3191"
+     id="path16552-3-1"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="opacity:0.4;fill:none;stroke:#559e11;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:6, 3;stroke-dashoffset:0.9;stroke-opacity:1;marker-end:url(#marker19882-8);stop-color:#000000"
+     d="m 645.55234,334.54669 471.19186,60.64967"
+     id="path16552-3-9"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="opacity:0.4;fill:none;stroke:#559e11;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:6, 3;stroke-dashoffset:0.9;stroke-opacity:1;marker-end:url(#marker19882-20);stop-color:#000000"
+     d="m 645.55234,340.54669 232.8163,54.64967"
+     id="path16552-3-3"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <g
+     id="g912"
+     transform="translate(77.015985,44.595448)"
+     style="stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:3, 9;stroke-dashoffset:0;stroke-opacity:1;fill:#8ebf56;fill-opacity:1;opacity:0.1"
+     inkscape:export-filename="devops-implementations.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <path
+       sodipodi:type="star"
+       style="fill:#8ebf56;fill-opacity:1;stroke:none;stroke-width:12.8601;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:12.8601, 38.5803;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="path910"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.2369412,0,0,0.22967482,928.63448,640.39578)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z" />
+  </g>
+</svg>

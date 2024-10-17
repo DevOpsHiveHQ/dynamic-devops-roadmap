@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Dynamic DevOps Roadmap',
-  tagline: 'A FREE master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile way!',
+  tagline: 'A FREE master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -187,7 +187,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `By <a href="https://devopshive.net/">DevOps Hive</a> and under the open-source license <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © ${new Date().getFullYear()}`,
+      copyright: `Dynamic DevOps Roadmap by <a href="https://devopshive.net/">DevOps Hive</a> and under the open-source license <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,

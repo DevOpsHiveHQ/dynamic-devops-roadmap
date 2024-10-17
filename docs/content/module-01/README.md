@@ -2,7 +2,7 @@
 title: "Module 1: Welcome to the DevOps World"
 sidebar_label: "1. Welcome to the DevOps World"
 description: "Overview of the DevOps methodology and its pillars"
-image: ./devops-methodology-pillars-preview.png
+image: /img/devops-methodology-pillars-preview.png
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
@@ -13,7 +13,7 @@ image: ./devops-methodology-pillars-preview.png
 
 ## 1.1 Overview - What and Why DevOps?
 
-<img class="img-right" align="right" width="40%" src={require('./devops-methodology-pillars.png').default} ></img>
+<img class="img-right" align="right" width="40%" src="/img/devops-methodology-pillars.png"></img>
 
 DevOps methodology is a set of `Practices`, `Tools`, `Culture`, and most importantly `Mindset` which aims to improving collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos and promotes a collaborative, automated, and sustainable culture. Which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
 
@@ -71,7 +71,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ### What you need to know {#14-what-you-need-to-know}
 
-<img class="img-right" align="right" width="40%" src={require('./golden-triangle-ppt.png').default} ></img>
+<img class="img-right" align="right" width="40%" src="/img/golden-triangle-ppt.png"></img>
 
 - Software production is all about "change"! When, where, and why ... or in other words it's about "Change Management".
 - Every new feature done by developers includes a risk! And it should be calculated and mitigated.
@@ -117,28 +117,34 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE
 
+<p align="center">
+  <img alt="DevOps Implementations" border="0" width="90%" src="/img/devops-implementations.png"/>
+</p>
+
 ### What you need to know {#16-what-you-need-to-know}
 
 - Maybe the title "DevOps Engineer" is not the most accurate title in the software industry, that's because it could mean many things.
-- The different [implementations and topologies](https://web.devopstopologies.com/) of DevOps led to different DevOps Engineer criteria, which vary between companies and industries.
+- The different implementations and topologies of DevOps led to different DevOps Engineer criteria, which vary between companies and industries.
 - So don't panic when you see two DevOps job descriptions not similar to each other (yet, don't mix it with the fake DevOps role which is just a sysadmin with DevOps label).
-- There are also a couple of roles related to `DevOps Engineer` but mostly share at least 90% of the skill set.
+- There are also a couple of roles related to `DevOps Engineer` but mostly share at **least 90%** of the skill set.
   - **DevOps Engineer:** Collaboration between development and operations teams to improve the software development and deployment process.
   - **Cloud Engineer:** Designing, implementing, and managing cloud infrastructure and services.
   - **Platform Engineer:** Building and maintaining platforms that support the development and deployment of applications.
   - **Site Reliability Engineer (SRE):** Ensuring the reliability, availability, and performance of software systems.
+- There are also other implementations in the market.
 - In real-world, many companies use the roles and titles exchangeably! So don't rely too much on the naming but the actual job.
-- This roadmap focuses on the typical DevOps Engineer, yet, it still shares at least 90% of the needed skills with the other roles.
+- This roadmap focuses on the typical DevOps Engineer, yet, it still shares at **least 90%** of the needed skills with the other roles.
 
 ### Resources {#16-resources}
 
+- [DevOps Topologies - DevOps Types and Anti-Types](https://web.devopstopologies.com/)
 - [The Site Reliability Workbook - How SRE Relates to DevOps - Google](https://sre.google/workbook/how-sre-relates/): A great book in general, and its first chapter covers the relation between SRE and DevOps.
 - [What is platform engineering? - Platform Engineering](https://platformengineering.org/blog/what-is-platform-engineering): This article discusses the idea of platform engineering and how it evolved from DevOps.
 
 ## 1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer
 
 <p align="center">
-  <img alt="Skill Set Shapes" border="0" width="90%" src={require('./skill-set-shapes.png').default} />
+  <img alt="Skill Set Shapes" border="0" width="90%" src="/img/skill-set-shapes.png"/>
 </p>
 
 ### What you need to know {#17-what-you-need-to-know}

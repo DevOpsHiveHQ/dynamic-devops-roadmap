@@ -2,7 +2,7 @@
 title: "Module 2: Basics - DevOps Core"
 sidebar_label: "2. Basics - DevOps Core"
 description: "Besides Code and Operating System, now Container is the new norm in DevOps"
-image: ./devops-core-preview.png
+image: /img/devops-core-preview.png
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
@@ -121,6 +121,10 @@ image: ./devops-core-preview.png
 - You also need to understand the relation between containers and Kubernetes (which will be covered in the next modules).
 - Docker is not the only tool for containers nowadays, but we will stick with it in this roadmap.
 - It's important to understand the difference between Dockerfile, Docker image, and Docker container.
+
+<p align="center">
+  <img alt="System, Containers, and Code" border="0" width="90%" src="/img/system-container-code.png"/>
+</p>
 
 ### Resources {#27-resources}
 
