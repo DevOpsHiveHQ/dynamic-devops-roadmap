@@ -1,3 +1,4 @@
+[![Dynamic DevOps Roadmap](https://img.shields.io/badge/Get_Started_Now-559e11?style=for-the-badge&logo=Vercel&logoColor=white)](https://roadmap.devopshive.net/getting-started/)
 [![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
 [![Progress](https://img.shields.io/badge/Progress-70%25-ffcb00?style=for-the-badge)](#status)
@@ -81,7 +82,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 <p align="center">
   <a href="https://roadmap.devopshive.net/getting-started/" imageanchor="1">
-    <img src="https://img.shields.io/badge/⭐_Get_Started_Now_⭐-559e11?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Get_Started_Now-559e11?style=for-the-badge&logo=Vercel&logoColor=white" />
   </a>
 </p>
 

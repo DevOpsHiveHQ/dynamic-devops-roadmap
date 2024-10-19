@@ -18,7 +18,17 @@ description: ""
 
 ### What you need to know {#61-what-you-need-to-know}
 
+- By design, Agile is meant to be iterative. Hence, it's critical to review `what went well` and `what could be enhanced`.
+- Here comes the `Retrospective` (or just `retro` for short) after each iteration (or a couple of iterations) to learn from the past and enhance the future.
+- Arguably, a "continuous improvement mindset" is the most crucial factor in successful retro. Don't panic when mistakes happen; just aim to improve your processes, workflows, tools, and communication within every iteration.
+- Another important aspect is having a blameless retro. The retro should be a safe space for everyone, and the discussion should be about systems, tools, or processes, rather than blaming individuals.
+- It's also important to be data-driven by using metrics and numbers instead of just guessing. If there are two problems that should be addressed next, then the priority should be based on factors like how many customers will benefit from it and how much time it needs to be fixed compared to its impact.
+- At the end of the retro, there should be `actionable outcomes`; without coming up with specific improvements, the whole retro is worthless!
+Finally, remember that retro is not only about bad things. It's also time to celebrate successes and shout out achievements and positive behaviors.
+
 ### Resources {#61-resources}
+
+- [Sprint Retrospective: How to Hold an Effective Meeting - Atlassian](https://www.atlassian.com/team-playbook/plays/retrospective)
 
 ## 6.2 Code - Performance Optimizations
 
