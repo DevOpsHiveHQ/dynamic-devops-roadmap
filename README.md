@@ -54,9 +54,7 @@ It's highly recommended to read the [FAQ page](https://roadmap.devopshive.net/fa
 
 The `DevOps Engineer` role remains one of the top 10 most in-demand jobs across all industries (not just the tech field!). However, starting that role is super challenging because the DevOps model has various patterns and topologies. Also, the Cloud Native landscape keeps expanding, and there is something new every day!
 
-Simply, **you cannot start a DevOps position by merely learning the tools!** It's even more complicated if that's your first job without previous software industry experience (coming from either Dev or Ops).
-
-For that reason, almost every day, I see people struggling on their way to start as fresh/junior DevOps engineers or even progress in their early career years in general. They usually follow some `linear` roadmap like [roadmap.sh/devops](https://roadmap.sh/devops). But still, they cannot land their first job or struggle a lot when they find one! And sadly, many of them eventually give up!
+Simply, **you cannot start a DevOps position by merely learning the tools!** It's even more complicated if that's your first job without previous software industry experience (coming from either Dev or Ops). Also following `linear` roadmaps like [roadmap.sh/devops](https://roadmap.sh/devops) cannot help to land your first job and probably will struggle a lot when you find one!
 
 For more details about the problem aspects, please read: [What is the problem this roadmap is trying to solve](https://roadmap.devopshive.net/faq/)
 
@@ -64,15 +62,16 @@ For more details about the problem aspects, please read: [What is the problem th
 ## The Solution
 
 <p align="center">
-  <a href="static/img/dynamic-devops-roadmap-pillars.png" imageanchor="1">
+  <a href="https://roadmap.devopshive.net/getting-started/" imageanchor="1">
     <img alt="Dynamic MVP-style roadmap Good and Bad" border="0" width="90%" src="static/img/dynamic-devops-roadmap-pillars.png" />
   </a>
 </p>
 
-Based on experience for years mentoring people in different stages (starting their first job, career shift, moving to another work style or company), using a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer has been highly successful.
+Using a `MVP-style roadmap` with hands-on projects has been highly successful.
 
-That means **first, understanding the problem instead of just learning a bunch of tools** and then **using an iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
+That means **first, understanding the problem instead of just learning a bunch of tools** and then **using an iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one!
 
+For more details, check the next section.
 
 ## The Roadmap
 

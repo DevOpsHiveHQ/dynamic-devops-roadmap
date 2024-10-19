@@ -93,7 +93,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ### What you need to know {#15-what-you-need-to-know}
 
 - DevOps is a methodology with an ultimate goal to enhance the software production.
-- Because DevOps is a methodology, it actually has many [implementations and topologies](https://web.devopstopologies.com/) so always think of DevOps like Shawarma/Döner/Gyros! It comes in many different types and shapes!
+- Because DevOps is a methodology, it actually has many implementations so always think of DevOps like Shawarma/Döner/Gyros! It comes in many different types and shapes!
 - However, there are a couple of DevOps pillars and principles.
 - **DevOps key pillars:**
   - **Practices** (SCM, IaC, CI/CD, peer review, etc.).

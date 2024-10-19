@@ -33,7 +33,11 @@ The roadmap has a [multiphase industry-grad project](../../projects/hivebox) fol
 
 ## DevOps Topology
 
-Finally, this roadmap is designed for the cloud-native post-container era, which means it will mainly focus on modern practices like Cloud, Docker, and Kubernetes. That doesn't mean everything should be complex, but just about [treating your servers like cattle, not pets](https://www.hava.io/blog/cattle-vs-pets-devops-explained). For example, using Kubernetes doesn't always mean you need to create or manage Kubernetes clusters! There are now many serverless Kubernetes solutions like AWS EKS Fargate or GCP GKE Autopilot. So this roadmap doesn't claim there is a one way of doing DevOps, because DevOps already has many [implementations and topologies](https://web.devopstopologies.com/), but as mentioned focus on modern practices and technologies.
+This roadmap is designed for the cloud-native post-container era, which means it will mainly focus on modern practices like Cloud, Docker, and Kubernetes. That doesn't mean everything should be complex, but just about [treating your servers like cattle, not pets](https://www.hava.io/blog/cattle-vs-pets-devops-explained). For example, using Kubernetes doesn't always mean you need to create or manage Kubernetes clusters! There are now many serverless Kubernetes solutions like AWS EKS Fargate or GCP GKE Autopilot. So this roadmap doesn't claim there is a one way of doing DevOps, because DevOps already has many [implementations and topologies](https://web.devopstopologies.com/), but as mentioned focus on modern practices and technologies.
+
+## Communication is the Key
+
+Unlike many other roadmaps, this roadmap doesn't focus only on the purely technical aspects of DevOps but also includes planning and management. Another critical aspect of a successful DevOps Engineer is good communication skills! That's why it's recommended that you do this roadmap in a group. Read more [why it is not recommended to start this roadmap alone?](../../faq#why-it-is-not-recommended-to-start-this-roadmap-alone) And always remember that, DevOps is about collaboration; **DevOps Engineer is not a Lone Wolf!**
 
 ---
 

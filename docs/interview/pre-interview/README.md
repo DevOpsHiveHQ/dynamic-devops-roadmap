@@ -1,6 +1,6 @@
 ---
 title: "Pre Interview"
-description: ""
+description: "What should you do before the interview?"
 sidebar_position: 2
 ---
 

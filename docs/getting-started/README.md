@@ -157,7 +157,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [Discussion - DevOps Certificates](../content/next-steps#discussion---devops-certificates)
 - [Discussion - Next Steps as a DevOps Engineer](../content/next-steps#discussion---next-steps-as-a-devops-engineer)
 
-### [Interview](../interview)
+### [Interview](/category/interview)
 
 - [Interview Questions](../interview/interview-questions)
 - [Pre Interview](../interview/pre-interview)

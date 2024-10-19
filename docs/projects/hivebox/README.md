@@ -1,5 +1,5 @@
 ---
-title: "End-to-End Project - HiveBox"
+title: "End-to-End Project: HiveBox"
 sidebar_label: "HiveBox"
 description: "An incremental industry-grad end-to-end project to learn DevOps in a hands-on way"
 keywords: ["project", "full project", "e2e", "end-to-end"]
