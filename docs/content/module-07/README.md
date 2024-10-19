@@ -20,6 +20,10 @@ description: ""
 
 ## 7.4 Review
 
+## Interview Questions - Module 7
+
+Review the interview questions related to [Module 7](../../interview/interview-questions#module-7).
+
 ---
 
 If you are done, [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)

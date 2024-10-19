@@ -198,9 +198,13 @@ description: ""
 - [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)
 
-## 4.9 Project - HiveBox Phase 4
+## Project - HiveBox Phase 4
 
 Follow the instructions in the [HiveBox project phase 4](../../projects/hivebox#phase-4).
+
+## Interview Questions - Module 4
+
+Review the interview questions related to [Module 4](../../interview/interview-questions#module-4).
 
 ---
 

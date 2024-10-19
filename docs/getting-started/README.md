@@ -75,7 +75,8 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [1.5 DevOps Methodology - DevOps and DevSecOps Core Pillars](../content/module-01#15-devops-methodology---devops-and-devsecops-core-pillars)
 - [1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE](../content/module-01#16-devops-methodology---devops-cloud-platform-engineer-and-sre)
 - [1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer](../content/module-01#17-devops-methodology---t-shaped-skills-devops-engineer)
-- [1.8 Project - HiveBox Phase 1](../content/module-01#18-project---hivebox-phase-1)
+- [Project - HiveBox Phase 1](../content/module-01#18-project---hivebox-phase-1)
+- [Interview Questions - Module 1](../content/module-01#interview-questions---module-1)
 
 ### [Module 2: Basics - DevOps Core](../content/module-02)
 
@@ -87,7 +88,8 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [2.6 Operating System - Bash Scripting Basics](../content/module-02#26-operating-system---bash-scripting-basics)
 - [2.7 Containers - Docker Fundamentals](../content/module-02#27-containers---docker-fundamentals)
 - [2.8 Containers - Docker CLI Basics](../content/module-02#28-containers---docker-cli-basics)
-- [2.9 Project - HiveBox Phase 2](../content/module-02#29-project---hivebox-phase-2)
+- [Project - HiveBox Phase 2](../content/module-02#29-project---hivebox-phase-2)
+- [Interview Questions - Module 2](../content/module-02#interview-questions---module-2)
 
 ### [Module 3: Start - Laying the Foundation](../content/module-03)
 
@@ -99,7 +101,8 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [3.6 Continuous Integration - Introduction and Solutions in the Market](../content/module-03#36-continuous-integration---introduction-and-solutions-in-the-market)
 - [3.7 Continuous Integration - GitHub Actions Essentials](../content/module-03#37-continuous-integration---github-actions-essentials)
 - [3.8 Continuous Integration - Pipelines and Quality Gates](../content/module-03#38-continuous-integration---pipelines-and-quality-gates)
-- [3.9 Project - HiveBox Phase 3](../content/module-03#39-project---hivebox-phase-3)
+- [Project - HiveBox Phase 3](../content/module-03#39-project---hivebox-phase-3)
+- [Interview Questions - Module 3](../content/module-03#interview-questions---module-3)
 
 ### [Module 4: Expand - Constructing a Shell](../content/module-04)
 
@@ -111,7 +114,8 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [4.6 Observability - Monitoring Application and Infrastructure](../content/module-04#46-observability---monitoring-application-and-infrastructure)
 - [4.7 Continuous Delivery - Introduction and Solutions in the Market](../content/module-04#47-continuous-delivery---introduction-and-solutions-in-the-market)
 - [4.8 Infrastructure - Cloud Computing and Cloud Native Applications](../content/module-04#48-infrastructure---cloud-computing-and-cloud-native-applications)
-- [4.9 Project - HiveBox Phase 4](../content/module-04#49-project---hivebox-phase-4)
+- [Project - HiveBox Phase 4](../content/module-04#49-project---hivebox-phase-4)
+- [Interview Questions - Module 4](../content/module-04#interview-questions---module-4)
 
 ### [Module 5: Transform - Finishing the Structure](../content/module-05)
 
@@ -123,7 +127,8 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [5.6 Containers - Kubernetes Configuration Management](../content/module-05#56-containers---kubernetes-configuration-management)
 - [5.7 Observability - Log Aggregation Systems](../content/module-05#57-observability---log-aggregation-systems)
 - [5.8 Continuous Delivery - CD Best Practices](../content/module-05#58-continuous-delivery---cd-best-practices)
-- [5.9 Project - HiveBox Phase 5](../content/module-05#59-project---hivebox-phase-5)
+- [Project - HiveBox Phase 5](../content/module-05#59-project---hivebox-phase-5)
+- [Interview Questions - Module 5](../content/module-05#interview-questions---module-5)
 
 ### [Module 6: Optimize - Keep Improving](../content/module-06)
 
@@ -135,7 +140,8 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - 6.6 Continuous Delivery - End-to-End Release Automation
 - 6.7 Continuous Deployment - Introduction and Solutions in the Market
 - 6.8 Continuous Deployment - GitOps and Argo CD Essentials
-- 6.9 Project - HiveBox Phase 6
+- Project - HiveBox Phase 6
+- Interview Questions - Module 6
 
 ### [Module 7: Capstone Project](../content/module-07)
 
@@ -150,3 +156,9 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [Review - Build Your Skills   Radar Chart](../content/next-steps#review---build-your-skills---radar-chart)
 - [Discussion - DevOps Certificates](../content/next-steps#discussion---devops-certificates)
 - [Discussion - Next Steps as a DevOps Engineer](../content/next-steps#discussion---next-steps-as-a-devops-engineer)
+
+### [Interview](../interview)
+
+- [Interview Questions](../interview/interview-questions)
+- [Pre Interview](../interview/pre-interview)
+- [Post Interview](../interview/post-interview)

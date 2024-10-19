@@ -159,9 +159,13 @@ description: ""
 
 - [The Importance of Pipeline Quality Gates and How to Implement Them - InfoQ](https://www.infoq.com/articles/pipeline-quality-gates/)
 
-## 3.9 Project - HiveBox Phase 3
+## Project - HiveBox Phase 3
 
 Follow the instructions in the [HiveBox project phase 3](../../projects/hivebox#phase-3).
+
+## Interview Questions - Module 3
+
+Review the interview questions related to [Module 3](../../interview/interview-questions#module-3).
 
 ---
 

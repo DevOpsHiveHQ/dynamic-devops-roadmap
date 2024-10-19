@@ -72,9 +72,13 @@ description: ""
 
 ### Resources {#68-resources}
 
-## 6.9 Project - HiveBox Phase 6
+## Project - HiveBox Phase 6
 
 Follow the instructions in the [HiveBox project phase 6](../../projects/hivebox#phase-6).
+
+## Interview Questions - Module 6
+
+Review the interview questions related to [Module 6](../../interview/interview-questions#module-6).
 
 ---
 

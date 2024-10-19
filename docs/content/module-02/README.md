@@ -145,9 +145,13 @@ image: /img/devops-core-preview.png
 - [CLI Cheat Sheet - Docker Docs](https://docs.docker.com/get-started/docker_cheatsheet.pdf): One-page cheat sheet for Docker CLI commands.
 - [21 Essential Commands Every Docker User Should Know - Linux Handbook](https://linuxhandbook.com/essential-docker-commands/): Another good list of common Docker CLI commands.
 
-## 2.9 Project - HiveBox Phase 2
+## Project - HiveBox Phase 2
 
 Follow the instructions in the [HiveBox project phase 2](../../projects/hivebox#phase-2).
+
+## Interview Questions - Module 2
+
+Review the interview questions related to [Module 2](../../interview/interview-questions#module-2).
 
 ---
 
