@@ -107,7 +107,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
   - **Focus on user needs with short feedback loops** (technical enhancements without business impact are meaningless most of the time).
 - What about `DevSecOps`? Software supply chain security has been one of the hot topics because of the continues attacks and exploits shown in the latest few years. So having a proper security practices is not a luxury anymore!
 - However, DevOps is not just about Dev and Ops, it implicitly has in-between all other parts of the software production like security, testing, QA, data (science/engineering), etc. Otherwise, it will be something like `DevSecQADataMLOps` (you actually can add anything here).
-- So in this roadmap we will tread DevOps as DevSecOps, security is embedded by default.
+- So in this roadmap we will treat DevOps as DevSecOps, security is embedded by default.
 
 ### Resources {#15-resources}
 
