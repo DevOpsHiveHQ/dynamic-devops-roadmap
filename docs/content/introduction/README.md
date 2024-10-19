@@ -6,9 +6,7 @@ description: "Intro to the Dynamic DevOps Roadmap"
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <a href="https://devopshive.net/">
-    <img alt="DevSecOps Loop" border="0" width="600" data-original-height="602" data-original-width="1046" src="https://devopshive.net/images/devsecops.png"/>
-  </a>
+  <img alt="Roadmap Introduction" border="0" width="90%" src="/img/roadmap-introduction.png" />
 </p>
 
 ## Overview
