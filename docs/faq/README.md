@@ -4,8 +4,13 @@ sidebar_label: "FAQ"
 sidebar_position: 1
 description: "The most common questions about Dynamic DevOps Roadmap"
 toc_max_heading_level: 2
-image: /img/competency-normal-distribution-curve.png
+image: /img/roadmap-faq.png
 ---
+
+<p align="center">
+  <img alt="Frequently Asked Questions " border="0" width="90%" src="/img/roadmap-faq.png" />
+</p>
+
 
 Here are the most common questions about this roadmap. It's highly recommended to read this page before starting with roadmap.
 
