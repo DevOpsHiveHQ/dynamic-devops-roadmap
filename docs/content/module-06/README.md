@@ -30,13 +30,24 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 
 - [Sprint Retrospective: How to Hold an Effective Meeting - Atlassian](https://www.atlassian.com/team-playbook/plays/retrospective)
 
-## 6.2 Code - Performance Optimizations
+## 6.2 Code - Performance Optimization
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
 ### What you need to know {#62-what-you-need-to-know}
 
+- Frankly speaking, most of the time, DevOps engineers don't need to write super-optimized code. The code should be high quality, but we mostly don't need to squeeze every bit of it, so we will not dive into "Big O Notation" here. On the other hand, inefficient code is undesirable, so you need to learn the basics of Performance Optimization.
+- First of all, avoid `premature optimization`! Optimizing code too early usually leads to unnecessary complex solutions and wastes a lot of time without a good return. At first, focus only on critical use cases, then optimize based on actual performance issues as you go.
+- If you know from the beginning that you need a high-performance solution, start with a programming language or a framework known for that. You will save a lot of effort if you select the correct tool early on. Also, follow the selected language's best practices for performance optimization.
+- A simple method for code performance optimization is `caching`. Use it whenever possible on all levels, like database caching, in-memory caching Valkey or Memcached as a caching layer, and even DNS caching, which could save you a lot of necessary calls (external caching could also be helpful, like using Content Delivery Network "CDN" to cache static content).
+- Following the same caching concept, try to minimize external API calls. The fastest request is the one that was never made! 
+- Avoid dull operations like calling a function repeatedly that could be called once outside the loop. As a rule of thumb, any code that doesn't change between iterations should be outside the loop.
+- Finally, if you need to dive deeper and optimize your code (again, if necessary), profiling tools are your best friend.
+
 ### Resources {#62-resources}
+
+- [Optimizing Performance: Tips for Speeding Up Your Applications - SkillReactor](https://www.skillreactor.io/blog/optimizing-performance-tips-for-speeding-up-your-applications/)
+- [Programming Optimization - Codecademy](https://www.codecademy.com/resources/docs/general/programming-optimization)
 
 ## 6.3 Continuous Integration - Software Supply Chain Security
 
