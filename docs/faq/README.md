@@ -106,7 +106,7 @@ Audience groups:
 
 ## What is the expected timeline to finish this roadmap?
 
-<img class="img-right" alt="Golden Triangle: Time, Effort, and Cost" align="right" width="30%" src="/img/golden-triangle.png" />
+<img class="img-right" alt="Golden Triangle: Time, Effort, and Cost" align="right" width="30%" src="/img/golden-triangle-ect.png" />
 
 It totally depends on your background, available time, and the audience group you are in, whether you are doing it alone, with a learning group, or with a mentor.
 
