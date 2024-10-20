@@ -134,7 +134,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 
 - [6.1 Planning - Agile Retrospective](../content/module-06#61-planning---agile-retrospective)
 - [6.2 Code - Performance Optimization](../content/module-06#62-code---performance-optimization)
-- 6.3 Continuous Integration - Software Supply Chain Security
+- [6.3 Continuous Integration - Software Supply Chain Security](../content/module-06#63-continuous-integration---software-supply-chain-security)
 - 6.4 Infrastructure - Multi-environment Architecture
 - 6.5 Containers - Kubernetes Operators
 - 6.6 Continuous Delivery - End-to-End Release Automation

@@ -329,6 +329,7 @@ Here are some highly recommended suggestions:
 
 Here are some extra suggestions:
 
+- Setup [Kyverno](https://kyverno.io/) for Policy as Code.
 - Build Multi-environment Kubernetes clusters (Dev, Stage, and Prod) with Terraform and Kustomize.
 - Use [TestKube](https://testkube.io/) for better testing execution.
 - Develop a Kubernetes Operator to handle the app operations (Hint: [Introduction to Kubernetes Operators](https://tech.aabouzaid.com/2020/03/introduction-to-kubernetes-operators-presentation.html)).

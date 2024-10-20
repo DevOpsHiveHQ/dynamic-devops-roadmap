@@ -55,7 +55,26 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 
 ### What you need to know {#63-what-you-need-to-know}
 
+- As mentioned at the beginning of this roadmap, security is embedded in each section and isn't treated as a separate topic. However, software supply chain security is one of the biggest threats to modern software. Hence, it's important to cover it in more detail, especially from the continuous security point of view.
+- Software Supply Chain Security refers to risks and vulnerabilities introduced through third-party software, dependencies, tools, and processes involved in developing, building, deploying, and maintaining software.
+- Implementing proper security practices in each step of the software production and SDLC reduces the risk of vulnerabilities and hacking.
+- Here are the most important practices that could be embedded in the CI pipelines:
+  - Starting from development, each [Git commit should be siggned](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) so other people can be confident that the changes come from a trusted source.
+  - Scan the code against secrets and sensitive data to ensure that nothing is mistakenly stored on the Git repository.
+  - Setup [SBOM tool](https://www.linuxfoundation.org/research/the-state-of-software-bill-of-materials-sbom-and-cybersecurity-readiness) to report all components, libraries, and dependencies used in your software.
+  - Keep code dependencies up-to-date using tools like [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide).
+  - Run `Static Application Security Testing` (SAST) against your code using tools like [SonarQube](https://www.sonarsource.com/products/sonarqube/).
+  - Scan your Dockerfile and container image using [Grype](https://github.com/anchore/grype) or [Docker Scout](https://docs.docker.com/scout/).
+  - Once you build and scan your container image, sign it with [Cosign](https://github.com/sigstore/cosign) to ensure no one can manipulate it.
+  - Before release and deploy, scan your IaC like Terraform files and Kubernetes manifests using [Terrascan](https://github.com/tenable/terrascan) (also lint K8s files using [KubeLinter](https://github.com/stackrox/kube-linter)).
+- There are many other practices and tools, but what is mentioned is considered minimal.
+In general, adopt `Shift Left Security` so you run security checks early in the development process to spot vulnerabilities as soon as possible.
+- Finally, always ensure that all team members are aware of security best practices; usually, the human factor is the weakest link in the security chain!
+
 ### Resources {#63-resources}
+
+- [What is software supply chain security? - Red Hat](https://www.redhat.com/en/topics/security/what-is-software-supply-chain-security)
+- [The Complete Guide to Software Supply Chain Security - FOSSA](https://fossa.com/learn/software-supply-chain-security)
 
 ## 6.4 Infrastructure - Multi-environment Architecture
 
