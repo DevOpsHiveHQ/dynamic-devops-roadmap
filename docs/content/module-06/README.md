@@ -82,7 +82,24 @@ In general, adopt `Shift Left Security` so you run security checks early in the 
 
 ### What you need to know {#64-what-you-need-to-know}
 
+- Unless you test in production (which is really bad), one of the common tasks as a DevOps Engineer is building a multi-environment of your solution. Typically, between 2-4 environments like development, testing, staging, and production.
+- Starting from source control, for the code, there are many styles to manage multi-environment architecture. The famous (but considered legacy now) is `Gitflow` and now [Trunk-based development](https://trunkbaseddevelopment.com/), where you have a single long-lived branch (`main`) and many short-lived feature branches. It's important to decide which branching model you will use because it will affect how you build the multi-environment architecture.
+- For infrastructure code, avoid branching and use a flat structure where all environments are represented as directories instead of branches.
+- Then, you need to think about environment isolation. Ideally, environments should be completely isolated, but they could not be for many reasons! For example, many start-ups want to go fast and lack the human resources to do it properly or even for cost savings.
+- The balance between isolation and cost is essential. Higher isolation levels mean higher costs, so you need to review all options and make a deliberate decision before going to full isolation. Otherwise, you could easily burn your budget without much return on investment.
+- **The most important tip here**: When you decide to create a multi-environment architecture, ensure that you create a common base and extend it. Don't use one environment, especially the production environment, as a base.
+- Also, once you decide to go for the multi-environment, you will definitely need to adopt Infrastructure as Code; otherwise, it will be hard to manage. That goes for Terraform and Kubernetes.
+- Always try to minimize `environment drift`, i.e., all environments should be as close as possible. The containers revelation made that much better, as you can run the same software easily, but the infrastructure is not just containers.
+- Of course, there will be differences between environments, but the most important two are staging and production. The staging environment should be a mini mirror of the production environment so you can catch any bugs earlier before your customers.
+- Multi-environment monitoring and observability are a must, not only for logs and metrics but also for costs and expenses.
+- You should create a cost alert in your cloud provider! If you don't, you will regret it sooner or later.
+Multi-environment setup is not a trivial topic, but like anything else, doing it progressively will help you get results quickly and improve over time.
+
 ### Resources {#64-resources}
+
+- [Comparing Git workflows: What you should know - Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows)
+- [How to Manage Multiple Terraform Environments Efficiently - Spacelift](https://spacelift.io/blog/terraform-environments)
+- [Multi-tenancy - Kubernetes](https://kubernetes.io/docs/concepts/security/multi-tenancy/)
 
 ## 6.5 Containers - Kubernetes Operators
 
