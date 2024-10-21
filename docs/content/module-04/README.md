@@ -105,6 +105,8 @@ description: ""
 ### What you need to know {#45-what-you-need-to-know}
 
 - Arguably, Kubernetes is one of the best tech inventions of the last ten years, having reshaped the whole tech scene. But first, we need to know what problem Kubernetes is trying to solve.
+- The [CNCF Annual Survey 2022](https://www.cncf.io/reports/cncf-annual-survey-2022/) showed a segneficat year-over-year (YOY) increase of using Kubernetes in production. And [CNCF Annual Survey 2023](https://www.cncf.io/reports/cncf-annual-survey-2023/) showed even more rapid adoption of Kubernetes.
+
 - When the Docker container was introduced in 2013, and many companies adopted the new technology, everything changed, from developing code to working in containers to deploying, monitoring, and operating the software.
 - Hence, the need for a new system emerged to deal with this new ecosystem. And that is exactly what happened. Many systems were born to solve this problem ... "How to manage the containers [in production]?" which implies "How to create and manage Cloud-native software?".
 - Many systems entered the race, and Kubernetes was the winning horse. Since then, Kubernetes (aka K8s) has been the leading container management platform.

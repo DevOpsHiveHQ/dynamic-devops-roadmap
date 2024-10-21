@@ -107,7 +107,33 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ### What you need to know {#65-what-you-need-to-know}
 
+- As mentioned in the previous modules, Kubernetes is one of the best tech inventions of the last ten years, having reshaped the whole tech scene. Before Kubernetes, infrastracture operations were ununified and had a lot of wheel reinvention.
+- Kubernetes comes with a set of built-in primitives like `Pod`, `Deployment`, `ConfigMap`, and, most importantly, `StatefulSet`. However, Kubernetes stateful support is generic, so it's hard to run stateful and complex applications like databases and distributed systems without much extra work.
+- However, one of the brilliant aspects of Kubernetes is extensibility. By design, you can introduce new logic into Kubernetes to work with specific stateful workloads; for example, you could have a new kind to handle PostgreSQL, not just the setup but also day-2 operations like backup and upgrade. That extension pattern is called `Operator.`
+- So, in the end, what are Kubernetes operators? And why do we need them?
+  > Operators are software extensions to Kubernetes that use custom resources to manage applications and their components. The operator's goal is to put domain knowledge into the software that helps to simplify the management of complex applications on Kubernetes.
+- Hence, an Operator simply is a [controller](https://kubernetes.io/docs/concepts/architecture/controller/) that watches events of [custom resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) in the Kubernetes API and takes actions based on the operator’s logic.
+<p align="center">
+  <img alt="Kubernetes Operator flow" border="0" width="90%" src={require('./6.5-kubernetes-operator-flow.png').default} />
+</p>
+
+- This logic in Kubernetes is defined by **Custom Resource Definitions** (CRDs), which extend the Kubernetes API to include new resource types that the Operator can manage. You can list CRDs in your cluster by running `kubectl get customresourcedefinitions`.
+- Not all operators are made the same! They could have different capability levels. There are five levels of Operator maturity:
+  - **Basic Install**: Handles installation.
+  - **Seamless Upgrades**: Manages app upgrades.
+  - **Full Lifecycle**: Performs automatic scaling, backups, etc.
+  - **Deep Insights**: Provides monitoring and alerts.
+  - **Auto-Pilot**: Fully automated management.
+- A good source for more operators is [OperatorHub.io](https://operatorhub.io/); it has more than 350 operators.
+- You will mostly use an existing operator. You don't need to develop one yourself. Some common operators are [Prometheus](https://github.com/prometheus-operator/prometheus-operator), [ExternalDNS](https://github.com/kubernetes-sigs/external-dns), [Cert-Manager](https://github.com/cert-manager/cert-manager).
+- Finally, you don't need to know much about Kubernetes operators' internals as a start, but you should definitely have a good understanding of that concept as they will run in your cluster.
+
 ### Resources {#65-resources}
+
+- [What is an Operator? - OperatorHub](https://operatorhub.io/what-is-an-operator)
+- [How to explain Kubernetes Operators in plain English - The Enterprisers Project](https://enterprisersproject.com/article/2019/2/kubernetes-operators-plain-english)
+- [Operator pattern - Kubernetes Docs](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)
+- [Operator Capability Levels - Operator SDK](https://sdk.operatorframework.io/docs/overview/operator-capabilities/)
 
 ## 6.6 Continuous Delivery - End-to-End Release Automation
 

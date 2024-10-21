@@ -136,7 +136,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [6.2 Code - Performance Optimization](../content/module-06#62-code---performance-optimization)
 - [6.3 Continuous Integration - Software Supply Chain Security](../content/module-06#63-continuous-integration---software-supply-chain-security)
 - [6.4 Infrastructure - Multi-environment Architecture](../content/module-06#64-infrastructure---multi-environment-architecture)
-- 6.5 Containers - Kubernetes Operators
+- [6.5 Containers - Kubernetes Operators](../content/module-06#65-containers---kubernetes-operators)
 - 6.6 Continuous Delivery - End-to-End Release Automation
 - 6.7 Continuous Deployment - Introduction and Solutions in the Market
 - 6.8 Continuous Deployment - GitOps and Argo CD Essentials
