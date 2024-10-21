@@ -40,3 +40,18 @@ html {
 .img-right {
   margin:0 0 10px 10px;
 }
+
+/* Primary button */
+
+.button--primary-right {
+  margin: 10px 10px;
+  border: unset;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.button--primary-right:hover {
+  background-color: unset;
+  border: unset;
+  font-weight: bold;
+  transform: translateX(3px);
+}
