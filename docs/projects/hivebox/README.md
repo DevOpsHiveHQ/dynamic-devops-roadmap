@@ -6,7 +6,7 @@ keywords: ["project", "full project", "e2e", "end-to-end"]
 image: ./hivebox-architecture-preview.png
 ---
 
-<img alt="Beekeeping" class="img-right" align="right" width="30%"  border="0" src={require('./beekeeping.png').default} />
+<img alt="Beekeeping" class="img-right img-round-corners" align="right" width="30%"  border="0" src={require('./beekeeping.png').default} />
 
 Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet).
 

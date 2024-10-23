@@ -41,6 +41,10 @@ html {
   margin:0 0 10px 10px;
 }
 
+.img-round-corners {
+  border-radius: 0.25rem;
+}
+
 /* Primary button */
 
 .button--primary-right {

@@ -6,7 +6,13 @@
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
 
-A **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style! ⭐
+<p align="center">
+  <a href="https://roadmap.devopshive.net/" style="display: block; padding: .5em 0; text-align: center;">
+    <img alt="Dynamic DevOps Roadmap" border="0" width="90%" src="./static/img/dynamic-devops-roadmap-with-logo.png" />
+  </a>
+</p>
+
+A **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!
 
 - Visit [![HiveBox Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](https://roadmap.devopshive.net/projects/hivebox)
 if you are interested in the DevOps hands-on project only.

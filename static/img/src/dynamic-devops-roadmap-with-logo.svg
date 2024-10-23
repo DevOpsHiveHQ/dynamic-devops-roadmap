@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1867.9799"
+   height="466.14145"
+   viewBox="0 0 1867.9798 466.14145"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="repo-cover.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="repo-cover.png"
+   inkscape:export-xdpi="52.630001"
+   inkscape:export-ydpi="52.630001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="0.28525631"
+     inkscape:cx="990.33742"
+     inkscape:cy="459.23611"
+     inkscape:window-width="1920"
+     inkscape:window-height="1173"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g43321"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="g43321"
+     transform="matrix(1.1375921,0,0,1.1375921,108.14638,101.20913)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:7.10404;stroke-linejoin:bevel;stroke-dashoffset:8.32504"
+       id="rect9942"
+       width="1642.0471"
+       height="409.76151"
+       x="-95.06604"
+       y="-88.967857" />
+    <g
+       id="g10195"
+       transform="translate(6.9477381,12.396697)">
+      <g
+         id="g827"
+         transform="translate(2.8385939e-6,-11.777028)">
+        <path
+           sodipodi:type="star"
+           style="fill:#8ebf56;fill-opacity:1;stroke:none;stroke-width:4.90412;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path1176"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="37.613907"
+           sodipodi:cy="-55.547981"
+           sodipodi:r1="16.733635"
+           sodipodi:r2="33.46727"
+           sodipodi:arg1="2.6179939"
+           sodipodi:arg2="3.6651915"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           transform="matrix(3.032931,0,0,-3.032931,-14.080391,-27.803991)"
+           d="m 23.122154,-47.181164 -14.4917519,-25.100454 28.9835049,2e-6 28.983507,2e-6 -14.491754,25.100451 -14.491756,25.100452 z" />
+        <path
+           sodipodi:type="star"
+           style="fill:#64a725;fill-opacity:1;stroke:none;stroke-width:4.90412;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path1056"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="37.613907"
+           sodipodi:cy="-55.547981"
+           sodipodi:r1="16.733635"
+           sodipodi:r2="33.46727"
+           sodipodi:arg1="2.6179939"
+           sodipodi:arg2="3.6651915"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           transform="matrix(2.2894436,0,0,-2.2894436,35.433948,25.936481)"
+           d="m 23.122154,-47.181164 -14.4917519,-25.100454 28.9835049,2e-6 28.983507,2e-6 -14.491754,25.100451 -14.491756,25.100452 z" />
+        <path
+           sodipodi:type="star"
+           style="fill:#4d8b15;fill-opacity:1;stroke:none;stroke-width:4.90412;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path1076"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="37.613907"
+           sodipodi:cy="-55.547981"
+           sodipodi:r1="16.733635"
+           sodipodi:r2="33.46727"
+           sodipodi:arg1="2.6179939"
+           sodipodi:arg2="3.6651915"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           transform="matrix(1.4592752,0,0,-1.4592752,90.721014,85.942393)"
+           d="m 23.122154,-47.181164 -14.4917519,-25.100454 28.9835049,2e-6 28.983507,2e-6 -14.491754,25.100451 -14.491756,25.100452 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:96.5189px;line-height:1.25;font-family:sans-serif;fill:#272727;fill-opacity:1;stroke:none;stroke-width:2.41297"
+         x="227.54756"
+         y="161.59511"
+         id="text1949"><tspan
+           sodipodi:role="line"
+           id="tspan1947"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#272727;fill-opacity:1;stroke-width:2.41297"
+           x="227.54756"
+           y="161.59511">Dynamic DevOps Roadmap</tspan></text>
+    </g>
+  </g>
+</svg>

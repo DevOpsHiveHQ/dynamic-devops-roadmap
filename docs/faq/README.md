@@ -29,6 +29,10 @@ The roadmap references some resources to start with, but you are free to learn a
 
 **You still could use the roadmap in a course or a bootcamp mode when it's combined with guidance from an experienced mentor.**
 
+## Is there a community for this roadmap?
+
+Yes, currently we have an active community on [Telegram](https://t.me/DevOpsHive/985).
+
 
 ## Is this roadmap for DevOps Engineers only?
 
@@ -51,7 +55,7 @@ It's simple: Why is it so hard to start a DevOps career nowadays?
   A subset of the Cloud Native landscape in December 2023 (<a target="_blank" href="/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">click for the full landscape</a>)
 </p>
 
-<img class="img-right" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
+<img class="img-right img-round-corners" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
 
 The `DevOps Engineer` role remains one of the top 10 most in-demand jobs across all industries (not just the tech field!). However, starting that role is super challenging because the DevOps model has various patterns and topologies. Also, the Cloud Native landscape keeps expanding, and there is something new every day!
 
@@ -114,7 +118,7 @@ Basically, like many things in life, the outcome follows the Golden Triangle rul
 
 - **To save time:** Focus on `effort` and `cost` (e.g., use the roadmap in an intensive bootcamp with a mentor).
 - **To save effort:** Focus on `time` and `cost` (e.g., use the roadmap in a course mode with a mentor).
-- **To save cost:**: Focus on `time` and `effort` (e.g., use the roadmap in a self-learning mode with or without a learning group).
+- **To save cost:** Focus on `time` and `effort` (e.g., use the roadmap in a self-learning mode with or without a learning group).
 
 Roughly, the timeline is the following:
 
@@ -127,7 +131,7 @@ Roughly, the timeline is the following:
 
 ## Why it is not recommended to start this roadmap alone?
 
-<img class="img-right" alt="Ducklephant! Not a Duck not an Elephant!" align="right" width="30%" src={require('./ducklephant.jpg').default} />
+<img class="img-right img-round-corners" alt="Ducklephant! Not a Duck not an Elephant!" align="right" width="30%" src={require('./ducklephant.jpg').default} />
 
 As mentioned above, this roadmap follows the `Guided Learning` model, which works best in a group, either as a mentor-mentee group or a peer group. Without that, many communication skills needed for the DevOps role will be lost!
 
