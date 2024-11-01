@@ -141,7 +141,26 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ### What you need to know {#66-what-you-need-to-know}
 
+- Before diving into Continuous Deployment, we need to have a look at Continuous Delivery end-to-end release automation, which is the process of producing products ready for deployment.
+- In fact, there are many types of release, but they could be narrowed down to two types: `Versioned release` and `Rolling release`.
+- In a versioned release, you release an artefact with a specific version, like `1.0.0`. [Semantic Versioning](https://semver.org/) is one of the most popular versioning styles, but it's not the only one. Users should deliberately upgrade to the new version if they need the latest updates. This type is common in application code, especially if you have external consumers. 
+- In rolling releases, you release an artifact with a marker like a Git hash or even a branch name, which works just as a reference or a pointer. The users will always get the latest updates at any point in time. This type is common in Infrastructure as Code, especially for internal use.
+- It's hard to say one is better than the other; each has pros and cons and recommended use cases.
+- In both styles, there are a couple of things you need to remember:
+  - Release quality is the same as the CI pipeline quality. Follow [CI best practices](../module-04/#44-continuous-integration---ci-best-practices) and add all standard quality gates.
+  - Everything should be done in version control. No magic should happen outside the Git repository.
+  - Ensure that the artifact is in at least one environment for consumers before it goes out.
+  - Learn about Rollback and Rollforward strategies to deal 
+  - Generate changelog or release notes based on the Git commits. [Conventional Commits](https://www.conventionalcommits.org/en/) is famous for applications, and [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) is common for IaC. There are many tools to automate that step regardless of the Git commit convention you use (e.g., [git-cliff](https://github.com/orhun/git-cliff)).
+  - Automate the release chores and version bumps using tools like [release-please](https://github.com/googleapis/release-please) and [release-it](https://github.com/release-it/release-it).
+  - For security, sign the artifacts using [Sigstore/Cosign](https://github.com/sigstore/cosign) using the effortless `keyless signing`.
+  - Always try to use a modern artifact format like [OCI](https://opencontainers.org/) (all artifacts are stored in a container image format), especially for IaC like Helm charts and Terraform modules. There are many tools for that, like [ORAS](https://github.com/oras-project/oras).
+
 ### Resources {#66-resources}
+
+- [Continuous integration vs. delivery vs. deployment - Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+- [Building an Efficient Release Management Process - Split](https://www.split.io/blog/building-an-efficient-release-management-process/)
+- [Helm chart keyless signing with Sigstore/Cosign - Ahmed AbouZaid](https://tech.aabouzaid.com/2023/08/helm-chart-keyless-signing-with-sigstore-cosign.html)
 
 ## 6.7 Continuous Deployment - Introduction and Solutions in the Market
 
