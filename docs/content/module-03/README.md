@@ -1,7 +1,7 @@
 ---
 title: "Module 3: Start - Laying the Foundation"
 sidebar_label: "3. Start - Laying the Foundation"
-description: ""
+description: "Define goals, prioritize requirements, dive into code modularity, and then move to testing and quality assurance. Implement unit tests, follow Docker best practices, and explore quality gates in continuous integration with GitHub Actions — finally, a hands-on with the HiveBox project"
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)

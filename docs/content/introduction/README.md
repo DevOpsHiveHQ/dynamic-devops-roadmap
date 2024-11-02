@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Intro to the Dynamic DevOps Roadmap"
+description: "An overview of our Dynamic DevOps Roadmap and how this MVP-style roadmap differs from other linear roadmaps"
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)

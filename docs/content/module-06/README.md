@@ -1,7 +1,8 @@
 ---
 title: "Module 6: Optimize - Keep Improving"
 sidebar_label: "6. Optimize - Keep Improving"
-description: ""
+description: "Conduct Agile retrospective to analyze the improvement areas, optimize code performance, and secure the software supply chain. Then, implement a multi-environment architecture with a log aggregation system for observability. Also, set up end-to-end release automation, explore continuous deployment with GitOps and Argo CD — and finally, a hands-on with the HiveBox project"
+image: /img/reconciliation-loop.png
 ---
 
 **Work in progress.**

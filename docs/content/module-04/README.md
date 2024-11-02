@@ -1,7 +1,7 @@
 ---
 title: "Module 4: Expand - Constructing a Shell"
 sidebar_label: "4. Expand - Constructing a Shell"
-description: ""
+description: "Review goals in planning, then apply the Twelve-Factor App methodology and REST API best practices. Embrace Kubernetes for container orchestration. Then explore observability, dive into continuous delivery solutions, also an overview of Cloud Computing — and finally, a hands-on with the HiveBox project"
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)

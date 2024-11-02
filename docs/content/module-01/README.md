@@ -1,7 +1,7 @@
 ---
 title: "Module 1: Welcome to the DevOps World"
 sidebar_label: "1. Welcome to the DevOps World"
-description: "Overview of the DevOps methodology and its pillars"
+description: "An introduction to the DevOps paradigm and the focus areas. Also, the relationship between DevOps, DevSecOps, and Agile in light of the Software Development Life Cycle (SDLC), in the end, is the initial phase of the HiveBox project"
 image: /img/devops-methodology-pillars-preview.png
 ---
 

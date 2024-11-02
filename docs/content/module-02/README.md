@@ -1,7 +1,7 @@
 ---
 title: "Module 2: Basics - DevOps Core"
 sidebar_label: "2. Basics - DevOps Core"
-description: "Besides Code and Operating System, now Container is the new norm in DevOps"
+description: "Learn Python fundamentals, common development tools, and Git basics. Then, gain Linux essentials, common tools, and bash scripting skills. Also, cover Docker fundamentals — finally, a hands-on with the HiveBox project"
 image: /img/devops-core-preview.png
 ---
 
