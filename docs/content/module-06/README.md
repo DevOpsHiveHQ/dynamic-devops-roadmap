@@ -183,9 +183,34 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ## 6.8 Continuous Deployment - GitOps and Argo CD Essentials
 
+<p align="center">
+  <img alt="Skill Set Shapes" border="0" width="90%" src="/img/reconciliation-loop.png"/>
+</p>
+
 ### What you need to know {#68-what-you-need-to-know}
 
+- As the popularity of CI/CD grew and became an industry standard, more dedicated Continuous Deployment solutions appeared (like Argo CD), and modern practices were introduced (like GitOps).
+- Let's start with `GitOps`:
+  - It is a modern approach to managing infrastructure and application deployments declaratively. It's an important practice in continuous deployment.
+  - It uses Git as a `Single Source of Truth`. No manual and untracked work should be done outside Git, and all changes should be tracked via Git.
+  - It mainly relies on the `Declarative Style` of Infrastructure as Code, where the configurations are described as the desired state, and some systems (like Kubernetes) take care of bringing the actual state to match that desired state. The `Imperative Style` could still be used in some cases, but it's not recommended.
+  - GitOps tools like Argo CD continuously monitor the Git repository and detect any drift, and the system attempts to reconcile the state to the desired state.
+- Switching to `Argo CD`:
+  - It's one of the tools that use the GitOps approach to applying Continuous Deployment.
+  - It's Kubernetes Native (works only on Kubernetes) and uses a pull model to apply the changes.
+  - You can use Argo CD to deploy Helm chart, Kustomize resource, or plain Kubernetes manifest (read more about [Kubernetes Configuration Management](../module-05/#56-containers---kubernetes-configuration-management)).
+  - Like most (if not all) GitOps tools, at the core, it uses a declarative style to deploy any software to Kubernetes using Argo CD [Application object](https://argo-cd.readthedocs.io/en/latest/operator-manual/app-any-namespace/).
+  - Even though it's recommended to use the declarative manifests to interact with Argo CD, it's still possible to use its UI. Of course, making any changes on the fly from there is against the GitOps approach (really avoid doing that).
+  - Argo CD has many useful [plugins](https://argo-cd.readthedocs.io/en/stable/operator-manual/config-management-plugins/), and you can even write your own from a basic shell script, advanced code, or even your deployment tool. But before writing one, ensure that it's not already there.
+
+:::tip
+Don't mix between "Argo CD" and other [Argo projects](https://argoproj.github.io/) like "Argo Workflows", "Argo Rollouts", and "Argo Events"! They are totally different projects serving different purposes.
+:::
+
 ### Resources {#68-resources}
+
+- [GitOps Continuous Deployment for cloud native applications - GitOps.tech](https://www.gitops.tech/)
+- [Argo CD Best Practices - Argo CD Docs](https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/)
 
 ## Project - HiveBox Phase 6
 
