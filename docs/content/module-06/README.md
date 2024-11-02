@@ -166,7 +166,20 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ### What you need to know {#67-what-you-need-to-know}
 
+- In simple words, `Continuous Deployment` is a practice part of the CI/CD pipeline in which the code artifact is regularly deployed to different environments automatically or semi-automatically.
+- Don't mix `Continuous Deployment` with `Continuous Delivery`; the delivery part has already been covered in previous sections/modules.
+- The main goal of the CD is to shorten deployment cycles to production and deploy confidently.
+- Frankly speaking, as the CD is the latest step in the pipeline, many companies don't have 100% automated Continuous Deployment. For many reasons, it's preferred to make at least one manual step with human approval, especially before deploying to the production environment. Aiming for a 90% automated CD pipeline is more than enough for most cases.
+- It's a common practice (not necessarily good) in the market to use CI tools for the CD, like GitHub Actions and Jenkins. However, a better approach is usually using a dedicated tool for CD.
+- There are two common CD models: the `Push Model` and the `Pull Model`. In the **push mode**, the CD system gets the code artifacts and pushes the update to the target environment (e.g., production servers or Kubernetes clusters). In the **pull mode**, the CD system works within the target environment, detects the changes in the code artifacts, and deploys the updates in that environment (this model is more common in the Kubernetes ecosystem).
+- There are many types of CD, like Rolling, Blue-Green, and Canary deployments.
+- Different CD systems like [Argo CD](https://argo-cd.readthedocs.io/en/stable/), [Flux CD](https://fluxcd.io/), and more exist.
+- It's better to use a Cloud-Native CD system, but in general, the system doesn't matter as long as you understand the CD principles and practices.
+
 ### Resources {#67-resources}
+
+- [Continuous integration vs. delivery vs. deployment - Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+- [Continuous Delivery vs Continuous Deployment: Core Differences - BrowserStack](https://www.browserstack.com/guide/continuous-delivery-vs-continuous-deployment)
 
 ## 6.8 Continuous Deployment - GitOps and Argo CD Essentials
 

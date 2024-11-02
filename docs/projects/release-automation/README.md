@@ -1,5 +1,5 @@
 ---
-title: "Use Case Project: Artifact Release Automation"
+title: "Use-Case Project: Artifact Release Automation"
 sidebar_label: "Release Automation"
 description: ""
 keywords: ["project", "mini project", "use-case"]

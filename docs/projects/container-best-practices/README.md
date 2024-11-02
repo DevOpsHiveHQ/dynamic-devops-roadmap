@@ -1,5 +1,5 @@
 ---
-title: "Use Case Project: Apply Docker Best Practices"
+title: "Use-Case Project: Apply Docker Best Practices"
 sidebar_label: "Docker Best Practices"
 description: ""
 keywords: ["project", "mini project", "use-case", "container", "docker"]

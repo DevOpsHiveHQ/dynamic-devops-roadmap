@@ -138,7 +138,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 - [6.4 Infrastructure - Multi-environment Architecture](../content/module-06#64-infrastructure---multi-environment-architecture)
 - [6.5 Containers - Kubernetes Operators](../content/module-06#65-containers---kubernetes-operators)
 - [6.6 Continuous Delivery - End-to-End Release Automation](../content/module-06#66-continuous-delivery---end-to-end-release-automation)
-- 6.7 Continuous Deployment - Introduction and Solutions in the Market
+- [6.7 Continuous Deployment - Introduction and Solutions in the Market](./content/module-06#67-continuous-deployment---introduction-and-solutions-in-the-market)
 - 6.8 Continuous Deployment - GitOps and Argo CD Essentials
 - [Project - HiveBox Phase 6](../content/module-06#project---hivebox-phase-6)
 - [Interview Questions - Module 6](../content/module-06#interview-questions---module-6)
