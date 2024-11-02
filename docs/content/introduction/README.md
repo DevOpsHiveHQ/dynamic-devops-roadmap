@@ -6,7 +6,7 @@ description: "Intro to the Dynamic DevOps Roadmap"
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Roadmap Introduction" border="0" width="90%" src="/img/roadmap-introduction.png" />
+  <img alt="Roadmap Introduction" border="0" src="/img/roadmap-introduction.png" />
 </p>
 
 ## Overview

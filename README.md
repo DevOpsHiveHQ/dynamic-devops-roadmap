@@ -31,6 +31,7 @@ If you like this project, please [give it a star](#top) for better visibility. T
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
 - [The Roadmap](#the-roadmap)
+- [Star History](#star-history)
 - [License](#license)
 
 

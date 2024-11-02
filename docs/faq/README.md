@@ -8,7 +8,7 @@ image: /img/roadmap-faq.png
 ---
 
 <p align="center">
-  <img alt="Frequently Asked Questions " border="0" width="90%" src="/img/roadmap-faq.png" />
+  <img alt="Frequently Asked Questions " border="0" src="/img/roadmap-faq.png" />
 </p>
 
 Here are the most common questions about this roadmap. It's highly recommended to read this page before starting with roadmap.

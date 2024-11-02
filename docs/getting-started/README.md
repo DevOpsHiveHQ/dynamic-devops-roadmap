@@ -6,7 +6,7 @@ image: /img/dynamic-devops-roadmap-flow-regular-bg.png
 ---
 
 <p align="center">
-  <img alt="Dynamic DevOps Roadmap Pillars " border="0" width="90%" src="/img/dynamic-devops-roadmap-pillars.png" />
+  <img alt="Dynamic DevOps Roadmap Pillars " border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
 </p>
 
 First of all, ensure to read the [frequently asked questions page](../faq/) (**really, do it!**).
@@ -56,7 +56,7 @@ Visit [![HiveBox Project](https://img.shields.io/badge/HiveBox_Project-f39200?st
 if you are interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
 
 <p align="center">
-  <img alt="Dynamic DevOps Roadmap Flow" border="0" width="90%" src="/img/dynamic-devops-roadmap-flow-regular-bg.png" />
+  <img alt="Dynamic DevOps Roadmap Flow" border="0" src="/img/dynamic-devops-roadmap-flow-regular-bg.png" />
 </p>
 
 ### [Introduction](../content/introduction)
