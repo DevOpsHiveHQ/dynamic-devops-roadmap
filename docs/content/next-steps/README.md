@@ -42,7 +42,17 @@ It's time to face the real world and prepare for the next steps. We will cover s
    - Check your LinkedIn account at least once a week or so.
    - Keep it professional; at the end of the day, LinkedIn is not Facebook! (there are always exceptions, but that's still the rule of thumb).
 
-## Your Skills Radar Chart
+## Your Skills Chart
+
+- At this point, you should know your strengths and weaknesses. Reflect on your current skills to find what you are good at and what you could be better at.
+- This will help you to visualize your competencies, identify gaps, and track growth over time.
+- It's recommended to use a `Radar Chart` (Spider Chart) with 5 levels and map the current and target level based on your goals (e.g., targeting a new market or job).
+- The chart alone is not enough; always combine it with a one-page document that adds some context about your skills.
+- Use the chart as a high-level for your next steps and career development.
+- Update your skill chart at least once every year or, even better, every 6 months.
+- You can do this yourself, but it's highly recommended that you do it with someone close to you. 
+- Ask for feedback whenever possible. 
+- Always remember that ... you must be honest with yourself; otherwise, the whole process will be worthless!
 
 ## DevOps Certificates
 
