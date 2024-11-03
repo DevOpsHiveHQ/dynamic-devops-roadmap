@@ -56,7 +56,14 @@ It's time to face the real world and prepare for the next steps. We will cover s
 
 ## DevOps Certificates
 
-## Public Activities
+- There is always a big debate about certificates and doubts about whether they are helpful or not! The reality is they are as useful as you put effort into them! If you just finish them with minimal understanding, they will not help you much. But if you understand every aspect and read more about each topic, they will greatly help you.
+- A certificate is a means to an end, not an end itself! Hence, **we cover certificates or courses without being certified**. We don't judge the certificate itself but its value.
+- As a DevOps Engineer, you need 3 types of certificates or courses:
+  - **Cloud:** Get the **associate** certificate for one of the Cloud providers, which will mostly be AWS (it could be a bit different based on the targeted market, but AWS is the most popular one).
+  - **Kubernetes:** Get at least one of the Kubernetes certificates like CKA and CKAD because, as mentioned before ... Kubernetes is the new Linux now!
+  - **Soft Skills**: Work is not just about tech skills! Ensure that you learn about soft skills as early as possible in your career. It's not necessary to get a paid certificate at this point, but at least finish one of the courses in that area.
+- Other certificates will not harm you, but as mentioned before, the most important point here is that you really understand the topic and read more about each area. Don't treat them as collecting stickers.
+- It is also worth mentioning that this section is for most DevOps engineers. If you work for a consulting company, you will probably need to tackle this area a bit differently.
 
 ## Interview Preparation
 

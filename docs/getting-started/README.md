@@ -154,8 +154,7 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 
 - [Your CV/Resume, Cover Letter, and LinkedIn Profile](../content/next-steps#your-cvresume-cover-letter-and-linkedin-profile)
 - [Your Skills Chart](../content/next-steps#your-skills-chart)
-- DevOps Certificates
-- Public Activities
+- [DevOps Certificates](../content/next-steps#devops-certificates)
 - [Interview Preparation](../content/next-steps#interview-preparation)
 - [Career Growth](../content/next-steps#career-growth)
 
