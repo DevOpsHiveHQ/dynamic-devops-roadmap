@@ -1,7 +1,7 @@
 [![Dynamic DevOps Roadmap](https://img.shields.io/badge/Get_Started_Now-559e11?style=for-the-badge&logo=Vercel&logoColor=white)](https://roadmap.devopshive.net/getting-started/)
 [![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-90%25-ffcb00?style=for-the-badge)](#status)
+[![Progress](https://img.shields.io/badge/Progress-100%25-ffcb00?style=for-the-badge)](#status)
 
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
@@ -39,7 +39,7 @@ If you like this project, please [give it a star](#top) for better visibility. T
 
 Please note that this repo is still a work in progress.
 
-- **[Roadmap Content](https://roadmap.devopshive.net/category/content)**: 90%
+- **[Roadmap Content](https://roadmap.devopshive.net/category/content)**: 100%
 - **[Hands-on Project](https://roadmap.devopshive.net/projects/hivebox/)**: 100%
 - **[Interview Questions](https://roadmap.devopshive.net/category/interview)**: 0%
 - **[Advanced Topics](https://roadmap.devopshive.net/category/growth)**: 0%
