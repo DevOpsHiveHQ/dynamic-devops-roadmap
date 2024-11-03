@@ -152,10 +152,12 @@ if you are interested in the DevOps hands-on project **only**. Continue if you w
 
 ### [Next Steps](../content/next-steps)
 
-- [Review - Write Your CV and Cover Letter](../content/next-steps#review---write-your-cv-and-cover-letter)
-- [Review - Build Your Skills   Radar Chart](../content/next-steps#review---build-your-skills---radar-chart)
-- [Discussion - DevOps Certificates](../content/next-steps#discussion---devops-certificates)
-- [Discussion - Next Steps as a DevOps Engineer](../content/next-steps#discussion---next-steps-as-a-devops-engineer)
+- [Your CV/Resume, Cover Letter, and LinkedIn Profile](../content/next-steps#your-cvresume-cover-letter-and-linkedin-profile)
+- Your Skills Radar Chart
+- DevOps Certificates
+- Career Activities
+- [Interview Preparation](../content/next-steps#interview-preparation)
+- [Career Growth](../content/next-steps#career-growth)
 
 ### [Interview](/category/interview)
 
