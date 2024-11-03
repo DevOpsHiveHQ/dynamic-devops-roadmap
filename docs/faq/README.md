@@ -97,7 +97,7 @@ Why not 100%? As the roadmap takes a pragmatic approach, the last 20% varies a l
 
 This roadmap is designed for a wide range of audiences, but each requires different efforts and risks. The risk here is archiving the final goal, finishing the roadmap, and being a qualified DevOps Engineer.
 
-Low risk means it's more likely the learner will reach the goal, and high risk means it's less likely the learner will reach the goal (the time here is a significant factor in this formula. As the time increases, there are more chances that the learner will divert from the goal). 
+Low risk means it's more likely the learner will reach the goal, and high risk means it's less likely the learner will reach the goal (the time here is a significant factor in this formula. As the time increases, there are more chances that the learner will divert from the goal).
 
 Audience groups:
 

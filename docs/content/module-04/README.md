@@ -156,7 +156,7 @@ description: "Review goals in planning, then apply the Twelve-Factor App methodo
 - [What is observability? - Grafana](https://grafana.com/docs/grafana-cloud/introduction/what-is-observability/)
 - [Logs vs Metrics vs Traces - Engineering Fundamentals Playbook](https://microsoft.github.io/code-with-engineering-playbook/observability/log-vs-metric-vs-trace/)
 - [The Three Pillars of Observability - Sematext](https://sematext.com/glossary/three-pillars-of-observability/)
-- [The Site Reliability Workbook -Chapter 4 - Monitoring](https://sre.google/workbook/monitoring/) 
+- [The Site Reliability Workbook -Chapter 4 - Monitoring](https://sre.google/workbook/monitoring/)
 
 ## 4.7 Continuous Delivery - Introduction and Solutions in the Market
 
@@ -164,7 +164,7 @@ description: "Review goals in planning, then apply the Twelve-Factor App methodo
 
 ### What you need to know {#47-what-you-need-to-know}
 
-- In simple words, `Continuous Delivery` is a practice where code changes are automatically prepared for release to multiple environments, especially production. This involves deploying all code changes to a testing environment and then to a production-like environment after passing automated tests, ensuring the software is always in a deployable state. 
+- In simple words, `Continuous Delivery` is a practice where code changes are automatically prepared for release to multiple environments, especially production. This involves deploying all code changes to a testing environment and then to a production-like environment after passing automated tests, ensuring the software is always in a deployable state.
 - Following CD practices allows teams to deliver new features and bug fixes more safely and quickly to users, reducing the risk of deployment errors.
 - It's important to know that `CD` could refer to two different things: `Continuous Delivery` and `Continuous Deployment`. They are usually used interchangeably, but in reality, they are two different stages.
 - In many cases, the same [Continuous Integration solutions](../module-03#36-continuous-integration---introduction-and-solutions-in-the-market) could be used for continuous delivery/deployment; however, there are specialized solutions that work best for CD.

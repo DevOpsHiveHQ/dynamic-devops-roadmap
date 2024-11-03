@@ -78,7 +78,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/dynamic-devops-roadmap-pillars.png',
+    image: 'img/dynamic-devops-roadmap-flow-regular-bg.png',
     navbar: {
       title: 'Dynamic DevOps Roadmap',
       logo: {

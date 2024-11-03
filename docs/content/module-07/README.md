@@ -34,7 +34,7 @@ This project should follow the same MVP approach and work in phases and always r
 - Create a high-level project roadmap.
 - Identify the tech stack that will be used in the project.
 - Define a reasonable timeline for the project.
-- Make a simple risk assessment to spot the obstacles you know or don't know about. 
+- Make a simple risk assessment to spot the obstacles you know or don't know about.
 
 ## 7.3 Implementation
 

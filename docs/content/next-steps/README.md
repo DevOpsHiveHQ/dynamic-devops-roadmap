@@ -5,7 +5,7 @@ description: "You finished the roadmap, what should you do now?"
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
-Now that you've finished the roadmap, what's next? There is good news and bad news! The good news is that finishing this roadmap should increase your chances in the market. The bad news is that the tech industry is always evolving super fast, and the DevOps domain evolves even faster! So there are no options but to keep going and always stay in shape! 
+Now that you've finished the roadmap, what's next? There is good news and bad news! The good news is that finishing this roadmap should increase your chances in the market. The bad news is that the tech industry is always evolving super fast, and the DevOps domain evolves even faster! So there are no options but to keep going and always stay in shape!
 
 It's time to face the real world and prepare for the next steps. We will cover some topics to help you step up and keep developing yourself.
 
@@ -50,8 +50,8 @@ It's time to face the real world and prepare for the next steps. We will cover s
 - The chart alone is not enough; always combine it with a one-page document that adds some context about your skills.
 - Use the chart as a high-level for your next steps and career development.
 - Update your skill chart at least once every year or, even better, every 6 months.
-- You can do this yourself, but it's highly recommended that you do it with someone close to you. 
-- Ask for feedback whenever possible. 
+- You can do this yourself, but it's highly recommended that you do it with someone close to you.
+- Ask for feedback whenever possible.
 - Always remember that ... you must be honest with yourself; otherwise, the whole process will be worthless!
 
 ## DevOps Certificates

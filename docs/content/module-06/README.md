@@ -41,7 +41,7 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 - First of all, avoid `premature optimization`! Optimizing code too early usually leads to unnecessary complex solutions and wastes a lot of time without a good return. At first, focus only on critical use cases, then optimize based on actual performance issues as you go.
 - If you know from the beginning that you need a high-performance solution, start with a programming language or a framework known for that. You will save a lot of effort if you select the correct tool early on. Also, follow the selected language's best practices for performance optimization.
 - A simple method for code performance optimization is `caching`. Use it whenever possible on all levels, like database caching, in-memory caching Valkey or Memcached as a caching layer, and even DNS caching, which could save you a lot of necessary calls (external caching could also be helpful, like using Content Delivery Network "CDN" to cache static content).
-- Following the same caching concept, try to minimize external API calls. The fastest request is the one that was never made! 
+- Following the same caching concept, try to minimize external API calls. The fastest request is the one that was never made!
 - Avoid dull operations like calling a function repeatedly that could be called once outside the loop. As a rule of thumb, any code that doesn't change between iterations should be outside the loop.
 - Finally, if you need to dive deeper and optimize your code (again, if necessary), profiling tools are your best friend.
 
@@ -144,14 +144,14 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 - Before diving into Continuous Deployment, we need to have a look at Continuous Delivery end-to-end release automation, which is the process of producing products ready for deployment.
 - In fact, there are many types of release, but they could be narrowed down to two types: `Versioned release` and `Rolling release`.
-- In a versioned release, you release an artefact with a specific version, like `1.0.0`. [Semantic Versioning](https://semver.org/) is one of the most popular versioning styles, but it's not the only one. Users should deliberately upgrade to the new version if they need the latest updates. This type is common in application code, especially if you have external consumers. 
+- In a versioned release, you release an artefact with a specific version, like `1.0.0`. [Semantic Versioning](https://semver.org/) is one of the most popular versioning styles, but it's not the only one. Users should deliberately upgrade to the new version if they need the latest updates. This type is common in application code, especially if you have external consumers.
 - In rolling releases, you release an artifact with a marker like a Git hash or even a branch name, which works just as a reference or a pointer. The users will always get the latest updates at any point in time. This type is common in Infrastructure as Code, especially for internal use.
 - It's hard to say one is better than the other; each has pros and cons and recommended use cases.
 - In both styles, there are a couple of things you need to remember:
   - Release quality is the same as the CI pipeline quality. Follow [CI best practices](../module-04/#44-continuous-integration---ci-best-practices) and add all standard quality gates.
   - Everything should be done in version control. No magic should happen outside the Git repository.
   - Ensure that the artifact is in at least one environment for consumers before it goes out.
-  - Learn about Rollback and Rollforward strategies to deal 
+  - Learn about Rollback and Rollforward strategies to deal with failed releases.
   - Generate changelog or release notes based on the Git commits. [Conventional Commits](https://www.conventionalcommits.org/en/) is famous for applications, and [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) is common for IaC. There are many tools to automate that step regardless of the Git commit convention you use (e.g., [git-cliff](https://github.com/orhun/git-cliff)).
   - Automate the release chores and version bumps using tools like [release-please](https://github.com/googleapis/release-please) and [release-it](https://github.com/release-it/release-it).
   - For security, sign the artifacts using [Sigstore/Cosign](https://github.com/sigstore/cosign) using the effortless `keyless signing`.

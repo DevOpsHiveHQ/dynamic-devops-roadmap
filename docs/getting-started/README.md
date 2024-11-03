@@ -31,7 +31,7 @@ How to process:
 
 In this mode, you already have some experience with DevOps (usually between 1-2 years of work experience). Still, you want to further your skills with a real hands-on industry-grad project to learn DevOps pragmatically. This mode is also available to everyone in this repo.
 
-The project follows the `Learning by Doing` method (aka `Problem-based Learning`), which is done in iterative phases. In this method, you learn as you go and cover the whole DevOps cycle. 
+The project follows the `Learning by Doing` method (aka `Problem-based Learning`), which is done in iterative phases. In this method, you learn as you go and cover the whole DevOps cycle.
 
 How to process:
 
