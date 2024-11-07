@@ -1,7 +1,8 @@
 [![Dynamic DevOps Roadmap](https://img.shields.io/badge/Get_Started_Now-559e11?style=for-the-badge&logo=Vercel&logoColor=white)](https://devopsroadmap.io/getting-started/)
-[![Telegram Group Join](https://img.shields.io/badge/Join-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram%20Group)](https://t.me/DevOpsHive)
-[![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
-[![Progress](https://img.shields.io/badge/Progress-100%25-ffcb00?style=for-the-badge)](#status)
+[![Newsletter](https://img.shields.io/badge/Newsletter-%23FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://devopsroadmap.substack.com/subscribe)
+[![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DevOpsHive/985)
+[![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge&color=ffcb00)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
+[![Status](https://img.shields.io/badge/Status-Ready-ffcb00?style=for-the-badge)](https://devopsroadmap.io/)
 
 <!-- omit from toc -->
 # Dynamic DevOps Roadmap
@@ -12,50 +13,44 @@
   </a>
 </p>
 
-A **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!
+[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!
 
-- Visit [![HiveBox Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](https://devopsroadmap.io/projects/hivebox)
-if you are interested in the DevOps hands-on project only.
-- Join [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DevOpsHive/985) for discussions and to stay updated.
+Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and most importantly **feasible** because it takes a different approach following 3 principles:
+
+- `Progressive`: MVP-style learning path works in phases.
+- `Non-Linear`: Faster and more solid growth in less time.
+- `T-Shaped`: Depth in expertise, breadth in knowledge.
 
 <!-- omit from toc -->
 ## Give it a Star! ⭐
 
-If you like this project, please [give it a star](#top) for better visibility. Thanks!
+If you like this project, please [give it a star](#top) on GitHub for better visibility. Thanks!
 
 <!-- omit from toc -->
 ## Table of Contents
 
-- [Status](#status)
-- [Frequently Asked Questions](#frequently-asked-questions)
+- [Before you start](#before-you-start)
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
 - [The Roadmap](#the-roadmap)
 - [Star History](#star-history)
 - [License](#license)
 
+## Before you start
 
-## Status
+Here is a pre-start checklist:
 
-Please note that this repo is still a work in progress.
-
-- **[Roadmap Content](https://devopsroadmap.io/getting-started/)**: 100%
-- **[Hands-on Project](https://devopsroadmap.io/projects/hivebox/)**: 100%
-- **[Interview Questions](https://devopsroadmap.io/category/interview)**: 0%
-- **[Advanced Topics](https://devopsroadmap.io/category/growth)**: 0%
-
-## Frequently Asked Questions
-
-It's highly recommended to read the [FAQ page](https://devopsroadmap.io/faq/) before starting with roadmap.
+- 📃 <a target="_blank" href="https://devopsroadmap.io/faq">Read the frequently asked questions page</a>, it has many valuable information (**really, do it!**).
+- ⭐ <a target="_blank" href="#top">Star the project repo</a> on GitHub for better visibility.
+- ✉️ <a target="_blank" href="https://devopsroadmap.substack.com/subscribe">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
+- 🌐 <a target="_blank" href="https://t.me/DevOpsHive/985">Join the Telegram group</a> for interactive communication.
 
 ## The Problem
 
 <p align="center">
-  <a href="static/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">
-    <img alt="Cloud Native Landscape Dec 2023" border="0" width="90%" src="static/img/cloud-native-landscape-dec-2023-cropped.png" />
-  </a>
+  <img alt="Cloud Native Landscape" border="0" width="90%" src="static/img/cloud-native-landscape-cropped.png" />
   <br/>
-  A subset of the Cloud Native landscape in December 2023 (click for the full landscape)
+  A subset of the Cloud Native landscape (<a target="_blank" href="https://landscape.cncf.io/" imageanchor="1">check the full CNCF landscape</a>)
 </p>
 
 <a href="static/img/devops-roadmap-linear.png" imageanchor="1">
@@ -77,7 +72,11 @@ For more details about the problem aspects, please read: [What is the problem th
   </a>
 </p>
 
-Using a `MVP-style roadmap` with hands-on projects has been highly successful.
+This roadmap following 3 principles:
+
+- `Progressive`: MVP-style learning path works in phases.
+- `Non-Linear`: Faster and more solid growth in less time.
+- `T-Shaped`: Depth in expertise, breadth in knowledge.
 
 That means **first, understanding the problem instead of just learning a bunch of tools** and then **using an iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one!
 
@@ -99,7 +98,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 <p align="center">
   <a href="https://devopsroadmap.io/getting-started/" imageanchor="1">
-    <img alt="Dynamic DevOps Roadmap Flow" border="0" width="90%" src="static/img/dynamic-devops-roadmap-flow-regular-bg.png" />
+    <img alt="Dynamic DevOps Roadmap Flow" border="0" width="90%" src="static/img/dynamic-devops-roadmap-flow.png" />
   </a>
 </p>
 

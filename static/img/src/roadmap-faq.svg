@@ -5,8 +5,8 @@
    viewBox="0 0 1280 640"
    version="1.1"
    id="svg34"
-   sodipodi:docname="dynamic-devops-roadmap-faq.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="roadmap-faq.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    inkscape:export-filename="roadmap-faq.png"
    inkscape:export-xdpi="130.66029"
    inkscape:export-ydpi="130.66029"
@@ -96,11 +96,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="true"
      showgrid="false"
-     inkscape:zoom="0.53749508"
-     inkscape:cx="486.51609"
-     inkscape:cy="362.79402"
+     inkscape:zoom="0.26874754"
+     inkscape:cx="413.02704"
+     inkscape:cy="515.35355"
      inkscape:window-width="1920"
-     inkscape:window-height="1173"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -111,23 +111,29 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="1198.8744,526.30293"
        orientation="1,0"
-       id="guide2364" />
+       id="guide2364"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="78.791587,387.70683"
        orientation="1,0"
-       id="guide2366" />
+       id="guide2366"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="603.47684,561.65908"
        orientation="0,-1"
-       id="guide2368" />
+       id="guide2368"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="528.52181,75.158462"
        orientation="0,-1"
-       id="guide2370" />
+       id="guide2370"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <rect
      style="opacity:1;fill:#ffffff;stroke-width:1.12226;stroke-opacity:0"
@@ -165,6 +171,20 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">Roadmap Frequently Asked Questions</tspan></text>
   <text
      xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+     x="267.15714"
+     y="910.61182"
+     id="text56388-9-1-3-3"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"><tspan
+       sodipodi:role="line"
+       id="tspan56386-1-8-6-6"
+       x="267.15714"
+       y="910.61182"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">Interview Questions and Best Practices</tspan></text>
+  <text
+     xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
      x="1566.2191"
      y="537.1803"
@@ -172,7 +192,7 @@
        sodipodi:role="line"
        id="tspan24731"
        x="1566.2191"
-       y="537.1803"></tspan></text>
+       y="537.1803" /></text>
   <path
      id="path15932-7-0"
      style="fill:none;fill-opacity:1;stroke:#559e11;stroke-width:4.42912006;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:4.42912006,13.28736019;stroke-dashoffset:2.65747204;stroke-opacity:1;stop-color:#000000"

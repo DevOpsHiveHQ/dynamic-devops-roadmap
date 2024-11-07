@@ -72,7 +72,7 @@ You can get senseBox IDs by checking the [openSenseMap](https://opensensemap.org
 
 ## Phase 1
 
-Roadmap Module: [Welcome to the DevOps World](../../content/module-01)
+Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-01.png').default}>
@@ -92,7 +92,7 @@ Roadmap Module: [Welcome to the DevOps World](../../content/module-01)
 
 ## Phase 2
 
-Roadmap Module: [Basics - DevOps Core](../../content/module-02)
+Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-02.png').default}>
@@ -129,7 +129,7 @@ Roadmap Module: [Basics - DevOps Core](../../content/module-02)
 
 ## Phase 3
 
-Roadmap Module: [Start - Laying the Foundation](../../content/module-03)
+Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-03.png').default}>
@@ -184,7 +184,7 @@ Roadmap Module: [Start - Laying the Foundation](../../content/module-03)
 
 ## Phase 4
 
-Roadmap Module: [Expand - Constructing a Shell](../../content/module-04)
+Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-04.png').default}>
@@ -243,7 +243,7 @@ Roadmap Module: [Expand - Constructing a Shell](../../content/module-04)
 
 ## Phase 5
 
-Roadmap Module: [Transform - Finishing the Structure](../../content/module-05)
+Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-05)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-05.png').default}>
@@ -311,7 +311,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../content/module-05)
 
 ## Phase 6
 
-Roadmap Module: [Optimize - Keep Improving](../../content/module-06)
+Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-06.png').default}>
@@ -339,7 +339,7 @@ Here are some extra suggestions:
 
 ## Phase 7
 
-Roadmap Module: [Capstone Project](../../content/module-07)
+Roadmap Module: [Capstone Project](../../foundations/module-07)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-07.png').default}>
@@ -347,4 +347,4 @@ Roadmap Module: [Capstone Project](../../content/module-07)
   </a>
 </p>
 
-In this phase, you will design and impelment your own project similar to HiveBox project but with an idea and a tech stack of your choice. Check the [Capstone Project](../../content/module-07) page for more details.
+In this phase, you will design and impelment your own project similar to HiveBox project but with an idea and a tech stack of your choice. Check the [Capstone Project](../../foundations/module-07) page for more details.

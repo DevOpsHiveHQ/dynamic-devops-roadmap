@@ -59,3 +59,10 @@ html {
   font-weight: bold;
   transform: translateX(3px);
 }
+
+@media screen and (max-width:996px) {
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}

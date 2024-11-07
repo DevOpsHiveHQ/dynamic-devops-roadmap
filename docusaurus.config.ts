@@ -38,8 +38,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/tree/main',
+          editUrl: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/tree/main',
         },
         blog: false,
         theme: {
@@ -78,7 +77,19 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/dynamic-devops-roadmap-flow-regular-bg.png',
+    announcementBar: {
+      id: 'announcement',
+      content: '<b>Announcement:</b> <a target="_blank" href="https://devopsroadmap.substack.com/subscribe">Subscribe now</a> to the community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.',
+      backgroundColor: '#303846',
+      textColor: '#ffffff',
+      isCloseable: false,
+    },
+    image: 'img/dynamic-devops-roadmap-flow.png',
+    docs: {
+      sidebar: {
+        autoCollapseCategories: false,
+      },
+    },
     navbar: {
       title: 'Dynamic DevOps Roadmap',
       logo: {
@@ -99,31 +110,42 @@ const config: Config = {
           type: "doc",
         },
         {
-          docId: "/category/content",
-          label: 'Content',
+          docId: "foundations/README",
+          label: 'Foundations',
           position: "left",
           type: "doc",
         },
         {
-          docId: "/category/projects",
+          docId: "projects/README",
           label: 'Projects',
           position: "left",
           type: "doc",
         },
         {
-          docId: "/category/interview",
+          docId: "interview/README",
           label: 'Interview',
           position: "left",
           type: "doc",
         },
         {
+          docId: "growth/README",
+          label: 'Growth',
+          position: "left",
+          type: "doc",
+        },
+        {
+          label: '⭐ Star on GitHub (1.2k+)',
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
-          label: '⭐ Star on GitHub',
           position: 'right',
         },
         {
-          href: 'https://t.me/DevOpsHive/985',
+          label: '✉️ Newsletter',
+          href: 'https://devopsroadmap.substack.com/subscribe',
+          position: 'right',
+        },
+        {
           label: 'Telegram',
+          href: 'https://t.me/DevOpsHive/985',
           position: 'right',
         },
       ],
@@ -135,10 +157,6 @@ const config: Config = {
           title: 'Roadmap',
           items: [
             {
-              label: 'GitHub',
-              to: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
-            },
-            {
               label: 'FAQ',
               to: '/faq',
             },
@@ -147,42 +165,42 @@ const config: Config = {
               to: '/getting-started',
             },
             {
-              label: 'Content',
-              to: '/category/content',
+              label: 'Foundations',
+              to: '/foundations',
             },
           ],
         },
         {
-          title: 'Last Mile',
+          title: 'Next Steps',
           items: [
             {
-              label: 'Next Steps',
-              to: '/content/next-steps',
+              label: 'Hands-on Projects',
+              to: '/projects',
             },
             {
-              label: 'Projects',
-              to: '/category/projects',
+              label: 'Interview Preparation',
+              to: '/interview',
             },
             {
-              label: 'Interview',
-              to: '/category/interview',
+              label: 'Career Growth',
+              to: '/growth',
             },
           ],
         },
         {
-          title: 'DevOps Hive',
+          title: 'Project Links',
           items: [
-            {
-              label: 'Website',
-              href: 'https://devopshive.net',
-            },
             {
               label: 'GitHub',
-              href: 'https://github.com/DevOpsHiveHQ',
+              href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
             },
             {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/company/devopshive',
+              label: 'Newsletter',
+              href: 'https://devopsroadmap.substack.com/subscribe',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/DevOpsHive/985',
             },
           ],
         },

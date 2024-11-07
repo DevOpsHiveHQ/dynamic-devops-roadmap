@@ -14,7 +14,7 @@ After you finish the module content and the module project, you review the inter
 
 ## Module 1
 
-Roadmap Module: [Welcome to the DevOps World](../../content/module-01)
+Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 **Work in progress**
 
@@ -22,7 +22,7 @@ Roadmap Module: [Welcome to the DevOps World](../../content/module-01)
 
 ## Module 2
 
-Roadmap Module: [Basics - DevOps Core](../../content/module-02)
+Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 **Work in progress**
 
@@ -30,7 +30,7 @@ Roadmap Module: [Basics - DevOps Core](../../content/module-02)
 
 ## Module 3
 
-Roadmap Module: [Start - Laying the Foundation](../../content/module-03)
+Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 
 **Work in progress**
 
@@ -38,7 +38,7 @@ Roadmap Module: [Start - Laying the Foundation](../../content/module-03)
 
 ## Module 4
 
-Roadmap Module: [Expand - Constructing a Shell](../../content/module-04)
+Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 
 **Work in progress**
 
@@ -46,7 +46,7 @@ Roadmap Module: [Expand - Constructing a Shell](../../content/module-04)
 
 ## Module 5
 
-Roadmap Module: [Transform - Finishing the Structure](../../content/module-05)
+Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-05)
 
 **Work in progress**
 
@@ -54,7 +54,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../content/module-05)
 
 ## Module 6
 
-Roadmap Module: [Optimize - Keep Improving](../../content/module-06)
+Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
 **Work in progress**
 
@@ -62,6 +62,6 @@ Roadmap Module: [Optimize - Keep Improving](../../content/module-06)
 
 ## Module 7
 
-Roadmap Module: [Capstone Project](../../content/module-07)
+Roadmap Module: [Capstone Project](../../foundations/module-07)
 
 **Work in progress**

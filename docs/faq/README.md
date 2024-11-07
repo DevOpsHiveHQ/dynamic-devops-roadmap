@@ -8,7 +8,7 @@ image: /img/roadmap-faq.png
 ---
 
 <p align="center">
-  <img alt="Frequently Asked Questions " border="0" src="/img/roadmap-faq.png" />
+  <img alt="Frequently Asked Questions" border="0" src="/img/roadmap-faq.png" />
 </p>
 
 Here are the most common questions about this roadmap. It's highly recommended to read this page before starting with roadmap.
@@ -18,7 +18,7 @@ Here are the most common questions about this roadmap. It's highly recommended t
 
 Yes! This roadmap is licensed under the open-source license [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). All extra reading resources referenced in the roadmap are publicly accessible.
 
-Yet, given that no size fits all, the extra reading resources are considered the best from the author's point of view. You can use any resources suitable for you (e.g., content in your language). You can use this roadmap with a local mentor or a senior friend.
+Yet, given that no size fits all, the extra reading resources are considered the best from the author's point of view. You are free to use any resources suitable for you (e.g., content in your language). You can also use this roadmap with a local mentor or a senior friend.
 
 
 ## Is this a course?
@@ -27,11 +27,11 @@ No, it's a roadmap! It guides you on a high level following a `Guided Learning` 
 
 The roadmap references some resources to start with, but you are free to learn about each topic mentioned using other external resources (such as a book, a self-paced course, or an instructor).
 
-**You still could use the roadmap in a course or a bootcamp mode when it's combined with guidance from an experienced mentor.**
+**You still could use the roadmap in a course or a bootcamp mode when it's combined with resources and guidance from an experienced mentor.**
 
 ## Is there a community for this roadmap?
 
-Yes, currently we have an active community on [Telegram](https://t.me/DevOpsHive/985).
+Yes, you can [subscribe to the community activities](https://devopsroadmap.substack.com/subscribe), which include mentorship, online meetings, workshops, career tips and tricks, and more. Also, for interactive communication there is a [Telegram group](https://t.me/DevOpsHive/985).
 
 
 ## Is this roadmap for DevOps Engineers only?
@@ -40,7 +40,6 @@ This roadmap focuses on the DevOps and DevSecOps careers and provides at least 8
 
 It's also helpful for other engineers, like **frontend, backend, QA, etc.**, to learn about DevOps methodologies and use them in their daily work tasks.
 
-
 ## What is the problem this roadmap is trying to solve?
 
 It's simple: Why is it so hard to start a DevOps career nowadays?
@@ -48,11 +47,9 @@ It's simple: Why is it so hard to start a DevOps career nowadays?
 ### The Problem
 
 <p align="center">
-  <a target="_blank" href="/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">
-    <img alt="Cloud Native Landscape Dec 2023" border="0" width="90%" src="/img/cloud-native-landscape-dec-2023-cropped.png" />
-  </a>
+  <img alt="Cloud Native Landscape" border="0" width="90%" src="/img/cloud-native-landscape-cropped.png" />
   <br/>
-  A subset of the Cloud Native landscape in December 2023 (<a target="_blank" href="/img/cloud-native-landscape-dec-2023-full.png"imageanchor="1">click for the full landscape</a>)
+  A subset of the Cloud Native landscape (<a target="_blank" href="https://landscape.cncf.io/" imageanchor="1">check the full CNCF landscape</a>)
 </p>
 
 <img class="img-right img-round-corners" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
@@ -67,7 +64,17 @@ For more details about the problem aspects, please read: [Your DevOps learning r
 
 ### The Solution
 
+<p align="center">
+  <img alt="Dynamic DevOps Roadmap Pillars" width="90%" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
+</p>
+
 Based on experience for years mentoring people in different stages (starting their first job, career shift, moving to another work style or company), using a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer has been highly successful.
+
+Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and most importantly **feasible** because it takes a different approach following 3 principles:
+
+- `Progressive`: MVP-style learning path works in phases.
+- `Non-Linear`: Faster and more solid growth in less time.
+- `T-Shaped`: Depth in expertise, breadth in knowledge.
 
 That means **first, understanding the problem instead of just learning a bunch of tools** and then **using an iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
 
