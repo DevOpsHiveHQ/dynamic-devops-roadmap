@@ -79,7 +79,7 @@ const config: Config = {
   themeConfig: {
     announcementBar: {
       id: 'announcement',
-      content: '<b>Announcement:</b> <a target="_blank" href="https://devopsroadmap.substack.com/subscribe">Subscribe now</a> to the community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.',
+      content: '<b>Announcement:</b> <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe now</a> to the community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.',
       backgroundColor: '#303846',
       textColor: '#ffffff',
       isCloseable: false,
@@ -140,7 +140,7 @@ const config: Config = {
         },
         {
           label: '✉️ Newsletter',
-          href: 'https://devopsroadmap.substack.com/subscribe',
+          href: 'https://newsletter.devopsroadmap.io/subscribe',
           position: 'right',
         },
         {
@@ -196,7 +196,7 @@ const config: Config = {
             },
             {
               label: 'Newsletter',
-              href: 'https://devopsroadmap.substack.com/subscribe',
+              href: 'https://newsletter.devopsroadmap.io/subscribe',
             },
             {
               label: 'Telegram',
