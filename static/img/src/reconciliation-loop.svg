@@ -6,8 +6,8 @@
    version="1.1"
    id="svg34"
    sodipodi:docname="reconciliation-loop.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   inkscape:export-filename="reconciliation-loop.png"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="../reconciliation-loop.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -19,15 +19,15 @@
     <marker
        style="overflow:visible"
        id="TriangleOutM"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="TriangleOutM"
        inkscape:isstock="true">
       <path
          transform="scale(0.4)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
          id="path4612" />
     </marker>
     <marker
@@ -100,6 +100,20 @@
          d="M -5,-5 V 5 H 5 V -5 Z"
          id="path19880-2" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path4612-6" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="namedview36"
@@ -110,11 +124,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="true"
      showgrid="false"
-     inkscape:zoom="0.40106645"
-     inkscape:cx="344.08263"
-     inkscape:cy="279.25547"
+     inkscape:zoom="0.56719361"
+     inkscape:cx="463.68646"
+     inkscape:cy="203.63417"
      inkscape:window-width="1920"
-     inkscape:window-height="1053"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -125,23 +139,29 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="1459.3061,76.973381"
        orientation="0,-1"
-       id="guide84966" />
+       id="guide84966"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="81.078289,168.44378"
        orientation="1,0"
-       id="guide84970" />
+       id="guide84970"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="1430.1828,558.53963"
        orientation="0,-1"
-       id="guide84972" />
+       id="guide84972"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="1199.3025,-95.538961"
        orientation="1,0"
-       id="guide58" />
+       id="guide58"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <rect
      style="fill:#ffffff;fill-opacity:1;stroke-width:1.17404;stroke-opacity:0"
@@ -222,54 +242,54 @@
     <g
        id="g9c76c2a153_3_522.2"
        transform="matrix(1.3075307,0,0,1.3075307,12.385236,-108.51055)"
-       style="fill:#add18b;fill-opacity:1">
+       style="fill:#8ebf56;fill-opacity:1">
       <path
          fill="#307bf3"
          d="m 479.1127,278.30157 v 0 c 34.64377,0.12076 66.60068,18.7467 83.86728,48.88162 17.2666,30.13489 17.22852,67.21607 -0.0999,97.31522 l -16.08417,-9.3219 v 0 c 14.02124,-24.35468 14.05585,-54.3562 0.0909,-78.7338 -13.96503,-24.37759 -39.81491,-39.43966 -67.8385,-39.52777 z"
          fill-rule="evenodd"
          id="path93"
-         style="fill:#add18b;fill-opacity:1" />
+         style="fill:#8ebf56;fill-opacity:1" />
     </g>
     <g
        id="g9c76c2a153_3_522.3"
        transform="matrix(1.3075307,0,0,1.3075307,12.385236,-108.51055)"
-       style="fill:#64a725;fill-opacity:1">
+       style="fill:#add18b;fill-opacity:1">
       <path
          fill="#0944a1"
          d="m 480.45108,278.313 v 0 c -34.32834,-0.54025 -66.39063,17.14322 -84.3327,46.51239 -17.94205,29.36917 -19.09796,66.0603 -3.04041,96.50781 l 16.10712,-8.55161 v 0 c -13.05179,-24.74636 -12.11655,-54.565 2.45984,-78.42947 14.57642,-23.86447 40.62778,-38.22821 68.52069,-37.77972 z"
          fill-rule="evenodd"
          id="path115"
-         style="fill:#64a725;fill-opacity:1" />
+         style="fill:#add18b;fill-opacity:1" />
     </g>
     <path
        fill="#0944a1"
        d="m 662.54239,266.98206 -24.2392,24.32024 v -48.64048 z"
        fill-rule="evenodd"
        id="path118"
-       style="fill:#64a725;fill-opacity:1;stroke-width:1.30753" />
+       style="fill:#add18b;fill-opacity:1;stroke-width:1.30753" />
     <g
        id="g9c76c2a153_3_522.4"
        transform="matrix(1.3075307,0,0,1.3075307,12.385236,-108.51055)"
-       style="fill:#8ebf56;fill-opacity:1">
+       style="fill:#64a725;fill-opacity:1">
       <path
          fill="#0d5ddf"
          d="m 393.55353,422.20724 v 0 c 16.56595,30.52026 48.08069,49.87601 82.70547,50.79608 34.62476,0.9201 67.11643,-16.73477 85.26932,-46.33243 l -15.57214,-9.61468 v 0 c -14.74115,24.03622 -41.12283,38.37585 -69.23288,37.63116 -28.11005,-0.74466 -53.69104,-16.46084 -67.13174,-41.24365 z"
          fill-rule="evenodd"
          id="path139"
-         style="fill:#8ebf56;fill-opacity:1" />
+         style="fill:#64a725;fill-opacity:1" />
     </g>
     <path
        fill="#307bf3"
        d="m 730.29124,455.69513 -8.69328,-28.2979 36.89681,19.57553 z"
        fill-rule="evenodd"
        id="path142"
-       style="fill:#add18b;fill-opacity:1;stroke-width:1.30753" />
+       style="fill:#8ebf56;fill-opacity:1;stroke-width:1.30753" />
     <path
        fill="#0d5ddf"
        d="m 525.8516,418.1051 32.98905,9.48945 -42.44687,23.60997 z"
        fill-rule="evenodd"
        id="path144"
-       style="fill:#8ebf56;fill-opacity:1;stroke-width:1.30753" />
+       style="fill:#64a725;fill-opacity:1;stroke-width:1.30753" />
     <path
        fill="#000000"
        fill-opacity="0"
@@ -309,15 +329,15 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.690641">Actual State</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#8ebf56;fill-opacity:1;stroke:none;stroke-width:0.690641"
-       x="587.86597"
+       style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#64a725;fill-opacity:1;stroke:none;stroke-width:0.690641"
+       x="617.86597"
        y="553.07355"
        id="text63131-3"><tspan
          sodipodi:role="line"
          id="tspan63129-6"
-         x="587.86597"
+         x="617.86597"
          y="553.07355"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#8ebf56;fill-opacity:1;stroke-width:0.690641">Analyze</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#64a725;fill-opacity:1;stroke-width:0.690641">Act</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.690641"
@@ -331,19 +351,19 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.690641">Desired State</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#64a725;fill-opacity:1;stroke:none;stroke-width:0.690641"
-       x="-30.602066"
-       y="592.68317"
+       style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#add18b;fill-opacity:1;stroke:none;stroke-width:0.690641"
+       x="-68.046951"
+       y="595.82672"
        id="text79939"
        transform="rotate(-60)"><tspan
          sodipodi:role="line"
          id="tspan79937"
-         x="-30.602066"
-         y="592.68317"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#64a725;fill-opacity:1;stroke-width:0.690641">Act</tspan></text>
+         x="-68.046951"
+         y="595.82672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#add18b;fill-opacity:1;stroke-width:0.690641">Observe</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#add18b;fill-opacity:1;stroke:none;stroke-width:0.690641"
+       style="font-style:normal;font-weight:normal;font-size:28px;line-height:1.25;font-family:sans-serif;fill:#8ebf56;fill-opacity:1;stroke:none;stroke-width:0.690641"
        x="604.21082"
        y="-514.08844"
        id="text88527"
@@ -352,7 +372,7 @@
          id="tspan88525"
          x="604.21082"
          y="-514.08844"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#add18b;fill-opacity:1;stroke-width:0.690641">Observe</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#8ebf56;fill-opacity:1;stroke-width:0.690641">Analyze</tspan></text>
     <path
        style="fill:none;stroke:#424242;stroke-width:2.03642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
        d="m 402.6145,393.69292 h 54.10948"

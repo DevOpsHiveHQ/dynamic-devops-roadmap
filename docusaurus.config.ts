@@ -134,7 +134,7 @@ const config: Config = {
           type: "doc",
         },
         {
-          label: '⭐ Star on GitHub (1.2k+)',
+          label: '⭐ Star on GitHub (1.3k+)',
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
           position: 'right',
         },
