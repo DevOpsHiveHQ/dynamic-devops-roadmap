@@ -1,5 +1,6 @@
 ---
-title: MLOps
+sidebar_label: MLOps
+title: Advanced - MLOps
 description: DevOps-like role in the machine learning domain
 sidebar_position: 7
 ---

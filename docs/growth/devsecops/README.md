@@ -1,5 +1,6 @@
 ---
-title: DevSecOps
+sidebar_label: DevSecOps
+title: Advanced - DevSecOps
 description: Advanced DevSecOps topics
 sidebar_position: 2
 ---

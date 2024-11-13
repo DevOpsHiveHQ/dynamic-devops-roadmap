@@ -1,5 +1,6 @@
 ---
-title: DataOps
+sidebar_label: DataOps
+title: Advanced - DataOps
 description: DevOps-like role in the data domain
 sidebar_position: 6
 ---
