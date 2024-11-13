@@ -11,23 +11,23 @@ description: "An overview of our Dynamic DevOps Roadmap and how this MVP-style r
 
 ## Overview
 
-Starting a DevOps engineer role is challenging because the DevOps model has various implementations and patterns. It's even more complicated (but still possible) if that's your first job without previous software industry experience. Yet, many learning roadmaps like [roadmap.sh/devops](https://roadmap.sh/devops) still follow a linear path (i.e., learn some topic to the end, then move to another, and so on), which doesn't work well with the DevOps role because a skilled DevOps engineer is a T-Shaped skilled.
+Starting a DevOps engineer role is challenging because the DevOps model has various implementations and patterns. It's even more complicated (but still possible) if that's your first job without previous software industry experience. Yet, many roadmaps like [roadmap.sh/devops](https://roadmap.sh/devops) still follow a linear path (i.e., learn some topic to the end, then move to another, and so on). This doesn't work well in the DevOps role because a DevOps engineer should have knowledge about a wide range of topics related to development and operations.
 
-Adopting a dynamic MVP learning roadmap increases your chances of entering the market and starting your first job as a DevOps engineer without previous software hands-on experience.
+Adopting a non-linear learning roadmap (i.e., learning the use case and the concept behind it before learning the tools and improving the outcome continuously) increases your chances of entering the market and starting your first job as a DevOps engineer without previous software hands-on experience (although, in some cases, it could not be recommended to start a DevOps role as your first job).
 
-Hence, this roadmap comes to fill that gap using the same Agile methodologies and a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer, which has been highly successful.
+Hence, the **Dynamic DevOps Roadmap** fills that gap using the same Agile methodologies and a following dynamic MVP style with hands-on projects designed by an experienced DevOps engineer, which has been highly successful.
 
-That means **first, understand the problem instead of just learning a bunch of tools** then **using iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one! It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
+That means **first, understand the problem instead of just learning a bunch of tools** then **using iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one (the skill types are covered in the next module). It's also essential to set the targeted market and organizations because, with different DevOps topologies, the DevOps engineer role requirements vary a lot.
 
 ## Learning Strategy
 
-This roadmap is designed as a hands-on and progressive project. It's not just about the tech aspects of DevOps but also end-to-end software production, as you will do in your daily job. For that reason, the roadmap mainly follows a modified version of the [SET model](https://morethandigital.info/en/set-model-for-business-strategy-planning-survive-expand-transform/). But instead of `survive, expand, transform` it's `basics, start, expand, transform`. So, even though the SET model is more about business, we are using the same notion to build a roadmap like the real world.
+This roadmap is designed as a hands-on and progressive project. It's not just about the tech aspects of DevOps but also end-to-end software production, as you will do in your daily job. For that reason, the roadmap mainly follows the same ideas of the [SET model](https://morethandigital.info/en/set-model-for-business-strategy-planning-survive-expand-transform/). But instead of `survive, expand, transform` it's `basics, start, expand, transform, optimize`. So, even though the SET model is more about business, we are using the same notion to build a roadmap like the real world.
 
 ## Focus Areas
 
-Technically, the roadmap focuses on the typical DevOps Engineer working for a software company, yet it still shares at least 90% of the needed skills with other roles like Cloud Engineer, Platform Engineer, and SRE.
+Technically, the roadmap focuses on the typical DevOps Engineer working for a software company, yet it still shares at least 90% of the needed skills with other roles like Cloud Engineer, Platform Engineer, and Site reliability Engineer.
 
-The roadmap has a [multiphase industry-grad project](../../projects/hivebox) that follows the `Learning by Doing` method (aka `Problem-based Learning`), which is also done in iterative phases where you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure. Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+The roadmap has a [multiphase industry-grad project](../../projects/hivebox) that follows the `Learning by Doing` method (aka `Problem-based Learning`), which is also done in iterative phases where in each module you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure. Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
 
 ## DevOps Topology
 
