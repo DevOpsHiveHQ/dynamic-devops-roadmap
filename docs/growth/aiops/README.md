@@ -1,6 +1,6 @@
 ---
 sidebar_label: AIOps
-title: Advanced - AIOps
+title: AIOps - Advanced
 description: DevOps-like role in the artificial intelligence domain
 sidebar_position: 8
 ---

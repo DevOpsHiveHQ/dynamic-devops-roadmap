@@ -1,6 +1,6 @@
 ---
 sidebar_label: SRE
-title: Advanced - Site Reliability Engineering (SRE)
+title: Site Reliability Engineering (SRE) - Advanced
 description: Advanced SRE topics
 sidebar_position: 4
 ---

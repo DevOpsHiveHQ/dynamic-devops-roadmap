@@ -1,6 +1,6 @@
 ---
 sidebar_label: Cloud
-title: Advanced - Cloud Engineering
+title: Cloud Engineering - Advanced
 description: Advanced Cloud Engineering topics
 sidebar_position: 3
 ---

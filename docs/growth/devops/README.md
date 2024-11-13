@@ -1,6 +1,6 @@
 ---
 sidebar_label: DevOps
-title: Advanced - DevOps
+title: DevOps - Advanced
 description: Advanced DevOps topics
 sidebar_position: 1
 ---

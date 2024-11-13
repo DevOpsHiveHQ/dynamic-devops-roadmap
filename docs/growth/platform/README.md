@@ -1,6 +1,6 @@
 ---
 sidebar_label: Platform
-title: Advanced - Platform Engineering
+title: Platform Engineering - Advanced
 description: Advanced Platform Engineering topics
 sidebar_position: 5
 ---
