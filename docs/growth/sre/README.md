@@ -14,3 +14,4 @@ This section will cover advanced SRE topics like SRE Transformation, Service Met
 ## Useful Resources
 
 - [Awesome SRE](https://sre.xyz/): A curated list of Site Reliability and Production Engineering resources.
+- [How they SRE](https://github.com/upgundecha/howtheysre): A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE).
