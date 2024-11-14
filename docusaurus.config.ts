@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Dynamic DevOps Roadmap',
-  tagline: 'A FREE master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!',
+  tagline: 'A FREE pragmatic plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

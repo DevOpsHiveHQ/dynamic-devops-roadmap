@@ -13,7 +13,7 @@
   </a>
 </p>
 
-[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!
+[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** pragmatic plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!
 
 Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and most importantly **feasible** because it takes a different approach following 3 principles:
 
