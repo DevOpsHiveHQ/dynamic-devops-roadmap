@@ -70,7 +70,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 Visit [HiveBox Project](../projects/hivebox/) if interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
 
-<Tabs>
+<Tabs queryString="index">
   <TabItem value="quick" label="Quick Index" default>
     <DocCardList items={QuickIndex} />
   </TabItem>
