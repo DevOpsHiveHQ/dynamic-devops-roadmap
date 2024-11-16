@@ -35,4 +35,4 @@ This roadmap is designed for the cloud-native post-container era, which means it
 
 ## Soft Skills
 
-Unlike many other roadmaps, this roadmap doesn't focus only on the purely technical aspects of DevOps but also includes planning and management. Another critical aspect of a successful DevOps Engineer is good communication skills! That's why it's recommended that you do this roadmap in a group. Read more [why it is not recommended to start this roadmap alone?](../../faq#why-it-is-not-recommended-to-start-this-roadmap-alone) And always remember that, DevOps is about collaboration; **DevOps Engineer is not a Lone Wolf!**
+Unlike many other roadmaps, this roadmap doesn't focus only on the purely technical aspects of DevOps but also includes planning and management. Another critical aspect of a successful DevOps Engineer is good communication skills! That's why it's recommended that you do this roadmap in a group. Read more [why it is not recommended to start this roadmap alone?](../../faq#why-is-it-not-recommended-to-start-this-roadmap-alone) And always remember that, DevOps is about collaboration; **DevOps Engineer is not a Lone Wolf!**
