@@ -66,6 +66,13 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 </Tabs>
 
 
+## Study Plan
+
+<details>
+  To be added.
+</details>
+
+
 ## Roadmap Index
 
 Visit [HiveBox Project](../projects/hivebox/) if interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
