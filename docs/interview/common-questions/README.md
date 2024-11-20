@@ -1,5 +1,5 @@
 ---
-title: "DevOps Interview Questions"
+title: "DevOps Common Interview Questions"
 sidebar_label: "Interview Questions"
 description: "Most common interview questions for DevOps role"
 sidebar_position: 1

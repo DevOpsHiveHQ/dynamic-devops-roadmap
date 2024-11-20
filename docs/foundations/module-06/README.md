@@ -219,4 +219,4 @@ Follow the instructions in the [HiveBox project phase 6](../../projects/hivebox#
 
 ## Interview Questions - Module 6
 
-Review the interview questions related to [Module 6](../../interview/interview-questions#module-6).
+Review the interview questions related to [Module 6](../../interview/common-questions#module-6).

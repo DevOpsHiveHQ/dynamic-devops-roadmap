@@ -192,4 +192,4 @@ Follow the instructions in the [HiveBox project phase 5](../../projects/hivebox#
 
 ## Interview Questions - Module 5
 
-Review the interview questions related to [Module 5](../../interview/interview-questions#module-5).
+Review the interview questions related to [Module 5](../../interview/common-questions#module-5).

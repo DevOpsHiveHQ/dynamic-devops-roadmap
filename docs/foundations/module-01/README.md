@@ -167,4 +167,4 @@ Follow the instructions in the [HiveBox project phase 1](../../projects/hivebox#
 
 ## Interview Questions - Module 1
 
-Review the interview questions related to [Module 1](../../interview/interview-questions#module-1).
+Review the interview questions related to [Module 1](../../interview/common-questions#module-1).

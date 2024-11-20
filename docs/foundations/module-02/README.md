@@ -153,4 +153,4 @@ Follow the instructions in the [HiveBox project phase 2](../../projects/hivebox#
 
 ## Interview Questions - Module 2
 
-Review the interview questions related to [Module 2](../../interview/interview-questions#module-2).
+Review the interview questions related to [Module 2](../../interview/common-questions#module-2).

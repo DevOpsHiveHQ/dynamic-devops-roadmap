@@ -53,4 +53,4 @@ This project should follow the same MVP approach and work in phases and always r
 
 ## Interview Questions - Module 7
 
-Review the interview questions related to [Module 7](../../interview/interview-questions#module-7).
+Review the interview questions related to [Module 7](../../interview/common-questions#module-7).

@@ -165,4 +165,4 @@ Follow the instructions in the [HiveBox project phase 3](../../projects/hivebox#
 
 ## Interview Questions - Module 3
 
-Review the interview questions related to [Module 3](../../interview/interview-questions#module-3).
+Review the interview questions related to [Module 3](../../interview/common-questions#module-3).

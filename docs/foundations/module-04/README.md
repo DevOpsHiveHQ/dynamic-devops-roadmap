@@ -206,4 +206,4 @@ Follow the instructions in the [HiveBox project phase 4](../../projects/hivebox#
 
 ## Interview Questions - Module 4
 
-Review the interview questions related to [Module 4](../../interview/interview-questions#module-4).
+Review the interview questions related to [Module 4](../../interview/common-questions#module-4).
