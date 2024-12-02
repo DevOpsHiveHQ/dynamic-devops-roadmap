@@ -66,3 +66,25 @@ html {
     flex-direction: column;
   }
 }
+
+.react-quiz-container {
+  max-width: 100% !important;
+}
+
+.selection-tag {
+  background-color: #64a725 !important;
+}
+.nextQuestionBtn  {
+  border-color:#64a725 !important;
+  color: #64a725 !important;
+  background-color: #FFF !important;
+}
+.number-of-selection {
+  color:#64a725 !important;
+  background-color: #FFF !important;
+  border: 1px solid #64a725;
+}
+.filter-dropdown-select {
+  min-height: 43px !important;
+  border-color: #64a725 !important;
+}
