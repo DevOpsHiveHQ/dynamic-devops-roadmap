@@ -72,19 +72,19 @@ html {
 }
 
 .selection-tag {
-  background-color: #64a725 !important;
+  background-color: var(--ifm-color-primary) !important;
 }
 .nextQuestionBtn  {
-  border-color:#64a725 !important;
-  color: #64a725 !important;
+  border-color:var(--ifm-color-primary)  !important;
+  color: var(--ifm-color-primary)  !important;
   background-color: #FFF !important;
 }
 .number-of-selection {
-  color:#64a725 !important;
+  color:var(--ifm-color-primary)  !important;
   background-color: #FFF !important;
-  border: 1px solid #64a725;
+  border: 1px solid var(--ifm-color-primary) ;
 }
 .filter-dropdown-select {
   min-height: 43px !important;
-  border-color: #64a725 !important;
+  border-color: var(--ifm-color-primary)  !important;
 }
