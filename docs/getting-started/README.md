@@ -10,6 +10,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DetailedIndex from './_detailed-index.mdx';
 import QuickIndex from './_quick-index.json';
+import Quiz from 'react-quiz-component';
+import quiz from '@site/static/json/testQuiz.json'
 
 <p align="center">
   <img alt="Dynamic DevOps Roadmap Flow" border="0" src="/img/dynamic-devops-roadmap-flow.png" />
@@ -85,3 +87,5 @@ Visit [HiveBox Project](../projects/hivebox/) if interested in the DevOps hands-
     <DetailedIndex />
   </TabItem>
 </Tabs>
+
+<Quiz quiz={quiz}/>

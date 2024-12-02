@@ -24,7 +24,8 @@
     "docusaurus-plugin-image-zoom": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-quiz-component": "^0.9.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",
