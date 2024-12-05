@@ -108,12 +108,8 @@ html {
   background-color: var(--ifm-color-light) !important;
 }
 
-[data-theme='dark'] {
-  .react-quiz-container .quiz-result-filter {
-    & .dropdown-options .dropdown-options-item:hover {
-      color: var(--ifm-color-light) !important;
-    }
-  }
+.dropdown-options-item:hover {
+  color: var(--ifm-color-light) !important;
 }
 
 .answerBtn.btn.correct {
