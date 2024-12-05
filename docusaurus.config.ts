@@ -134,13 +134,13 @@ const config: Config = {
           type: "doc",
         },
         {
-          label: '⭐ Star on GitHub (1.4k+)',
+          label: '⭐ Star on GitHub (1.5k+)',
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
           position: 'right',
         },
         {
           label: '✉️ Newsletter',
-          href: 'https://newsletter.devopsroadmap.io/subscribe',
+          href: 'https://newsletter.devopsroadmap.io',
           position: 'right',
         },
         {
