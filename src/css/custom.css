@@ -30,7 +30,7 @@
   --ifm-color-primary-lightest: #9dc876;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-color-light: #444950;
-  --ifm-color-secondary: #fafafa
+  --ifm-color-secondary: #fafafa;
 }
 
 /* Smooth scrolling */
@@ -71,6 +71,8 @@ html {
   }
 }
 
+/* Quiz component */
+
 .react-quiz-container {
   max-width: 100% !important;
   max-height: 500px;
@@ -106,14 +108,27 @@ html {
   background-color: var(--ifm-color-light) !important;
 }
 
-.answerBtn.btn.correct {
-  background-color: var(--ifm-color-primary) !important;
+[data-theme='dark'] {
+  .react-quiz-container .quiz-result-filter {
+    & .dropdown-options .dropdown-options-item:hover {
+      color: var(--ifm-color-light) !important;
+    }
+  }
 }
 
 .answerBtn.btn.correct {
-  background-color: var(--ifm-color-primary) !important;
+  background-color: #53b373 !important;
 }
 
 .answerBtn.btn.incorrect {
-  background-color: #dc2626 !important;
+  background-color: #cf3838 !important;
+}
+
+.react-quiz-container .result-answer-wrapper {
+  border: unset !important;
+}
+
+.react-quiz-container .result-answer-wrapper h3 {
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
 }
