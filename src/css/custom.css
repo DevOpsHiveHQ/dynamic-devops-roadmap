@@ -16,7 +16,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-color-light: #fafafa;
-  --ifm-color-secondary: #333;
+  --ifm-background-color: #fff;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -30,7 +30,6 @@
   --ifm-color-primary-lightest: #9dc876;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-color-light: #444950;
-  --ifm-color-secondary: #fafafa;
 }
 
 /* Smooth scrolling */
@@ -73,9 +72,22 @@ html {
 
 /* Quiz component */
 
+.quiz-button-container {
+  position: relative;
+}
+
+.quiz-button-center {
+  margin: 0;
+  position:sticky;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .react-quiz-container {
   max-width: 100% !important;
-  max-height: 500px;
   min-height: 350px;
   overflow-x: auto;
   padding-right: 5px;
@@ -93,7 +105,7 @@ html {
 
 .number-of-selection {
   color: var(--ifm-color-primary) !important;
-  background-color: #FFF !important;
+  background-color: var(--ifm-color-light) !important;
   border: 1px solid var(--ifm-color-primary);
 }
 
@@ -101,7 +113,7 @@ html {
   min-height: 43px !important;
   border-color: var(--ifm-color-primary) !important;
   background-color: var(--ifm-color-light) !important;
-  color: var(--ifm-color-secondary) !important;
+  color: var(--ifm-color-primary) !important;
 }
 
 .quiz-result-filter .dropdown-options {
@@ -112,11 +124,11 @@ html {
   color: var(--ifm-color-light) !important;
 }
 
-.answerBtn.btn.correct {
+.react-quiz-container .correct, .answerBtn.btn.correct {
   background-color: #53b373 !important;
 }
 
-.answerBtn.btn.incorrect {
+.react-quiz-container .incorrect, .answerBtn.btn.incorrect {
   background-color: #cf3838 !important;
 }
 
@@ -127,4 +139,13 @@ html {
 .react-quiz-container .result-answer-wrapper h3 {
   border-top-left-radius: unset !important;
   border-top-right-radius: unset !important;
+}
+
+.dropdown-options .dropdown-options-item.selected, .dropdown-options .dropdown-options-item:focus {
+  background-color: var(--ifm-color-primary-lightest) !important;
+}
+
+.close-quiz {
+  padding: 0.1rem 0.4rem !important;
+  font-size: 1rem;
 }

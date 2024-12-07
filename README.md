@@ -42,7 +42,7 @@ Here is a pre-start checklist:
 
 - 📃 <a target="_blank" href="https://devopsroadmap.io/faq">Read the frequently asked questions page</a>, it has many valuable information (**really, do it!**).
 - ⭐ <a target="_blank" href="#top">Star the project repo</a> on GitHub for better visibility.
-- ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
+- ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
 - 🌐 <a target="_blank" href="https://t.me/DevOpsHive/985">Join the Telegram group</a> for interactive communication.
 
 ## The Problem
