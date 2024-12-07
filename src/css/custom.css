@@ -74,16 +74,14 @@ html {
 
 .quiz-button-container {
   position: relative;
+  text-align: center;
 }
 
 .quiz-button-center {
   margin: 0;
   position:sticky;
   display: inline-block;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  white-space: unset !important;
 }
 
 .react-quiz-container {

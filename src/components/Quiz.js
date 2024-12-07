@@ -2,29 +2,40 @@ import React, { useState } from 'react';
 import { default as RQC } from 'react-quiz-component';
 
 const contentStyle = {
-  width: '90%',
-  height: '90%',
   background: 'var(--ifm-background-color)',
   border: '2px solid var(--ifm-color-light)',
   borderRadius: 'var(--ifm-global-radius)',
+  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+  height: '90%',
+  left: '50%',
+  overflowX: 'auto',
+  padding: '1rem',
   position: 'fixed',
   top: '50%',
-  left: '50%',
   transform: 'translate(-50%, -50%)',
+  width: '90%',
   zIndex: 1000,
-  padding: '1rem',
-  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-  overflowX: 'auto',
 };
 
 const overlayStyle = {
+  background: 'rgba(0, 0, 0, 0.5)',
+  height: '100%',
+  left: 0,
   position: 'fixed',
   top: 0,
-  left: 0,
   width: '100%',
-  height: '100%',
-  background: 'rgba(0, 0, 0, 0.5)',
   zIndex: 999,
+};
+
+const closeButtonStyle = {
+  background: 'transparent',
+  border: 'none',
+  cursor: 'pointer',
+  fontSize: '1.5rem',
+  position: 'sticky',
+  right: '0',
+  top: '0',
+  zIndex: 1000,
 };
 
 function Quiz({ data }) {
@@ -51,16 +62,7 @@ function Quiz({ data }) {
             <button
               className="close close-quiz"
               onClick={closeModal}
-              style={{
-                position: 'sticky',
-                top: '0',
-                right: '0',
-                background: 'transparent',
-                border: 'none',
-                fontSize: '1.5rem',
-                cursor: 'pointer',
-                zIndex: 1000,
-              }}
+              style={closeButtonStyle}
             >
               &times;
             </button>
