@@ -2,7 +2,8 @@
 title: Getting Started
 sidebar_position: 2
 description: How to start with the Dynamic DevOps Roadmap
-image: /img/dynamic-devops-roadmap-flow.png
+image: /img/dynamic-devops-roadmap-modules.png
+toc_max_heading_level: 2
 ---
 
 import DocCardList from '@theme/DocCardList';
@@ -12,7 +13,7 @@ import DetailedIndex from './_detailed-index.mdx';
 import QuickIndex from './_quick-index.json';
 
 <p align="center">
-  <img alt="Dynamic DevOps Roadmap Flow" border="0" src="/img/dynamic-devops-roadmap-flow.png" />
+  <img title="Dynamic DevOps Roadmap" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
 
 ## Before you start

@@ -1,0 +1,26 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featuresHeader {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.featuresButton {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.featuresList {
+  line-height: 2rem;
+}
+
+.featuresList li {
+  margin: 0 0 0.5rem 0;
+  padding-left: 0.4rem;
+}
