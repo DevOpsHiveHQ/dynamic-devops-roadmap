@@ -9,3 +9,8 @@
   height: 200px;
   width: 200px;
 }
+
+.featuresHeader {
+  text-align: center;
+  padding-top: 2rem;
+}

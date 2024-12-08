@@ -13,7 +13,7 @@
   </a>
 </p>
 
-[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** pragmatic plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!
+[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style!
 
 Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and most importantly **feasible** because it takes a different approach following 3 principles:
 
@@ -98,7 +98,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 <p align="center">
   <a href="https://devopsroadmap.io/getting-started/" imageanchor="1">
-    <img alt="Dynamic DevOps Roadmap Flow" border="0" width="90%" src="static/img/dynamic-devops-roadmap-flow.png" />
+    <img title="Dynamic DevOps Roadmap" alt="Dynamic DevOps Roadmap Modules" border="0" width="90%" src="static/img/dynamic-devops-roadmap-modules.png" />
   </a>
 </p>
 
