@@ -1,610 +1,563 @@
 {
-  "quizTitle": "DevOps Fundamentals Quiz",
-  "quizSynopsis": "Test your knowledge of Python, Linux, Git, Bash, and Docker fundamentals.",
+  "quizTitle": "Module 2: Basics - DevOps Core Quiz",
+  "quizSynopsis": "Test your understanding of Python basics, development tools, Git fundamentals, Linux essentials, Bash scripting, and Docker basics.",
   "progressBarColor": "#64a725",
   "nrOfQuestions": "20",
   "questions": [
     {
-      "question": "Which of the following is NOT a basic Python concept?",
+      "question": "Why is Python considered a good starting language for DevOps engineers?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Data types",
-        "Control flow",
-        "System calls",
-        "Functions"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! System calls are not part of basic Python concepts.",
-      "messageForIncorrectAnswer": "Incorrect. System calls are not a basic Python concept.",
-      "point": "10"
-    },
-    {
-      "question": "What is the main advantage of learning a real programming language like Python?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "It allows you to replace Bash scripts completely.",
-        "It helps you adapt to the developer mindset.",
-        "It is exclusively used in DevOps.",
-        "It is easier than learning Bash."
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Python helps in adopting a developer mindset.",
-      "messageForIncorrectAnswer": "Incorrect. Python is not just about ease of use; it's about thinking like a developer.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is a common feature of development tools?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Syntax highlighting",
-        "Code navigation",
-        "Debugging",
-        "All of the above"
+        "Because it's the only language used in DevOps",
+        "Because it requires no understanding of data types",
+        "Because it doesn't support loops or functions",
+        "Because it's popular, has a simple syntax, and is versatile for automation tasks"
       ],
       "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! All of these are features of development tools.",
-      "messageForIncorrectAnswer": "Incorrect. Development tools offer all these features.",
+      "messageForCorrectAnswer": "Correct! Python is widely used, easy to learn, and supports a broad range of tasks crucial in DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. Python is popular for its readability, simplicity, and broad ecosystem supporting DevOps work.",
       "point": "10"
     },
     {
-      "question": "Which of the following is the primary purpose of Bash scripting in DevOps?",
+      "question": "What is an essential mindset shift when learning Python compared to writing simple Bash scripts?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Create user interfaces",
-        "Automate repetitive tasks",
-        "Develop web applications",
-        "Manage databases"
+        "Thinking more like a developer, focusing on clear structure and maintainability",
+        "Avoiding functions or data types",
+        "Relying solely on global variables",
+        "Using Python only for one-liner commands"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Adopting a developer mindset means writing cleaner, more maintainable code beyond simple scripting.",
+      "messageForIncorrectAnswer": "Incorrect. You should think in terms of proper structure, code reuse, and clean coding practices.",
+      "point": "10"
+    },
+    {
+      "question": "Which Python fundamental should you learn first?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Advanced machine learning libraries",
+        "Basic data types, loops, and functions",
+        "Implementing complex microservices",
+        "Optimizing Python bytecode"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Bash scripting is commonly used to automate repetitive tasks.",
-      "messageForIncorrectAnswer": "Incorrect. The primary purpose of Bash scripting in DevOps is to automate repetitive tasks.",
+      "messageForCorrectAnswer": "Correct! Starting with basics like data types, loops, and functions builds a solid foundation.",
+      "messageForIncorrectAnswer": "Incorrect. Begin with core language features before tackling advanced topics.",
       "point": "10"
     },
     {
-      "question": "What does the 'cd' command do in Linux?",
+      "question": "Why is it helpful to do interactive exercises when learning Python?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Changes file permissions",
-        "Displays the contents of a file",
-        "Changes the current directory",
-        "Creates a new directory"
+        "Because you never need to write code on your own",
+        "Because memorization is the key to coding",
+        "Because hands-on practice helps reinforce syntax and concepts",
+        "Because interactive exercises prevent you from making mistakes"
       ],
       "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! 'cd' is used to change the current directory.",
-      "messageForIncorrectAnswer": "Incorrect. 'cd' changes the current directory.",
+      "messageForCorrectAnswer": "Correct! Interactive, hands-on practice cements your understanding of coding concepts.",
+      "messageForIncorrectAnswer": "Incorrect. Practical exercises reinforce learning better than passive reading.",
       "point": "10"
     },
     {
-      "question": "Which version control system is commonly used in DevOps to manage source code?",
+      "question": "When learning Python for DevOps, what is the primary goal?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Git",
-        "SVN",
-        "Mercurial",
-        "Perforce"
+        "To acquire a tool for automation and efficient problem-solving",
+        "To avoid learning any programming concepts",
+        "To replace all system tools with Python scripts",
+        "To write Python exactly like Bash scripts"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Git is widely used in DevOps for version control.",
-      "messageForIncorrectAnswer": "Incorrect. Git is the most commonly used version control system in DevOps.",
+      "messageForCorrectAnswer": "Correct! Python helps automate tasks, improve code quality, and integrate well into DevOps workflows.",
+      "messageForIncorrectAnswer": "Incorrect. Python is learned to enhance automation and problem-solving, not to avoid concepts.",
       "point": "10"
     },
     {
-      "question": "What is the purpose of Docker in DevOps?",
+      "question": "Why are code editors and IDEs important in development?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To create virtual machines",
-        "To automate repetitive tasks",
-        "To containerize applications",
-        "To manage databases"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Docker is used to containerize applications.",
-      "messageForIncorrectAnswer": "Incorrect. Docker is primarily used for containerizing applications.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to check the status of the current branch in Git?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "git status",
-        "git log",
-        "git branch",
-        "git diff"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'git status' shows the status of the current branch.",
-      "messageForIncorrectAnswer": "Incorrect. 'git status' is the correct command to check the branch status.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is an advantage of using Docker?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Easier package management",
-        "Faster deployment",
-        "Consistent environments",
-        "All of the above"
+        "They prevent you from running any code",
+        "They remove the need for version control",
+        "They are only useful for non-coding tasks",
+        "They provide features like syntax highlighting, auto-completion, and debugging to improve productivity"
       ],
       "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Docker provides easier package management, faster deployment, and consistent environments.",
-      "messageForIncorrectAnswer": "Incorrect. Docker offers all of these advantages.",
+      "messageForCorrectAnswer": "Correct! Editors and IDEs enhance coding efficiency with features that simplify development.",
+      "messageForIncorrectAnswer": "Incorrect. These tools improve productivity by offering helpful coding functionalities.",
       "point": "10"
     },
     {
-      "question": "What is the purpose of the 'chmod' command in Linux?",
+      "question": "What is a key benefit of using a code editor like VS Code?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Change directory",
-        "Change file permissions",
-        "Display file contents",
-        "Compress files"
+        "It only supports Bash scripts",
+        "It enhances productivity through integrated features like code navigation and debugging",
+        "It never receives updates",
+        "It cannot run Python code"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! 'chmod' is used to change file permissions.",
-      "messageForIncorrectAnswer": "Incorrect. 'chmod' changes file permissions.",
+      "messageForCorrectAnswer": "Correct! VS Code provides intelligent features, boosting productivity and streamlining workflows.",
+      "messageForIncorrectAnswer": "Incorrect. VS Code helps you code efficiently with navigation, debugging, and more.",
       "point": "10"
     },
     {
-      "question": "Which Docker command is used to list all running containers?",
+      "question": "How does a Python extension in your code editor help?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By removing syntax checking",
+        "By preventing you from using Git",
+        "By providing auto-completion, linting, and syntax checking for Python code",
+        "By disallowing any Python scripts from running"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Python extensions add smart features like linting and completion to make coding easier.",
+      "messageForIncorrectAnswer": "Incorrect. Extensions improve code quality and speed coding with helpful tooling.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it beneficial to learn various development tools over time?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because you'll write less efficient code",
+        "Because tools reduce code readability",
+        "Because relying on a single tool limits your workflow",
+        "Because different tools can streamline development, testing, and troubleshooting"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A range of tools enhances productivity, flexibility, and the ability to handle various tasks efficiently.",
+      "messageForIncorrectAnswer": "Incorrect. Different tools improve overall productivity and adaptability.",
+      "point": "10"
+    },
+    {
+      "question": "What is one common feature of modern code editors?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No support for code navigation",
+        "No integrated debugging",
+        "No syntax highlighting",
+        "Syntax highlighting to help understand code structure"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Syntax highlighting helps you read code more easily and catch errors quickly.",
+      "messageForIncorrectAnswer": "Incorrect. Syntax highlighting is a basic but essential editor feature.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Git widely used in software development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it replaces the need for collaboration",
+        "Because it doesn't store version history",
+        "Because it tracks changes, branches easily, and supports collaboration",
+        "Because it only works on private networks"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Git provides version control, easy branching, and seamless team collaboration.",
+      "messageForIncorrectAnswer": "Incorrect. Git is a cornerstone of modern development due to its versioning and collaboration features.",
+      "point": "10"
+    },
+    {
+      "question": "What is a 'repository' in Git terms?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A command to run tests",
+        "A storage unit in your code editor",
+        "A place to store your project's code and version history",
+        "A type of programming language"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! A Git repository holds code, files, and their change history, enabling version control.",
+      "messageForIncorrectAnswer": "Incorrect. A repository stores your code and its full history.",
+      "point": "10"
+    },
+    {
+      "question": "Why is understanding Git branches important?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because they allow you to work on features in isolation",
+        "Because they automatically deploy code to production",
+        "Because they replace the need for commits",
+        "Because they remove code history"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Branches let you develop features independently without disrupting the main codebase.",
+      "messageForIncorrectAnswer": "Incorrect. Branches isolate changes, making development safer and more organized.",
+      "point": "10"
+    },
+    {
+      "question": "What is 'commit' in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A way to delete all previous changes",
+        "A configuration file",
+        "A snapshot of your code changes at a point in time",
+        "A command to reset your repository"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A commit records changes, creating a new version in your project's history.",
+      "messageForIncorrectAnswer": "Incorrect. A commit captures a state of your changes, helping track progress over time.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Git considered the 'source of truth' in workflows like GitOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it's never used in production",
+        "Because it has no logs of changes",
+        "Because the repository reflects the desired state of systems",
+        "Because Git eliminates the need for testing"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Git stores the intended state of your infrastructure or code, guiding deployments and updates.",
+      "messageForIncorrectAnswer": "Incorrect. Git holds the desired configurations and code, ensuring consistency.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Linux knowledge crucial for DevOps engineers?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Linux is rarely used in servers",
+        "Because DevOps only runs on Windows",
+        "Because Linux dominates server environments and DevOps workflows rely heavily on it",
+        "Because Linux cannot run containers"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Linux powers most server environments, making it essential for DevOps tasks.",
+      "messageForIncorrectAnswer": "Incorrect. Linux is a core OS in server and cloud environments.",
+      "point": "10"
+    },
+    {
+      "question": "When starting with Linux, what distribution is often recommended?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ubuntu, as it's user-friendly and widely supported",
+        "A custom-built distro",
+        "The oldest available distribution",
+        "The most complex server-only distro"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Ubuntu is popular for beginners due to user-friendliness and community support.",
+      "messageForIncorrectAnswer": "Incorrect. Ubuntu is a common starting point for newcomers.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key skill when using Linux in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Only using the GUI and never the terminal",
+        "Mastering basic CLI operations, directory structure, and permissions",
+        "Memorizing every possible Linux command",
+        "Avoiding Linux commands entirely"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Understanding command-line operations, directory structure, and permissions is essential.",
+      "messageForIncorrectAnswer": "Incorrect. You need strong fundamentals like directory navigation and permissions.",
+      "point": "10"
+    },
+    {
+      "question": "How can learning Linux benefit a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It doesn't help at all",
+        "It replaces the need to learn coding",
+        "It enables you to manage servers, troubleshoot issues, and automate tasks effectively",
+        "It only matters if you run desktop applications"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Linux knowledge allows for effective server management, troubleshooting, and automation.",
+      "messageForIncorrectAnswer": "Incorrect. Linux expertise is fundamental for server-related DevOps tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What is the advantage of using the terminal in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It limits your capabilities compared to GUI",
+        "It allows greater speed, automation, and flexibility than relying solely on GUIs",
+        "It never provides any feedback",
+        "It is less powerful than GUI tools"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! The terminal grants quick, scriptable, and powerful control over system operations.",
+      "messageForIncorrectAnswer": "Incorrect. The terminal often allows more efficiency and automation than a GUI.",
+      "point": "10"
+    },
+    {
+      "question": "Why should you learn common Linux tools like grep, find, and top?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are rarely useful",
+        "They help in searching, filtering, and monitoring system resources efficiently",
+        "They always require memorizing every argument",
+        "They only work on non-Linux systems"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! These tools streamline common tasks like searching logs or monitoring processes.",
+      "messageForIncorrectAnswer": "Incorrect. Mastering these tools improves your efficiency in daily tasks.",
+      "point": "10"
+    },
+    {
+      "question": "How can you approach learning Linux commands effectively?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Memorize every option of every command",
+        "Never read documentation",
+        "Think logically about what you want to do, then reference documentation as needed",
+        "Avoid using commands at all"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Learn the concept, then consult docs. You don't need to memorize everything.",
+      "messageForIncorrectAnswer": "Incorrect. It's better to understand what tool you need and then look up how to use it.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of Bash scripting?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To eliminate the need for any other programming languages",
+        "To write large-scale enterprise applications",
+        "To automate tasks by combining commands with conditional logic and loops",
+        "To prevent commands from running"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Bash scripts let you automate repetitive tasks and apply logic directly in the shell.",
+      "messageForIncorrectAnswer": "Incorrect. Bash scripting is about automating tasks by chaining commands and logic.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Bash commonly used for scripting on Linux systems?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Bash cannot run on Linux",
+        "Because Bash doesn't support variables",
+        "Because Bash is widely available, powerful, and integrates well with standard Linux commands",
+        "Because Bash scripts are always complex"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Bash is a default shell on many systems, making it readily available for automation.",
+      "messageForIncorrectAnswer": "Incorrect. Bash is commonly included and easy to use with CLI tools.",
+      "point": "10"
+    },
+    {
+      "question": "When should you consider writing a Bash script?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "When you need to automate repetitive command-line tasks",
+        "When you need a GUI application",
+        "When you never want to reuse any code",
+        "When you want to avoid using Linux commands altogether"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Bash scripts shine when automating repetitive CLI tasks efficiently.",
+      "messageForIncorrectAnswer": "Incorrect. Bash scripts help with recurring CLI tasks and simple automation.",
+      "point": "10"
+    },
+    {
+      "question": "How does learning Bash differ from learning Python?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Bash scripting focuses on combining CLI tools and simple logic rather than building complex applications",
+        "Bash and Python are identical",
+        "Bash is object-oriented",
+        "Python cannot handle loops or conditions"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Bash excels at chaining commands and basic logic, whereas Python is more versatile and structured.",
+      "messageForIncorrectAnswer": "Incorrect. Bash is great for quick system tasks, while Python is for more complex logic.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it still valuable to know Bash scripting even if you know Python?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Python cannot automate anything",
+        "Because Bash is required for all programming tasks",
+        "Because some tasks are quicker done with simple Bash scripts, especially system and server-related routines",
+        "Because Bash replaces Python entirely"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Bash is ideal for straightforward system automation where Python might be overkill.",
+      "messageForIncorrectAnswer": "Incorrect. Bash can be faster for small automations and server tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What sparked the container revolution in modern software development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The invention of mainframes",
+        "Virtual Machines replacing all code",
+        "Docker making containers accessible and portable",
+        "Manual server configuration"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Docker's introduction popularized containers, making them easy to build, run, and share.",
+      "messageForIncorrectAnswer": "Incorrect. Docker sparked the containerization movement by simplifying container usage.",
+      "point": "10"
+    },
+    {
+      "question": "Why are containers important in today's DevOps landscape?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They make applications harder to run",
+        "They eliminate the need for operating systems",
+        "They provide a consistent environment, making deployment, scaling, and portability easier",
+        "They only work on proprietary hardware"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Containers package code and dependencies, ensuring consistent environments across platforms.",
+      "messageForIncorrectAnswer": "Incorrect. Containers ensure consistency and portability, crucial for modern DevOps.",
+      "point": "10"
+    },
+    {
+      "question": "What is the difference between a Docker image and a Docker container?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are exactly the same",
+        "An image is a blueprint, while a container is a running instance of that blueprint",
+        "A container is created before the image",
+        "Only containers can exist without images"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! An image is a template, and a container is an actual running environment based on that image.",
+      "messageForIncorrectAnswer": "Incorrect. Images define what to run; containers are the running instances.",
+      "point": "10"
+    },
+    {
+      "question": "Why is understanding Docker fundamentals a must-have skill?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because containers are rarely used",
+        "Because Docker is obsolete",
+        "Because containers are now the standard for deploying and scaling applications in DevOps",
+        "Because Docker prevents automation"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Containers are the modern standard, making Docker expertise essential in DevOps roles.",
+      "messageForIncorrectAnswer": "Incorrect. Docker is foundational in containerization and modern DevOps.",
+      "point": "10"
+    },
+    {
+      "question": "How does Docker relate to Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are unrelated technologies",
+        "Kubernetes is a coding language for Docker",
+        "Docker runs containers, while Kubernetes orchestrates and manages them at scale",
+        "Kubernetes is a replacement for Docker images"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Docker helps create containers; Kubernetes manages many containers across multiple hosts.",
+      "messageForIncorrectAnswer": "Incorrect. Docker handles individual containers, Kubernetes coordinates them at scale.",
+      "point": "10"
+    },
+    {
+      "question": "What is one reason to prefer Docker CLI over GUI tools?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "CLI is more error-prone",
+        "CLI can't run containers",
+        "CLI often provides quicker, scriptable, and more flexible workflows",
+        "CLI is never documented"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! The Docker CLI is powerful, allowing automation and scriptability, essential in DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. The CLI is flexible and easily integrated into automated pipelines.",
+      "point": "10"
+    },
+    {
+      "question": "What basic Docker CLI command is used to run a container from an image?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker edit",
+        "docker commit",
+        "docker run",
+        "docker grep"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'docker run' starts a container from a specified image.",
+      "messageForIncorrectAnswer": "Incorrect. The 'docker run' command creates a new container and starts it.",
+      "point": "10"
+    },
+    {
+      "question": "How can you list all running containers using the Docker CLI?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
         "docker images",
-        "docker run",
         "docker ps",
+        "docker config",
         "docker exec"
       ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'docker ps' shows you all currently running containers.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker ps' lists the running containers.",
+      "point": "10"
+    },
+    {
+      "question": "Why learn the Docker CLI basics as a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "You never need containers in DevOps",
+        "Because it slows down your workflow",
+        "Because orchestrations and automations often rely on CLI tools",
+        "Because Docker CLI is harder to use than GUI"
+      ],
       "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! 'docker ps' lists all running containers.",
-      "messageForIncorrectAnswer": "Incorrect. Use 'docker ps' to list running containers.",
+      "messageForCorrectAnswer": "Correct! CLI commands are essential for automation, CI/CD pipelines, and orchestrations.",
+      "messageForIncorrectAnswer": "Incorrect. The CLI integrates well with automation and scripting.",
       "point": "10"
     },
     {
-      "question": "What is a repository in Git?",
+      "question": "If you need to stop a running Docker container, which command would you use?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "A place to store code changes",
-        "A place to store Docker images",
-        "A type of container",
-        "A shell script"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! A repository is used to store code changes in Git.",
-      "messageForIncorrectAnswer": "Incorrect. A repository in Git stores code changes.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to add changes to the staging area in Git?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "git add",
-        "git commit",
-        "git push",
-        "git clone"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'git add' is used to add changes to the staging area.",
-      "messageForIncorrectAnswer": "Incorrect. 'git add' adds changes to the staging area.",
-      "point": "10"
-    },
-    {
-      "question": "What is the function of the 'ls' command in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "List directory contents",
-        "Create a new directory",
-        "Remove a file",
-        "Change file permissions"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'ls' lists the contents of a directory.",
-      "messageForIncorrectAnswer": "Incorrect. 'ls' is used to list directory contents.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is true about Docker images?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "They are lightweight virtual machines.",
-        "They contain everything needed to run an application.",
-        "They cannot be shared.",
-        "They only run on Linux."
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Docker images contain all dependencies needed to run an application.",
-      "messageForIncorrectAnswer": "Incorrect. Docker images contain everything needed to run an application.",
-      "point": "10"
-    },
-    {
-      "question": "What does the 'pwd' command do in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Prints the current directory",
-        "Changes file permissions",
-        "Deletes a directory",
-        "Creates a symbolic link"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'pwd' prints the current working directory.",
-      "messageForIncorrectAnswer": "Incorrect. 'pwd' prints the current directory.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to commit changes in Git?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "git add",
-        "git commit",
-        "git push",
-        "git merge"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! 'git commit' is used to save changes to the local repository.",
-      "messageForIncorrectAnswer": "Incorrect. 'git commit' saves changes to the local repository.",
-      "point": "10"
-    },
-    {
-      "question": "What is a container in the context of Docker?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "A lightweight VM",
-        "An isolated environment to run an application",
-        "A type of database",
-        "A version control system"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! A container is an isolated environment to run an application.",
-      "messageForIncorrectAnswer": "Incorrect. A container is an isolated environment to run an application.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is NOT a Git command?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "git branch",
-        "git merge",
-        "git clone",
-        "git container"
+        "docker kill",
+        "docker build",
+        "docker login",
+        "docker stop"
       ],
       "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! 'git container' is not a valid Git command.",
-      "messageForIncorrectAnswer": "Incorrect. 'git container' is not a valid Git command.",
-      "point": "10"
-    },
-    {
-      "question": "What does the 'rm' command do in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Removes a file",
-        "Renames a file",
-        "Lists files in a directory",
-        "Creates a new directory"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'rm' is used to remove a file.",
-      "messageForIncorrectAnswer": "Incorrect. 'rm' removes a file.",
-      "point": "10"
-    },
-    {
-      "question": "What is the purpose of 'git push'?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To save changes to the local repository",
-        "To send changes to a remote repository",
-        "To create a new branch",
-        "To merge branches"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! 'git push' sends changes to a remote repository.",
-      "messageForIncorrectAnswer": "Incorrect. 'git push' is used to send changes to a remote repository.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is NOT a Linux distribution?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Ubuntu",
-        "Fedora",
-        "Windows",
-        "CentOS"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Windows is not a Linux distribution.",
-      "messageForIncorrectAnswer": "Incorrect. Windows is not a Linux distribution.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to create a new directory in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "mkdir",
-        "rmdir",
-        "cd",
-        "ls"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'mkdir' is used to create a new directory.",
-      "messageForIncorrectAnswer": "Incorrect. 'mkdir' creates a new directory.",
-      "point": "10"
-    },
-    {
-      "question": "Which Git command is used to create a new branch?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "git branch",
-        "git merge",
-        "git checkout",
-        "git commit"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'git branch' is used to create a new branch.",
-      "messageForIncorrectAnswer": "Incorrect. 'git branch' creates a new branch.",
-      "point": "10"
-    },
-    {
-      "question": "What is the purpose of 'sudo' in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To switch users",
-        "To execute a command with superuser privileges",
-        "To change file permissions",
-        "To create a new directory"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! 'sudo' allows you to execute commands with superuser privileges.",
-      "messageForIncorrectAnswer": "Incorrect. 'sudo' is used to execute commands with superuser privileges.",
-      "point": "10"
-    },
-    {
-      "question": "Which Docker command is used to build an image from a Dockerfile?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "docker build",
-        "docker run",
-        "docker pull",
-        "docker start"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'docker build' is used to build an image from a Dockerfile.",
-      "messageForIncorrectAnswer": "Incorrect. 'docker build' builds an image from a Dockerfile.",
-      "point": "10"
-    },
-    {
-      "question": "What is the default port for SSH?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "21",
-        "22",
-        "80",
-        "443"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! The default port for SSH is 22.",
-      "messageForIncorrectAnswer": "Incorrect. The default port for SSH is 22.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to display the current working directory in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "pwd",
-        "ls",
-        "cd",
-        "mkdir"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'pwd' displays the current working directory.",
-      "messageForIncorrectAnswer": "Incorrect. 'pwd' displays the current working directory.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is a container orchestration tool?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Docker Compose",
-        "Kubernetes",
-        "Vagrant",
-        "Git"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Kubernetes is a container orchestration tool.",
-      "messageForIncorrectAnswer": "Incorrect. Kubernetes is a container orchestration tool.",
-      "point": "10"
-    },
-    {
-      "question": "What does 'git clone' do?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Creates a new repository",
-        "Copies an existing repository to your local machine",
-        "Merges changes from another branch",
-        "Adds changes to the staging area"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! 'git clone' copies an existing repository to your local machine.",
-      "messageForIncorrectAnswer": "Incorrect. 'git clone' copies an existing repository to your local machine.",
-      "point": "10"
-    },
-    {
-      "question": "Which Linux command is used to view the contents of a file?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "cat",
-        "rm",
-        "cp",
-        "mv"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'cat' is used to view the contents of a file.",
-      "messageForIncorrectAnswer": "Incorrect. 'cat' is used to view the contents of a file.",
-      "point": "10"
-    },
-    {
-      "question": "What is a commit in Git?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "A snapshot of changes in the repository",
-        "A branch of the repository",
-        "A remote repository",
-        "A copy of the repository"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! A commit is a snapshot of changes in the repository.",
-      "messageForIncorrectAnswer": "Incorrect. A commit is a snapshot of changes in the repository.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to rename a file in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "mv",
-        "cp",
-        "rm",
-        "rename"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'mv' is used to rename a file.",
-      "messageForIncorrectAnswer": "Incorrect. 'mv' renames a file.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to stop a running Docker container?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "docker stop",
-        "docker kill",
-        "docker pause",
-        "docker remove"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'docker stop' is used to stop a running container.",
-      "messageForIncorrectAnswer": "Incorrect. 'docker stop' stops a running container.",
-      "point": "10"
-    },
-    {
-      "question": "What is a fork in Git?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "A copy of a repository to your own GitHub account",
-        "A new branch",
-        "A snapshot of changes",
-        "A merge conflict"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! A fork is a copy of a repository to your own GitHub account.",
-      "messageForIncorrectAnswer": "Incorrect. A fork is a copy of a repository to your own GitHub account.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is a Linux package manager?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "apt",
-        "git",
-        "docker",
-        "curl"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'apt' is a package manager used in Linux.",
-      "messageForIncorrectAnswer": "Incorrect. 'apt' is a package manager used in Linux.",
-      "point": "10"
-    },
-    {
-      "question": "What does 'docker pull' do?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Runs a container",
-        "Removes a container",
-        "Downloads an image from a registry",
-        "Lists all images"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! 'docker pull' downloads an image from a registry.",
-      "messageForIncorrectAnswer": "Incorrect. 'docker pull' downloads an image from a registry.",
-      "point": "10"
-    },
-    {
-      "question": "Which command is used to update package lists in Debian-based Linux systems?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "apt-get update",
-        "yum update",
-        "dnf update",
-        "pacman -Syu"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'apt-get update' updates package lists in Debian-based systems.",
-      "messageForIncorrectAnswer": "Incorrect. 'apt-get update' updates package lists in Debian-based systems.",
-      "point": "10"
-    },
-    {
-      "question": "What does the 'head' command do in Linux?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Displays the first few lines of a file",
-        "Displays the last few lines of a file",
-        "Deletes the first few lines of a file",
-        "Edits the first few lines of a file"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! 'head' displays the first few lines of a file.",
-      "messageForIncorrectAnswer": "Incorrect. 'head' displays the first few lines of a file.",
-      "point": "10"
-    },
-    {
-      "question": "Which of the following is used to manage Docker containers in production?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Kubernetes",
-        "Docker Compose",
-        "Git",
-        "Ansible"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Kubernetes is often used to manage Docker containers in production.",
-      "messageForIncorrectAnswer": "Incorrect. Kubernetes is used to manage Docker containers in production.",
+      "messageForCorrectAnswer": "Correct! 'docker stop' gracefully stops a running container.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker stop' sends a signal to gracefully terminate the container.",
       "point": "10"
     }
-
   ]
 }
-
