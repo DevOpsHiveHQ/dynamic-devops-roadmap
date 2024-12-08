@@ -1,0 +1,488 @@
+{
+  "quizTitle": "Module 3: Start - Laying the Base Quiz",
+  "quizSynopsis": "Test your understanding of planning, modular code, testing practices, Docker best practices, and continuous integration fundamentals.",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
+  "questions": [
+    {
+      "question": "What is the first step in starting a project, according to the module?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Jumping into coding immediately",
+        "Defining goals and requirements through proper planning",
+        "Waiting for requirements to magically appear",
+        "Avoiding any form of documentation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Identifying clear goals and requirements sets the foundation for a successful project.",
+      "messageForIncorrectAnswer": "Incorrect. The first step is careful planning by defining what you need to achieve.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it recommended to document as you go during a project?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To keep secrets hidden",
+        "To hinder future developers from understanding the project",
+        "To complicate maintenance",
+        "To ensure others (or your future self) can understand the project at any stage"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Documentation helps maintain clarity and knowledge transfer throughout the project’s life cycle.",
+      "messageForIncorrectAnswer": "Incorrect. Good documentation ensures the project remains understandable over time.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'Avoid Scope Creep' imply?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Preventing the project's requirements from growing uncontrolled",
+        "Encouraging new features mid-project",
+        "Dropping all initial requirements",
+        "Avoiding user feedback"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Avoiding scope creep means sticking to defined requirements and not constantly adding new tasks.",
+      "messageForIncorrectAnswer": "Incorrect. Scope creep is when the project expands without proper control.",
+      "point": "10"
+    },
+    {
+      "question": "What characterizes a 'Manager of One'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Someone who requires heavy direction and constant check-ins",
+        "A person who avoids setting goals",
+        "Someone who sets their own goals and executes them independently",
+        "A manager who micromanages large teams"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! A manager of one works independently, setting and achieving their own goals.",
+      "messageForIncorrectAnswer": "Incorrect. A manager of one proactively manages their tasks and direction.",
+      "point": "10"
+    },
+    {
+      "question": "What benefit does using Kanban bring to an Agile process?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Visualizing workflow and continuously improving delivery",
+        "Removing all tasks from visibility",
+        "Discouraging collaboration",
+        "Forcing large batch releases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kanban helps visualize the workflow, limit work in progress, and enhance continuous improvement.",
+      "messageForIncorrectAnswer": "Incorrect. Kanban aids in workflow visibility and incremental improvements.",
+      "point": "10"
+    },
+    {
+      "question": "Why is modularity in code important?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It ensures your code is as long and complex as possible",
+        "It prevents code reuse",
+        "It eliminates the need for testing",
+        "It separates concerns, makes code easier to understand, test, and maintain"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Modularity divides code into manageable units, enhancing clarity and maintainability.",
+      "messageForIncorrectAnswer": "Incorrect. Modularity helps break down complexity and improve readability.",
+      "point": "10"
+    },
+    {
+      "question": "What should guide your decision on splitting code into smaller modules?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Always splitting into the smallest possible fragments",
+        "Balancing simplicity and modularity without over-engineering",
+        "Never using modules at all",
+        "Only creating huge, monolithic code blocks"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Aim for clarity and reuse, but avoid unnecessary complexity in your modular approach.",
+      "messageForIncorrectAnswer": "Incorrect. Too much splitting can overcomplicate your codebase.",
+      "point": "10"
+    },
+    {
+      "question": "How does thinking about the 'next person who will read the code' help?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It discourages commenting and documentation",
+        "It leads to writing more confusing code",
+        "It encourages writing clearer, more understandable code",
+        "It makes no difference in code quality"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Considering future readers encourages writing cleaner, more maintainable code.",
+      "messageForIncorrectAnswer": "Incorrect. Thinking ahead helps ensure your code remains understandable over time.",
+      "point": "10"
+    },
+    {
+      "question": "Why is reusability an important mindset for a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To increase repetitive work",
+        "To ensure no code is ever shared",
+        "To reduce effort by leveraging existing solutions and standardizing approaches",
+        "To complicate deployments"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Reusability saves time and effort by not reinventing solutions and promoting consistency.",
+      "messageForIncorrectAnswer": "Incorrect. Reusability streamlines development and maintenance.",
+      "point": "10"
+    },
+    {
+      "question": "What is the primary goal of software testing and QA?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To slow down development",
+        "To ensure the software meets requirements and minimize defects",
+        "To produce no feedback on code quality",
+        "To only test after deployment"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Testing aims to confirm the software meets defined requirements and is as defect-free as possible.",
+      "messageForIncorrectAnswer": "Incorrect. QA and testing focus on quality and reducing errors.",
+      "point": "10"
+    },
+    {
+      "question": "How do QA and Testing differ, even though often used interchangeably?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are identical in all aspects",
+        "QA focuses on processes and preventing defects, while testing focuses on finding defects",
+        "QA only happens after software is released",
+        "Testing doesn't involve any actual code checks"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! QA ensures proper processes to prevent defects, while testing identifies defects in code.",
+      "messageForIncorrectAnswer": "Incorrect. QA is about preventive processes, testing is about identifying existing issues.",
+      "point": "10"
+    },
+    {
+      "question": "What does unit testing involve?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Testing the entire system at once",
+        "Testing individual components or functions in isolation",
+        "Skipping tests on small code parts",
+        "Testing only after deployment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Unit tests verify individual units of code function correctly in isolation.",
+      "messageForIncorrectAnswer": "Incorrect. Unit tests focus on the smallest testable parts of the code.",
+      "point": "10"
+    },
+    {
+      "question": "Why are different types of tests (unit, integration, end-to-end) valuable?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They all do the same thing",
+        "They ensure quality at multiple levels: units, integrations, and the entire system",
+        "They replace the need for code review",
+        "They slow down the release cycle"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Different test types catch issues at various stages, improving overall software quality.",
+      "messageForIncorrectAnswer": "Incorrect. Multiple test types ensure robust quality coverage.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key benefit of writing unit tests?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They eliminate the need for integration tests",
+        "They ensure code is always perfect",
+        "They help verify the correctness of small components and can guide code design",
+        "They make code impossible to read"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Unit tests help confirm each small part works, guiding better architecture and catching errors early.",
+      "messageForIncorrectAnswer": "Incorrect. Unit tests verify component correctness and often inform good code structure.",
+      "point": "10"
+    },
+    {
+      "question": "Why is 100% code coverage often unrealistic?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because writing tests is unnecessary",
+        "Because perfect coverage doesn’t always add value, and some areas are hard to test meaningfully",
+        "Because tests are never reliable",
+        "Because coverage tools don’t exist"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Chasing perfect coverage can waste time; focus on meaningful tests that add real value.",
+      "messageForIncorrectAnswer": "Incorrect. The goal is effective coverage, not arbitrary perfection.",
+      "point": "10"
+    },
+    {
+      "question": "What should unit test code ideally look like?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Extremely complex, containing intricate logic",
+        "No different from production code",
+        "Simple, clear, and minimal logic, focusing only on verifying correctness",
+        "A replacement for production code"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Unit tests should be straightforward and easy to understand, ensuring reliability.",
+      "messageForIncorrectAnswer": "Incorrect. Keep test logic simple so it doesn’t introduce new complexity.",
+      "point": "10"
+    },
+    {
+      "question": "Why use a testing framework for unit tests?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To make tests harder to run",
+        "To avoid any test structure",
+        "To provide a standardized way to write, run, and report tests",
+        "To remove the need for assertions"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Frameworks give structure and tools, making testing simpler and more consistent.",
+      "messageForIncorrectAnswer": "Incorrect. Frameworks standardize testing and streamline the process.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it important to apply coding and testing principles regardless of the programming language used?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because principles vary drastically by language",
+        "Because only high-level languages need them",
+        "Because good coding and testing practices are universal",
+        "Because scripting languages never need principles"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Best practices transcend language choice, ensuring code quality in any environment.",
+      "messageForIncorrectAnswer": "Incorrect. Quality principles apply no matter the language or tool.",
+      "point": "10"
+    },
+    {
+      "question": "What does Hadolint help with in Dockerfiles?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It fixes all code issues automatically",
+        "It replaces Docker completely",
+        "It provides a linter to check Dockerfiles against best practices",
+        "It turns Dockerfiles into documentation"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Hadolint identifies Dockerfile issues and suggests improvements, enforcing best practices.",
+      "messageForIncorrectAnswer": "Incorrect. Hadolint is a linter for Dockerfiles, guiding adherence to recommended practices.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key reason to follow Docker best practices?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To increase image size and complexity",
+        "To ensure less secure images",
+        "To improve image efficiency, security, and maintainability",
+        "To slow down CI/CD pipelines"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Best practices result in leaner, more secure, and more maintainable images.",
+      "messageForIncorrectAnswer": "Incorrect. Following best practices improves your container images.",
+      "point": "10"
+    },
+    {
+      "question": "Why should you not rely solely on memorizing Docker best practices?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because best practices never change",
+        "Because no tools exist to help",
+        "Because tools like linters guide you and you can look up specifics when needed",
+        "Because there's no value in best practices"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Use tools and resources as references. You don’t need to memorize everything.",
+      "messageForIncorrectAnswer": "Incorrect. Trust tools and references to recall details on best practices.",
+      "point": "10"
+    },
+    {
+      "question": "What does Continuous Integration (CI) help achieve?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Integrates code changes rarely",
+        "Detects errors late in the development cycle",
+        "Merges changes frequently, runs automated builds and tests to detect issues early",
+        "Replaces the need for version control"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! CI frequently integrates changes and tests them early, catching problems sooner.",
+      "messageForIncorrectAnswer": "Incorrect. CI ensures continuous, frequent merges and testing.",
+      "point": "10"
+    },
+    {
+      "question": "Which CI system should you start learning first according to the module?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Jenkins, because it's the simplest",
+        "A complicated proprietary system",
+        "GitHub Actions, as it's straightforward and integrated into GitHub",
+        "None, you should avoid CI"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! GitHub Actions is simpler for beginners, letting you learn CI concepts before tackling complex tools.",
+      "messageForIncorrectAnswer": "Incorrect. Start with an easier system like GitHub Actions, not a complex one.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key principle behind CI?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Delaying integration until release day",
+        "Merging code changes frequently to catch issues early",
+        "Ignoring automated tests",
+        "Avoiding shared repositories"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! CI encourages frequent merging and testing to rapidly detect and fix problems.",
+      "messageForIncorrectAnswer": "Incorrect. CI stresses continuous, early integration to prevent big integration headaches.",
+      "point": "10"
+    },
+    {
+      "question": "What is a 'workflow' in GitHub Actions?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A single action without steps",
+        "A random script",
+        "A YAML-based definition that automates tasks like building or testing code",
+        "A replacement for version control"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! A workflow is a YAML manifest defining automated processes (jobs and steps).",
+      "messageForIncorrectAnswer": "Incorrect. Workflows define your CI/CD automation steps in GitHub Actions.",
+      "point": "10"
+    },
+    {
+      "question": "What is a 'job' in GitHub Actions?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "An unrelated task outside CI",
+        "A set of steps running on the same machine",
+        "A single shell command",
+        "An entire CI/CD platform"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A job groups several steps that run in sequence on one runner machine.",
+      "messageForIncorrectAnswer": "Incorrect. Jobs bundle related steps on a single runner.",
+      "point": "10"
+    },
+    {
+      "question": "What is an 'action' in GitHub Actions?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A manual process you run locally",
+        "A standalone CI system",
+        "A reusable piece of code performing a specific task",
+        "A programming language"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Actions are reusable modules that perform specific tasks within your CI/CD workflow.",
+      "messageForIncorrectAnswer": "Incorrect. Actions add functionality or tasks to workflows.",
+      "point": "10"
+    },
+    {
+      "question": "How do runners operate in GitHub Actions?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are unnecessary for CI",
+        "They store code permanently",
+        "They execute jobs defined in the workflows",
+        "They only provide documentation"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Runners are servers that run your jobs, executing steps as defined in your workflows.",
+      "messageForIncorrectAnswer": "Incorrect. Runners actually execute the tasks in your CI/CD processes.",
+      "point": "10"
+    },
+    {
+      "question": "How do CI pipelines and quality gates help ensure code quality?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They prevent any automation",
+        "They allow code changes without checks",
+        "They enforce checks (linting, tests) to ensure changes meet standards before merging",
+        "They only run after production deployment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Quality gates require passing certain checks before code can move forward.",
+      "messageForIncorrectAnswer": "Incorrect. Quality gates ensure the code meets defined criteria before proceeding.",
+      "point": "10"
+    },
+    {
+      "question": "What is a recommended practice for CI pipelines regarding local runs?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Make pipelines impossible to run locally",
+        "Rely only on remote CI and never test locally",
+        "Enable running the same checks locally before pushing, ensuring early feedback",
+        "Require proprietary hardware for local tests"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Having local runs for linting, tests, etc., catches issues before committing changes.",
+      "messageForIncorrectAnswer": "Incorrect. Running checks locally reduces wasted CI cycles and quickens feedback.",
+      "point": "10"
+    },
+    {
+      "question": "What tool can help run checks pre-commit to ensure code quality before pushing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A random text editor",
+        "A shell script with no standards",
+        "A framework like pre-commit that runs hooks before commits",
+        "No tools are available"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Tools like pre-commit enforce checks before code is committed, preventing bad code from entering the repo.",
+      "messageForIncorrectAnswer": "Incorrect. pre-commit hooks help maintain code quality at the earliest point.",
+      "point": "10"
+    },
+    {
+      "question": "What is the advantage of using a simple CI pipeline at a project's start?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It adds unnecessary complexity",
+        "It prevents quick feedback",
+        "It sets a baseline for code quality from day one, ensuring good habits early on",
+        "It delays error detection"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Starting simple ensures immediate code quality feedback and fosters good practices early.",
+      "messageForIncorrectAnswer": "Incorrect. Even a basic CI pipeline helps maintain standards from the start.",
+      "point": "10"
+    }
+  ]
+}

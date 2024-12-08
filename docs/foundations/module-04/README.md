@@ -5,6 +5,9 @@ description: "Review goals in planning, then apply the Twelve-Factor App methodo
 toc_max_heading_level: 2
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-04-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -200,6 +203,10 @@ toc_max_heading_level: 2
 
 - [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)
+
+## Quiz - Module 4
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 4
 

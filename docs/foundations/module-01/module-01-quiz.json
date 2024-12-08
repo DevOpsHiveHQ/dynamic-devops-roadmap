@@ -1,0 +1,578 @@
+{
+  "quizTitle": "DevOps Fundamentals Extended Quiz",
+  "quizSynopsis": "Test your understanding of DevOps principles, methodologies, and related concepts.",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
+  "questions": [
+    {
+      "question": "What is the core aim of DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To improve collaboration and speed up the software delivery process",
+        "To replace development teams with automated scripts",
+        "To focus solely on the operations side of the business",
+        "To prevent any changes to production systems"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! DevOps aims to bridge development and operations, improving collaboration and accelerating delivery.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps is about integrating Dev and Ops for faster, more reliable releases.",
+      "point": "10"
+    },
+    {
+      "question": "Which principle is central to Agile methodologies?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Long, fixed planning cycles",
+        "Delivering complete features only at project end",
+        "Iterative development with frequent feedback",
+        "Relying solely on automated decision-making"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Agile emphasizes iterative cycles and continuous feedback to adapt quickly to change.",
+      "messageForIncorrectAnswer": "Incorrect. Agile relies on short iterations and continual feedback loops.",
+      "point": "10"
+    },
+    {
+      "question": "What does the 'Iron Triangle' in project management refer to?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Tools, pipelines, automation",
+        "Time, scope, cost",
+        "People, process, technology",
+        "Quality, security, reliability"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The Iron Triangle represents time, scope, and cost, key constraints in any project.",
+      "messageForIncorrectAnswer": "Incorrect. The Iron Triangle involves managing time, scope, and cost.",
+      "point": "10"
+    },
+    {
+      "question": "How do DevOps teams commonly handle deployments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By manually updating each server",
+        "By releasing changes only once a year",
+        "By avoiding testing to speed delivery",
+        "By automating deployments through CI/CD pipelines"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! DevOps practices often rely on automated CI/CD pipelines to streamline deployments.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps encourages automated, frequent deployments through CI/CD.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main purpose of a Minimum Viable Product (MVP)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To quickly validate core features with minimal effort",
+        "To deliver a fully polished product on the first try",
+        "To replace all manual processes with automation",
+        "To launch without any feedback loops"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! An MVP tests core functionality early, helping teams learn before investing in full development.",
+      "messageForIncorrectAnswer": "Incorrect. MVPs help validate essential features early with minimal investment.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key trait of Agile frameworks?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No changes allowed once planning is done",
+        "Short sprints and frequent iterations",
+        "Relying on a single big release at the end",
+        "Extensive documentation before coding"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Agile uses short, iterative sprints to frequently deliver and adjust features.",
+      "messageForIncorrectAnswer": "Incorrect. Agile development values iterative progress and short feedback loops.",
+      "point": "10"
+    },
+    {
+      "question": "Which option best describes Infrastructure as Code (IaC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A practice to document infrastructure by hand",
+        "A method to deploy infrastructure only once",
+        "A marketing term with no practical use",
+        "A way to manage and provision infrastructure using code and automation"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! IaC uses code to define and manage infrastructure, making it repeatable and scalable.",
+      "messageForIncorrectAnswer": "Incorrect. IaC involves managing infrastructure configurations via code.",
+      "point": "10"
+    },
+    {
+      "question": "What does the J-curve represent in the context of change management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A performance level that never fluctuates",
+        "Immediate improvement with no setbacks",
+        "A temporary dip in performance before improvements kick in",
+        "A constant decline in productivity due to change"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The J-curve shows that performance may drop initially after changes, then recover and improve.",
+      "messageForIncorrectAnswer": "Incorrect. The J-curve indicates an initial setback before positive results are realized.",
+      "point": "10"
+    },
+    {
+      "question": "What is a T-shaped skill set?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Having only one deep skill with no breadth",
+        "Being an expert in every single technology",
+        "Broad general skills with deep expertise in one area",
+        "Focusing solely on management rather than technical skills"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A T-shaped professional has broad knowledge across multiple areas and deep skill in one specialty.",
+      "messageForIncorrectAnswer": "Incorrect. T-shaped skills mean a broad range with one deep area of expertise.",
+      "point": "10"
+    },
+    {
+      "question": "Which practice in DevOps aims to reduce integration issues?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual code reviews at the project end",
+        "Continuous Integration, merging code changes frequently",
+        "Deploying code only once a quarter",
+        "Avoiding any form of automation"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Continuous Integration frequently merges changes to detect issues early and reduce integration headaches.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Integration helps identify and fix issues early by merging code often.",
+      "point": "10"
+    },
+    {
+      "question": "What is the core difference between Waterfall and Agile methodologies?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Waterfall encourages frequent iteration, Agile is strictly linear",
+        "Agile delivers in small increments, Waterfall follows a linear sequence",
+        "Both are identical in practice",
+        "Agile never involves user feedback, while Waterfall does"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Agile uses iterative, incremental delivery, whereas Waterfall follows a sequential, linear path.",
+      "messageForIncorrectAnswer": "Incorrect. Agile is iterative and incremental, while Waterfall is linear.",
+      "point": "10"
+    },
+    {
+      "question": "What does DevSecOps emphasize compared to traditional DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Excluding security checks to speed delivery",
+        "Integrating security practices throughout the development pipeline",
+        "Replacing operations teams with security teams",
+        "Focusing only on compliance documentation"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevSecOps weaves security into each stage, ensuring secure development and operations.",
+      "messageForIncorrectAnswer": "Incorrect. DevSecOps integrates security early and continuously.",
+      "point": "10"
+    },
+    {
+      "question": "Why is continuous improvement important in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It ensures teams never change their approach",
+        "It reduces feedback loops and collaboration",
+        "It allows teams to learn from each iteration and improve processes over time",
+        "It completely replaces testing phases"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Continuous improvement helps teams refine their processes and products after each iteration.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous improvement means learning from experience and enhancing processes.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main focus of a Site Reliability Engineer (SRE)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Creating marketing strategies",
+        "Maintaining the reliability and performance of services",
+        "Designing UI/UX components",
+        "Managing human resources"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! SREs ensure systems are reliable, stable, and meet performance objectives.",
+      "messageForIncorrectAnswer": "Incorrect. SRE focuses on ensuring services run reliably and efficiently.",
+      "point": "10"
+    },
+    {
+      "question": "Which key DevOps principle relates to preventing large risky releases?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual integration",
+        "Infrequent deployments",
+        "Frequent, small releases",
+        "Extensive upfront documentation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Frequent, smaller releases help reduce risk by delivering changes incrementally.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps encourages frequent, small releases to minimize risk.",
+      "point": "10"
+    },
+    {
+      "question": "What benefit does Infrastructure as Code (IaC) provide?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "All changes remain undocumented",
+        "Infrastructure cannot be versioned",
+        "Consistent, repeatable deployments",
+        "Infrastructure is managed exclusively by manual changes"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! IaC ensures infrastructure can be replicated and managed consistently through code.",
+      "messageForIncorrectAnswer": "Incorrect. IaC leads to consistent, repeatable, and versionable deployments.",
+      "point": "10"
+    },
+    {
+      "question": "What does short feedback loops in DevOps ensure?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Teams only review feedback annually",
+        "Problems are identified and addressed promptly",
+        "Developers never communicate with operations",
+        "Security issues remain hidden"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Short feedback loops help teams detect issues early and act quickly.",
+      "messageForIncorrectAnswer": "Incorrect. Short feedback loops let teams respond rapidly to problems.",
+      "point": "10"
+    },
+    {
+      "question": "How does a Platform Engineer support DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By focusing only on application code",
+        "By managing and improving the underlying platform tools and services",
+        "By eliminating all automation tools",
+        "By preventing developers from accessing infrastructure"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Platform Engineers streamline the platform so developers can deliver efficiently.",
+      "messageForIncorrectAnswer": "Incorrect. Platform Engineers ensure the platform is robust and easy to use.",
+      "point": "10"
+    },
+    {
+      "question": "What is one reason Agile and DevOps complement each other?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Both ignore customer feedback",
+        "They both favor slow release cycles",
+        "Agile improves development speed while DevOps enhances delivery and operation",
+        "They require completely different mindsets"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Agile optimizes development cycles, while DevOps streamlines release and operations.",
+      "messageForIncorrectAnswer": "Incorrect. Agile speeds up dev cycles, and DevOps ensures fast, stable delivery.",
+      "point": "10"
+    },
+    {
+      "question": "Why is culture considered a critical pillar of DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Culture is irrelevant to DevOps success",
+        "Without a supportive culture, tools and practices may fail",
+        "Culture only matters after deployment",
+        "Culture ensures no automation is required"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A supportive culture ensures collaboration, trust, and successful adoption of DevOps practices.",
+      "messageForIncorrectAnswer": "Incorrect. A positive culture underpins all DevOps improvements.",
+      "point": "10"
+    },
+    {
+      "question": "In DevOps, what does 'continuous integration' focus on?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Running code changes once a year",
+        "Integrating changes into a main branch frequently",
+        "Relying solely on manual deployments",
+        "Avoiding version control systems"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Continuous integration merges code changes frequently to catch issues early.",
+      "messageForIncorrectAnswer": "Incorrect. CI involves regularly integrating code to detect conflicts quickly.",
+      "point": "10"
+    },
+    {
+      "question": "How does DevOps approach testing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It eliminates testing to speed releases",
+        "Testing only happens after deployment",
+        "Automated tests run early and often",
+        "Developers are never involved in testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Automated tests run frequently and early, ensuring quality at every stage.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps advocates early, automated testing to maintain quality.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of 'continuous delivery'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To delay deploying changes as long as possible",
+        "To ensure code is always in a deployable state",
+        "To run integration tests only at the end",
+        "To rely completely on manual approvals"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Continuous delivery keeps the software in a state ready for deployment at any time.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous delivery ensures code can be deployed whenever needed.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'shift-left testing' mean?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Delaying tests until after production",
+        "Performing tests earlier in the development cycle",
+        "Relying only on manual testing after coding",
+        "Removing tests from the CI pipeline"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Shift-left testing moves testing earlier, ensuring issues are caught sooner.",
+      "messageForIncorrectAnswer": "Incorrect. Shift-left means testing as early as possible.",
+      "point": "10"
+    },
+    {
+      "question": "What is a primary role of a Cloud Engineer in a DevOps environment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Designing UIs for the application",
+        "Managing and optimizing cloud infrastructure",
+        "Eliminating automation tools",
+        "Focusing only on end-user support"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! A Cloud Engineer ensures stable, scalable, and cost-effective cloud infrastructure.",
+      "messageForIncorrectAnswer": "Incorrect. Cloud Engineers handle cloud infrastructure to support DevOps initiatives.",
+      "point": "10"
+    },
+    {
+      "question": "Why is security considered throughout the DevOps pipeline in DevSecOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To slow down the release process",
+        "To catch vulnerabilities at the end only",
+        "To identify and mitigate risks as early as possible",
+        "Because security is optional in modern SDLC"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Integrating security early helps detect and fix issues before they become major problems.",
+      "messageForIncorrectAnswer": "Incorrect. Early security integration prevents costly vulnerabilities later.",
+      "point": "10"
+    },
+    {
+      "question": "How does DevOps handle organizational change?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By ignoring the people factor",
+        "By focusing solely on technology and not processes",
+        "By considering people, process, and technology together",
+        "By removing feedback loops"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! DevOps-driven change considers people, processes, and technology for effective transformation.",
+      "messageForIncorrectAnswer": "Incorrect. Effective changes require attention to people, processes, and technology.",
+      "point": "10"
+    },
+    {
+      "question": "What is one outcome of using feature flags in a DevOps workflow?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Features can only be deployed once fully complete",
+        "Teams must wait for all code to be ready before testing",
+        "Teams can safely deploy code and toggle features on or off gradually",
+        "Code deployment must stop when a feature is incomplete"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Feature flags let teams deploy changes safely and turn features on when ready.",
+      "messageForIncorrectAnswer": "Incorrect. Feature flags enable gradual rollouts and safer experimentation.",
+      "point": "10"
+    },
+    {
+      "question": "What is one way DevOps reduces 'time to market'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By adding more manual checkpoints",
+        "By encouraging large, infrequent releases",
+        "By automating key processes and improving collaboration",
+        "By preventing developers from making changes"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Automation and streamlined collaboration help deliver features faster to market.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps uses automation and teamwork to accelerate delivery.",
+      "point": "10"
+    },
+    {
+      "question": "Why is embracing failure a concept in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To encourage repeating mistakes",
+        "Because learning from failures fosters continuous improvement",
+        "To reduce testing efforts",
+        "To avoid providing feedback"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Accepting and analyzing failures helps teams improve their processes.",
+      "messageForIncorrectAnswer": "Incorrect. Failure is seen as a learning opportunity in DevOps.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of a post-incident review in SRE or DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To assign blame to individuals",
+        "To identify root causes and prevent recurrence",
+        "To reduce documentation",
+        "To skip analyzing issues"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Post-incident reviews find the root cause and drive improvements to avoid future incidents.",
+      "messageForIncorrectAnswer": "Incorrect. The review focuses on learning and preventing repeat issues.",
+      "point": "10"
+    },
+    {
+      "question": "How does continuous monitoring support DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By ignoring production metrics",
+        "By collecting data to detect issues early and maintain performance",
+        "By eliminating the need for alerts",
+        "By making feedback loops longer"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Continuous monitoring provides data to quickly spot problems and maintain system health.",
+      "messageForIncorrectAnswer": "Incorrect. Monitoring ensures issues are identified early for prompt resolution.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key benefit of using version control in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No record of changes",
+        "Difficult rollbacks",
+        "Clear change history and easier collaboration",
+        "Inability to work in parallel"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Version control ensures a history of changes, enabling easy collaboration and rollbacks.",
+      "messageForIncorrectAnswer": "Incorrect. Version control provides clear change history and smoother teamwork.",
+      "point": "10"
+    },
+    {
+      "question": "Why do DevOps teams prefer automation?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To eliminate all human involvement",
+        "Because manual processes are error-prone and slow",
+        "To reduce code quality",
+        "To stop collaboration efforts"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Automation reduces human errors and speeds up repetitive tasks.",
+      "messageForIncorrectAnswer": "Incorrect. Automation improves reliability, speed, and consistency.",
+      "point": "10"
+    },
+    {
+      "question": "How does DevOps improve quality assurance?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By removing testing phases",
+        "By integrating testing throughout the pipeline",
+        "By only testing at the end of a project",
+        "By avoiding feedback from customers"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevOps integrates QA activities into every stage, catching defects early.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous testing ensures higher quality earlier.",
+      "point": "10"
+    },
+    {
+      "question": "What differentiates SRE from traditional operations roles?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "SRE focuses only on manual tasks",
+        "SRE avoids metrics and data",
+        "SRE applies software engineering principles to operations",
+        "SRE never collaborates with development teams"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! SRE uses engineering approaches to improve reliability, blending dev and ops skill sets.",
+      "messageForIncorrectAnswer": "Incorrect. SRE treats operations problems as software problems.",
+      "point": "10"
+    },
+    {
+      "question": "How do short release cycles help a DevOps team?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By creating massive deployments that are hard to manage",
+        "By allowing faster feedback and quicker course corrections",
+        "By eliminating the need for testing",
+        "By preventing user feedback"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Short cycles provide rapid feedback, enabling teams to adjust quickly.",
+      "messageForIncorrectAnswer": "Incorrect. Quick releases let teams learn and improve faster.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of blue-green deployments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To test code without any fallback",
+        "To deploy updates with zero downtime by switching traffic between environments",
+        "To remove staging environments",
+        "To deploy changes only annually"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Blue-green deployments route traffic to a new environment and switch back if needed, reducing downtime.",
+      "messageForIncorrectAnswer": "Incorrect. This strategy ensures smooth, low-risk releases.",
+      "point": "10"
+    }
+  ]
+}
