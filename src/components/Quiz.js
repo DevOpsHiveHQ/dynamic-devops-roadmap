@@ -51,7 +51,7 @@ function Quiz({ data }) {
           className="quiz-button-center button button--secondary"
           onClick={openModal}
         >
-          💡 Test Your Knowledge with the Module Quiz 💡
+          💡 Test Your Knowledge with the Module Quiz Questions 💡
         </button>
       </div>
 
