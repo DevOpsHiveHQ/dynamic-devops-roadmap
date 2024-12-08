@@ -1,532 +1,607 @@
 {
   "quizTitle": "Module 5: Transform - Finishing the Structure Quiz",
-  "quizSynopsis": "Assess your understanding of refining goals, external systems integration, integration testing, IaC, Terraform, Kubernetes config management, log aggregation, and CD best practices.",
+  "quizSynopsis": "Evaluate your understanding of refining goals, handling external systems, integration testing principles, IaC and Terraform essentials, Kubernetes configuration management, log aggregation strategies, and continuous delivery best practices.",
   "progressBarColor": "#64a725",
   "nrOfQuestions": "20",
   "questions": [
     {
-      "question": "At this stage, why should you revisit and refine your project's goals and requirements?",
+      "question": "At this stage, you have a working project. What should you do first?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To discard all initial requirements",
-        "To focus solely on technical details and ignore business needs",
-        "To delay further development indefinitely",
-        "To ensure alignment with current business objectives and user feedback"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Continuous refinement ensures your solutions match evolving business goals and user insights.",
-      "messageForIncorrectAnswer": "Incorrect. Refining goals ensures alignment with business and user needs.",
-      "point": "10"
-    },
-    {
-      "question": "Why consider user feedback when adjusting project goals?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Because user feedback helps shape improvements and ensure relevance",
-        "To ignore their suggestions and stick to the original plan",
-        "To make the project harder to use",
-        "To remove all features users enjoy"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! User feedback helps refine the solution to better meet real-world needs.",
-      "messageForIncorrectAnswer": "Incorrect. Listening to users guides meaningful improvements.",
-      "point": "10"
-    },
-    {
-      "question": "What is a benefit of involving cross-functional teams (like QA) in refinement?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Increased project confusion",
-        "A smoother end-to-end delivery by ensuring quality and collaboration",
-        "Reduced communication between teams",
-        "Slower response to user feedback"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Engaging various teams ensures quality, reliability, and overall better delivery.",
-      "messageForIncorrectAnswer": "Incorrect. Collaboration improves the project's quality and flow.",
-      "point": "10"
-    },
-    {
-      "question": "How should planning be treated during the ongoing project life cycle?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "As fixed and unchanging",
-        "As something to ignore once development starts",
-        "As a moving target that should be iterated upon as needs evolve",
-        "As a barrier to user feedback"
+        "Assume all goals are still correct",
+        "Stop adjusting the plan",
+        "Refine goals and requirements to align with current business objectives",
+        "Ignore feedback from the business"
       ],
       "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Planning is iterative and should evolve with changing requirements and insights.",
-      "messageForIncorrectAnswer": "Incorrect. Planning should adapt as circumstances change.",
+      "messageForCorrectAnswer": "Correct! Continuously refining goals ensures they remain relevant and valuable.",
+      "messageForIncorrectAnswer": "Incorrect. Goals should be revisited to maintain alignment with business needs.",
       "point": "10"
     },
     {
-      "question": "Why establish continuous feedback loops now?",
+      "question": "Why consider user feedback now?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To avoid any form of communication",
-        "To ignore changing requirements",
-        "To prevent responding to user needs",
-        "To regularly adjust direction based on ongoing input"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Continuous feedback loops help fine-tune development in response to real-time insights.",
-      "messageForIncorrectAnswer": "Incorrect. Ongoing feedback refines your approach continuously.",
-      "point": "10"
-    },
-    {
-      "question": "Why is it often better to use an official SDK or library when interacting with external systems?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Because it provides tested, reliable interfaces and reduces maintenance overhead",
-        "Because writing all code from scratch is always easier",
-        "Because official SDKs never handle errors",
-        "Because official SDKs reduce code clarity"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Official SDKs simplify integrations by providing stable, maintained interfaces.",
-      "messageForIncorrectAnswer": "Incorrect. SDKs or libraries save time and ensure reliability.",
-      "point": "10"
-    },
-    {
-      "question": "How should you handle rate limits when working with external APIs?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Ignore them entirely",
-        "Implement strategies like exponential backoff to avoid hitting limits",
-        "Perform continuous, unlimited requests",
-        "Stop all requests after first rate limit error"
+        "User feedback is irrelevant at this stage",
+        "To ensure the solution meets real user needs and refine it accordingly",
+        "To ignore improvements and only trust assumptions",
+        "To delay adjustments indefinitely"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Use techniques like exponential backoff to stay within rate limits and maintain stability.",
-      "messageForIncorrectAnswer": "Incorrect. Respecting rate limits ensures smooth, reliable API consumption.",
+      "messageForCorrectAnswer": "Correct! User feedback helps shape improvements and ensure relevance.",
+      "messageForIncorrectAnswer": "Incorrect. Feedback guides meaningful refinement.",
       "point": "10"
     },
     {
-      "question": "Why consider asynchronous communication methods (e.g., message queues) with external systems?",
+      "question": "Who are typically the 'users' for a DevOps Engineer’s internal solutions?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To force synchronous slowdowns",
-        "To skip error handling",
-        "To handle latency and load by decoupling requests and responses",
-        "To avoid caching"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Async methods handle spikes, delays, and failures gracefully, improving scalability.",
-      "messageForIncorrectAnswer": "Incorrect. Queues and async patterns help manage load and reliability.",
-      "point": "10"
-    },
-    {
-      "question": "What is a recommended approach when retrieving large data sets from an external system?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Make a single huge request that might fail",
-        "Ignore pagination and hope for the best",
-        "Use pagination or chunked responses to handle data efficiently",
-        "Refuse to process large data sets"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Paginating responses prevents timeouts and improves performance.",
-      "messageForIncorrectAnswer": "Incorrect. Large data sets should be handled in manageable chunks.",
-      "point": "10"
-    },
-    {
-      "question": "Why consider caching results from external systems?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Caching increases unnecessary calls",
-        "Caching always returns stale data",
-        "Caching reduces repeated requests, saving time and resources",
-        "Caching never helps with performance"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Caching avoids unnecessary repeated calls, improving efficiency and response time.",
-      "messageForIncorrectAnswer": "Incorrect. Caching is a common strategy to improve performance and reduce load.",
-      "point": "10"
-    },
-    {
-      "question": "What do integration tests focus on?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Testing individual units in isolation",
-        "Verifying that combined components work together correctly",
-        "Ignoring how modules interact",
-        "Focusing solely on UI design"
+        "End-customers only",
+        "Primarily other internal teams (Dev, QA, Ops) in the organization",
+        "No one uses their solutions",
+        "Only external consultants"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Integration tests ensure different parts of the system collaborate as intended.",
-      "messageForIncorrectAnswer": "Incorrect. Integration tests validate interactions between modules.",
+      "messageForCorrectAnswer": "Correct! Often internal teams rely on DevOps tools and processes.",
+      "messageForIncorrectAnswer": "Incorrect. Internal teams are the main consumers of DevOps outputs.",
       "point": "10"
     },
     {
-      "question": "When writing integration tests, what should you keep in mind?",
+      "question": "What does building continuous feedback loops achieve?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Complex, hard-to-maintain test code",
-        "Avoid real systems at all costs",
-        "Keep tests simple, use realistic test data, and prefer real systems or proper stubs",
-        "Only test happy paths"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Simple, realistic tests with actual systems increase reliability and relevance.",
-      "messageForIncorrectAnswer": "Incorrect. Integration tests should be as realistic and maintainable as possible.",
-      "point": "10"
-    },
-    {
-      "question": "Why run integration tests in an environment close to production?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To ensure tests run slower",
-        "To reduce the accuracy of test results",
-        "To detect issues that might appear in production-like conditions",
-        "To ignore environment differences"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! A production-like environment increases the likelihood of catching real-world issues early.",
-      "messageForIncorrectAnswer": "Incorrect. Similar conditions reveal environment-specific problems.",
-      "point": "10"
-    },
-    {
-      "question": "What is a good practice regarding integration test data?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Use completely random, meaningless data",
-        "Use minimal, realistic test data to simulate real use cases",
-        "Never clean up test data",
-        "Make tests depend on each other's data"
+        "Ongoing improvement by regularly collecting insights",
+        "Stagnation and no changes",
+        "Hiding issues until production",
+        "Eliminating cross-functional communication"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Representative, minimal test data reflects real scenarios without overcomplicating tests.",
-      "messageForIncorrectAnswer": "Incorrect. Realistic test data improves relevance and accuracy.",
+      "messageForCorrectAnswer": "Correct! Feedback loops ensure iterative improvements and smoother delivery.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous feedback encourages ongoing optimization.",
       "point": "10"
     },
     {
-      "question": "How should integration tests handle external services?",
+      "question": "Should planning be considered fixed or dynamic?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Ignore them completely",
-        "Use production APIs directly without caution",
-        "Use sandbox/test environments or mocked/stubbed endpoints if real ones aren't available",
-        "Rely solely on manual verification"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Test with sandbox APIs or mocks to safely simulate external service behavior.",
-      "messageForIncorrectAnswer": "Incorrect. Use proper test environments or mocks to avoid impacting production.",
-      "point": "10"
-    },
-    {
-      "question": "What does Infrastructure as Code (IaC) provide?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "A manual approach to provisioning infrastructure",
-        "A way to manage infrastructure using code-like files for consistency and repeatability",
-        "A process that discourages source control",
-        "A replacement for all programming languages"
+        "Fixed after the first version",
+        "Static and never changed",
+        "Dynamic—goals and plans should iterate with evolving requirements",
+        "Set in stone at project start"
       ],
       "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! IaC uses code-like definitions for predictable, repeatable infrastructure provisioning.",
-      "messageForIncorrectAnswer": "Incorrect. IaC treats infrastructure setup as code, enhancing reliability.",
+      "messageForCorrectAnswer": "Correct! Plans evolve as conditions and requirements change.",
+      "messageForIncorrectAnswer": "Incorrect. Agility means plans adjust over time.",
       "point": "10"
     },
     {
-      "question": "Why is a declarative approach preferred in IaC?",
+      "question": "Why use a library or SDK when integrating with external systems?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "It makes infrastructure setup more complicated",
-        "It forces manual intervention",
-        "It lets you state the desired end state and let the tool figure out how to achieve it",
-        "It removes predictability"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Declarative IaC focuses on the 'what', not the 'how', simplifying management.",
-      "messageForIncorrectAnswer": "Incorrect. Declarative defines the end goal, the tool handles the details.",
-      "point": "10"
-    },
-    {
-      "question": "What is a key benefit of idempotency in IaC?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "It makes configurations unpredictable",
-        "It prevents stable provisioning",
-        "It ensures running the same code multiple times produces the same result",
-        "It forces manual fixes each run"
+        "To save effort by leveraging existing solutions rather than coding from scratch",
+        "To complicate the integration intentionally",
+        "To ignore built-in error handling",
+        "To rewrite logic for each system repeatedly"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Idempotency ensures reliability and consistency on repeated executions.",
-      "messageForIncorrectAnswer": "Incorrect. Idempotent IaC yields predictable outcomes every run.",
+      "messageForCorrectAnswer": "Correct! Libraries handle common complexities, saving time and reducing errors.",
+      "messageForIncorrectAnswer": "Incorrect. Using known tools avoids reinventing the wheel.",
       "point": "10"
     },
     {
-      "question": "Why avoid imperative scripts for IaC?",
+      "question": "How should you handle rate limits when calling external APIs?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "They are easier to maintain than declarative",
-        "They scale well with complexity",
-        "They can be harder to maintain and don't leverage IaC tooling benefits",
-        "They automatically ensure idempotency"
+        "Ignore them and risk being blocked",
+        "Implement rate-limiting strategies (e.g., exponential backoff)",
+        "Send requests continuously without delay",
+        "Never handle errors"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Imperative scripts are less maintainable and don't exploit declarative IaC advantages.",
-      "messageForIncorrectAnswer": "Incorrect. Declarative and IaC tools reduce complexity more effectively.",
+      "messageForCorrectAnswer": "Correct! Backoff strategies prevent hitting rate limits and maintain stability.",
+      "messageForIncorrectAnswer": "Incorrect. Respecting rate limits is essential.",
       "point": "10"
     },
     {
-      "question": "What is Terraform primarily known for?",
+      "question": "Why consider pagination for large data sets from external services?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Being a manual configuration tool",
-        "Only working with one cloud provider",
-        "Providing multi-cloud IaC with a declarative DSL and state management",
-        "Eliminating the need for code repositories"
+        "To request all data at once risking timeouts",
+        "To handle data in chunks for better performance and reliability",
+        "Because pagination makes no difference",
+        "To complicate retrieval"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Terraform supports multiple providers, is declarative, and tracks state for reliable IaC.",
-      "messageForIncorrectAnswer": "Incorrect. Terraform is a multi-cloud, declarative IaC tool with stateful approach.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Pagination prevents timeouts and improves efficiency.",
+      "messageForIncorrectAnswer": "Incorrect. Handling data incrementally is more efficient.",
       "point": "10"
     },
     {
-      "question": "What should you never do with Terraform state in a team environment?",
+      "question": "Why use caching when interacting with external systems?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Store it locally",
-        "Use remote storage like S3",
-        "Check state into version control",
-        "Encrypt it for security"
+        "To repeatedly fetch the same data",
+        "To reduce unnecessary requests and speed up responses",
+        "To slow down performance",
+        "Because caching is rarely helpful"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Caching avoids redundant calls and improves performance.",
+      "messageForIncorrectAnswer": "Incorrect. Caching optimizes efficiency.",
+      "point": "10"
+    },
+    {
+      "question": "Should all communication with external systems be synchronous?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Always synchronous",
+        "No, async methods (e.g., message queues) can handle latency and spikes",
+        "Async is never beneficial",
+        "Only if external systems demand it"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Asynchronous communication improves resilience under load.",
+      "messageForIncorrectAnswer": "Incorrect. Asynchronous patterns help deal with delays.",
+      "point": "10"
+    },
+    {
+      "question": "What is the goal of integration testing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Verify components work together, not just in isolation",
+        "Test only isolated units",
+        "Skip interaction testing",
+        "Focus only on UI appearance"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Storing state locally hinders collaboration and can cause consistency issues.",
-      "messageForIncorrectAnswer": "Incorrect. Remote storage avoids conflicts and improves team workflows.",
+      "messageForCorrectAnswer": "Correct! Integration tests ensure modules interact correctly.",
+      "messageForIncorrectAnswer": "Incorrect. Integration tests check combined functionality.",
       "point": "10"
     },
     {
-      "question": "What does Terraform encourage to reduce code duplication?",
+      "question": "How to begin with integration testing?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Rewriting the same resources repeatedly",
-        "Using no modules",
-        "Utilizing modules and Registry resources for DRY configurations",
-        "Avoiding official modules"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Modules help reuse patterns and keep IaC DRY and maintainable.",
-      "messageForIncorrectAnswer": "Incorrect. Modules prevent repeating the same code multiple times.",
-      "point": "10"
-    },
-    {
-      "question": "After creating a Kubernetes cluster with Terraform, how should you manage Kubernetes apps?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Continue using Terraform for app deployment",
-        "Switch to Kubernetes-native tools (like Helm or Kustomize) for managing apps",
-        "Ignore Kubernetes best practices",
-        "Use only imperative kubectl commands"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Use Kubernetes-native tools for app configuration after setting up the cluster with Terraform.",
-      "messageForIncorrectAnswer": "Incorrect. Kubernetes resources should be managed with Kubernetes-oriented tools.",
-      "point": "10"
-    },
-    {
-      "question": "Which tools are commonly used to manage Kubernetes configuration?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Only manual editing of YAML files",
-        "Chef and Puppet",
-        "Kustomize and Helm",
-        "Terraform only"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Kustomize and Helm are popular for declarative Kubernetes config management.",
-      "messageForIncorrectAnswer": "Incorrect. Kustomize and Helm streamline Kubernetes configuration.",
-      "point": "10"
-    },
-    {
-      "question": "What is Helm known for in the Kubernetes ecosystem?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Being the official Kubernetes CLI",
-        "Having no templating features",
-        "Providing charts (templates) for packaging and deploying apps",
-        "Replacing Kubernetes API"
+        "Start with basic scenarios and expand as needed",
+        "Jump into highly complex tests immediately",
+        "Never automate integration tests",
+        "Test only after production deployment"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Helm uses charts (templates) to simplify deploying and managing complex applications.",
-      "messageForIncorrectAnswer": "Incorrect. Helm helps manage Kubernetes apps using templated manifests.",
+      "messageForCorrectAnswer": "Correct! Begin simple, then add complexity gradually.",
+      "messageForIncorrectAnswer": "Incorrect. Incremental approach is more manageable.",
       "point": "10"
     },
     {
-      "question": "How should Kubernetes configuration be treated?",
+      "question": "Should integration tests rely heavily on mocks?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "As a one-time manual setup",
-        "As something not worth versioning",
-        "As Infrastructure as Code, following declarative and automated practices",
-        "As ad hoc commands typed on the fly"
+        "No, prefer real systems or test environments for accurate results",
+        "Yes, mocks only",
+        "Mocks improve realism",
+        "Ignore test frameworks"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Real systems give more reliable integration insights.",
+      "messageForIncorrectAnswer": "Incorrect. Over-mocking reduces realism.",
+      "point": "10"
+    },
+    {
+      "question": "Why test both success and failure scenarios in integration tests?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Only success matters",
+        "To ensure the system handles errors and edge cases, not just happy paths",
+        "Failure paths are irrelevant",
+        "To ignore robustness"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Treating Kubernetes configs as IaC ensures consistency, scalability, and reliability.",
-      "messageForIncorrectAnswer": "Incorrect. Apply IaC principles to Kubernetes config for long-term maintainability.",
+      "messageForCorrectAnswer": "Correct! Testing failure paths ensures robustness.",
+      "messageForIncorrectAnswer": "Incorrect. Handling errors is crucial.",
       "point": "10"
     },
     {
-      "question": "Why aggregate logs in a centralized system?",
+      "question": "Should integration tests run in production-like environments?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To complicate debugging",
-        "To ensure each service logs are isolated and inaccessible",
-        "To simplify access, analysis, and correlation of events across systems",
-        "To increase storage costs unnecessarily"
+        "Yes, similar environments catch issues early",
+        "No, use unrelated setups",
+        "Only local dev machines",
+        "Environment parity doesn’t matter"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Centralized logs make troubleshooting easier and enable cross-system insights.",
-      "messageForIncorrectAnswer": "Incorrect. Aggregation simplifies log analysis and debugging.",
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Similar environments reduce surprises in production.",
+      "messageForIncorrectAnswer": "Incorrect. Parity ensures realistic testing.",
       "point": "10"
     },
     {
-      "question": "Which log type is easiest to query and analyze?",
+      "question": "What is Infrastructure as Code (IaC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual server setup",
+        "Managing infrastructure with machine-readable definition files",
+        "GUI-only configuration",
+        "Avoiding version control"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaC treats infrastructure configuration as code.",
+      "messageForIncorrectAnswer": "Incorrect. IaC automates provisioning via code.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'idempotent' mean in IaC?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Unpredictable results",
+        "Same predictable outcome every run",
+        "Requires manual intervention",
+        "Non-repeatable processes"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Idempotency ensures stable, repeatable results.",
+      "messageForIncorrectAnswer": "Incorrect. Idempotent means consistent outcomes each time.",
+      "point": "10"
+    },
+    {
+      "question": "Why prefer declarative IaC over imperative?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Declarative describes desired state, letting the tool decide how",
+        "Imperative is simpler",
+        "Declarative complicates logic",
+        "Imperative always better"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Declarative simplifies management by focusing on the desired outcome.",
+      "messageForIncorrectAnswer": "Incorrect. Declarative offloads complexity to the tool.",
+      "point": "10"
+    },
+    {
+      "question": "Should you use imperative scripts for IaC?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No, avoid imperative scripts; declarative IaC tools are better",
+        "Yes, imperative is ideal",
+        "Always script everything manually",
+        "Ignore IaC tools entirely"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Declarative IaC tools are more maintainable and scalable.",
+      "messageForIncorrectAnswer": "Incorrect. Imperative scripts complicate future automation.",
+      "point": "10"
+    },
+    {
+      "question": "Why are Ansible-like tools less emphasized now?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are obsolete",
+        "Container ecosystems and IaC reduce the need for traditional config management tools",
+        "They are mandatory",
+        "They are always required first"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Modern containerized workflows and IaC approaches often replace these tools.",
+      "messageForIncorrectAnswer": "Incorrect. The container era shifts preference to IaC.",
+      "point": "10"
+    },
+    {
+      "question": "What is Terraform known for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Multi-cloud IaC tool with a declarative DSL (HCL)",
+        "No cloud support",
+        "Only on-prem usage",
+        "Being imperative"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Terraform supports multiple clouds and uses a declarative approach.",
+      "messageForIncorrectAnswer": "Incorrect. Terraform is popular for multi-cloud declarative IaC.",
+      "point": "10"
+    },
+    {
+      "question": "How does Terraform handle infrastructure state?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It maintains a state file to track desired vs. current infrastructure",
+        "No state management",
+        "Ignores differences in environments",
+        "Randomly updates resources"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! The state file helps Terraform know what’s already deployed.",
+      "messageForIncorrectAnswer": "Incorrect. State management is central to Terraform.",
+      "point": "10"
+    },
+    {
+      "question": "Where should you store Terraform state?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "In a remote backend like S3 for collaboration and safety",
+        "Locally on a developer’s laptop",
+        "Never store state files",
+        "In email attachments"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Remote backends ensure consistency and team access.",
+      "messageForIncorrectAnswer": "Incorrect. Local storage risks conflict and loss.",
+      "point": "10"
+    },
+    {
+      "question": "Should you rewrite all Terraform code from scratch?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No, use modules from Terraform Registry to avoid duplication",
+        "Yes, never reuse code",
+        "Never trust official modules",
+        "Repeat code across all projects"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Reusing modules saves time and maintains DRY principles.",
+      "messageForIncorrectAnswer": "Incorrect. Modules help maintain consistent, efficient IaC.",
+      "point": "10"
+    },
+    {
+      "question": "After creating a Kubernetes cluster with Terraform, how manage apps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Continue using Terraform for app deployments",
+        "Use Kubernetes-native tools like Helm or Kustomize for workloads",
+        "No tools needed",
+        "Never deploy apps"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! K8s-oriented tools are best for managing cluster apps.",
+      "messageForIncorrectAnswer": "Incorrect. Different layers require appropriate tools.",
+      "point": "10"
+    },
+    {
+      "question": "With a Kubernetes cluster running, how to manage configs?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Adopt declarative, automation-friendly approaches",
+        "Only manual kubectl commands",
+        "Imperative scripts only",
+        "Avoid versioning manifests"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! K8s encourages declarative, versioned, automated configuration.",
+      "messageForIncorrectAnswer": "Incorrect. Manual imperative methods are less reliable.",
+      "point": "10"
+    },
+    {
+      "question": "Which tools are popular for K8s configuration management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Kubectl, Kustomize, and Helm",
+        "No known tools",
+        "FTP and shell scripts",
+        "Spreadsheets"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! These are standard tools for managing K8s resources.",
+      "messageForIncorrectAnswer": "Incorrect. These three are widely used.",
+      "point": "10"
+    },
+    {
+      "question": "Is Kubernetes configuration considered IaC?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, K8s manifests follow declarative IaC principles",
+        "No, unrelated",
+        "Only if using Helm",
+        "IaC doesn’t apply"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! K8s manifests are declarative, aligning with IaC concepts.",
+      "messageForIncorrectAnswer": "Incorrect. It's a prime example of IaC.",
+      "point": "10"
+    },
+    {
+      "question": "What does Helm provide?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A package manager for K8s using templated charts",
+        "No templating",
+        "A replacement for Kubernetes",
+        "A non-declarative tool"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Helm uses charts to package and manage K8s apps.",
+      "messageForIncorrectAnswer": "Incorrect. Helm is known for its chart-based approach.",
+      "point": "10"
+    },
+    {
+      "question": "Should K8s config management remain manual?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No, use declarative and automated methods",
+        "Yes, manual is best",
+        "Avoid automation",
+        "Don’t version control anything"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Declarative and automated approaches ensure consistency.",
+      "messageForIncorrectAnswer": "Incorrect. Manual methods are less reliable.",
+      "point": "10"
+    },
+    {
+      "question": "Why is log aggregation important?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To spread logs everywhere",
+        "To centralize logs for easier debugging and correlation",
+        "To never troubleshoot issues",
+        "To increase search complexity"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Centralization simplifies event analysis and debugging.",
+      "messageForIncorrectAnswer": "Incorrect. Aggregation streamlines troubleshooting.",
+      "point": "10"
+    },
+    {
+      "question": "Which log type is easiest to query?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
         "Unstructured logs",
         "Structured logs",
-        "Completely random text",
-        "Logs with no timestamps"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Structured logs contain organized data (e.g., JSON), making searches and analysis straightforward.",
-      "messageForIncorrectAnswer": "Incorrect. Structured logs are more machine-readable and filterable.",
-      "point": "10"
-    },
-    {
-      "question": "What should you ensure before storing logs?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "They contain sensitive personal data in plain text",
-        "They use random formats each time",
-        "They are enriched with metadata, sanitized, and comply with privacy regulations",
-        "They are never rotated or managed"
+        "Random strings",
+        "Binary-only logs"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Properly enriched, sanitized, and compliant logs enhance security and usefulness.",
-      "messageForIncorrectAnswer": "Incorrect. Ensure logs meet privacy, compliance, and clarity standards.",
+      "messageForCorrectAnswer": "Correct! Structured logs facilitate querying and analysis.",
+      "messageForIncorrectAnswer": "Incorrect. Structure aids filtering and indexing.",
       "point": "10"
     },
     {
-      "question": "Why avoid storing all possible logs without discrimination?",
+      "question": "Should you store all logs without filtering?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "More logs always mean better insight",
-        "Unlimited logs reduce performance",
-        "Excessive logging can create a 'log swamp', increasing costs and making analysis harder",
-        "Users expect infinite logging"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Filtering logs to what's relevant saves storage, costs, and eases analysis.",
-      "messageForIncorrectAnswer": "Incorrect. Managing log volume is crucial for efficiency and clarity.",
-      "point": "10"
-    },
-    {
-      "question": "What is the main goal of Continuous Delivery (CD)?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To never deploy changes",
-        "To rely solely on manual deployments",
-        "To ensure code changes are always ready for release, safely and quickly",
-        "To separate code from testing"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! CD prepares changes so they can be released at any time, improving delivery speed and safety.",
-      "messageForIncorrectAnswer": "Incorrect. CD ensures rapid, reliable readiness for release.",
-      "point": "10"
-    },
-    {
-      "question": "What is a CD best practice regarding artifact creation?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Build artifacts multiple times in each environment",
-        "Never promote the same artifact",
-        "Build once, then promote the same artifact through different stages",
-        "Build artifacts differently in each stage"
+        "No, focus on relevant logs to avoid a log swamp and reduce costs",
+        "Yes, store everything",
+        "Never store logs",
+        "Only store personal data"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Building once ensures consistency, testing the same artifact across environments.",
-      "messageForIncorrectAnswer": "Incorrect. Reusing the same artifact guarantees consistent testing and deployment.",
+      "messageForCorrectAnswer": "Correct! Selective logging saves cost and improves efficiency.",
+      "messageForIncorrectAnswer": "Incorrect. Excessive logs hamper efficiency.",
       "point": "10"
     },
     {
-      "question": "How should test environments be treated in a CD pipeline?",
+      "question": "Why enrich logs with metadata?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "They should all be dependent on each other",
-        "They should influence one another's results",
-        "They should remain independent to ensure accurate results",
-        "They should never be refreshed"
+        "To confuse future analysis",
+        "To provide context so logs can be understood independently",
+        "To remove clarity",
+        "To violate privacy"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Independent test environments prevent cross-contamination of results.",
-      "messageForIncorrectAnswer": "Incorrect. Isolation ensures each environment’s tests are reliable.",
+      "messageForCorrectAnswer": "Correct! Contextual metadata makes logs more self-explanatory.",
+      "messageForIncorrectAnswer": "Incorrect. Metadata enhances understandability.",
       "point": "10"
     },
     {
-      "question": "Why gather human feedback in addition to system feedback in CD?",
+      "question": "Why anonymize sensitive information in logs?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Because human feedback slows down improvement",
-        "Because system feedback is always perfect",
-        "Because developers and users provide insights beyond what automated tests reveal",
-        "Because human input is never needed"
+        "To comply with regulations (e.g., GDPR) and protect privacy",
+        "To expose personal data",
+        "To break security policies",
+        "No reason to anonymize"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Human perspectives add valuable context and identify issues automation may miss.",
-      "messageForIncorrectAnswer": "Incorrect. Combine system metrics with human insight for holistic improvement.",
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Protecting sensitive data ensures compliance and privacy.",
+      "messageForIncorrectAnswer": "Incorrect. Compliance requires data protection.",
       "point": "10"
     },
     {
-      "question": "What is the ultimate aim of continuous delivery best practices?",
+      "question": "What is the key to effective Continuous Delivery?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To slow releases down",
-        "To avoid any learning or improvement",
-        "To continuously improve speed, quality, and reliability of software delivery",
-        "To eliminate all automation"
+        "Manual steps at every stage",
+        "Automation throughout the pipeline",
+        "No testing at all",
+        "Always rebuilding artifacts differently"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! CD best practices drive ongoing improvement in delivering high-quality software faster.",
-      "messageForIncorrectAnswer": "Incorrect. CD focuses on enhancing speed, quality, and dependability.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Automation ensures speed and reliability in CD.",
+      "messageForIncorrectAnswer": "Incorrect. Manual steps slow down delivery.",
+      "point": "10"
+    },
+    {
+      "question": "How should software be tested for CD?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "In ways totally different from user usage",
+        "The same way customers use it, reducing drift between test and reality",
+        "Never mirror user conditions",
+        "Ignore test environments"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Aligning tests with user scenarios ensures realistic validation.",
+      "messageForIncorrectAnswer": "Incorrect. Mimicking real usage catches issues earlier.",
+      "point": "10"
+    },
+    {
+      "question": "Should you build artifacts multiple times for each environment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, rebuild every time",
+        "No, build once and promote the same artifact through stages",
+        "Never reuse artifacts",
+        "Always differ artifacts per environment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Reusing the same artifact ensures consistency and integrity.",
+      "messageForIncorrectAnswer": "Incorrect. One build tested through all stages is more reliable.",
+      "point": "10"
+    },
+    {
+      "question": "Why should each test environment be independent?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "So they can influence each other",
+        "To ensure accurate tests not affected by other environments",
+        "To merge configurations arbitrarily",
+        "To reduce reliability"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Isolation prevents cross-contamination and misleading results.",
+      "messageForIncorrectAnswer": "Incorrect. Independence yields more trustworthy tests.",
+      "point": "10"
+    },
+    {
+      "question": "Should human feedback be considered in CD?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No, rely only on automation",
+        "Yes, combine system metrics with human insights for continuous improvement",
+        "Human feedback is irrelevant",
+        "Ignore developers and users"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Human feedback adds valuable context to automated checks.",
+      "messageForIncorrectAnswer": "Incorrect. Both automation and human input guide improvements.",
       "point": "10"
     }
   ]

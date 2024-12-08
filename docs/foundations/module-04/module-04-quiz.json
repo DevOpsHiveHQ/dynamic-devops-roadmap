@@ -1,127 +1,128 @@
 {
   "quizTitle": "Module 4: Expand - Constructing a Shell Quiz",
-  "quizSynopsis": "Test your knowledge of reviewing goals, the Twelve-Factor App, REST API best practices, CI best practices, Kubernetes concepts, observability, continuous delivery, and cloud computing models.",
+  "quizSynopsis": "Evaluate your understanding of refining goals, the Twelve-Factor App methodology, REST API best practices, CI best practices, Kubernetes fundamentals, observability, continuous delivery concepts, and cloud computing models.",
   "progressBarColor": "#64a725",
   "nrOfQuestions": "20",
   "questions": [
+
     {
-      "question": "Why review goals and requirements at the start of this module?",
+      "question": "After selecting an Agile methodology and setting up a project board, what should you do next?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To ensure you understand what's been achieved and define what's next",
-        "To add more unplanned features",
-        "To discard initial planning completely",
-        "To prevent updating documentation"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Revisiting goals clarifies progress and sets the direction for the next phase.",
-      "messageForIncorrectAnswer": "Incorrect. Reviewing goals ensures alignment and clarifies the roadmap ahead.",
-      "point": "10"
-    },
-    {
-      "question": "What is the purpose of defining the work scope and deliverables early?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To encourage unlimited scope creep",
-        "To avoid scope creep and ensure timely completion",
-        "To never finalize timelines",
-        "To keep requirements vague"
+        "Start coding immediately",
+        "Review goals and requirements to guide the next phase",
+        "Ignore previously set objectives",
+        "Remove all tasks from the board"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Clear scope and deliverables help prevent uncontrolled expansion and keep the project on track.",
-      "messageForIncorrectAnswer": "Incorrect. Defined scope prevents unexpected growth and keeps focus.",
+      "messageForCorrectAnswer": "Correct! Reassessing goals ensures the project stays aligned with its objectives.",
+      "messageForIncorrectAnswer": "Incorrect. You must revisit goals and requirements before proceeding.",
       "point": "10"
     },
     {
-      "question": "Why communicate the plan in a management platform like GitHub Projects?",
+      "question": "Why define the scope and deliverables early?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To hide information from the team",
-        "To keep plans only in your head",
-        "To make it easy for newcomers to understand direction and status",
-        "To ensure no one can track progress"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! A management tool provides transparency and clarity for everyone involved.",
-      "messageForIncorrectAnswer": "Incorrect. Sharing the plan helps others easily understand the project's direction.",
-      "point": "10"
-    },
-    {
-      "question": "What is the next step after defining and communicating the project plan?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Abandon the project",
-        "Add more unspecified features",
-        "Delay implementation indefinitely",
-        "Start working on the plan according to the timeline"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! After planning, begin executing tasks as scheduled.",
-      "messageForIncorrectAnswer": "Incorrect. Once the plan is set, the next step is to implement it.",
-      "point": "10"
-    },
-    {
-      "question": "Why set a realistic timeline for the work?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To ensure proper time allocation and avoid unrealistic expectations",
-        "To ignore deadlines entirely",
-        "To prevent any flexibility",
-        "To complicate task scheduling"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! A realistic timeline helps manage expectations and ensures on-time delivery.",
-      "messageForIncorrectAnswer": "Incorrect. A realistic timeline aligns resources, scope, and deadlines.",
-      "point": "10"
-    },
-    {
-      "question": "What is the main idea behind the Twelve-Factor App methodology?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To discourage cloud environments",
-        "To provide best practices for building scalable, maintainable apps that thrive in the cloud",
-        "To eliminate code versioning",
-        "To avoid declaring dependencies"
+        "To welcome scope creep",
+        "To ensure timely completion and prevent unplanned expansions",
+        "To make timelines irrelevant",
+        "To reduce clarity"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! The Twelve-Factor App provides a set of best practices for modern, cloud-friendly applications.",
-      "messageForIncorrectAnswer": "Incorrect. The 12-factor methodology ensures cloud-native, robust software development.",
+      "messageForCorrectAnswer": "Correct! Clearly defined scope prevents uncontrolled growth and delays.",
+      "messageForIncorrectAnswer": "Incorrect. Early scope definition keeps the project on track.",
       "point": "10"
     },
     {
-      "question": "Which of the following is one of the Twelve Factors?",
+      "question": "Why set a realistic timeline for your work?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Store configuration in code directly",
-        "Store config in the environment",
-        "Never use revision control",
-        "Always bundle the database with the app code"
+        "To ignore scheduling",
+        "To know when and how long tasks take, ensuring efficient planning",
+        "To allow indefinite delays",
+        "To avoid measurable goals"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! The Twelve-Factor approach includes storing config in environment variables rather than code.",
-      "messageForIncorrectAnswer": "Incorrect. Configuration should be managed outside the code, often in environment variables.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A realistic timeline helps in proper resource and time allocation.",
+      "messageForIncorrectAnswer": "Incorrect. Timelines guide progress and prevent last-minute chaos.",
       "point": "10"
     },
     {
-      "question": "Why consider the Twelve-Factor App guidelines?",
+      "question": "After defining scope and timeline, what’s the next step?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Because they are obsolete",
-        "Because they limit scalability",
-        "Because they establish a proven standard for building robust, cloud-ready apps",
-        "Because they discourage best practices"
+        "Keep the plan secret",
+        "Communicate and document the plan in your project management tool",
+        "Skip documentation",
+        "Delete the project board"
       ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! The guidelines provide a well-established baseline for building portable, reliable, and scalable software.",
-      "messageForIncorrectAnswer": "Incorrect. They guide creating cloud-native, maintainable applications.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Documenting and sharing the plan ensures transparency and alignment.",
+      "messageForIncorrectAnswer": "Incorrect. Everyone should understand the plan.",
+      "point": "10"
+    },
+    {
+      "question": "Why should the plan be easy for newcomers to understand?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because no new members will join",
+        "So new contributors can quickly grasp goals and directions",
+        "To create confusion",
+        "Because onboarding is never needed"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A clear plan helps new team members become productive faster.",
+      "messageForIncorrectAnswer": "Incorrect. Clarity benefits everyone, especially newcomers.",
+      "point": "10"
+    },
+    {
+      "question": "What is the Twelve-Factor App methodology?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A deprecated set of guidelines",
+        "A set of best practices for building modern, scalable, cloud-ready apps",
+        "A waterfall-only approach",
+        "Unrelated to cloud environments"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The Twelve-Factor App sets standards for cloud-friendly applications.",
+      "messageForIncorrectAnswer": "Incorrect. It's widely regarded for cloud-native best practices.",
+      "point": "10"
+    },
+    {
+      "question": "Do you need to apply all twelve factors exactly?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, always",
+        "No, apply what’s relevant but keep them in mind",
+        "Never apply them",
+        "Only apply in small codebases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! They are guidelines; not all must be strictly applied.",
+      "messageForIncorrectAnswer": "Incorrect. It's about context, not strict enforcement.",
+      "point": "10"
+    },
+    {
+      "question": "Which factor emphasizes storing config in the environment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Dependencies",
+        "Config",
+        "Processes",
+        "Logs"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The 'Config' factor encourages externalizing configuration.",
+      "messageForIncorrectAnswer": "Incorrect. The Config factor states config belongs in environment variables.",
       "point": "10"
     },
     {
@@ -129,239 +130,269 @@
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Dependencies",
+        "Build, release, run",
         "Logs",
-        "Admin processes",
-        "Port binding"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! The Logs factor encourages treating logs as continuous event streams rather than files.",
-      "messageForIncorrectAnswer": "Incorrect. The logs factor emphasizes stream-based logging for better observability.",
-      "point": "10"
-    },
-    {
-      "question": "How does Twelve-Factor methodology help with cloud adoption?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "By making deployments harder",
-        "By ignoring cloud capabilities",
-        "By aligning apps with cloud-native principles, ensuring easier scaling and deployment",
-        "By preventing stateless processes"
+        "Port binding",
+        "Dev/prod parity"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! It aligns apps with cloud principles, making scaling, deployment, and management easier.",
-      "messageForIncorrectAnswer": "Incorrect. The methodology supports cloud adoption by standardizing app design.",
+      "messageForCorrectAnswer": "Correct! Logs should be considered continuous event streams.",
+      "messageForIncorrectAnswer": "Incorrect. The Logs factor deals with log output as streams.",
       "point": "10"
     },
     {
-      "question": "Why is it helpful for a DevOps engineer to understand REST APIs?",
+      "question": "What does 'Dev/prod parity' encourage?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "They never deal with APIs",
-        "APIs are irrelevant in modern systems",
-        "Because modern tooling and systems often rely on APIs, making it essential to understand their design",
-        "Because APIs replace all code"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! APIs dominate modern architectures, so understanding them helps in integration and automation.",
-      "messageForIncorrectAnswer": "Incorrect. Knowing APIs is crucial since so many tools and services communicate over them.",
-      "point": "10"
-    },
-    {
-      "question": "What does 'API First' thinking imply?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Defining the API interface before writing implementation",
-        "Implementing first, defining the API later",
-        "Ignoring documentation",
-        "Forgetting about versioning"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! 'API First' means designing the API’s interface upfront, ensuring clarity and consistency.",
-      "messageForIncorrectAnswer": "Incorrect. Defining the API first aligns all development around a clear contract.",
-      "point": "10"
-    },
-    {
-      "question": "Which is a REST API best practice?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Mixing multiple distinct resources into one endpoint",
-        "Using descriptive, consistent resource names and proper HTTP methods",
-        "Relying on arbitrary request formats",
-        "Ignoring error responses"
+        "Keeping development, staging, and production environments similar",
+        "Making dev and prod completely different",
+        "Testing only in production",
+        "Ignoring environment differences"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Good REST practices include using clear resource naming and standard HTTP methods.",
-      "messageForIncorrectAnswer": "Incorrect. Consistency and clarity in endpoint naming and methods are key.",
+      "messageForCorrectAnswer": "Correct! Maintaining similarity reduces surprises in production.",
+      "messageForIncorrectAnswer": "Incorrect. Closer parity means fewer environment-related issues.",
       "point": "10"
     },
     {
-      "question": "Why are REST APIs so common in modern applications?",
+      "question": "Why should a DevOps engineer understand REST APIs?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "They are rarely used",
-        "They are hard to consume programmatically",
-        "They provide a standard, language-agnostic way to interact with services",
-        "They require specialized hardware"
+        "APIs are rarely used",
+        "Modern systems heavily rely on APIs; understanding them is crucial",
+        "To avoid any integration",
+        "Because DevOps never touches APIs"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! REST APIs offer a universal, language-neutral interface, making integration simpler.",
-      "messageForIncorrectAnswer": "Incorrect. REST APIs are widely adopted due to their simplicity and interoperability.",
+      "messageForCorrectAnswer": "Correct! Most modern services expose APIs, so understanding them is key.",
+      "messageForIncorrectAnswer": "Incorrect. APIs are central to modern architectures.",
       "point": "10"
     },
     {
-      "question": "What is the main goal of Continuous Integration (CI) best practices?",
+      "question": "What does 'API First' thinking entail?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "To complicate build processes",
-        "To run tests manually each time",
-        "To produce high-quality software through rapid, automated integration and testing",
-        "To slow down code delivery"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! CI best practices ensure high quality by integrating and testing code changes frequently and automatically.",
-      "messageForIncorrectAnswer": "Incorrect. CI speeds detection of issues and improves code reliability.",
-      "point": "10"
-    },
-    {
-      "question": "How can CI pipelines be made more efficient?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "By never using caching",
-        "By making them run only once a month",
-        "By leveraging caching, parallelism, and scoped triggers to reduce build time",
-        "By running all tests twice every time"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Use caching, parallel runs, and filtered triggers to speed up CI pipelines.",
-      "messageForIncorrectAnswer": "Incorrect. Optimizing performance involves caching, parallel execution, and focusing on changed areas.",
-      "point": "10"
-    },
-    {
-      "question": "Why run CI pipelines on every commit?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To avoid finding issues early",
-        "To increase manual testing",
-        "To detect errors as soon as they are introduced, improving feedback and quality",
-        "To reduce transparency"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Frequent runs catch issues early, giving rapid feedback and ensuring code health.",
-      "messageForIncorrectAnswer": "Incorrect. Running on every commit identifies problems quickly.",
-      "point": "10"
-    },
-    {
-      "question": "What is one recommended approach to controlling CI costs?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Using the most expensive resources always",
-        "Not running CI at all",
-        "Using spot/preemptible instances for cheaper compute",
-        "Running pipelines only on local machines"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Spot/preemptible instances can significantly cut costs without sacrificing speed.",
-      "messageForIncorrectAnswer": "Incorrect. Cost management techniques help run CI efficiently and affordably.",
-      "point": "10"
-    },
-    {
-      "question": "Why keep the main branch always deployable?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "To delay releases",
-        "To ensure production-ready code and enable quick deployments anytime",
-        "To store untested code",
-        "To avoid merging bug fixes"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! A deployable main branch ensures you can release changes quickly and confidently.",
-      "messageForIncorrectAnswer": "Incorrect. Having a ready-to-deploy main branch supports fast, stable releases.",
-      "point": "10"
-    },
-    {
-      "question": "What is Kubernetes?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "A programming language",
-        "A single-node server system",
-        "A cloud-native platform for container orchestration",
-        "A tool for manual deployments only"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Kubernetes is a powerful platform that manages and orchestrates containerized workloads at scale.",
-      "messageForIncorrectAnswer": "Incorrect. Kubernetes automates and scales container management.",
-      "point": "10"
-    },
-    {
-      "question": "Why did the need for Kubernetes arise?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Because containers never became popular",
-        "Because managing many containers manually is complex",
-        "Because physical servers handle containers well without orchestration",
-        "Because virtual machines replaced containers"
+        "Implementing code first, then deciding API",
+        "Defining the API interface before writing the implementation",
+        "Skipping API documentation",
+        "Forgetting about user needs"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! As containers proliferated, a tool was needed to automate and manage them at scale.",
-      "messageForIncorrectAnswer": "Incorrect. Kubernetes solves the complexity of managing numerous containers.",
+      "messageForCorrectAnswer": "Correct! Define the API contract up front, then implement it.",
+      "messageForIncorrectAnswer": "Incorrect. API First means starting with the interface.",
       "point": "10"
     },
     {
-      "question": "What is a 'Node' in Kubernetes?",
+      "question": "How do REST API best practices help?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "A version control system",
-        "A type of container",
-        "A worker machine in a Kubernetes cluster",
-        "A database table"
+        "They complicate endpoint design",
+        "They ensure clear, consistent interfaces that simplify integration",
+        "They force random naming",
+        "They make APIs hard to use"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! A Node is a worker machine that runs Pods, providing the compute resources.",
-      "messageForIncorrectAnswer": "Incorrect. Nodes are the machines on which Kubernetes schedules workloads.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Well-designed REST APIs are predictable, consistent, and easier to maintain.",
+      "messageForIncorrectAnswer": "Incorrect. Best practices create predictable, user-friendly APIs.",
       "point": "10"
     },
     {
-      "question": "What is the smallest deployable unit in Kubernetes?",
+      "question": "Why is the concept 'Everything is an API' relevant today?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Cluster",
-        "Node",
-        "Pod",
-        "Virtual machine"
+        "Because no software uses APIs",
+        "Because modern software and platforms (like Kubernetes) expose most functionalities via APIs",
+        "Because APIs are irrelevant to DevOps",
+        "Because only file-based systems matter"
       ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! A Pod (one or more containers) is the smallest deployable unit in Kubernetes.",
-      "messageForIncorrectAnswer": "Incorrect. Pods represent the smallest unit of work in Kubernetes.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Many modern platforms present functionality through APIs.",
+      "messageForIncorrectAnswer": "Incorrect. APIs are central to how systems interact.",
       "point": "10"
     },
     {
-      "question": "Why is Kubernetes considered a standard in container orchestration?",
+      "question": "What’s a good starting point when designing a REST API?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "It’s rarely used",
-        "It lacks community support",
-        "It’s widely adopted, open-source, and has a strong ecosystem",
-        "It only supports one platform"
+        "Implement backend logic first, guess endpoints later",
+        "Define resources, endpoints, and methods clearly before coding",
+        "Use random HTTP methods",
+        "Ignore versioning and documentation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Plan the resource structure and endpoints before implementation.",
+      "messageForIncorrectAnswer": "Incorrect. Good planning avoids confusion later.",
+      "point": "10"
+    },
+    {
+      "question": "Why learn CI best practices?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To slow development",
+        "To ensure CI improves code quality, speed, and reliability",
+        "Because CI is optional",
+        "To avoid early testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Proper CI practices streamline integration and maintain quality.",
+      "messageForIncorrectAnswer": "Incorrect. Best practices enhance CI effectiveness.",
+      "point": "10"
+    },
+    {
+      "question": "Should CI require manual actions often?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, always",
+        "No, it should be automated with minimal or no manual steps",
+        "Only after every bug fix",
+        "CI never needs automation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CI aims to be fully automated for faster feedback.",
+      "messageForIncorrectAnswer": "Incorrect. Manual steps slow down and reduce CI's benefits.",
+      "point": "10"
+    },
+    {
+      "question": "How should you introduce CI pipelines?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Start with a simple pipeline and expand as needed",
+        "Begin with a very complex setup",
+        "Never update the pipeline once created",
+        "CI shouldn’t evolve"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Kubernetes’ open-source nature, feature set, and ecosystem made it the de facto standard.",
-      "messageForIncorrectAnswer": "Incorrect. Its widespread adoption and community support make it a standard.",
+      "messageForCorrectAnswer": "Correct! Start simple, then refine as your project grows.",
+      "messageForIncorrectAnswer": "Incorrect. Complexity should increase gradually.",
+      "point": "10"
+    },
+    {
+      "question": "How can you keep CI pipelines fast but not costly?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Use no caching or optimization",
+        "Utilize caching, parallelism, and possibly spot instances to balance speed and cost",
+        "Always buy the most expensive servers",
+        "Skip testing to save time"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Optimization techniques keep CI fast and cost-effective.",
+      "messageForIncorrectAnswer": "Incorrect. You can balance speed and cost with smart strategies.",
+      "point": "10"
+    },
+    {
+      "question": "Should CI pipelines run on every commit?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No, run monthly",
+        "Yes, but focus only on affected areas to save time",
+        "Never run on commits",
+        "Only run after many changes accumulate"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Frequent runs catch issues early, scoped checks save time.",
+      "messageForIncorrectAnswer": "Incorrect. Running per commit is standard, but you can scope to relevant paths.",
+      "point": "10"
+    },
+    {
+      "question": "Why did Kubernetes emerge?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Containers were easy to manage manually",
+        "To orchestrate and manage containers at scale in production",
+        "To replace all virtualization",
+        "Because no one used containers"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes solves the complexity of managing containers at scale.",
+      "messageForIncorrectAnswer": "Incorrect. It's all about container orchestration.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Kubernetes widely adopted?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It's closed source and obscure",
+        "It offers open-source flexibility, strong community, and extensibility",
+        "It has no community support",
+        "It limits automation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Open-source, a huge ecosystem, and flexibility drive its popularity.",
+      "messageForIncorrectAnswer": "Incorrect. Community and ecosystem are key to its success.",
+      "point": "10"
+    },
+    {
+      "question": "What is a Pod in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A single container always",
+        "A smallest deployable unit, a logical host for one or more containers",
+        "A VM replacement",
+        "A database service"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Pods are the smallest deployable units in Kubernetes.",
+      "messageForIncorrectAnswer": "Incorrect. Pods may contain multiple containers.",
+      "point": "10"
+    },
+    {
+      "question": "What is a Node in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A cluster controller",
+        "A machine (physical or virtual) that runs Pods",
+        "A code repository",
+        "A storage volume"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Nodes are worker machines where Pods run.",
+      "messageForIncorrectAnswer": "Incorrect. Nodes host the workloads.",
+      "point": "10"
+    },
+    {
+      "question": "What does a Kubernetes Cluster represent?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A single node",
+        "A collection of nodes pooling resources to run workloads",
+        "Just a Dockerfile",
+        "An unrelated concept"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A cluster groups nodes for resource sharing and load balancing.",
+      "messageForIncorrectAnswer": "Incorrect. A cluster is a set of nodes acting together.",
+      "point": "10"
+    },
+    {
+      "question": "What is Observability in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ignoring system state",
+        "Measuring system behavior via logs, metrics, and traces to understand health",
+        "Only manual user checks",
+        "A replacement for testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Observability helps detect and troubleshoot issues faster.",
+      "messageForIncorrectAnswer": "Incorrect. Observability is about measurable insights.",
       "point": "10"
     },
     {
@@ -370,58 +401,58 @@
       "answerSelectionType": "single",
       "answers": [
         "Logs, metrics, and traces",
-        "CPU, RAM, and storage",
-        "Users, code, and tests",
-        "Build, release, run"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Logs, metrics, and traces together provide deep insight into system behavior.",
-      "messageForIncorrectAnswer": "Incorrect. Observability focuses on logs, metrics, and traces.",
-      "point": "10"
-    },
-    {
-      "question": "Why is observability crucial in DevOps?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Because guesswork is efficient",
-        "Because it’s optional to know system state",
-        "Because understanding system behavior reduces downtime and improves reliability",
-        "Because it hinders troubleshooting"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Observability helps identify and resolve issues quickly, ensuring stability and performance.",
-      "messageForIncorrectAnswer": "Incorrect. Observability enables quick detection and resolution of problems.",
-      "point": "10"
-    },
-    {
-      "question": "Which open-source tools are well-known in observability?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Git and SVN",
-        "Docker and Kubernetes",
-        "Prometheus and Grafana",
-        "Excel spreadsheets"
+        "CPU, RAM, and disk",
+        "Users, code, and commits",
+        "CI, CD, and CT"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Prometheus and Grafana are popular for metrics collection and visualization.",
-      "messageForIncorrectAnswer": "Incorrect. Prometheus and Grafana are common open-source observability tools.",
+      "messageForCorrectAnswer": "Correct! Logs, metrics, and traces form the observability trio.",
+      "messageForIncorrectAnswer": "Incorrect. These three data types are standard.",
       "point": "10"
     },
     {
-      "question": "How should you start with observability?",
+      "question": "Why start small with observability?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Implement every tool immediately",
-        "Ignore metrics and logs",
-        "Start small with essential metrics and basic alerts, then expand",
-        "Wait until after production failures"
+        "To avoid monitoring",
+        "Begin with essential metrics and alerts, then expand as needed",
+        "Add all tools at once",
+        "Because data isn't useful"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Begin simply, then evolve your observability stack as needs grow.",
-      "messageForIncorrectAnswer": "Incorrect. Start minimal and enhance your observability over time.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Start with basics, then grow observability step-by-step.",
+      "messageForIncorrectAnswer": "Incorrect. Incremental approach is more manageable.",
+      "point": "10"
+    },
+    {
+      "question": "Which tools are well-known for observability?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Prometheus and Grafana",
+        "Notepad and Paint",
+        "Git and SVN",
+        "Excel and PowerPoint"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Prometheus (metrics) and Grafana (visualization) are common choices.",
+      "messageForIncorrectAnswer": "Incorrect. Prometheus and Grafana are standard tools.",
+      "point": "10"
+    },
+    {
+      "question": "What does observability ultimately help achieve?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "More downtime",
+        "Reduced downtime, better user experience, and optimized resource usage",
+        "Ignoring performance",
+        "Unclear troubleshooting"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Observability enhances reliability, user satisfaction, and efficiency.",
+      "messageForIncorrectAnswer": "Incorrect. It's about improving stability and insight.",
       "point": "10"
     },
     {
@@ -429,14 +460,14 @@
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Manually deploying code once a year",
-        "Automating code changes so they’re always ready for release after tests",
-        "Preventing code from reaching production",
-        "Skipping testing before deploying"
+        "Manually deploying once a year",
+        "Automating code changes to be always ready for release",
+        "Skipping tests before release",
+        "Only focusing on production"
       ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! CD ensures code changes are continuously prepared and validated for release.",
-      "messageForIncorrectAnswer": "Incorrect. CD automates preparing code for release to production-like environments.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CD ensures code is always deployable after passing tests.",
+      "messageForIncorrectAnswer": "Incorrect. CD automates readiness for deployment.",
       "point": "10"
     },
     {
@@ -445,133 +476,133 @@
       "answerSelectionType": "single",
       "answers": [
         "By never deploying",
-        "By introducing untested features",
-        "By deploying small, tested increments often",
-        "By requiring manual review for every line of code"
+        "By delivering small, tested increments frequently",
+        "By ignoring quality",
+        "By delaying releases indefinitely"
       ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Frequent, tested deployments minimize big-bang releases and reduce risk.",
-      "messageForIncorrectAnswer": "Incorrect. Smaller, frequent releases catch issues earlier.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Frequent, small, tested releases reduce the risk of big-bang deployments.",
+      "messageForIncorrectAnswer": "Incorrect. Smaller steps are safer.",
       "point": "10"
     },
     {
-      "question": "What’s the difference between Continuous Delivery and Continuous Deployment?",
+      "question": "What's the difference between Continuous Delivery and Continuous Deployment?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "They are the same concept",
-        "Continuous Deployment automatically pushes to production, while Delivery ensures it's always ready to deploy",
-        "Continuous Delivery avoids tests, Continuous Deployment relies on them",
-        "Continuous Deployment is never automated"
+        "They are identical terms",
+        "Delivery ensures code is ready to deploy; Deployment automatically pushes changes to production",
+        "CD never automates steps",
+        "Continuous Delivery ignores tests"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! Continuous Delivery prepares code for release, while Continuous Deployment goes a step further and releases automatically.",
-      "messageForIncorrectAnswer": "Incorrect. Delivery keeps the code deployable, Deployment actually deploys automatically.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Delivery readies code, Deployment goes further by releasing automatically.",
+      "messageForIncorrectAnswer": "Incorrect. Deployment goes beyond just readiness.",
       "point": "10"
     },
     {
-      "question": "What tools are popular for continuous delivery in the Kubernetes ecosystem?",
+      "question": "Which CD tools are famous in the Kubernetes ecosystem?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Docker Compose and Vagrant",
-        "GitHub Issues and Trello",
         "Argo CD and Flux CD",
-        "Notepad and manual FTP"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Argo CD and Flux CD are well-known CD tools for Kubernetes environments.",
-      "messageForIncorrectAnswer": "Incorrect. Argo CD and Flux CD are popular solutions for GitOps-based CD.",
-      "point": "10"
-    },
-    {
-      "question": "What does cloud computing refer to?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Owning physical servers personally",
-        "Storing code only on local machines",
-        "Accessing computing resources over the internet on-demand",
-        "Replacing all software with hardware solutions"
+        "Git and SVN",
+        "Docker Compose and FTP scripts",
+        "No known CD tools"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Cloud computing provides IT resources on-demand over the Internet.",
-      "messageForIncorrectAnswer": "Incorrect. Cloud computing is about remotely accessed, scalable resources.",
+      "messageForCorrectAnswer": "Correct! Argo CD and Flux CD are well-known GitOps-based CD solutions.",
+      "messageForIncorrectAnswer": "Incorrect. These two are standard in K8s CD.",
       "point": "10"
     },
     {
-      "question": "Which is an example of a Public Cloud provider?",
+      "question": "Should you adopt a dedicated CD system immediately?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Your personal home server",
-        "Amazon Web Services (AWS)",
-        "A private on-prem data center",
-        "A local machine running VMs"
+        "Always start with complex CD",
+        "Not necessarily; start with CI and evolve to CD systems when more mature",
+        "Never use CD",
+        "CD is mandatory from day one"
       ],
       "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! AWS, Azure, and GCP are public cloud providers accessible to anyone.",
-      "messageForIncorrectAnswer": "Incorrect. AWS is a well-known public cloud service provider.",
+      "messageForCorrectAnswer": "Correct! Begin simple with CI-based delivery and add dedicated CD tools later.",
+      "messageForIncorrectAnswer": "Incorrect. Ramp up to specialized CD as the project grows.",
       "point": "10"
     },
     {
-      "question": "What does IaaS stand for?",
+      "question": "What is Cloud Computing?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Integration as a Service",
-        "Infrastructure as a Service",
-        "Information as a Service",
-        "Indexing as a Service"
+        "Owning all servers on-prem",
+        "Delivering computing resources over the internet on-demand",
+        "No virtualization is involved",
+        "Only local development machines"
       ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct! IaaS provides virtualized computing resources over the internet.",
-      "messageForIncorrectAnswer": "Incorrect. IaaS refers to Infrastructure as a Service.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Cloud computing delivers resources as a service over the internet.",
+      "messageForIncorrectAnswer": "Incorrect. Cloud is about on-demand, remote services.",
       "point": "10"
     },
     {
-      "question": "What distinguishes a cloud-native application?",
+      "question": "What characterizes a Private Cloud?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "It’s designed for on-prem environments only",
-        "It cannot scale easily",
-        "It’s architected to leverage cloud capabilities, scaling and self-healing dynamically",
-        "It must run on physical hardware"
+        "Open to the public",
+        "Exclusive environment for one organization, providing control and security",
+        "Always hosted by a third party for everyone",
+        "No security needed"
       ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct! Cloud-native apps are built to fully exploit cloud features like scalability and resilience.",
-      "messageForIncorrectAnswer": "Incorrect. Cloud-native designs embrace dynamic scaling and resilience.",
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Private clouds are dedicated and secure for a single entity.",
+      "messageForIncorrectAnswer": "Incorrect. Private means dedicated to one organization.",
       "point": "10"
     },
     {
-      "question": "Which cloud model allows a mix of public and private resources?",
+      "question": "What is a Hybrid Cloud?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Public Cloud",
-        "Private Cloud",
-        "Hybrid Cloud",
-        "Local virtualization"
+        "Combining public and private clouds for flexibility",
+        "Only on-prem servers",
+        "Public cloud only",
+        "Private cloud only"
       ],
       "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct! Hybrid Cloud combines public and private clouds for flexible resource usage.",
-      "messageForIncorrectAnswer": "Incorrect. Hybrid Cloud integrates both public and private environments.",
+      "messageForCorrectAnswer": "Correct! Hybrid clouds mix public and private resources.",
+      "messageForIncorrectAnswer": "Incorrect. Hybrid means a combination.",
       "point": "10"
     },
     {
-      "question": "What benefit does Cloud-Native architecture provide?",
+      "question": "Which are the three main cloud service models?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Less resilience and scalability",
-        "Manual resource provisioning",
-        "Automatic scaling, resilience, and easier maintenance",
-        "Strict reliance on physical servers"
+        "IaaS, PaaS, SaaS",
+        "On-prem, remote, hybrid",
+        "Bare metal, VM, container",
+        "None of the above"
       ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct! Cloud-native architecture supports auto-scaling, resilience, and efficient resource usage.",
-      "messageForIncorrectAnswer": "Incorrect. Cloud-native approaches enable automated scaling and maintenance.",
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Infrastructure, Platform, and Software as a Service are standard models.",
+      "messageForIncorrectAnswer": "Incorrect. IaaS, PaaS, SaaS are the key cloud service models.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'Cloud-Native' mean?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Apps designed to fully leverage cloud scalability, resilience, and resource provisioning",
+        "Apps only running on-prem",
+        "Ignoring cloud features",
+        "Legacy monolithic architectures"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Cloud-native apps are built to take full advantage of cloud capabilities.",
+      "messageForIncorrectAnswer": "Incorrect. Cloud-native means embracing cloud’s strengths from the start.",
       "point": "10"
     }
   ]
