@@ -1,8 +1,8 @@
 {
   "quizTitle": "DevOps Foundations: Module 6 - Optimize Quiz",
   "quizSynopsis": "Test your knowledge on Agile Retrospectives, Code Performance Optimization, Software Supply Chain Security, Multi-environment Architecture, Kubernetes Operators, Continuous Delivery, Continuous Deployment, and GitOps.",
-  "progressBarColor": "#9de1f6",
-  "nrOfQuestions": "28",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
   "questions": [
     {
       "question": "What is the main goal of an Agile Retrospective?",

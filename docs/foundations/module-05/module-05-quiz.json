@@ -1,8 +1,8 @@
 {
   "quizTitle": "DevOps Fundamentals Quiz",
   "quizSynopsis": "Test your knowledge of DevOps topics like infrastructure as code, CI/CD, integration testing, and Kubernetes configuration management.",
-  "progressBarColor": "#9de1f6",
-  "nrOfQuestions": "39",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
   "questions": [
     {
       "question": "Which of the following is a core DevOps principle when refining project goals?",

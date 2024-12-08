@@ -1,8 +1,8 @@
 {
   "quizTitle": "DevOps Fundamentals Quiz",
   "quizSynopsis": "Test your knowledge of Python, Linux, Git, Bash, and Docker fundamentals.",
-  "progressBarColor": "#9de1f6",
-  "nrOfQuestions": "40",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
   "questions": [
     {
       "question": "Which of the following is NOT a basic Python concept?",

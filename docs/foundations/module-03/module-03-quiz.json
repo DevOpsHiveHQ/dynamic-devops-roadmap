@@ -1,8 +1,8 @@
 {
   "quizTitle": "DevOps Fundamentals Quiz",
   "quizSynopsis": "Test your knowledge of DevOps concepts, including Agile methodologies, modular coding, testing, Docker best practices, and continuous integration.",
-  "progressBarColor": "#9de1f6",
-  "nrOfQuestions": "40",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
   "questions": [
     {
       "question": "Which Agile methodology does the module suggest starting with?",

@@ -1,8 +1,8 @@
 {
   "quizTitle": "DevOps Foundations Quiz",
   "quizSynopsis": "Test your knowledge of DevOps concepts, Kubernetes, CI/CD, Agile, and Cloud Computing.",
-  "progressBarColor": "#9de1f6",
-  "nrOfQuestions": "39",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
   "questions": [
     {
       "question": "Which of the following is a core concept of Kubernetes?",

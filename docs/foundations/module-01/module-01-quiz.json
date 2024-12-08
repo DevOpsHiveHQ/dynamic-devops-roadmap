@@ -1,8 +1,8 @@
 {
   "quizTitle": "DevOps Fundamentals Quiz",
   "quizSynopsis": "Test your knowledge of DevOps, Agile methodologies, SDLC, and more.",
-  "progressBarColor": "#9de1f6",
-  "nrOfQuestions": "39",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
   "questions": [
     {
       "question": "What is DevOps?",
