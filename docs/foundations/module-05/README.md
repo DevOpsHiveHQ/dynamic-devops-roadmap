@@ -4,6 +4,9 @@ sidebar_label: "5. Transform - Finishing the Structure"
 description: "Refine goals, integrate code with external systems, and write integration tests. Also, utilize Infrastructure as Code, learn Terraform essentials, and Kubernetes configuration management like Helm and Kustomize. Then, implement CD best practices — and finally, a hands-on with the HiveBox project"
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-05-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -185,6 +188,10 @@ description: "Refine goals, integrate code with external systems, and write inte
 
 - [How to keep up with CI/CD best practices - Continuous delivery best practices - GitLab](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/#continuous-delivery-best-practices)
 - [What is Continuous Delivery? Tools and Best Practices - XenonStack](https://www.xenonstack.com/insights/what-is-continuous-delivery)
+
+## Quiz - Module 6
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 5
 

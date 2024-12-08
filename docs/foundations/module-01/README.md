@@ -5,10 +5,8 @@ description: "An introduction to the DevOps paradigm and the focus areas. Also, 
 image: /img/devops-methodology-pillars-preview.png
 ---
 
-<!--
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-01-quiz.json';
--->
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
@@ -166,11 +164,9 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - [3 Ways T-Shaped Skills are Important in DevOps Teams - EXIN](https://www.exin.com/article/devops-the-next-generation-3-ways-t-shaped-skills-are-important-in-devops-teams/): This article discusses what is a T-shaped professional, and why does it matter, and 3 areas where the T-shaped skills so important.
 - [T-shaped skills profiles and the human factor - McKinsey & Company](https://www.mckinsey.com/capabilities/operations/our-insights/operations-blog/ops-40-the-human-factor-a-class-size-of-1): This article covers the abstraction of T-shaped and how it affects organizations.
 
-<!--
 ## Quiz - Module 1
 
 <Quiz data={QuizData}/>
--->
 
 ## Project - HiveBox Phase 1
 

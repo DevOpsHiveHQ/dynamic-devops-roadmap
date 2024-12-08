@@ -7,6 +7,9 @@ image: /img/reconciliation-loop.png
 
 **Work in progress.**
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-06-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -212,6 +215,10 @@ Don't mix between "Argo CD" and other [Argo projects](https://argoproj.github.io
 
 - [GitOps Continuous Deployment for cloud native applications - GitOps.tech](https://www.gitops.tech/)
 - [Argo CD Best Practices - Argo CD Docs](https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/)
+
+## Quiz - Module 6
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 6
 

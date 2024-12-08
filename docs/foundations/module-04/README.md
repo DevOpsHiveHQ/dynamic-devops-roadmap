@@ -4,6 +4,9 @@ sidebar_label: "4. Expand - Constructing a Shell"
 description: "Review goals in planning, then apply the Twelve-Factor App methodology and REST API best practices. Embrace Kubernetes for container orchestration. Then explore observability, dive into continuous delivery solutions, also an overview of Cloud Computing — and finally, a hands-on with the HiveBox project"
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-04-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -199,6 +202,10 @@ description: "Review goals in planning, then apply the Twelve-Factor App methodo
 
 - [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)
+
+## Quiz - Module 4
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 4
 

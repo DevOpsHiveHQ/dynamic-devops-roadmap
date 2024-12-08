@@ -4,6 +4,9 @@ sidebar_label: "3. Start - Laying the Base"
 description: "Define goals, prioritize requirements, dive into code modularity, and then move to testing and quality assurance. Implement unit tests, follow Docker best practices, and explore quality gates in continuous integration with GitHub Actions — finally, a hands-on with the HiveBox project"
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-03-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -158,6 +161,10 @@ description: "Define goals, prioritize requirements, dive into code modularity, 
 ### Resources {#38-resources}
 
 - [The Importance of Pipeline Quality Gates and How to Implement Them - InfoQ](https://www.infoq.com/articles/pipeline-quality-gates/)
+
+## Quiz - Module 3
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 3
 

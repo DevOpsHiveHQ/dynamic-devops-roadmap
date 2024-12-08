@@ -5,6 +5,9 @@ description: "Learn Python fundamentals, common development tools, and Git basic
 image: /img/devops-core-preview.png
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-02-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -146,6 +149,10 @@ image: /img/devops-core-preview.png
 - [Use the Docker command line - Docker Docs](https://docs.docker.com/engine/reference/commandline/cli/): The official documentation for Docker CLI. It's pretty useful and straightforward.
 - [CLI Cheat Sheet - Docker Docs](https://docs.docker.com/get-started/docker_cheatsheet.pdf): One-page cheat sheet for Docker CLI commands.
 - [21 Essential Commands Every Docker User Should Know - Linux Handbook](https://linuxhandbook.com/essential-docker-commands/): Another good list of common Docker CLI commands.
+
+## Quiz - Module 2
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 2
 

@@ -4,6 +4,9 @@ sidebar_label: "7. Capstone Project"
 description: "Self-driven project to put everything together and create an industry-grade project which includes defining the requirements gathering, setting the plan, implementation, and review"
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-07-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -50,6 +53,10 @@ This project should follow the same MVP approach and work in phases and always r
 - Asset the whole project and what has been done compared to the original plan and goal.
 - Conduct a final retrospective and identify future work.
 - Write the takeaways of the project.
+
+## Quiz - Module 7
+
+<Quiz data={QuizData}/>
 
 ## Interview Questions - Module 7
 
