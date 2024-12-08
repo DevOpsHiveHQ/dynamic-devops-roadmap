@@ -32,10 +32,20 @@
   --ifm-color-light: #444950;
 }
 
-/* Smooth scrolling */
+/* General */
 
 html {
   scroll-behavior: smooth;
+}
+
+li::marker {
+  color: var(--ifm-color-primary);
+}
+
+/* Navigation bar */
+
+.navbar__item {
+  white-space: nowrap;
 }
 
 /* Inline images */

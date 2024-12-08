@@ -1,10 +1,10 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Dynamic DevOps Roadmap',
-  tagline: 'A FREE pragmatic plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style!',
+  tagline: 'A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! A DevOps Engineer or Software Engineer, this roadmap is all that you need to start, grow, and expand!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,39 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    // Declare Apple touch icon.
+    {
+      tagName: 'link',
+      attributes: {
+        rel: "apple-touch-icon",
+        type: "image/png",
+        sizes: "300x300",
+        href: "/img/apple-touch-icon.png",
+      },
+    },
+    // Declare JSON-LD structured data.
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'EducationalOccupationalProgram',
+        educationalProgramMode: 'blended',
+        name: 'Dynamic DevOps Roadmap',
+        url: 'https://devopsroadmap.io',
+        logo: 'https://devopsroadmap.io/img/logo.svg',
+      }),
+    },
+  ],
+
   themeConfig: {
+    metadata: [
+      { name: 'keywords', content: 'devops roadmap, devops, roadmap, career, career shift, sre, cloud, platform, software' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+    ],
     announcementBar: {
       id: 'announcement',
       content: '<b>Announcement:</b> <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe now</a> to the community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.',
@@ -84,7 +116,7 @@ const config: Config = {
       textColor: '#ffffff',
       isCloseable: false,
     },
-    image: 'img/dynamic-devops-roadmap-flow.png',
+    image: 'img/dynamic-devops-roadmap-modules.png',
     docs: {
       sidebar: {
         autoCollapseCategories: false,
@@ -106,12 +138,6 @@ const config: Config = {
         {
           docId: "getting-started/README",
           label: 'Getting Started',
-          position: "left",
-          type: "doc",
-        },
-        {
-          docId: "foundations/README",
-          label: 'Foundations',
           position: "left",
           type: "doc",
         },

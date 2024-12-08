@@ -45,7 +45,7 @@ function Feature({title, Svg, description}: FeatureItem) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h2">{title}</Heading>
+        <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>
@@ -54,6 +54,10 @@ function Feature({title, Svg, description}: FeatureItem) {
 
 export default function HomepageFeatures(): JSX.Element {
   return (
+    <>
+    <Heading as="h2" className={styles.featuresHeader}>
+      The Dynamic DevOps Roadmap Pillars
+    </Heading>
     <section className={styles.features}>
       <div className="container">
         <div className="row">
@@ -63,5 +67,6 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </div>
     </section>
+          </>
   );
 }

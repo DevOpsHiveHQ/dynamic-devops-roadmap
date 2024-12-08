@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import HomepageFeaturesText from '@site/src/components/HomepageFeaturesText';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
@@ -13,7 +14,8 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Link aria-label="Get started page" href="/getting-started">
-          <img alt="Dynamic DevOps Roadmap Flow" src="img/dynamic-devops-roadmap-flow-irregular-bg.png" width="90%" />
+          <img title="Dynamic DevOps Roadmap" alt="Dynamic DevOps Roadmap Modules"
+            src="img/dynamic-devops-roadmap-modules-homepage.png" width="90%"/>
         </Link>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -25,9 +27,7 @@ function HomepageHeader() {
             to="/getting-started">
             ⚡ Get Started ⚡
           </Link>
-          <Link
-            className="button button--primary-right button--lg"
-            to="/faq">
+          <Link className="button button--primary-right button--lg" to="/faq">
             FAQ →
           </Link>
         </div>
@@ -40,11 +40,12 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Your FREE pragmatic plan to become a DevOps Engineer`}
-      description="A FREE pragmatic plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style! (roadmap, mentorship, and bootcamp)">
+      title={`Your FREE Pragmatic Roadmap`}
+      description="A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! (also mentorship and bootcamp)">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageFeaturesText />
       </main>
     </Layout>
   );
