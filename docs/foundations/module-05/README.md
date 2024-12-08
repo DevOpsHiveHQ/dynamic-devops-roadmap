@@ -189,7 +189,7 @@ import QuizData from './module-05-quiz.json';
 - [How to keep up with CI/CD best practices - Continuous delivery best practices - GitLab](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/#continuous-delivery-best-practices)
 - [What is Continuous Delivery? Tools and Best Practices - XenonStack](https://www.xenonstack.com/insights/what-is-continuous-delivery)
 
-## Quiz - Module 6
+## Quiz - Module 5
 
 <Quiz data={QuizData}/>
 
