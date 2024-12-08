@@ -26,6 +26,13 @@ Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and mo
 
 If you like this project, please [give it a star](#top) on GitHub for better visibility. Thanks!
 
+</br>
+<p align="center">
+  <a href="https://devopsroadmap.io/getting-started/" imageanchor="1">
+    <img src="https://img.shields.io/badge/Get_Started_Now-559e11?style=for-the-badge&logo=Vercel&logoColor=white" />
+  </a>
+</p>
+
 <!-- omit from toc -->
 ## Table of Contents
 

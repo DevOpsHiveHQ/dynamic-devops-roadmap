@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
       <ul className={styles.featuresList}>
-        <li>The Dynamic DevOps Roadmap follows a "Guided Learning" model, which is a learner-centric style.</li>
+        <li>The Dynamic DevOps Roadmap follows a "Guided Learning" model, which puts learners at the heart of the learning journey.</li>
         <li>It supports the learner's journey towards understanding the DevOps problems and hands-on application without spoon-feeding.</li>
       </ul>
       </>
