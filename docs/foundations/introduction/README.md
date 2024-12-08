@@ -1,6 +1,7 @@
 ---
 title: "Introduction"
 description: "An overview of our Dynamic DevOps Roadmap and how this MVP-style roadmap differs from other linear roadmaps."
+toc_max_heading_level: 2
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)

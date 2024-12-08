@@ -66,7 +66,8 @@ export default function HomepageFeaturesText(): JSX.Element {
         </div>
       </section>
       <div className={styles.featuresButton}>
-        <Link className="button button--secondary button--lg" to="/faq">
+        <Link title="Roadmap FAQ"
+          className="button button--secondary button--lg" to="/faq">
           More Details →
         </Link>
       </div>

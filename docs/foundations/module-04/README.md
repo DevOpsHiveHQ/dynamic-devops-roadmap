@@ -2,6 +2,7 @@
 title: "Module 4: Expand - Constructing a Shell"
 sidebar_label: "4. Expand - Constructing a Shell"
 description: "Review goals in planning, then apply the Twelve-Factor App methodology and REST API best practices. Embrace Kubernetes for container orchestration. Then explore observability, dive into continuous delivery solutions, also an overview of Cloud Computing — and finally, a hands-on with the HiveBox project"
+toc_max_heading_level: 2
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
@@ -120,7 +121,7 @@ description: "Review goals in planning, then apply the Twelve-Factor App methodo
   - Scalability and modularity are supported efficiently.
 - Kubernetes has become the *de facto* standard for container orchestration and is widely adopted in private and public sectors. According to a survey by the [Cloud Native Computing Foundation (CNCF) 2023](https://www.cncf.io/reports/cncf-annual-survey-2023/), **66% of consumers were using Kubernetes in production** and **18% were evaluating it** (84% total).
 
-<img class="img-right img-round-corners" align="right" width="40%" src={require('./4.5-kubernetes-core-concepts.png').default} ></img>
+<img title="Kubernetes Core Concepts" alt="Kubernetes Core Concepts" class="img-right img-round-corners" align="right" width="40%" src={require('./4.5-kubernetes-core-concepts.png').default} ></img>
 
 - Let's have a quick overview about Containers, Docker, and Kubernetes Containers:
   - **Containers:** Technology for packaging an application and its Docker runtime dependencies.

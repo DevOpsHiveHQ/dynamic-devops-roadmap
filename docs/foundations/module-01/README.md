@@ -3,6 +3,7 @@ title: "Module 1: Welcome to the DevOps World"
 sidebar_label: "1. Welcome to the DevOps World"
 description: "An introduction to the DevOps paradigm and the focus areas. Also, the relationship between DevOps, DevSecOps, and Agile in light of the Software Development Life Cycle (SDLC), in the end, is the initial phase of the HiveBox project."
 image: /img/devops-methodology-pillars-preview.png
+toc_max_heading_level: 2
 ---
 
 <!--
@@ -18,7 +19,7 @@ import QuizData from './module-01-quiz.json';
 
 ## 1.1 Overview - What and Why DevOps?
 
-<img class="img-right" align="right" width="40%" src="/img/devops-methodology-pillars.png"></img>
+<img title="DevOps Methodology Pillars" alt="DevOps Methodology Pillars" class="img-right" align="right" width="40%" src="/img/devops-methodology-pillars.png"></img>
 
 DevOps methodology is a set of `Practices`, `Tools`, `Culture`, and, most importantly, `Mindset` aiming to improve collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos. It promotes a collaborative, automated, and sustainable culture, which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
 
@@ -76,7 +77,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ### What you need to know {#14-what-you-need-to-know}
 
-<img class="img-right" align="right" width="40%" src="/img/golden-triangle-ppt.png"></img>
+<img title="Golden Triangle" alt="Golden Triangle" class="img-right" align="right" width="40%" src="/img/golden-triangle-ppt.png"></img>
 
 - Software production is all about "change"! When, where, and why ... or in other words, it's about "Change Management".
 - Every new feature done by developers includes a risk! And it should be calculated and mitigated.
@@ -123,7 +124,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ## 1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE
 
 <p align="center">
-  <img alt="DevOps Implementations" border="0" width="90%" src="/img/devops-implementations.png"/>
+  <img title="DevOps Implementations" alt="DevOps Implementations" border="0" width="90%" src="/img/devops-implementations.png"/>
 </p>
 
 ### What you need to know {#16-what-you-need-to-know}
@@ -149,7 +150,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ## 1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer
 
 <p align="center">
-  <img alt="Skill Set Shapes" border="0" width="90%" src="/img/skill-set-shapes.png"/>
+  <img title="Skill Set Shapes" alt="Skill Set Shapes" border="0" width="90%" src="/img/skill-set-shapes.png"/>
 </p>
 
 ### What you need to know {#17-what-you-need-to-know}

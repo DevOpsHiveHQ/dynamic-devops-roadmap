@@ -3,6 +3,7 @@ title: "Module 2: Basics - DevOps Core"
 sidebar_label: "2. Basics - DevOps Core"
 description: "Learn Python fundamentals, common development tools, and Git basics. Then, gain Linux essentials, common tools, and bash scripting skills. Also, cover Docker fundamentals — finally, a hands-on with the HiveBox project"
 image: /img/devops-core-preview.png
+toc_max_heading_level: 2
 ---
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
@@ -32,7 +33,7 @@ image: /img/devops-core-preview.png
 
 ### What you need to know {#22-what-you-need-to-know}
 
-<img class="img-right" align="right" width="40%" src="/img/devops-loop.png"></img>
+<img title="DevOps Loop" alt="DevOps Loop" class="img-right" align="right" width="40%" src="/img/devops-loop.png"></img>
 
 - When you are writing code, you don't just use a text editor but code editor (maybe also IDE).
 - Development tools enhance productivity, streamline the development process, increase code quality.
@@ -125,7 +126,7 @@ image: /img/devops-core-preview.png
 - It's important to understand the difference between Dockerfile, Docker image, and Docker container.
 
 <p align="center">
-  <img alt="System, Containers, and Code" border="0" width="90%" src="/img/system-container-code.png"/>
+  <img title="System, Containers, and Code" alt="System, Containers, and Code" border="0" width="90%" src="/img/system-container-code.png"/>
 </p>
 
 ### Resources {#27-resources}

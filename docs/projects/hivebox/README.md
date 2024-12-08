@@ -5,6 +5,7 @@ sidebar_position: 1
 description: "An incremental industry-grad end-to-end project to learn DevOps in a hands-on way"
 keywords: ["project", "full project", "e2e", "end-to-end"]
 image: ./hivebox-architecture-preview.png
+toc_max_heading_level: 2
 ---
 
 <img alt="Beekeeping" class="img-right img-round-corners" align="right" width="30%"  border="0" src={require('./beekeeping.png').default} />
