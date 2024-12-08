@@ -1,0 +1,610 @@
+{
+  "quizTitle": "DevOps Fundamentals Quiz",
+  "quizSynopsis": "Test your knowledge of Python, Linux, Git, Bash, and Docker fundamentals.",
+  "progressBarColor": "#9de1f6",
+  "nrOfQuestions": "40",
+  "questions": [
+    {
+      "question": "Which of the following is NOT a basic Python concept?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Data types",
+        "Control flow",
+        "System calls",
+        "Functions"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! System calls are not part of basic Python concepts.",
+      "messageForIncorrectAnswer": "Incorrect. System calls are not a basic Python concept.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main advantage of learning a real programming language like Python?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It allows you to replace Bash scripts completely.",
+        "It helps you adapt to the developer mindset.",
+        "It is exclusively used in DevOps.",
+        "It is easier than learning Bash."
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Python helps in adopting a developer mindset.",
+      "messageForIncorrectAnswer": "Incorrect. Python is not just about ease of use; it's about thinking like a developer.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a common feature of development tools?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Syntax highlighting",
+        "Code navigation",
+        "Debugging",
+        "All of the above"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! All of these are features of development tools.",
+      "messageForIncorrectAnswer": "Incorrect. Development tools offer all these features.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is the primary purpose of Bash scripting in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Create user interfaces",
+        "Automate repetitive tasks",
+        "Develop web applications",
+        "Manage databases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Bash scripting is commonly used to automate repetitive tasks.",
+      "messageForIncorrectAnswer": "Incorrect. The primary purpose of Bash scripting in DevOps is to automate repetitive tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What does the 'cd' command do in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Changes file permissions",
+        "Displays the contents of a file",
+        "Changes the current directory",
+        "Creates a new directory"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! 'cd' is used to change the current directory.",
+      "messageForIncorrectAnswer": "Incorrect. 'cd' changes the current directory.",
+      "point": "10"
+    },
+    {
+      "question": "Which version control system is commonly used in DevOps to manage source code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Git",
+        "SVN",
+        "Mercurial",
+        "Perforce"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Git is widely used in DevOps for version control.",
+      "messageForIncorrectAnswer": "Incorrect. Git is the most commonly used version control system in DevOps.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of Docker in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To create virtual machines",
+        "To automate repetitive tasks",
+        "To containerize applications",
+        "To manage databases"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Docker is used to containerize applications.",
+      "messageForIncorrectAnswer": "Incorrect. Docker is primarily used for containerizing applications.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to check the status of the current branch in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "git status",
+        "git log",
+        "git branch",
+        "git diff"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'git status' shows the status of the current branch.",
+      "messageForIncorrectAnswer": "Incorrect. 'git status' is the correct command to check the branch status.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is an advantage of using Docker?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Easier package management",
+        "Faster deployment",
+        "Consistent environments",
+        "All of the above"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Docker provides easier package management, faster deployment, and consistent environments.",
+      "messageForIncorrectAnswer": "Incorrect. Docker offers all of these advantages.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of the 'chmod' command in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Change directory",
+        "Change file permissions",
+        "Display file contents",
+        "Compress files"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'chmod' is used to change file permissions.",
+      "messageForIncorrectAnswer": "Incorrect. 'chmod' changes file permissions.",
+      "point": "10"
+    },
+    {
+      "question": "Which Docker command is used to list all running containers?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker images",
+        "docker run",
+        "docker ps",
+        "docker exec"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! 'docker ps' lists all running containers.",
+      "messageForIncorrectAnswer": "Incorrect. Use 'docker ps' to list running containers.",
+      "point": "10"
+    },
+    {
+      "question": "What is a repository in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A place to store code changes",
+        "A place to store Docker images",
+        "A type of container",
+        "A shell script"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A repository is used to store code changes in Git.",
+      "messageForIncorrectAnswer": "Incorrect. A repository in Git stores code changes.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to add changes to the staging area in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "git add",
+        "git commit",
+        "git push",
+        "git clone"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'git add' is used to add changes to the staging area.",
+      "messageForIncorrectAnswer": "Incorrect. 'git add' adds changes to the staging area.",
+      "point": "10"
+    },
+    {
+      "question": "What is the function of the 'ls' command in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "List directory contents",
+        "Create a new directory",
+        "Remove a file",
+        "Change file permissions"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'ls' lists the contents of a directory.",
+      "messageForIncorrectAnswer": "Incorrect. 'ls' is used to list directory contents.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is true about Docker images?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are lightweight virtual machines.",
+        "They contain everything needed to run an application.",
+        "They cannot be shared.",
+        "They only run on Linux."
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Docker images contain all dependencies needed to run an application.",
+      "messageForIncorrectAnswer": "Incorrect. Docker images contain everything needed to run an application.",
+      "point": "10"
+    },
+    {
+      "question": "What does the 'pwd' command do in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Prints the current directory",
+        "Changes file permissions",
+        "Deletes a directory",
+        "Creates a symbolic link"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'pwd' prints the current working directory.",
+      "messageForIncorrectAnswer": "Incorrect. 'pwd' prints the current directory.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to commit changes in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "git add",
+        "git commit",
+        "git push",
+        "git merge"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'git commit' is used to save changes to the local repository.",
+      "messageForIncorrectAnswer": "Incorrect. 'git commit' saves changes to the local repository.",
+      "point": "10"
+    },
+    {
+      "question": "What is a container in the context of Docker?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A lightweight VM",
+        "An isolated environment to run an application",
+        "A type of database",
+        "A version control system"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A container is an isolated environment to run an application.",
+      "messageForIncorrectAnswer": "Incorrect. A container is an isolated environment to run an application.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a Git command?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "git branch",
+        "git merge",
+        "git clone",
+        "git container"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! 'git container' is not a valid Git command.",
+      "messageForIncorrectAnswer": "Incorrect. 'git container' is not a valid Git command.",
+      "point": "10"
+    },
+    {
+      "question": "What does the 'rm' command do in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Removes a file",
+        "Renames a file",
+        "Lists files in a directory",
+        "Creates a new directory"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'rm' is used to remove a file.",
+      "messageForIncorrectAnswer": "Incorrect. 'rm' removes a file.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of 'git push'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To save changes to the local repository",
+        "To send changes to a remote repository",
+        "To create a new branch",
+        "To merge branches"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'git push' sends changes to a remote repository.",
+      "messageForIncorrectAnswer": "Incorrect. 'git push' is used to send changes to a remote repository.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a Linux distribution?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ubuntu",
+        "Fedora",
+        "Windows",
+        "CentOS"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Windows is not a Linux distribution.",
+      "messageForIncorrectAnswer": "Incorrect. Windows is not a Linux distribution.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to create a new directory in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "mkdir",
+        "rmdir",
+        "cd",
+        "ls"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'mkdir' is used to create a new directory.",
+      "messageForIncorrectAnswer": "Incorrect. 'mkdir' creates a new directory.",
+      "point": "10"
+    },
+    {
+      "question": "Which Git command is used to create a new branch?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "git branch",
+        "git merge",
+        "git checkout",
+        "git commit"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'git branch' is used to create a new branch.",
+      "messageForIncorrectAnswer": "Incorrect. 'git branch' creates a new branch.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of 'sudo' in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To switch users",
+        "To execute a command with superuser privileges",
+        "To change file permissions",
+        "To create a new directory"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'sudo' allows you to execute commands with superuser privileges.",
+      "messageForIncorrectAnswer": "Incorrect. 'sudo' is used to execute commands with superuser privileges.",
+      "point": "10"
+    },
+    {
+      "question": "Which Docker command is used to build an image from a Dockerfile?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker build",
+        "docker run",
+        "docker pull",
+        "docker start"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'docker build' is used to build an image from a Dockerfile.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker build' builds an image from a Dockerfile.",
+      "point": "10"
+    },
+    {
+      "question": "What is the default port for SSH?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "21",
+        "22",
+        "80",
+        "443"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The default port for SSH is 22.",
+      "messageForIncorrectAnswer": "Incorrect. The default port for SSH is 22.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to display the current working directory in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "pwd",
+        "ls",
+        "cd",
+        "mkdir"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'pwd' displays the current working directory.",
+      "messageForIncorrectAnswer": "Incorrect. 'pwd' displays the current working directory.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a container orchestration tool?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Docker Compose",
+        "Kubernetes",
+        "Vagrant",
+        "Git"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes is a container orchestration tool.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes is a container orchestration tool.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'git clone' do?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Creates a new repository",
+        "Copies an existing repository to your local machine",
+        "Merges changes from another branch",
+        "Adds changes to the staging area"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'git clone' copies an existing repository to your local machine.",
+      "messageForIncorrectAnswer": "Incorrect. 'git clone' copies an existing repository to your local machine.",
+      "point": "10"
+    },
+    {
+      "question": "Which Linux command is used to view the contents of a file?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "cat",
+        "rm",
+        "cp",
+        "mv"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'cat' is used to view the contents of a file.",
+      "messageForIncorrectAnswer": "Incorrect. 'cat' is used to view the contents of a file.",
+      "point": "10"
+    },
+    {
+      "question": "What is a commit in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A snapshot of changes in the repository",
+        "A branch of the repository",
+        "A remote repository",
+        "A copy of the repository"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A commit is a snapshot of changes in the repository.",
+      "messageForIncorrectAnswer": "Incorrect. A commit is a snapshot of changes in the repository.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to rename a file in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "mv",
+        "cp",
+        "rm",
+        "rename"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'mv' is used to rename a file.",
+      "messageForIncorrectAnswer": "Incorrect. 'mv' renames a file.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to stop a running Docker container?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker stop",
+        "docker kill",
+        "docker pause",
+        "docker remove"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'docker stop' is used to stop a running container.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker stop' stops a running container.",
+      "point": "10"
+    },
+    {
+      "question": "What is a fork in Git?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A copy of a repository to your own GitHub account",
+        "A new branch",
+        "A snapshot of changes",
+        "A merge conflict"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A fork is a copy of a repository to your own GitHub account.",
+      "messageForIncorrectAnswer": "Incorrect. A fork is a copy of a repository to your own GitHub account.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a Linux package manager?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "apt",
+        "git",
+        "docker",
+        "curl"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'apt' is a package manager used in Linux.",
+      "messageForIncorrectAnswer": "Incorrect. 'apt' is a package manager used in Linux.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'docker pull' do?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Runs a container",
+        "Removes a container",
+        "Downloads an image from a registry",
+        "Lists all images"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! 'docker pull' downloads an image from a registry.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker pull' downloads an image from a registry.",
+      "point": "10"
+    },
+    {
+      "question": "Which command is used to update package lists in Debian-based Linux systems?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "apt-get update",
+        "yum update",
+        "dnf update",
+        "pacman -Syu"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'apt-get update' updates package lists in Debian-based systems.",
+      "messageForIncorrectAnswer": "Incorrect. 'apt-get update' updates package lists in Debian-based systems.",
+      "point": "10"
+    },
+    {
+      "question": "What does the 'head' command do in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Displays the first few lines of a file",
+        "Displays the last few lines of a file",
+        "Deletes the first few lines of a file",
+        "Edits the first few lines of a file"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! 'head' displays the first few lines of a file.",
+      "messageForIncorrectAnswer": "Incorrect. 'head' displays the first few lines of a file.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is used to manage Docker containers in production?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Kubernetes",
+        "Docker Compose",
+        "Git",
+        "Ansible"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Kubernetes is often used to manage Docker containers in production.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes is used to manage Docker containers in production.",
+      "point": "10"
+    }
+
+  ]
+}
+

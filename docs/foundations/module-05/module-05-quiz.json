@@ -1,0 +1,594 @@
+{
+  "quizTitle": "DevOps Fundamentals Quiz",
+  "quizSynopsis": "Test your knowledge of DevOps topics like infrastructure as code, CI/CD, integration testing, and Kubernetes configuration management.",
+  "progressBarColor": "#9de1f6",
+  "nrOfQuestions": "39",
+  "questions": [
+    {
+      "question": "Which of the following is a core DevOps principle when refining project goals?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Align with business objectives",
+        "Avoid changes to requirements",
+        "Ignore user feedback",
+        "Focus only on the technical team"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Aligning with business objectives is crucial in refining project goals.",
+      "messageForIncorrectAnswer": "Incorrect. Aligning with business objectives is a core DevOps principle.",
+      "point": "10"
+    },
+    {
+      "question": "What is the recommended approach to working with third-party APIs in a DevOps environment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Write custom code from scratch",
+        "Use an SDK or library if available",
+        "Ignore error handling",
+        "Use only synchronous calls"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! It is recommended to use an SDK or library for known systems.",
+      "messageForIncorrectAnswer": "Incorrect. Using an SDK or library is generally the preferred approach.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is essential for maintaining a good integration test setup?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Mock all services",
+        "Use real systems whenever possible",
+        "Only test the happy path",
+        "Run tests only on local machines"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Using real systems whenever possible is key for effective integration testing.",
+      "messageForIncorrectAnswer": "Incorrect. It is best to use real systems whenever possible for reliable integration testing.",
+      "point": "10"
+    },
+    {
+      "question": "What is Infrastructure as Code (IaC) primarily concerned with?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Provisioning infrastructure via UI",
+        "Using machine-readable definition files",
+        "Manually configuring servers",
+        "Using imperative scripts"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaC is about using machine-readable definition files for infrastructure management.",
+      "messageForIncorrectAnswer": "Incorrect. IaC focuses on using code-like approaches rather than manual or imperative configurations.",
+      "point": "10"
+    },
+    {
+      "question": "Why should Infrastructure as Code (IaC) be idempotent?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To make each run unpredictable",
+        "To ensure consistent outcomes",
+        "To introduce randomness",
+        "To avoid automation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Idempotency ensures consistent outcomes, reducing the risk of errors.",
+      "messageForIncorrectAnswer": "Incorrect. Idempotency is crucial for ensuring consistent outcomes.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a recommended best practice when using Terraform?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Use local state files",
+        "Store state in an S3-compatible service",
+        "Use existing modules from the Terraform Registry",
+        "Apply best practices in CI pipelines"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Using local state files is not recommended.",
+      "messageForIncorrectAnswer": "Incorrect. Local state files are not recommended for Terraform best practices.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is used as a template-free approach for Kubernetes configuration management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Helm",
+        "Kubectl",
+        "Kustomize",
+        "Terraform"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Kustomize is a template-free tool for Kubernetes configuration.",
+      "messageForIncorrectAnswer": "Incorrect. Kustomize is the template-free approach for Kubernetes configuration.",
+      "point": "10"
+    },
+    {
+      "question": "Which type of log is recommended for easier storage, query, and analysis?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Structured",
+        "Unstructured",
+        "Semi-structured",
+        "Raw"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Structured logs are recommended for easier handling.",
+      "messageForIncorrectAnswer": "Incorrect. Structured logs are easier to store, query, and analyze.",
+      "point": "10"
+    },
+    {
+      "question": "Which approach should you use for integrating external services in a CI/CD pipeline?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Only use mocks",
+        "Use real services or sandbox environments",
+        "Skip testing external services",
+        "Use local instances only"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! It's best to use real services or sandbox environments when integrating external systems.",
+      "messageForIncorrectAnswer": "Incorrect. Real services or sandbox environments are preferred for integration testing.",
+      "point": "10"
+    },
+    {
+      "question": "What is the goal of Continuous Delivery (CD) in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual deployment",
+        "Preparing code for production release",
+        "Ignoring human feedback",
+        "Running integration tests only"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CD focuses on preparing code for release to production.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Delivery is about preparing code for production release.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following Kubernetes configuration tools uses a templated approach?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Kubectl",
+        "Kustomize",
+        "Helm",
+        "Plain YAML"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Helm uses a templated approach for Kubernetes configuration.",
+      "messageForIncorrectAnswer": "Incorrect. Helm is the tool that uses templates for Kubernetes configuration.",
+      "point": "10"
+    },
+    {
+      "question": "Which term refers to the principle of managing infrastructure resources using code-like approaches?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Configuration as Code",
+        "Infrastructure as Code",
+        "Policy as Code",
+        "Automation as Code"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Infrastructure as Code is about managing infrastructure resources using code.",
+      "messageForIncorrectAnswer": "Incorrect. Infrastructure as Code (IaC) is the correct term.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it important to isolate integration tests from each other?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To reduce test coverage",
+        "To get accurate and reliable results",
+        "To save time",
+        "To increase dependencies between tests"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Isolating integration tests ensures accurate and reliable results.",
+      "messageForIncorrectAnswer": "Incorrect. Isolation helps ensure the accuracy and reliability of test results.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of using a state file in Terraform?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To store configuration code",
+        "To keep track of infrastructure state",
+        "To log deployment errors",
+        "To manage user credentials"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The state file keeps track of the current state of infrastructure.",
+      "messageForIncorrectAnswer": "Incorrect. The state file is used to keep track of the infrastructure state.",
+      "point": "10"
+    },
+    {
+      "question": "Which practice is important for reducing complexity in integration tests?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Write complex test scenarios from the beginning",
+        "Keep tests as simple as possible",
+        "Combine multiple tests into one",
+        "Ignore error handling in tests"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Keeping tests simple helps reduce complexity.",
+      "messageForIncorrectAnswer": "Incorrect. Simple tests are easier to maintain and understand.",
+      "point": "10"
+    },
+    {
+      "question": "What is the advantage of using a declarative approach in Infrastructure as Code (IaC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It allows more manual interventions",
+        "It simplifies the process by defining the desired state",
+        "It makes infrastructure unpredictable",
+        "It requires more scripting skills"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The declarative approach simplifies IaC by defining the desired state.",
+      "messageForIncorrectAnswer": "Incorrect. The declarative approach is about defining the desired end state, making it easier to use.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is NOT commonly used for Kubernetes configuration management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Helm",
+        "Kustomize",
+        "Pulumi",
+        "Kubectl"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Pulumi is not commonly used for Kubernetes configuration management.",
+      "messageForIncorrectAnswer": "Incorrect. Pulumi is not primarily used for Kubernetes configuration management.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following practices helps prevent a 'log swamp'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Collecting all logs without filters",
+        "Capturing only relevant logs",
+        "Ignoring log retention policies",
+        "Parsing logs with regex only"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Capturing only relevant logs helps prevent a 'log swamp'.",
+      "messageForIncorrectAnswer": "Incorrect. Capturing only relevant logs is crucial for efficient log management.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key benefit of using structured logs in a centralized logging system?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are harder to analyze",
+        "They simplify storage and querying",
+        "They require more processing",
+        "They do not support metadata"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Structured logs simplify storage, querying, and analysis.",
+      "messageForIncorrectAnswer": "Incorrect. Structured logs make it easier to store, query, and analyze information.",
+      "point": "10"
+    },
+    {
+      "question": "What is the primary objective of Continuous Deployment (CD) in software development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Deploying changes manually",
+        "Automatically deploying code to production",
+        "Testing code locally",
+        "Running unit tests"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CD automates the deployment of code to production.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Deployment is about automating the deployment process.",
+      "point": "10"
+    },
+    {
+      "question": "How do Kubernetes StatefulSets differ from Deployments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "StatefulSets manage stateless applications",
+        "StatefulSets are used for managing stateful applications",
+        "StatefulSets are a networking policy",
+        "StatefulSets provide a security feature"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! StatefulSets are used for managing stateful applications.",
+      "messageForIncorrectAnswer": "Incorrect. StatefulSets are used for managing stateful workloads in Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "What role does a Kubernetes DaemonSet play in a cluster?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Schedule a Pod to every node",
+        "Manage secrets and configuration",
+        "Handle Pod replication",
+        "Control network traffic"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! DaemonSets ensure a copy of a Pod runs on every node.",
+      "messageForIncorrectAnswer": "Incorrect. A DaemonSet schedules a Pod on every node in the cluster.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is widely used for orchestrating containerized applications?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Jenkins"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes is a container orchestration platform.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes is used for orchestrating containers.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main benefit of Infrastructure as Code (IaC) in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Managing application data",
+        "Automating infrastructure provisioning",
+        "Monitoring application health",
+        "Testing software applications"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaC is used to automate infrastructure provisioning.",
+      "messageForIncorrectAnswer": "Incorrect. IaC automates the provisioning of infrastructure.",
+      "point": "10"
+    },
+    {
+      "question": "What is one of the key benefits of using Git in software development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual file backup",
+        "Centralized file storage",
+        "Tracking changes and facilitating collaboration",
+        "Managing production deployments"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Git helps in tracking changes and facilitating collaboration.",
+      "messageForIncorrectAnswer": "Incorrect. Git is primarily used for tracking changes and team collaboration.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes component is responsible for handling networking between Pods?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ingress Controller",
+        "Scheduler",
+        "ConfigMap",
+        "Controller Manager"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! The Ingress Controller manages the networking for Pods.",
+      "messageForIncorrectAnswer": "Incorrect. The Ingress Controller is responsible for networking.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of a ConfigMap in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Store sensitive data",
+        "Manage application logs",
+        "Store configuration data for applications",
+        "Schedule Pods on nodes"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! ConfigMaps are used to store configuration data.",
+      "messageForIncorrectAnswer": "Incorrect. ConfigMaps are used for storing configuration data.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is typically used to monitor containerized applications and gather metrics?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Prometheus",
+        "Git",
+        "Docker",
+        "Terraform"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Prometheus is a tool used for monitoring.",
+      "messageForIncorrectAnswer": "Incorrect. Prometheus is used for monitoring containerized applications.",
+      "point": "10"
+    },
+    {
+      "question": "Which cloud service model provides virtual machines, storage, and networking resources?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "FaaS"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! IaaS provides virtual machines and networking resources.",
+      "messageForIncorrectAnswer": "Incorrect. IaaS stands for Infrastructure as a Service.",
+      "point": "10"
+    },
+    {
+      "question": "Which command-line tool is commonly used to interact with Kubernetes clusters?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "kubectl",
+        "docker",
+        "terraform",
+        "helm"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! kubectl is used to interact with Kubernetes clusters.",
+      "messageForIncorrectAnswer": "Incorrect. kubectl is the command-line tool for Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main use of Jenkins in the DevOps process?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Container orchestration",
+        "Continuous Integration and Continuous Deployment",
+        "Application security",
+        "Cloud resource management"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Jenkins is used for CI/CD automation.",
+      "messageForIncorrectAnswer": "Incorrect. Jenkins is used for automating CI/CD.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes object is used specifically for running batch jobs?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Deployment",
+        "Service",
+        "Job",
+        "Pod"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! A Job is used for running batch tasks in Kubernetes.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes Jobs are used for running batch tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What is the key focus of Continuous Integration (CI) in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Waterfall methodology",
+        "Small, frequent software changes",
+        "Manual code reviews",
+        "Root Cause Analysis"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Continuous Integration involves small, frequent code changes.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Integration encourages frequent software changes.",
+      "point": "10"
+    },
+    {
+      "question": "How does Kubernetes provide persistent storage to Pods?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "ConfigMap",
+        "Volume",
+        "Pod",
+        "Service"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Volumes provide persistent storage for Pods.",
+      "messageForIncorrectAnswer": "Incorrect. Volumes are used to provide persistent storage.",
+      "point": "10"
+    },
+    {
+      "question": "What is the function of a Kubernetes Ingress resource?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Schedule Pods on nodes",
+        "Manage Pod storage",
+        "Expose HTTP and HTTPS routes to services",
+        "Configure cluster nodes"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Ingress exposes HTTP and HTTPS routes to services.",
+      "messageForIncorrectAnswer": "Incorrect. Ingress is used for exposing routes to services.",
+      "point": "10"
+    },
+    {
+      "question": "What is one of the main features of a microservices architecture?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Monolithic design",
+        "Tightly coupled components",
+        "Independent deployability of services",
+        "Single point of failure"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Microservices architecture allows independent deployability of services.",
+      "messageForIncorrectAnswer": "Incorrect. Microservices are characterized by independent deployability.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes resource is used for managing sensitive information like passwords?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "ConfigMap",
+        "Secret",
+        "Pod",
+        "Deployment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes Secrets are used to manage sensitive data.",
+      "messageForIncorrectAnswer": "Incorrect. Secrets are used to manage sensitive information.",
+      "point": "10"
+    },
+    {
+      "question": "Which CI/CD tool integrates pipelines as code to automate workflows?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "GitHub Actions",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! GitHub Actions uses pipelines as code to automate workflows.",
+      "messageForIncorrectAnswer": "Incorrect. GitHub Actions is a CI/CD tool that uses pipelines as code.",
+      "point": "10"
+    },
+    {
+      "question": "What is the key benefit of using Blue-Green Deployment in software releases?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Testing applications locally",
+        "Reducing downtime during deployments",
+        "Creating Kubernetes clusters",
+        "Scaling applications horizontally"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Blue-Green Deployment is used to reduce downtime during updates.",
+      "messageForIncorrectAnswer": "Incorrect. Blue-Green Deployment aims to minimize downtime.",
+      "point": "10"
+    }
+  ]
+}
+

@@ -1,0 +1,583 @@
+{
+  "quizTitle": "DevOps Fundamentals Quiz",
+  "quizSynopsis": "Test your knowledge of DevOps, Agile methodologies, SDLC, and more.",
+  "progressBarColor": "#9de1f6",
+  "nrOfQuestions": "39",
+  "questions": [
+    {
+      "question": "What is DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A new programming language",
+        "A methodology that combines development and operations to enhance collaboration",
+        "A hardware maintenance process",
+        "A type of software testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! DevOps is a methodology that enhances collaboration between development and operations.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps is a methodology that combines development and operations.",
+      "point": "10"
+    },
+    {
+      "question": "How does DevOps improve collaboration between development and operations teams?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By creating more silos",
+        "By removing the need for communication",
+        "By ensuring both teams work together seamlessly through shared goals and automation",
+        "By keeping the teams separate for better accountability"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevOps ensures collaboration through shared goals and automation.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps promotes collaboration by encouraging shared goals and automation.",
+      "point": "10"
+    },
+    {
+      "question": "What are the key components of DevOps methodology?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Planning, Budgeting, Marketing",
+        "Automation, Collaboration, Continuous Improvement",
+        "Designing, Sketching, Coding",
+        "Debugging, Support, Documentation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Automation, collaboration, and continuous improvement are key to DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps focuses on automation, collaboration, and continuous improvement.",
+      "point": "10"
+    },
+    {
+      "question": "Why is mindset important in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To ensure only developers contribute to the software lifecycle",
+        "To foster an environment that encourages collaboration, flexibility, and continuous improvement",
+        "To restrict operations teams from making changes",
+        "To reduce employee turnover"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Mindset is crucial for fostering collaboration and flexibility.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps mindset fosters collaboration, flexibility, and continuous improvement.",
+      "point": "10"
+    },
+    {
+      "question": "What is the Software Development Life Cycle (SDLC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A model to assemble hardware components",
+        "A framework that defines the steps for developing software from inception to retirement",
+        "A process for creating marketing strategies",
+        "A method to secure cloud resources"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! SDLC is a framework for software development from inception to retirement.",
+      "messageForIncorrectAnswer": "Incorrect. SDLC is a framework for defining software development stages.",
+      "point": "10"
+    },
+    {
+      "question": "What are the stages of the SDLC?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ideation, Budgeting, Marketing",
+        "Planning, Designing, Developing, Testing, Deploying, Maintaining",
+        "Debugging, Support, Documentation",
+        "Automation, Compilation, Execution"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The SDLC stages include planning, designing, developing, testing, deploying, and maintaining.",
+      "messageForIncorrectAnswer": "Incorrect. The correct stages include planning, designing, developing, testing, deploying, and maintaining.",
+      "point": "10"
+    },
+    {
+      "question": "What is Agile software development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A linear and rigid development methodology",
+        "A set of iterative and incremental approaches to develop software quickly and efficiently",
+        "A method to debug and test software",
+        "A framework for managing cloud resources"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Agile uses iterative and incremental approaches for efficient software development.",
+      "messageForIncorrectAnswer": "Incorrect. Agile is a set of iterative and incremental approaches for software development.",
+      "point": "10"
+    },
+    {
+      "question": "What is Scrum in Agile?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A type of software testing",
+        "A framework that uses time-boxed iterations called sprints to organize work",
+        "A database management system",
+        "A programming language"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Scrum is an Agile framework that uses sprints to organize work.",
+      "messageForIncorrectAnswer": "Incorrect. Scrum is a framework that uses time-boxed iterations called sprints.",
+      "point": "10"
+    },
+    {
+      "question": "What is Continuous Integration (CI)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A process for manually testing code",
+        "A practice of frequently integrating code changes into a shared repository",
+        "A method to deploy software on physical servers",
+        "A way to create a backup of databases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Continuous Integration involves frequently integrating code into a shared repository.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Integration is about frequently integrating code changes.",
+      "point": "10"
+    },
+    {
+      "question": "Why is automation important in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It slows down the development process",
+        "It reduces manual effort, errors, and accelerates software delivery",
+        "It helps in creating marketing strategies",
+        "It restricts developers from making changes"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Automation reduces manual effort, minimizes errors, and speeds up delivery.",
+      "messageForIncorrectAnswer": "Incorrect. Automation is crucial for reducing manual effort and speeding up software delivery.",
+      "point": "10"
+    },
+    {
+      "question": "What is Continuous Delivery (CD)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A process for writing code",
+        "A practice of automatically deploying every code change to a testing or production environment",
+        "A way to create backups",
+        "A method for scaling applications"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Continuous Delivery automates the deployment of every code change to a testing or production environment.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Delivery is about automating the deployment of code changes.",
+      "point": "10"
+    },
+    {
+      "question": "What is Infrastructure as Code (IaC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A coding language",
+        "A process of managing and provisioning computing infrastructure through machine-readable scripts",
+        "A method to manage databases",
+        "A type of software testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Infrastructure as Code uses scripts to manage and provision infrastructure.",
+      "messageForIncorrectAnswer": "Incorrect. IaC involves managing infrastructure through scripts.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of version control in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To create a backup of databases",
+        "To manage changes to code and collaborate with team members",
+        "To restrict access to certain files",
+        "To speed up the testing process"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Version control helps manage code changes and team collaboration.",
+      "messageForIncorrectAnswer": "Incorrect. Version control is used for managing code changes.",
+      "point": "10"
+    },
+    {
+      "question": "What is a Docker container?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A virtual machine",
+        "A lightweight, standalone package that includes everything needed to run an application",
+        "A type of cloud service",
+        "A hardware device"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A Docker container is a lightweight package containing all dependencies needed to run an application.",
+      "messageForIncorrectAnswer": "Incorrect. A Docker container is a standalone package for running applications.",
+      "point": "10"
+    },
+    {
+      "question": "What is Kubernetes used for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Managing databases",
+        "Orchestrating and managing containerized applications",
+        "Writing backend code",
+        "Creating marketing strategies"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes is used to orchestrate and manage containerized applications.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes is for managing containerized applications.",
+      "point": "10"
+    },
+    {
+      "question": "What is the benefit of using microservices architecture?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Easier to develop large, monolithic applications",
+        "Enables independent development, deployment, and scaling of services",
+        "Reduces team collaboration",
+        "Requires fewer servers"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Microservices architecture allows independent development, deployment, and scaling of services.",
+      "messageForIncorrectAnswer": "Incorrect. Microservices enable independent development and deployment of services.",
+      "point": "10"
+    },
+    {
+      "question": "What is Configuration Management in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A process for creating backups",
+        "A practice of handling changes systematically to maintain system integrity",
+        "A way to debug applications",
+        "A programming language"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Configuration Management involves handling changes to maintain system integrity.",
+      "messageForIncorrectAnswer": "Incorrect. Configuration Management handles changes systematically.",
+      "point": "10"
+    },
+    {
+      "question": "What is Continuous Monitoring?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Monitoring applications only during deployment",
+        "The practice of constantly monitoring applications and infrastructure for performance and issues",
+        "A method for testing code",
+        "A tool for managing databases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Continuous Monitoring ensures that applications and infrastructure are performing optimally.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Monitoring involves ongoing oversight of applications and infrastructure.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main benefit of using cloud services in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Higher costs",
+        "Limited scalability",
+        "Scalable resources on demand and reduced infrastructure management",
+        "Slower software deployment"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Cloud services provide scalable resources and reduce infrastructure management.",
+      "messageForIncorrectAnswer": "Incorrect. Cloud services offer scalable resources and ease of infrastructure management.",
+      "point": "10"
+    },
+    {
+      "question": "What is meant by 'shift left' in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Shifting testing to later stages",
+        "Involving testing earlier in the software development process",
+        "Reducing the testing phase",
+        "Only focusing on deployment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'Shift left' means involving testing earlier in the development process.",
+      "messageForIncorrectAnswer": "Incorrect. 'Shift left' emphasizes earlier involvement of testing in the process.",
+      "point": "10"
+    },
+    {
+      "question": "What is Site Reliability Engineering (SRE)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A type of software testing",
+        "A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems",
+        "A programming language",
+        "A hardware management process"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! SRE applies software engineering principles to infrastructure and operations.",
+      "messageForIncorrectAnswer": "Incorrect. SRE combines software engineering with infrastructure and operations management.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key advantage of using Infrastructure as Code (IaC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual configuration of servers",
+        "Consistent and automated infrastructure management",
+        "Reduced collaboration between teams",
+        "Less scalability"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaC ensures consistent and automated infrastructure management.",
+      "messageForIncorrectAnswer": "Incorrect. IaC automates and provides consistent infrastructure management.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of DevOps automation?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To slow down the software release cycle",
+        "To improve efficiency by reducing manual intervention",
+        "To avoid software testing",
+        "To create security vulnerabilities"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Automation improves efficiency by minimizing manual tasks.",
+      "messageForIncorrectAnswer": "Incorrect. Automation in DevOps is used to improve efficiency by reducing manual tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What is the role of a DevOps Engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To write marketing content",
+        "To bridge the gap between development and operations",
+        "To only manage network infrastructure",
+        "To focus solely on coding applications"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A DevOps Engineer bridges the gap between development and operations.",
+      "messageForIncorrectAnswer": "Incorrect. A DevOps Engineer focuses on bridging development and operations.",
+      "point": "10"
+    },
+    {
+      "question": "What is the key benefit of Continuous Testing in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Slower development process",
+        "Early detection of defects",
+        "More manual testing required",
+        "Reduces the number of code releases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Continuous Testing helps detect defects early in the development cycle.",
+      "messageForIncorrectAnswer": "Incorrect. The key benefit of Continuous Testing is early detection of defects.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is commonly used for CI/CD in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": ["Jenkins", "Microsoft Word", "Photoshop", "Notepad"],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Jenkins is a popular CI/CD tool in DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. Jenkins is a widely used tool for CI/CD in DevOps.",
+      "point": "10"
+    },
+    {
+      "question": "What is the importance of monitoring in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To ignore application performance",
+        "To ensure continuous availability and performance of applications",
+        "To reduce automation",
+        "To increase manual configuration"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Monitoring ensures the availability and performance of applications.",
+      "messageForIncorrectAnswer": "Incorrect. Monitoring is crucial to ensure applications are always available and performing well.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following describes 'Immutable Infrastructure'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Infrastructure that can be modified anytime",
+        "Servers that are never modified after deployment",
+        "Manually configured infrastructure",
+        "A cloud storage system"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Immutable Infrastructure refers to servers that aren't modified after deployment.",
+      "messageForIncorrectAnswer": "Incorrect. Immutable Infrastructure means servers are not modified after deployment.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'blue-green deployment' refer to in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Using blue and green colors in application design",
+        "A method for testing software",
+        "A release management strategy to reduce downtime",
+        "A cloud deployment tool"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Blue-green deployment is a release strategy to reduce downtime.",
+      "messageForIncorrectAnswer": "Incorrect. Blue-green deployment is used to minimize downtime during releases.",
+      "point": "10"
+    },
+    {
+      "question": "What is a 'canary release'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A release with full features to all users",
+        "A type of software rollback",
+        "A deployment strategy where new features are released to a small subset of users first",
+        "A method to migrate data"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! A canary release is deployed to a small subset of users to test changes.",
+      "messageForIncorrectAnswer": "Incorrect. A canary release involves testing with a small user group before full deployment.",
+      "point": "10"
+    },
+    {
+      "question": "Which DevOps practice focuses on reducing the time between writing code and deploying it?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Continuous Deployment",
+        "Manual Testing",
+        "Waterfall Development",
+        "Debugging"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Continuous Deployment focuses on reducing the time between code writing and deployment.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Deployment reduces the time from writing code to deployment.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'CI/CD' stand for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Continuous Integration and Continuous Deployment",
+        "Code Integration and Cloud Development",
+        "Continuous Improvement and Code Debugging",
+        "Cloud Infrastructure and Continuous Design"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! CI/CD stands for Continuous Integration and Continuous Deployment.",
+      "messageForIncorrectAnswer": "Incorrect. CI/CD refers to Continuous Integration and Continuous Deployment.",
+      "point": "10"
+    },
+    {
+      "question": "What is Git used for in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Deploying applications",
+        "Managing version control for code",
+        "Monitoring application performance",
+        "Creating database schemas"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Git is used for managing version control in DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. Git is a version control tool for managing code changes.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a principle of DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Collaboration",
+        "Automation",
+        "Siloed teams",
+        "Continuous feedback"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Siloed teams go against the principles of DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. Siloed teams are not part of DevOps principles.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of 'infrastructure as code'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To manually configure all infrastructure",
+        "To write scripts that automate infrastructure deployment and management",
+        "To create cloud-based backups",
+        "To increase server maintenance costs"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Infrastructure as code uses scripts to automate infrastructure deployment.",
+      "messageForIncorrectAnswer": "Incorrect. Infrastructure as code automates the deployment and management of infrastructure.",
+      "point": "10"
+    },
+    {
+      "question": "What is the difference between Continuous Deployment and Continuous Delivery?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Continuous Deployment always requires manual approval",
+        "Continuous Delivery includes automated production deployment",
+        "Continuous Deployment involves automatically deploying every change without manual approval",
+        "Continuous Delivery is only for testing"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Continuous Deployment automatically deploys every change without manual approval.",
+      "messageForIncorrectAnswer": "Incorrect. Continuous Deployment deploys changes automatically without manual intervention.",
+      "point": "10"
+    },
+    {
+      "question": "What is an artifact repository in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A place to store source code",
+        "A central storage for binaries, dependencies, and build artifacts",
+        "A tool for monitoring",
+        "A version control system"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! An artifact repository stores binaries and build artifacts.",
+      "messageForIncorrectAnswer": "Incorrect. An artifact repository is used for storing build outputs and dependencies.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'infrastructure as a service' (IaaS) provide?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A platform for running applications",
+        "Virtualized computing resources over the internet",
+        "Pre-configured software applications",
+        "Code for building applications"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaaS provides virtualized computing resources over the internet.",
+      "messageForIncorrectAnswer": "Incorrect. IaaS provides virtualized computing resources such as servers.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a popular container orchestration tool?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": ["Docker", "Git", "Kubernetes", "Jenkins"],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Kubernetes is a popular tool for container orchestration.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes is the tool used for orchestrating containers.",
+      "point": "10"
+    }
+  ]
+}

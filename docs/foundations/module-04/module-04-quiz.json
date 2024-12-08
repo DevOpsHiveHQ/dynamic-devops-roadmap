@@ -1,0 +1,593 @@
+{
+  "quizTitle": "DevOps Foundations Quiz",
+  "quizSynopsis": "Test your knowledge of DevOps concepts, Kubernetes, CI/CD, Agile, and Cloud Computing.",
+  "progressBarColor": "#9de1f6",
+  "nrOfQuestions": "39",
+  "questions": [
+    {
+      "question": "Which of the following is a core concept of Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Cluster",
+        "Server",
+        "Pod",
+        "Volume"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Cluster is a core concept of Kubernetes.",
+      "messageForIncorrectAnswer": "Incorrect. Cluster is a fundamental Kubernetes concept.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of Continuous Integration (CI)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To deliver code to production continuously",
+        "To merge code changes frequently to the main branch",
+        "To create new Docker containers",
+        "To manage cloud infrastructure"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CI is all about integrating code changes frequently.",
+      "messageForIncorrectAnswer": "Incorrect. CI focuses on integrating code changes frequently.",
+      "point": "10"
+    },
+    {
+      "question": "Which one of the following is NOT a Twelve-Factor App principle?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Config stored in the code",
+        "One codebase tracked in revision control",
+        "Store config in the environment",
+        "Execute the app as one or more stateless processes"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Config should be stored in the environment, not in the code.",
+      "messageForIncorrectAnswer": "Incorrect. The twelve-factor methodology advises storing config in the environment.",
+      "point": "10"
+    },
+    {
+      "question": "Which type of cloud computing model allows exclusive use by one organization?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Public Cloud",
+        "Private Cloud",
+        "Hybrid Cloud",
+        "Distributed Cloud"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Private Cloud allows exclusive use by one organization.",
+      "messageForIncorrectAnswer": "Incorrect. Private Cloud is used exclusively by one organization.",
+      "point": "10"
+    },
+    {
+      "question": "Which of these is NOT part of the CI best practices?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ensure the CI pipeline is fully automated",
+        "Run CI on a developer's local machine",
+        "Use caching to speed up pipelines",
+        "Run CI pipelines on every commit"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CI should be automated and not rely on developer machines.",
+      "messageForIncorrectAnswer": "Incorrect. CI pipelines should not be dependent on developer machines.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes object is used as the smallest deployable unit?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Node",
+        "Pod",
+        "Service",
+        "Volume"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A Pod is the smallest deployable unit in Kubernetes.",
+      "messageForIncorrectAnswer": "Incorrect. The smallest deployable unit in Kubernetes is a Pod.",
+      "point": "10"
+    },
+    {
+      "question": "What does REST stand for in REST API?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Remote Endpoint State Transfer",
+        "Representational State Transfer",
+        "Rapid Event Source Transfer",
+        "Redundant System Transfer"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! REST stands for Representational State Transfer.",
+      "messageForIncorrectAnswer": "Incorrect. REST stands for Representational State Transfer.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following represents the 3 pillars of observability?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Logs, Metrics, Dashboards",
+        "Logs, Metrics, Traces",
+        "Metrics, Services, Pods",
+        "Monitoring, Logging, Alerting"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Logs, Metrics, and Traces are the three pillars of observability.",
+      "messageForIncorrectAnswer": "Incorrect. The three pillars of observability are Logs, Metrics, and Traces.",
+      "point": "10"
+    },
+    {
+      "question": "Which term refers to treating backing services as attached resources in a Twelve-Factor App?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Port Binding",
+        "Backing Services",
+        "Dev/Prod Parity",
+        "Config Store"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Backing services are treated as attached resources.",
+      "messageForIncorrectAnswer": "Incorrect. The correct term is Backing Services.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes feature helps to automate tasks and processes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Pods",
+        "Services",
+        "Controllers",
+        "Namespaces"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Controllers help automate tasks and processes in Kubernetes.",
+      "messageForIncorrectAnswer": "Incorrect. Controllers are responsible for automation in Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following best describes a Pod in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A container registry",
+        "A single virtual machine",
+        "A logical host with one or more containers",
+        "An orchestration tool"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! A Pod is a logical host with one or more containers.",
+      "messageForIncorrectAnswer": "Incorrect. A Pod is a logical host for containers in Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "Which continuous delivery tool is commonly used with Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Jenkins",
+        "GitLab CI",
+        "Argo CD",
+        "Travis CI"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Argo CD is commonly used with Kubernetes for CD.",
+      "messageForIncorrectAnswer": "Incorrect. The correct answer is Argo CD, which integrates well with Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main purpose of Docker in a DevOps environment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Deploying VMs",
+        "Creating lightweight, portable containers",
+        "Provisioning hardware",
+        "Managing application logs"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Docker is used to create lightweight and portable containers.",
+      "messageForIncorrectAnswer": "Incorrect. Docker helps to create portable containers.",
+      "point": "10"
+    },
+    {
+      "question": "What does IaaS stand for in Cloud Computing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Information as a Service",
+        "Infrastructure as a Service",
+        "Interface as a Solution",
+        "Innovation as a Service"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaaS stands for Infrastructure as a Service.",
+      "messageForIncorrectAnswer": "Incorrect. IaaS stands for Infrastructure as a Service.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a key principle of Agile planning?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Fixed, non-adaptable schedules",
+        "Iterative development and flexibility",
+        "Centralized decision-making",
+        "Waterfall-style phases"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Agile planning is characterized by iterative development and flexibility.",
+      "messageForIncorrectAnswer": "Incorrect. Agile planning emphasizes iteration and flexibility.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following describes a Hybrid Cloud?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A cloud exclusively for public use",
+        "A mix of public and private cloud environments",
+        "A private cloud within a single organization",
+        "A cloud owned by multiple companies"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Hybrid Cloud combines public and private environments.",
+      "messageForIncorrectAnswer": "Incorrect. Hybrid Cloud is a mix of public and private environments.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main advantage of using Prometheus in observability?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Log collection",
+        "Alerting and monitoring",
+        "Cloud provisioning",
+        "Continuous Integration"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Prometheus is widely used for alerting and monitoring.",
+      "messageForIncorrectAnswer": "Incorrect. Prometheus is mainly used for monitoring and alerting.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following describes Continuous Delivery (CD)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manually deploying software releases",
+        "Automating code testing and deployment steps",
+        "Replacing Continuous Integration",
+        "Container management"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CD involves automating code testing and deployment.",
+      "messageForIncorrectAnswer": "Incorrect. CD automates both testing and deployment steps.",
+      "point": "10"
+    },
+    {
+      "question": "In the 12-factor app methodology, how should logs be treated?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Stored in the codebase",
+        "Sent to a centralized location",
+        "Written to a database",
+        "Treated as event streams"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Logs should be treated as event streams in a 12-factor app.",
+      "messageForIncorrectAnswer": "Incorrect. Logs should be treated as event streams in the 12-factor methodology.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following best describes API First Thinking?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Designing the UI before anything else",
+        "Defining the API before implementing it",
+        "Creating databases first",
+        "Focusing only on backend services"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! API First Thinking involves defining the API before implementation.",
+      "messageForIncorrectAnswer": "Incorrect. API First Thinking means defining the API before development.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main advantage of using Infrastructure as Code (IaC)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual infrastructure setup",
+        "Automated and repeatable infrastructure management",
+        "Increased cloud costs",
+        "Manual server provisioning"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! IaC enables automated and repeatable infrastructure management.",
+      "messageForIncorrectAnswer": "Incorrect. IaC focuses on automation and repeatability.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following best describes a DevOps culture?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Separation between development and operations",
+        "Collaboration between development and operations",
+        "Only developers are responsible for production",
+        "Operations manage everything without developer input"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! DevOps culture emphasizes collaboration between development and operations.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps is all about collaboration between development and operations.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a benefit of using containers in development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Less portable applications",
+        "Dependency issues across environments",
+        "Environment consistency and portability",
+        "Manual deployment processes"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Containers provide environment consistency and portability.",
+      "messageForIncorrectAnswer": "Incorrect. Containers help ensure consistency and portability across environments.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main purpose of Helm in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Container orchestration",
+        "Package management for Kubernetes",
+        "Scaling applications",
+        "Monitoring cluster health"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Helm is used for package management in Kubernetes.",
+      "messageForIncorrectAnswer": "Incorrect. Helm is a package manager for Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following best describes GitOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A CI tool for testing code",
+        "An infrastructure automation technique using Git repositories",
+        "A monitoring solution for Kubernetes",
+        "A code review process"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! GitOps is about using Git repositories for infrastructure automation.",
+      "messageForIncorrectAnswer": "Incorrect. GitOps uses Git for managing infrastructure automation.",
+      "point": "10"
+    },
+    {
+      "question": "Which Agile methodology focuses on delivering the highest value in short iterations?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Scrum",
+        "Waterfall",
+        "Kanban",
+        "Lean"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Scrum focuses on delivering value in short sprints.",
+      "messageForIncorrectAnswer": "Incorrect. Scrum is an Agile methodology that delivers value in short iterations.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes component is responsible for maintaining the desired state of resources?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Kubelet",
+        "Scheduler",
+        "Controller Manager",
+        "API Server"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The Controller Manager maintains the desired state of Kubernetes resources.",
+      "messageForIncorrectAnswer": "Incorrect. The Controller Manager is responsible for maintaining the desired state.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a benefit of using CI/CD pipelines?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Less frequent code integration",
+        "Manual deployment steps",
+        "Fast feedback and automated testing",
+        "Separate testing and development environments"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! CI/CD pipelines provide fast feedback and automate testing.",
+      "messageForIncorrectAnswer": "Incorrect. CI/CD pipelines are designed to provide fast feedback and automation.",
+      "point": "10"
+    },
+    {
+      "question": "Which cloud computing model provides a platform for developers to build applications without managing the underlying infrastructure?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "CaaS"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! PaaS provides a platform for application development without managing infrastructure.",
+      "messageForIncorrectAnswer": "Incorrect. PaaS is designed for developers to build applications without managing infrastructure.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main goal of DevOps automation?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Increase manual workload",
+        "Reduce deployment frequency",
+        "Automate repetitive tasks and improve efficiency",
+        "Isolate development and operations teams"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevOps automation aims to reduce manual effort and improve efficiency.",
+      "messageForIncorrectAnswer": "Incorrect. Automation in DevOps is about improving efficiency and reducing manual effort.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes object defines a desired state for replica management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Service",
+        "Deployment",
+        "ConfigMap",
+        "Ingress"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A Deployment defines the desired state for replica management.",
+      "messageForIncorrectAnswer": "Incorrect. The Deployment object manages replicas in Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of a Service in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manage container logs",
+        "Expose Pods to external traffic",
+        "Define replica sets",
+        "Configure cluster nodes"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A Service is used to expose Pods to external or internal traffic.",
+      "messageForIncorrectAnswer": "Incorrect. Services expose Pods to external or internal traffic.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following best describes the principle of 'Fail Fast' in CI/CD?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Continue pipelines regardless of errors",
+        "Detect issues early and stop execution",
+        "Skip automated tests",
+        "Deploy only once a week"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'Fail Fast' means detecting issues early and stopping execution to address them.",
+      "messageForIncorrectAnswer": "Incorrect. 'Fail Fast' is about early detection of issues and stopping further execution.",
+      "point": "10"
+    },
+    {
+      "question": "What is the function of a Scheduler in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Schedule Pod execution on nodes",
+        "Monitor cluster resources",
+        "Store application configuration",
+        "Manage network traffic"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! The Scheduler assigns Pods to nodes based on resource availability.",
+      "messageForIncorrectAnswer": "Incorrect. The Scheduler is responsible for assigning Pods to nodes.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a core component of a CI/CD pipeline?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Version control",
+        "Manual testing",
+        "Cloud storage",
+        "API management"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Version control is essential for a CI/CD pipeline to manage code changes.",
+      "messageForIncorrectAnswer": "Incorrect. Version control is a core component of any CI/CD pipeline.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a Kubernetes feature?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Container orchestration",
+        "Scaling applications",
+        "Continuous integration",
+        "Self-healing"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Kubernetes does not handle Continuous Integration by itself.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes does not provide Continuous Integration capabilities.",
+      "point": "10"
+    },
+    {
+      "question": "Which cloud deployment model offers a combination of on-premises and public cloud services?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Public Cloud",
+        "Private Cloud",
+        "Hybrid Cloud",
+        "Community Cloud"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Hybrid Cloud offers both on-premises and public cloud services.",
+      "messageForIncorrectAnswer": "Incorrect. Hybrid Cloud combines on-premises and public cloud services.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes resource is used for managing environment-specific configurations?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Service",
+        "ConfigMap",
+        "Volume",
+        "Pod"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! ConfigMap is used to manage environment-specific configurations.",
+      "messageForIncorrectAnswer": "Incorrect. ConfigMap is used for managing environment configurations.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of using a Reverse Proxy in Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Direct traffic to appropriate backend services",
+        "Store persistent data",
+        "Manage application secrets",
+        "Schedule Pods to nodes"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A Reverse Proxy directs traffic to the appropriate backend services.",
+      "messageForIncorrectAnswer": "Incorrect. A Reverse Proxy is responsible for directing traffic to backend services.",
+      "point": "10"
+    }
+  ]
+}

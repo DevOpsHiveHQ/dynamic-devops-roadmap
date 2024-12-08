@@ -1,0 +1,609 @@
+{
+  "quizTitle": "DevOps Fundamentals Quiz",
+  "quizSynopsis": "Test your knowledge of DevOps concepts, including Agile methodologies, modular coding, testing, Docker best practices, and continuous integration.",
+  "progressBarColor": "#9de1f6",
+  "nrOfQuestions": "40",
+  "questions": [
+    {
+      "question": "Which Agile methodology does the module suggest starting with?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Scrum",
+        "Kanban",
+        "Scrumban",
+        "Extreme Programming"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The module suggests starting with Kanban.",
+      "messageForIncorrectAnswer": "Incorrect. The module suggests starting with Kanban.",
+      "point": "10"
+    },
+    {
+      "question": "What is a primary way to avoid scope creep?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Add more features quickly",
+        "Document as you go",
+        "Make it work, then make it right, then make it fast",
+        "Change Agile methodologies"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Avoid scope creep by making it work, then making it right, then making it fast.",
+      "messageForIncorrectAnswer": "Incorrect. To avoid scope creep, make it work, then make it right, then make it fast.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a benefit of code modularity?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Over-engineering",
+        "Independent development and testing",
+        "Complex debugging",
+        "None of the above"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Independent development and testing are key benefits of modularity.",
+      "messageForIncorrectAnswer": "Incorrect. Modularity enables independent development and testing.",
+      "point": "10"
+    },
+    {
+      "question": "What principle should you keep in mind for writing modular code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Aim for clarity and simplicity",
+        "Use as many micro modules as possible",
+        "Avoid documentation",
+        "Focus on over-engineering"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Aim for clarity and simplicity when writing modular code.",
+      "messageForIncorrectAnswer": "Incorrect. It is essential to aim for clarity and simplicity in code.",
+      "point": "10"
+    },
+    {
+      "question": "What is the difference between Quality Assurance (QA) and Testing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "There is no difference",
+        "QA focuses on preventing defects, while testing focuses on finding defects",
+        "Testing is done before QA",
+        "QA is manual, while testing is automated"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! QA aims to prevent defects, whereas testing aims to find them.",
+      "messageForIncorrectAnswer": "Incorrect. QA focuses on preventing defects, while testing focuses on finding them.",
+      "point": "10"
+    },
+    {
+      "question": "Which type of testing validates software against user requirements?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Unit Testing",
+        "Integration Testing",
+        "Acceptance Testing",
+        "Regression Testing"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Acceptance testing validates the software against user requirements.",
+      "messageForIncorrectAnswer": "Incorrect. Acceptance testing is used to validate software against user requirements.",
+      "point": "10"
+    },
+    {
+      "question": "What is one purpose of Unit Testing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Testing the entire software",
+        "Testing individual components in isolation",
+        "Testing security vulnerabilities",
+        "Validating software performance"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Unit testing focuses on testing individual components in isolation.",
+      "messageForIncorrectAnswer": "Incorrect. Unit testing is used to test individual components in isolation.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a type of software testing?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Performance Testing",
+        "A/B Testing",
+        "Stress Testing",
+        "Random Testing"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Random Testing is not a common type of software testing.",
+      "messageForIncorrectAnswer": "Incorrect. Random Testing is not a typical type of software testing.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following best practices should you follow when writing unit tests?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ensure 100% code coverage",
+        "Make unit test code complex",
+        "Keep unit test code simple",
+        "Avoid using frameworks"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Unit test code should be kept simple.",
+      "messageForIncorrectAnswer": "Incorrect. Unit test code should be super simple.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of Hadolint?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To debug Python scripts",
+        "To lint Dockerfiles",
+        "To manage Kubernetes clusters",
+        "To compile Java programs"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Hadolint is used to lint Dockerfiles.",
+      "messageForIncorrectAnswer": "Incorrect. Hadolint is specifically used to lint Dockerfiles.",
+      "point": "10"
+    },
+    {
+      "question": "What is Continuous Integration (CI)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual testing of software",
+        "The practice of merging code changes frequently and automatically",
+        "Developing code without testing",
+        "Writing Dockerfiles"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CI involves merging code changes frequently and automating the build and test process.",
+      "messageForIncorrectAnswer": "Incorrect. CI involves frequent merging and automated testing.",
+      "point": "10"
+    },
+    {
+      "question": "Which CI system is recommended for beginners?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI",
+        "Travis CI"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! GitHub Actions is recommended for beginners due to its simplicity.",
+      "messageForIncorrectAnswer": "Incorrect. GitHub Actions is the recommended starting point.",
+      "point": "10"
+    },
+    {
+      "question": "What is a Workflow in GitHub Actions?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A manual testing process",
+        "A YAML manifest to automate build, test, and deployment",
+        "A job runner",
+        "A script for Docker containers"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A workflow is a YAML manifest used for automation in GitHub Actions.",
+      "messageForIncorrectAnswer": "Incorrect. Workflows automate processes such as building, testing, and deployment.",
+      "point": "10"
+    },
+    {
+      "question": "What are Quality Gates in a CI pipeline?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Metrics that ensure code meets certain standards",
+        "A testing framework",
+        "A Docker security tool",
+        "A Git command"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Quality Gates are used to ensure code meets specific standards before merging.",
+      "messageForIncorrectAnswer": "Incorrect. Quality Gates ensure code quality before merging.",
+      "point": "10"
+    },
+    {
+      "question": "What should a simple CI pipeline include?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Linting, code style checks, and security tools",
+        "Only testing",
+        "Only building",
+        "No checks"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A simple CI pipeline should include linting, code style checks, and security tools.",
+      "messageForIncorrectAnswer": "Incorrect. Linting, code style checks, and security tools are essential.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool can be used to run CI tasks locally?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Make",
+        "Kubernetes",
+        "Hadolint",
+        "Docker Compose"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Make is commonly used to run CI tasks locally.",
+      "messageForIncorrectAnswer": "Incorrect. Make is often used to run CI tasks locally.",
+      "point": "10"
+    },
+    {
+      "question": "Which Git tool can help run quality checks before committing code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Git Hooks",
+        "Git Rebase",
+        "Git Cherry-pick",
+        "Git Bisect"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Git Hooks can help run quality checks before committing code.",
+      "messageForIncorrectAnswer": "Incorrect. Git Hooks are used to run quality checks before commits.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'Managers of One' imply in project management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Needing daily check-ins",
+        "Self-managing tasks and setting personal goals",
+        "Having a dedicated manager",
+        "Working only with a team"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'Managers of One' refers to being self-sufficient in managing tasks.",
+      "messageForIncorrectAnswer": "Incorrect. Managers of One set their own goals and manage their tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What is one key advantage of modular code for a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "More complex systems",
+        "Separation of concerns and easier maintenance",
+        "Harder to develop",
+        "Increased code length"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Modularity helps in separating concerns and makes maintenance easier.",
+      "messageForIncorrectAnswer": "Incorrect. Modularity leads to better separation of concerns and maintainability.",
+      "point": "10"
+    },
+    {
+      "question": "What does the Zen of Python suggest regarding code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Code should be explicit and simple",
+        "Code should be hidden",
+        "Code should be written in multiple languages",
+        "Code should avoid modularity"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! The Zen of Python emphasizes that code should be explicit and simple.",
+      "messageForIncorrectAnswer": "Incorrect. The Zen of Python encourages simplicity and explicitness.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main benefit of documenting as you go?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To avoid scope creep",
+        "To ensure someone else can understand the project at any phase",
+        "To eliminate the need for testing",
+        "To automate the workflow"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Documenting ensures others can understand the project at any phase.",
+      "messageForIncorrectAnswer": "Incorrect. Documenting helps others understand the project at any stage.",
+      "point": "10"
+    },
+    {
+      "question": "What does 'Make it work, then make it right, then make it fast' help avoid?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Over-engineering",
+        "Scope creep",
+        "Documentation",
+        "Code reusability"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! This approach helps to avoid scope creep.",
+      "messageForIncorrectAnswer": "Incorrect. This strategy is meant to avoid scope creep.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following statements about modular code is FALSE?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It enables separation of concerns.",
+        "It makes independent testing easier.",
+        "It should always be as granular as possible.",
+        "It supports encapsulation."
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Modular code does not always need to be as granular as possible.",
+      "messageForIncorrectAnswer": "Incorrect. Modular code should not necessarily be split into micro modules if it’s already small.",
+      "point": "10"
+    },
+    {
+      "question": "Why should code be written with clarity and simplicity?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To impress other developers",
+        "To ensure maintainability",
+        "To reduce file size",
+        "To comply with agile principles"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Clarity and simplicity ensure maintainability.",
+      "messageForIncorrectAnswer": "Incorrect. Writing simple and clear code ensures that it is maintainable.",
+      "point": "10"
+    },
+    {
+      "question": "Which testing type focuses on verifying that integrated units work well together?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Unit Testing",
+        "Integration Testing",
+        "End-to-end Testing",
+        "Acceptance Testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Integration Testing focuses on verifying the interaction between units.",
+      "messageForIncorrectAnswer": "Incorrect. Integration Testing checks the interactions between units.",
+      "point": "10"
+    },
+    {
+      "question": "Which testing type assesses the software’s performance under load?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Unit Testing",
+        "Stress Testing",
+        "Acceptance Testing",
+        "Regression Testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Stress Testing is used to assess software performance under load.",
+      "messageForIncorrectAnswer": "Incorrect. Stress Testing is meant to assess performance under load.",
+      "point": "10"
+    },
+    {
+      "question": "What should be the key characteristic of unit test code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Complexity",
+        "Minimal logic",
+        "High computational load",
+        "Long scripts"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Unit test code should have minimal logic and be simple.",
+      "messageForIncorrectAnswer": "Incorrect. Unit test code should contain minimal logic.",
+      "point": "10"
+    },
+    {
+      "question": "Which Docker tool is used to enforce best practices in writing Dockerfiles?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Docker Compose",
+        "Hadolint",
+        "Docker Swarm",
+        "Docker CLI"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Hadolint is used to lint Dockerfiles.",
+      "messageForIncorrectAnswer": "Incorrect. Hadolint helps enforce best practices by linting Dockerfiles.",
+      "point": "10"
+    },
+    {
+      "question": "Which category of best practices does NOT apply to Docker?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Container runtime",
+        "Security",
+        "User interface",
+        "Container image"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! User interface is not a Docker best practice category.",
+      "messageForIncorrectAnswer": "Incorrect. User interface is not part of Docker best practices.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of Continuous Integration (CI)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To prevent developers from merging code",
+        "To manually test code",
+        "To automatically build and test code changes regularly",
+        "To deploy code to production"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! CI automatically builds and tests code changes regularly.",
+      "messageForIncorrectAnswer": "Incorrect. CI is used for building and testing code automatically.",
+      "point": "10"
+    },
+    {
+      "question": "Which CI tool is suggested for beginners?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "GitHub Actions",
+        "Jenkins",
+        "CircleCI",
+        "Bamboo"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! GitHub Actions is recommended for beginners.",
+      "messageForIncorrectAnswer": "Incorrect. GitHub Actions is recommended due to its simplicity.",
+      "point": "10"
+    },
+    {
+      "question": "In GitHub Actions, what is a job?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A reusable action",
+        "A set of sequential steps executed on the same machine",
+        "A workflow runner",
+        "An automated Docker build"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A job is a set of steps executed on the same machine.",
+      "messageForIncorrectAnswer": "Incorrect. Jobs consist of steps that run on the same machine.",
+      "point": "10"
+    },
+    {
+      "question": "What does it mean when GitHub Actions jobs are parallel by default?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "All jobs run on the same machine",
+        "Jobs are executed simultaneously by default",
+        "Jobs run one after another",
+        "Jobs cannot be run at the same time"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! By default, jobs run in parallel in GitHub Actions.",
+      "messageForIncorrectAnswer": "Incorrect. Jobs run simultaneously unless configured otherwise.",
+      "point": "10"
+    },
+    {
+      "question": "What is the role of a 'Runner' in GitHub Actions?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To execute the workflows",
+        "To build Docker images",
+        "To manage branches",
+        "To lint Python code"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A runner is a server that executes workflows.",
+      "messageForIncorrectAnswer": "Incorrect. Runners are used to execute workflows.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following tools is commonly used for managing pre-commit hooks?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Make",
+        "Docker Compose",
+        "pre-commit",
+        "Jenkins"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The pre-commit tool is used for managing pre-commit hooks.",
+      "messageForIncorrectAnswer": "Incorrect. Pre-commit is a tool used for managing Git hooks.",
+      "point": "10"
+    },
+    {
+      "question": "Which testing method is used to ensure existing functionality is not broken after changes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Unit Testing",
+        "Integration Testing",
+        "Regression Testing",
+        "Performance Testing"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Regression Testing ensures existing functionality is not broken.",
+      "messageForIncorrectAnswer": "Incorrect. Regression Testing ensures existing features continue to work after changes.",
+      "point": "10"
+    },
+    {
+      "question": "Why should the CI platform be used primarily as a runner?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To reduce build time",
+        "To ensure that CI steps can also be run locally",
+        "To allow manual testing",
+        "To increase complexity"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! CI platforms should act as runners so the steps can also be executed locally.",
+      "messageForIncorrectAnswer": "Incorrect. The goal is to make sure the CI steps are reproducible locally.",
+      "point": "10"
+    },
+    {
+      "question": "What is A/B Testing used for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Finding security vulnerabilities",
+        "Testing individual components",
+        "Comparing two versions to identify which performs better",
+        "Testing software performance under load"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! A/B Testing is used to compare two versions to identify which performs better.",
+      "messageForIncorrectAnswer": "Incorrect. A/B Testing is used for comparing different versions to determine better performance.",
+      "point": "10"
+    },
+    {
+      "question": "What does encapsulation in modular code refer to?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Hiding implementation details",
+        "Breaking code into micro modules",
+        "Avoiding unit tests",
+        "Writing all logic in a single function"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Encapsulation refers to hiding implementation details.",
+      "messageForIncorrectAnswer": "Incorrect. Encapsulation hides the internal implementation of modules.",
+      "point": "10"
+    },
+    {
+      "question": "Why is reusability important for a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To write code only once",
+        "To enable code sharing and reduce redundancy",
+        "To avoid collaboration",
+        "To make code unreadable"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Reusability helps in sharing code and reducing redundancy.",
+      "messageForIncorrectAnswer": "Incorrect. Reusability aims to enable code sharing and avoid redundancy.",
+      "point": "10"
+    }
+  ]
+}
+

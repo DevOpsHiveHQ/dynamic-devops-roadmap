@@ -1,0 +1,429 @@
+{
+  "quizTitle": "DevOps Foundations: Module 6 - Optimize Quiz",
+  "quizSynopsis": "Test your knowledge on Agile Retrospectives, Code Performance Optimization, Software Supply Chain Security, Multi-environment Architecture, Kubernetes Operators, Continuous Delivery, Continuous Deployment, and GitOps.",
+  "progressBarColor": "#9de1f6",
+  "nrOfQuestions": "28",
+  "questions": [
+    {
+      "question": "What is the main goal of an Agile Retrospective?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To blame individuals for mistakes",
+        "To review and improve processes",
+        "To decide team roles",
+        "To estimate next sprint tasks"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The main goal of an Agile Retrospective is to review and improve processes.",
+      "messageForIncorrectAnswer": "Incorrect. Agile Retrospectives are meant for reviewing and improving processes, not blaming individuals.",
+      "point": "10"
+    },
+    {
+      "question": "Why is having a blameless retrospective important?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To ensure people are punished for mistakes",
+        "To create a safe space for learning",
+        "To prioritize individual performance",
+        "To track each person's errors"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Blameless retrospectives create a safe space for everyone to learn and improve.",
+      "messageForIncorrectAnswer": "Incorrect. Blameless retrospectives are about creating a safe space, not blaming individuals.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a key concept in code performance optimization?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Premature optimization",
+        "Caching",
+        "Using slow algorithms",
+        "Increasing code complexity"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Caching is an important technique in code performance optimization.",
+      "messageForIncorrectAnswer": "Incorrect. Caching is a key technique for optimizing code performance.",
+      "point": "10"
+    },
+    {
+      "question": "What does SBOM stand for in Software Supply Chain Security?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Software Bill of Materials",
+        "Secure Binary Operations Manual",
+        "System Backup Operations Manager",
+        "Source Build Optimization Method"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! SBOM stands for Software Bill of Materials.",
+      "messageForIncorrectAnswer": "Incorrect. SBOM stands for Software Bill of Materials.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool can be used for Static Application Security Testing (SAST)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Terraform",
+        "SonarQube",
+        "KubeLinter",
+        "Docker Scout"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! SonarQube is used for Static Application Security Testing (SAST).",
+      "messageForIncorrectAnswer": "Incorrect. SonarQube is a common tool for SAST.",
+      "point": "10"
+    },
+    {
+      "question": "What is the primary purpose of a Kubernetes Operator?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To handle Kubernetes node upgrades",
+        "To manage complex applications and their components",
+        "To create Kubernetes namespaces",
+        "To schedule pods on nodes"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes Operators manage complex applications and their components.",
+      "messageForIncorrectAnswer": "Incorrect. Operators are meant to manage complex applications on Kubernetes.",
+      "point": "10"
+    },
+    {
+      "question": "Which branching model is considered legacy in multi-environment architecture?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Trunk-based development",
+        "Gitflow",
+        "Feature branching",
+        "Forking model"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Gitflow is considered a legacy branching model.",
+      "messageForIncorrectAnswer": "Incorrect. Gitflow is considered legacy compared to newer models like Trunk-based development.",
+      "point": "10"
+    },
+    {
+      "question": "Which environment should be a mini mirror of the production environment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Development",
+        "Testing",
+        "Staging",
+        "Sandbox"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The staging environment should be a mini mirror of production.",
+      "messageForIncorrectAnswer": "Incorrect. Staging should closely resemble the production environment.",
+      "point": "10"
+    },
+    {
+      "question": "What is the primary advantage of adopting GitOps for Continuous Deployment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual deployments",
+        "Declarative infrastructure management",
+        "Using imperative commands",
+        "Untracked changes"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! GitOps relies on declarative infrastructure management using Git.",
+      "messageForIncorrectAnswer": "Incorrect. GitOps is about managing infrastructure declaratively.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is NOT a level of Kubernetes Operator maturity?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Basic Install",
+        "Seamless Upgrades",
+        "Deep Learning",
+        "Auto-Pilot"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Deep Learning is not a level of Kubernetes Operator maturity.",
+      "messageForIncorrectAnswer": "Incorrect. Deep Learning is not related to Kubernetes Operator maturity levels.",
+      "point": "10"
+    },
+    {
+      "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Continuous Delivery is fully automated, while Continuous Deployment requires manual steps",
+        "Continuous Deployment includes artifact versioning, while Continuous Delivery does not",
+        "Continuous Delivery produces ready-to-deploy products, while Continuous Deployment automatically deploys them",
+        "Continuous Deployment is only for development environments"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Continuous Delivery produces ready-to-deploy products, while Continuous Deployment automatically deploys them.",
+      "messageForIncorrectAnswer": "Incorrect. The key difference is that Continuous Deployment involves automatic deployment.",
+      "point": "10"
+    },
+    {
+      "question": "What should be minimized between environments in a multi-environment architecture?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Environment drift",
+        "Deployment frequency",
+        "Developer collaboration",
+        "Monitoring tools"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Environment drift should be minimized to ensure consistency across environments.",
+      "messageForIncorrectAnswer": "Incorrect. Minimizing environment drift ensures consistency.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following tools can be used to scan Docker images?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Cosign",
+        "Grype",
+        "SonarQube",
+        "Dependabot"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Grype can be used to scan Docker images for vulnerabilities.",
+      "messageForIncorrectAnswer": "Incorrect. Grype is used for Docker image scanning.",
+      "point": "10"
+    },
+    {
+      "question": "What is the purpose of the 'pull model' in Continuous Deployment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To push updates to the target environment",
+        "To manually approve deployments",
+        "To allow the target environment to pull updates",
+        "To schedule deployments at specific times"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! In the pull model, the target environment pulls updates.",
+      "messageForIncorrectAnswer": "Incorrect. The pull model allows the target environment to pull updates.",
+      "point": "10"
+    },
+    {
+      "question": "Which release type requires users to deliberately upgrade to the latest version?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Rolling release",
+        "Blue-Green release",
+        "Versioned release",
+        "Canary release"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! In a versioned release, users need to deliberately upgrade to the latest version.",
+      "messageForIncorrectAnswer": "Incorrect. Versioned releases require users to choose when to upgrade.",
+      "point": "10"
+    },
+    {
+      "question": "What should you do to minimize external API calls for performance optimization?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Increase the number of calls",
+        "Cache results whenever possible",
+        "Use synchronous API calls",
+        "Perform calls inside loops"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Caching results is a great way to minimize external API calls.",
+      "messageForIncorrectAnswer": "Incorrect. Caching results helps reduce the number of external API calls.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following should be done to create a secure software supply chain?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Sign each Git commit",
+        "Use outdated dependencies",
+        "Avoid scanning container images",
+        "Disable Static Application Security Testing"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Signing each Git commit ensures the authenticity of the source.",
+      "messageForIncorrectAnswer": "Incorrect. Signing commits is a key security practice for software supply chains.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes resource is extended by Kubernetes Operators to manage stateful applications?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Pods",
+        "Custom Resource Definitions (CRDs)",
+        "ConfigMaps",
+        "Namespaces"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Kubernetes Operators use Custom Resource Definitions (CRDs) to manage stateful applications.",
+      "messageForIncorrectAnswer": "Incorrect. CRDs are used to extend Kubernetes to manage stateful applications.",
+      "point": "10"
+    },
+    {
+      "question": "What is the advantage of using Trunk-based development for multi-environment architecture?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Multiple long-lived branches",
+        "Simplified merging and fewer conflicts",
+        "Requires manual version control",
+        "Higher level of environment isolation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Trunk-based development simplifies merging and reduces conflicts.",
+      "messageForIncorrectAnswer": "Incorrect. Trunk-based development is known for reducing merging conflicts.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool can be used for keyless artifact signing in Continuous Delivery?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Cosign",
+        "SonarQube",
+        "Terraform",
+        "Grype"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Cosign is used for keyless artifact signing in Continuous Delivery.",
+      "messageForIncorrectAnswer": "Incorrect. Cosign is the correct tool for artifact signing.",
+      "point": "10"
+    },
+    {
+      "question": "Which principle is the foundation of GitOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manual configuration management",
+        "Declarative infrastructure management",
+        "Automated commit signing",
+        "Imperative deployment commands"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! GitOps is based on declarative infrastructure management using Git as the source of truth.",
+      "messageForIncorrectAnswer": "Incorrect. GitOps relies on declarative infrastructure management, not manual processes.",
+      "point": "10"
+    },
+    {
+      "question": "What is the key benefit of using a Content Delivery Network (CDN) in performance optimization?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Reduced server storage",
+        "Reduced latency for static content",
+        "Improved database caching",
+        "Reduced dependency on external APIs"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A CDN reduces latency by caching static content closer to users.",
+      "messageForIncorrectAnswer": "Incorrect. CDNs are primarily used to reduce latency for static content.",
+      "point": "10"
+    },
+    {
+      "question": "What type of deployment strategy involves gradually shifting traffic to a new version while monitoring performance?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Blue-Green deployment",
+        "Canary deployment",
+        "Rolling deployment",
+        "Hotfix deployment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Canary deployment involves shifting traffic gradually to monitor performance.",
+      "messageForIncorrectAnswer": "Incorrect. Canary deployment is used to shift traffic gradually to a new version.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is commonly used to keep code dependencies up-to-date?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Grype",
+        "Dependabot",
+        "SonarQube",
+        "KubeLinter"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Dependabot is used to keep code dependencies up-to-date.",
+      "messageForIncorrectAnswer": "Incorrect. Dependabot is commonly used for keeping dependencies current.",
+      "point": "10"
+    },
+    {
+      "question": "Which Kubernetes component is responsible for ensuring that the desired state matches the actual state?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Scheduler",
+        "Kubelet",
+        "Controller Manager",
+        "Etcd"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The Controller Manager ensures that the desired state matches the actual state.",
+      "messageForIncorrectAnswer": "Incorrect. The Controller Manager is responsible for reconciling the desired and actual state.",
+      "point": "10"
+    },
+    {
+      "question": "What is a common risk of not using multi-environment architecture in software development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Increased environment drift",
+        "Increased cost",
+        "Reduced testing fidelity",
+        "Improved isolation"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Not using multi-environment architecture can lead to reduced testing fidelity.",
+      "messageForIncorrectAnswer": "Incorrect. The risk is reduced testing fidelity without proper environment separation.",
+      "point": "10"
+    },
+    {
+      "question": "Which Git commit practice helps ensure code changes come from a trusted source?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Code linting",
+        "Commit signing",
+        "Branching",
+        "Force pushing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Signing Git commits ensures the authenticity of the source.",
+      "messageForIncorrectAnswer": "Incorrect. Commit signing ensures that changes are trusted and verified.",
+      "point": "10"
+    },
+    {
+      "question": "In GitOps, which type of repository is used as the single source of truth?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Infrastructure repository",
+        "Feature repository",
+        "Release repository",
+        "Artifact repository"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! The infrastructure repository is the single source of truth in GitOps.",
+      "messageForIncorrectAnswer": "Incorrect. In GitOps, the infrastructure repository is the single source of truth.",
+      "point": "10"
+    }
+  ]
+}
+
