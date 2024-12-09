@@ -42,6 +42,26 @@ li::marker {
   color: var(--ifm-color-primary);
 }
 
+/* Homepage */
+
+.featuresButton {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.featuresHexagon {
+  align-items: center;
+  aspect-ratio: 1/cos(30deg);
+  background: var(--ifm-color-primary);
+  clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
+  color: var(--ifm-color-light);
+  display: grid;
+  font-weight: bold;
+  height: 30px;
+  margin: auto;
+}
+
 /* Navigation bar */
 
 .navbar__item {
@@ -89,7 +109,7 @@ li::marker {
 
 .quiz-button-center {
   margin: 0;
-  position:sticky;
+  position: sticky;
   display: inline-block;
   white-space: unset !important;
 }
@@ -132,11 +152,13 @@ li::marker {
   color: var(--ifm-color-light) !important;
 }
 
-.react-quiz-container .correct, .answerBtn.btn.correct {
+.react-quiz-container .correct,
+.answerBtn.btn.correct {
   background-color: #53b373 !important;
 }
 
-.react-quiz-container .incorrect, .answerBtn.btn.incorrect {
+.react-quiz-container .incorrect,
+.answerBtn.btn.incorrect {
   background-color: #cf3838 !important;
 }
 
@@ -149,7 +171,8 @@ li::marker {
   border-top-right-radius: unset !important;
 }
 
-.dropdown-options .dropdown-options-item.selected, .dropdown-options .dropdown-options-item:focus {
+.dropdown-options .dropdown-options-item.selected,
+.dropdown-options .dropdown-options-item:focus {
   background-color: var(--ifm-color-primary-lightest) !important;
 }
 

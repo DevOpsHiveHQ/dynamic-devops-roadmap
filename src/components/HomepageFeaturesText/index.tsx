@@ -21,10 +21,10 @@ const FeatureList: FeatureItem[] = [
   {
     description: (
       <>
-      <ul className={styles.featuresList}>
-        <li>The Dynamic DevOps Roadmap follows a "Guided Learning" model, which puts learners at the heart of the learning journey.</li>
-        <li>It supports the learner's journey towards understanding the DevOps problems and hands-on application without spoon-feeding.</li>
-      </ul>
+        <ul className={styles.featuresList}>
+          <li>The Dynamic DevOps Roadmap follows a "Guided Learning" model, which puts learners at the heart of the learning journey.</li>
+          <li>It supports the learner's journey towards understanding the DevOps problems and hands-on application without spoon-feeding.</li>
+        </ul>
       </>
     ),
   },
@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({description}: FeatureItem) {
+function Feature({ description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--left padding-horiz--md">
@@ -53,23 +53,25 @@ function Feature({description}: FeatureItem) {
 export default function HomepageFeaturesText(): JSX.Element {
   return (
     <>
-      <Heading as="h2" className={styles.featuresHeader}>
-        The Dynamic DevOps Roadmap in Nutshell
-      </Heading>
-      <section className={styles.features}>
-        <div className="container">
-          <div className="row">
-            {FeatureList.map((props, idx) => (
-              <Feature key={idx} {...props} />
-            ))}
+      <div style={{background: 'var(--ifm-color-light)'}}>
+        <Heading as="h2" className={styles.featuresHeader}>
+          Dynamic DevOps Roadmap in Nutshell
+        </Heading>
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              {FeatureList.map((props, idx) => (
+                <Feature key={idx} {...props} />
+              ))}
+            </div>
           </div>
+        </section>
+        <div className="featuresButton">
+          <Link title="Roadmap FAQ"
+            className="button button--secondary button--lg" to="/faq">
+            More Details →
+          </Link>
         </div>
-      </section>
-      <div className={styles.featuresButton}>
-        <Link title="Roadmap FAQ"
-          className="button button--secondary button--lg" to="/faq">
-          More Details →
-        </Link>
       </div>
     </>
   );
