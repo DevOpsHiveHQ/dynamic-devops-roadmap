@@ -1,0 +1,518 @@
+{
+  "quizTitle": "Module 2: Basics - DevOps Core Quiz",
+  "quizSynopsis": "Test your knowledge of Python fundamentals, development tools, Git basics, Linux fundamentals, common Linux commands, Bash scripting, and Docker fundamentals.",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
+  "questions": [
+    {
+      "question": "Why is Python considered a good starting language for DevOps engineers?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it's popular, easy to learn, and widely used in automation and tooling",
+        "Because it never updates",
+        "Because it's only for system administration",
+        "Because it requires no understanding of programming concepts"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Python’s readability and versatility make it a great first language in DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. Python is popular, versatile, and suitable for automation tasks.",
+      "point": "10"
+    },
+    {
+      "question": "What should you focus on when first learning Python?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Only advanced libraries",
+        "Basic concepts like data types, loops, functions, and control flow",
+        "Skipping syntax and going straight to advanced automation",
+        "Memorizing every built-in function"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Understanding the fundamentals is key before moving to advanced topics.",
+      "messageForIncorrectAnswer": "Incorrect. Start with the basics of the language first.",
+      "point": "10"
+    },
+    {
+      "question": "What mindset should you adopt when writing Python code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Treat it exactly like Bash scripting",
+        "Focus on structured, maintainable code rather than one-liners",
+        "Avoid using functions or classes",
+        "Write code without comments or documentation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Adopt a developer mindset: write clean, maintainable, and structured code.",
+      "messageForIncorrectAnswer": "Incorrect. Python is about clarity and maintainability, not ad-hoc scripting.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it not necessary to deeply learn Python 2 specifically?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Python 2 is still the main version",
+        "Because Python 2 and Python 3 are identical",
+        "Because Python 2 has been deprecated, and Python 3 is the standard",
+        "Because Python is no longer used"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Python 3 is the modern standard; Python 2 is deprecated.",
+      "messageForIncorrectAnswer": "Incorrect. Python 3 is the recommended version nowadays.",
+      "point": "10"
+    },
+    {
+      "question": "When learning Python, what is a good approach to improve your skills?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Never practice, only read theory",
+        "Complete interactive exercises and practice coding regularly",
+        "Avoid any code analysis tools",
+        "Rely solely on memorization without coding"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Practicing with exercises helps solidify your understanding.",
+      "messageForIncorrectAnswer": "Incorrect. Hands-on practice is essential.",
+      "point": "10"
+    },
+    {
+      "question": "Why use a code editor or IDE over a basic text editor?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They provide features like syntax highlighting, code completion, and debugging",
+        "They slow down coding",
+        "They remove the need for version control",
+        "They only support one programming language"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Code editors enhance productivity with intelligent features.",
+      "messageForIncorrectAnswer": "Incorrect. Editors offer helpful features that improve your workflow.",
+      "point": "10"
+    },
+    {
+      "question": "Which tool is commonly recommended in this roadmap for coding?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Notepad",
+        "Visual Studio Code (VS Code)",
+        "A paper notebook",
+        "A proprietary, obscure IDE"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! VS Code is widely used, user-friendly, and well-supported.",
+      "messageForIncorrectAnswer": "Incorrect. VS Code is the recommended editor mentioned.",
+      "point": "10"
+    },
+    {
+      "question": "How does a Python extension in VS Code help you?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By removing syntax checking",
+        "By adding features like auto-completion, linting, and debugging for Python",
+        "By preventing code execution",
+        "By making coding more difficult"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Extensions improve coding efficiency and code quality.",
+      "messageForIncorrectAnswer": "Incorrect. Extensions provide helpful features for Python development.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Git important for a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it’s rarely used in modern workflows",
+        "Because it allows no version control",
+        "Because it stores and manages code versions, enabling collaboration and serving as a source of truth",
+        "Because it replaces all coding practices"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Git enables version control, collaboration, and is central to modern workflows.",
+      "messageForIncorrectAnswer": "Incorrect. Git is crucial for versioning and collaboration.",
+      "point": "10"
+    },
+    {
+      "question": "Which of the following is a basic Git concept you should know?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Branches, commits, push, and pull",
+        "Only commits, nothing else",
+        "No concepts are needed",
+        "Ignoring version history"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Understanding these core Git operations is essential.",
+      "messageForIncorrectAnswer": "Incorrect. Basic Git operations are fundamental for daily tasks.",
+      "point": "10"
+    },
+    {
+      "question": "Why do many workflows depend on Git as a Source of Truth?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Git is never updated",
+        "Because Git ensures no visibility",
+        "Because it provides a single, versioned record of changes to code and configurations",
+        "Because it prevents collaboration"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Git’s versioned history and reliability make it ideal as a source of truth.",
+      "messageForIncorrectAnswer": "Incorrect. Git tracks changes and enables auditability.",
+      "point": "10"
+    },
+    {
+      "question": "What is one recommended resource to quickly reference Git commands?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Git cheat sheet",
+        "Memorizing all commands",
+        "Never using references",
+        "Relying on guesswork"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A Git cheat sheet helps you recall commands easily.",
+      "messageForIncorrectAnswer": "Incorrect. Quick references are helpful, no need to memorize everything.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Linux knowledge crucial for a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Linux is rarely used",
+        "Because DevOps relies heavily on Linux-based servers and environments",
+        "Because Linux has no CLI",
+        "Because Windows dominates all servers"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Linux dominates server environments, making Linux skills essential.",
+      "messageForIncorrectAnswer": "Incorrect. Linux is central in server environments.",
+      "point": "10"
+    },
+    {
+      "question": "Which Linux family group is often recommended for beginners?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Debian/Ubuntu",
+        "Gentoo",
+        "No distributions are recommended",
+        "Only Red Hat/CentOS"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Ubuntu (Debian-based) is user-friendly and popular for newcomers.",
+      "messageForIncorrectAnswer": "Incorrect. Ubuntu is commonly suggested for beginners.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key skill when starting with Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Avoiding the terminal",
+        "Learning directory structure, permissions, and CLI operations",
+        "Relying solely on GUIs",
+        "Never using the command line"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Basic CLI knowledge and understanding file permissions are crucial.",
+      "messageForIncorrectAnswer": "Incorrect. The terminal is a fundamental Linux tool.",
+      "point": "10"
+    },
+    {
+      "question": "Why is the terminal considered your friend in Linux?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it's harder to use",
+        "Because it limits automation",
+        "Because it provides powerful, scriptable control over the system",
+        "Because it never breaks"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The terminal allows automation and efficient system management.",
+      "messageForIncorrectAnswer": "Incorrect. The terminal enables powerful operations and scripting.",
+      "point": "10"
+    },
+    {
+      "question": "What’s the best approach to learning Linux commands?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Memorize every command and option",
+        "Use logic to find the right tool, then consult documentation",
+        "Never read docs",
+        "Ignore all CLI tools"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Understand what you need, then look up how to do it. No need to memorize everything.",
+      "messageForIncorrectAnswer": "Incorrect. Use references and understand concepts rather than memorizing all commands.",
+      "point": "10"
+    },
+    {
+      "question": "Why learn common Linux CLI tools like grep, find, and top?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are rarely useful",
+        "They streamline searching, monitoring, and data manipulation tasks",
+        "They always require memorizing all arguments",
+        "They don't run on Linux"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! These tools simplify daily tasks like searching logs or checking processes.",
+      "messageForIncorrectAnswer": "Incorrect. Mastering common tools improves your efficiency.",
+      "point": "10"
+    },
+    {
+      "question": "What is Bash scripting primarily used for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Developing large-scale GUI applications",
+        "Automating repetitive CLI tasks by chaining commands and adding logic",
+        "Replacing all programming languages",
+        "Ignoring the command line entirely"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Bash scripts automate routine tasks and add logic to CLI operations.",
+      "messageForIncorrectAnswer": "Incorrect. Bash is about chaining commands and automating tasks.",
+      "point": "10"
+    },
+    {
+      "question": "Even if you know Python, why might you still use Bash scripts?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Python cannot automate anything",
+        "Because Bash is not useful",
+        "Because some tasks are simpler done with Bash, especially quick system tasks",
+        "Because Bash scripts are always complex"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Bash excels at simple, quick automation tasks on the command line.",
+      "messageForIncorrectAnswer": "Incorrect. Bash can handle simple automations efficiently.",
+      "point": "10"
+    },
+    {
+      "question": "Why is Bash common in Linux environments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Bash cannot run on Linux",
+        "Because Bash isn't installed by default",
+        "Because Bash is widely available and integrates seamlessly with standard Linux tools",
+        "Because Bash doesn't support variables"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Bash is often the default shell and easy to use with CLI tools.",
+      "messageForIncorrectAnswer": "Incorrect. Bash is commonly included and easy to use.",
+      "point": "10"
+    },
+    {
+      "question": "What is a simple step to start with Bash scripting?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Write complex frameworks immediately",
+        "Avoid using loops or conditions",
+        "Begin with small scripts that chain a few commands",
+        "Never run your scripts"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Start small, chaining a few commands and adding logic as you go.",
+      "messageForIncorrectAnswer": "Incorrect. Begin with simple tasks and grow complexity gradually.",
+      "point": "10"
+    },
+    {
+      "question": "Why have containers become the new norm?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because they solve no real problem",
+        "Because they are slower and harder to maintain",
+        "Because they offer consistent environments, are portable, and speed up deployments",
+        "Because they replaced all code"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Containers provide consistent, portable runtimes and streamline deployments.",
+      "messageForIncorrectAnswer": "Incorrect. Containers solve real-world environment consistency issues.",
+      "point": "10"
+    },
+    {
+      "question": "What sparked the container revolution?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The invention of mainframes",
+        "Docker’s introduction in 2013",
+        "Elimination of virtualization",
+        "Lack of interest in portability"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Docker’s debut made containerization mainstream and accessible.",
+      "messageForIncorrectAnswer": "Incorrect. Docker popularized containers and changed how software is deployed.",
+      "point": "10"
+    },
+    {
+      "question": "How do containers relate to Kubernetes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are unrelated",
+        "Kubernetes is a type of container",
+        "Kubernetes manages and orchestrates containers at scale",
+        "Containers replace Kubernetes"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Kubernetes orchestrates containers, scaling and managing them in complex environments.",
+      "messageForIncorrectAnswer": "Incorrect. Kubernetes is the orchestration layer for containers.",
+      "point": "10"
+    },
+    {
+      "question": "What is a Dockerfile?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A running container",
+        "A blueprint that defines how to build a Docker image",
+        "A server configuration script",
+        "Unrelated to Docker images"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! A Dockerfile describes the steps to create a Docker image.",
+      "messageForIncorrectAnswer": "Incorrect. Dockerfiles define the instructions for image creation.",
+      "point": "10"
+    },
+    {
+      "question": "What is the difference between a Docker image and a Docker container?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are identical",
+        "An image is a template; a container is a running instance of that template",
+        "A container is created before the image",
+        "There is no difference in purpose"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Images are static blueprints; containers are live, running entities.",
+      "messageForIncorrectAnswer": "Incorrect. Containers are instantiations of images.",
+      "point": "10"
+    },
+    {
+      "question": "Why should a DevOps engineer familiarize themselves with the Docker CLI?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because GUIs are always mandatory",
+        "Because the CLI is harder to use",
+        "Because the CLI is rarely documented",
+        "Because the CLI enables automation, scripting, and integration into CI/CD pipelines"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! CLI mastery supports automation and integration in DevOps workflows.",
+      "messageForIncorrectAnswer": "Incorrect. CLI is crucial for efficient DevOps automation.",
+      "point": "10"
+    },
+    {
+      "question": "Which Docker CLI command runs a container from an image?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker ps",
+        "docker build",
+        "docker run",
+        "docker stop"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! 'docker run' starts a container from an image.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker run' creates and starts a container.",
+      "point": "10"
+    },
+    {
+      "question": "How do you list running containers using Docker CLI?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker images",
+        "docker ps",
+        "docker exec",
+        "docker commit"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! 'docker ps' shows all currently running containers.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker ps' is the command to list running containers.",
+      "point": "10"
+    },
+    {
+      "question": "How can you stop a running Docker container?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "docker run",
+        "docker rm",
+        "docker stop",
+        "docker start"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! 'docker stop' gracefully stops a running container.",
+      "messageForIncorrectAnswer": "Incorrect. 'docker stop' sends a signal to stop the container.",
+      "point": "10"
+    },
+    {
+      "question": "Why might you avoid covering Docker Compose in this roadmap?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because Docker Compose is never used",
+        "Because the focus is on Kubernetes as the main orchestration platform",
+        "Because Compose is too easy",
+        "Because no one uses Compose anymore"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! This roadmap focuses on Kubernetes for orchestration instead of Docker Compose.",
+      "messageForIncorrectAnswer": "Incorrect. The emphasis is on Kubernetes over Docker Compose.",
+      "point": "10"
+    },
+    {
+      "question": "What is a recommended approach for learning Docker CLI commands?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Memorize every option",
+        "Use references like the official Docker Docs and cheat sheets",
+        "Never run 'docker --help'",
+        "Guess commands randomly"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Consulting docs and cheat sheets is the most efficient method.",
+      "messageForIncorrectAnswer": "Incorrect. No need to memorize everything.",
+      "point": "10"
+    },
+    {
+      "question": "What is the main benefit of containers for developers and DevOps engineers?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They slow down development",
+        "They cause inconsistent environments",
+        "They ensure consistent, reproducible environments across different systems",
+        "They remove the need for any testing"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Containers ensure consistency and portability, reducing environment issues.",
+      "messageForIncorrectAnswer": "Incorrect. The main benefit is consistent, reproducible environments.",
+      "point": "10"
+    }
+  ]
+}

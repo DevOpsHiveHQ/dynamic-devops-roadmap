@@ -1,0 +1,548 @@
+{
+  "quizTitle": "Module 1: Welcome to the DevOps World Quiz",
+  "quizSynopsis": "Test your understanding of DevOps fundamentals, SDLC, Agile, change management, DevSecOps pillars, related engineering roles, and T-shaped skill sets.",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
+  "questions": [
+    {
+      "question": "What is the primary aim of DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To completely separate development and operations",
+        "To enhance collaboration and communication across development and operations teams",
+        "To avoid automation entirely",
+        "To return to linear software delivery models"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! DevOps seeks to break silos and improve collaboration for efficient software delivery.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps focuses on collaboration and streamlining processes.",
+      "point": "10"
+    },
+    {
+      "question": "Why did the traditional, linear Software Development Life Cycle often fail?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because no code was ever written",
+        "Because developers and operations worked in isolated phases, causing blame and inefficiencies",
+        "Because it avoided testing altogether",
+        "Because it encouraged rapid feedback loops"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Separation led to blame games and slowed delivery.",
+      "messageForIncorrectAnswer": "Incorrect. The old linear model caused delays and miscommunication.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key benefit of adopting DevOps principles?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Slower time to market",
+        "Reduced reliability",
+        "Enhanced feedback loops and faster delivery",
+        "Limited collaboration"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevOps improves speed, feedback, and reliability.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps aims to speed up and improve software delivery.",
+      "point": "10"
+    },
+    {
+      "question": "In DevOps, what is more important than just tools?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No communication or culture",
+        "Rigid processes with no adaptation",
+        "Mindset and culture changes that foster collaboration",
+        "Discarding all automation"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Tools matter, but mindset and culture drive DevOps success.",
+      "messageForIncorrectAnswer": "Incorrect. The right mindset and culture are vital.",
+      "point": "10"
+    },
+    {
+      "question": "Why might the title 'DevOps Engineer' vary so much between companies?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because DevOps has a single, fixed definition",
+        "Because DevOps practices and topologies differ, leading to varied roles and skills",
+        "Because everyone agrees on the meaning of DevOps Engineer",
+        "Because no company adopts DevOps"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Different DevOps implementations result in diverse role definitions.",
+      "messageForIncorrectAnswer": "Incorrect. The role differs due to varied implementations and contexts.",
+      "point": "10"
+    },
+    {
+      "question": "Which is a primary driver of software production mentioned as the 'Iron Triangle'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "People, process, technology",
+        "Time, scope, cost",
+        "Tools, culture, mindset",
+        "Planning, coding, deployment"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Time, scope, and cost are key constraints in project management.",
+      "messageForIncorrectAnswer": "Incorrect. The Iron Triangle refers to time, scope, and cost.",
+      "point": "10"
+    },
+    {
+      "question": "Which SDLC model is more common today compared to the traditional Waterfall?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Waterfall",
+        "Agile",
+        "No model at all",
+        "Always Spiral"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Agile is now more popular due to its iterative and flexible nature.",
+      "messageForIncorrectAnswer": "Incorrect. Agile superseded Waterfall in many modern projects.",
+      "point": "10"
+    },
+    {
+      "question": "Why should a DevOps engineer understand different SDLC models?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To avoid enhancing the process",
+        "To remain reactive rather than proactive",
+        "To optimize and improve processes from the start",
+        "To ignore the development lifecycle"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Understanding SDLCs lets you enhance processes proactively.",
+      "messageForIncorrectAnswer": "Incorrect. Knowing SDLC models aids in early improvements.",
+      "point": "10"
+    },
+    {
+      "question": "What is an Agile methodology characteristic?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Working linearly without feedback",
+        "Iterative and incremental development cycles",
+        "Avoiding user feedback",
+        "Long release cycles with no iteration"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Agile emphasizes iterative increments and continuous feedback.",
+      "messageForIncorrectAnswer": "Incorrect. Agile is iterative, not strictly linear.",
+      "point": "10"
+    },
+    {
+      "question": "Why avoid Scope Creep in Agile?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It speeds up delivery",
+        "It ensures no one understands requirements",
+        "It prevents focusing on the essential features first",
+        "It makes iterations simpler"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Controlling scope ensures the team delivers essential value first.",
+      "messageForIncorrectAnswer": "Incorrect. Scope creep risks unfocused, delayed progress.",
+      "point": "10"
+    },
+    {
+      "question": "Change management involves considering which three main components?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Tools, code, and build scripts",
+        "People, process, and technology",
+        "Time, scope, and cost",
+        "Planning, testing, and deploying"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Changes must address people, process, and technology for effectiveness.",
+      "messageForIncorrectAnswer": "Incorrect. People, process, and technology are the key elements.",
+      "point": "10"
+    },
+    {
+      "question": "What does the J-Curve represent in change management?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A constant improvement curve",
+        "No initial drop in performance",
+        "An initial deterioration followed by improvement after implementing change",
+        "A linear increase in productivity without risk"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! The J-Curve shows performance dips initially before improvements emerge.",
+      "messageForIncorrectAnswer": "Incorrect. Change often causes short-term setbacks before gains.",
+      "point": "10"
+    },
+    {
+      "question": "How does an MVP mindset help manage change risks?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By releasing a fully complete solution first",
+        "By ignoring user feedback",
+        "By delivering minimum viable features early, reducing risk and guiding improvement",
+        "By adding more features than needed"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! MVPs test core value early, mitigating risk and guiding enhancements.",
+      "messageForIncorrectAnswer": "Incorrect. MVP focuses on minimal features to reduce risks.",
+      "point": "10"
+    },
+    {
+      "question": "What is the ultimate goal of DevOps methodology?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Slowing down the development process",
+        "Only improving operations side",
+        "Enhancing software production efficiency and collaboration",
+        "Replacing all developers with automated scripts"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevOps aims to improve the entire software production lifecycle collaboratively.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps enhances efficiency and teamwork.",
+      "point": "10"
+    },
+    {
+      "question": "What do DevOps pillars include?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Only mindset, ignoring tools",
+        "Practices, tools, culture, and mindset",
+        "Just culture and no tools",
+        "Random ad-hoc processes"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! DevOps pillars are practices, tools, culture, and mindset.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps is multi-faceted, involving all these pillars.",
+      "point": "10"
+    },
+    {
+      "question": "Which DevOps principle involves constantly refining and removing inefficiencies?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Avoiding feedback loops",
+        "Big-bang releases",
+        "Continuous improvement and waste minimization",
+        "Ignoring iterative approaches"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Continuous improvement reduces waste and enhances quality over time.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps encourages ongoing refinement and iteration.",
+      "point": "10"
+    },
+    {
+      "question": "Why is integrating security into DevOps (DevSecOps) important?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because security is optional",
+        "Because security only matters after release",
+        "Because modern threats require embedded security practices early on",
+        "Because it slows development intentionally"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Security must be integrated early to counter modern software supply chain risks.",
+      "messageForIncorrectAnswer": "Incorrect. Security is crucial throughout the DevOps lifecycle.",
+      "point": "10"
+    },
+    {
+      "question": "Which of these roles focuses primarily on ensuring service reliability and performance?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "DevOps Engineer",
+        "Site Reliability Engineer (SRE)",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! SRE focuses on reliability, availability, and performance.",
+      "messageForIncorrectAnswer": "Incorrect. SRE specializes in service quality and uptime.",
+      "point": "10"
+    },
+    {
+      "question": "What is a main focus area of a Cloud Engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Release process improvements",
+        "Service quality via reliability metrics",
+        "Managing and designing cloud infrastructure and services",
+        "Building CI/CD tooling only"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Cloud Engineers handle modern infrastructure and cloud services.",
+      "messageForIncorrectAnswer": "Incorrect. Cloud engineers design and manage cloud infrastructure.",
+      "point": "10"
+    },
+    {
+      "question": "Why are DevOps, SRE, Cloud, and Platform Engineer roles often interchangeable?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because they have no overlapping skills",
+        "Because the market is confused",
+        "Because they share common skill sets and objectives, just with different focus areas",
+        "Because none focus on automation"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! These roles often overlap in skill sets, causing interchangeable titles.",
+      "messageForIncorrectAnswer": "Incorrect. They share a significant portion of their skills and knowledge.",
+      "point": "10"
+    },
+    {
+      "question": "What does T-shaped skills mean for a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Having only deep expertise in one area",
+        "Combining broad knowledge across fields with deep expertise in one area",
+        "Avoiding specialization entirely",
+        "Knowing no technologies at all"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! T-shaped means broad knowledge plus deep skill in a key domain.",
+      "messageForIncorrectAnswer": "Incorrect. T-shaped professionals have breadth and depth.",
+      "point": "10"
+    },
+    {
+      "question": "How do T-shaped skills benefit a DevOps engineer?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They limit career growth",
+        "They only help in small companies",
+        "They enable flexibility, adaptability, and better handling of diverse challenges",
+        "They force you to stay in one role forever"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! T-shaped skills support adaptability and effective problem-solving.",
+      "messageForIncorrectAnswer": "Incorrect. They enhance versatility and career opportunities.",
+      "point": "10"
+    },
+    {
+      "question": "Does T-shaped mean ignoring depth entirely?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, no deep expertise needed",
+        "No, it includes deep expertise in at least one area",
+        "Only breadth, never depth",
+        "Depth is irrelevant"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! T-shaped includes deep expertise in one area.",
+      "messageForIncorrectAnswer": "Incorrect. Depth in one area is crucial.",
+      "point": "10"
+    },
+    {
+      "question": "How do T-shaped skills relate to career progression?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They prevent specialization later",
+        "They force you to stay generalist",
+        "They can evolve into Pi-shaped or other skill shapes, increasing specialization over time",
+        "They have no impact on career growth"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Start T-shaped, and as you grow, add more specializations (Pi-shaped, etc.).",
+      "messageForIncorrectAnswer": "Incorrect. T-shaped is a foundation for further specialization.",
+      "point": "10"
+    },
+    {
+      "question": "What is one reason companies value T-shaped DevOps professionals?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They can only do one type of task",
+        "They resist learning new tools",
+        "They handle various challenges and contribute across different areas",
+        "They never adapt to market changes"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! T-shaped professionals easily adapt and support multiple aspects of DevOps.",
+      "messageForIncorrectAnswer": "Incorrect. Their breadth and depth make them versatile contributors.",
+      "point": "10"
+    },
+    {
+      "question": "Why is DevOps considered a paradigm shift?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it keeps development and operations separate",
+        "Because it is purely about tools",
+        "Because it changes how we think about collaboration, feedback, and continuous improvement",
+        "Because it reduces communication"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! DevOps transforms mindset, culture, and the entire approach to software delivery.",
+      "messageForIncorrectAnswer": "Incorrect. It's about new ways of thinking and collaborating.",
+      "point": "10"
+    },
+    {
+      "question": "How does Agile differ from Waterfall?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Agile is linear and no feedback; Waterfall is iterative",
+        "Both are identical",
+        "Agile uses iterative increments, while Waterfall follows a linear sequence",
+        "Waterfall emphasizes quick feedback and iterations"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Agile is iterative and flexible, Waterfall is linear and sequential.",
+      "messageForIncorrectAnswer": "Incorrect. Agile emphasizes iteration and continuous feedback.",
+      "point": "10"
+    },
+    {
+      "question": "Why do modern teams prefer Agile?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because it avoids collaboration",
+        "Because it reduces flexibility",
+        "Because it allows faster feedback and adaptation to changes",
+        "Because it never involves users"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Agile supports rapid adaptation and continuous user feedback.",
+      "messageForIncorrectAnswer": "Incorrect. Agile responds swiftly to change and user needs.",
+      "point": "10"
+    },
+    {
+      "question": "In change management, why consider people, process, and technology together?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To allow hidden manual tweaks",
+        "To ensure that changes address all organizational dimensions",
+        "To ignore human factors",
+        "To disregard process improvements"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Effective change considers all three elements for sustained improvement.",
+      "messageForIncorrectAnswer": "Incorrect. People, process, and technology must be aligned.",
+      "point": "10"
+    },
+    {
+      "question": "What is the significance of short feedback loops in DevOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They slow down deployment",
+        "They reduce responsiveness",
+        "They enable quick course corrections and align with user needs",
+        "They eliminate user feedback"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Short loops allow rapid adjustments to meet evolving requirements.",
+      "messageForIncorrectAnswer": "Incorrect. Quick feedback is essential for continuous improvement.",
+      "point": "10"
+    },
+    {
+      "question": "How does embedding security in DevOps (DevSecOps) affect software production?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It delays security until after deployment",
+        "It ensures security is considered throughout development and operations",
+        "It eliminates the need for testing",
+        "It ignores supply chain vulnerabilities"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Security is integrated from the start, reducing late-stage vulnerabilities.",
+      "messageForIncorrectAnswer": "Incorrect. Security is woven into every phase of DevOps.",
+      "point": "10"
+    },
+    {
+      "question": "What is one reason that some DevOps roles appear similar to Cloud Engineer or SRE roles?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because they have no overlapping skills",
+        "Because the market is confused",
+        "Because they share common skill sets and objectives, just with different focus areas",
+        "Because none focus on automation"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Overlapping competencies cause role similarities and interchangeable job titles.",
+      "messageForIncorrectAnswer": "Incorrect. The similarity comes from shared technical foundations.",
+      "point": "10"
+    },
+    {
+      "question": "Why is it challenging to land a 'DevOps Engineer' job as a beginner?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because DevOps is well-defined and simple",
+        "Because the 'DevOps Engineer' role varies widely across companies",
+        "Because no resources exist",
+        "Because nobody hires DevOps engineers"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! The ambiguity and variation in DevOps roles make the entry harder.",
+      "messageForIncorrectAnswer": "Incorrect. Role definitions differ, causing confusion.",
+      "point": "10"
+    },
+    {
+      "question": "Is DevOps about developers doing operations or operators doing development?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, it's about merging roles completely",
+        "No, it's a mindset shift about improving collaboration and flow, not swapping jobs",
+        "Yes, developers must become sysadmins",
+        "Yes, ops must write all the code"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! DevOps is about changing how teams collaborate, not forcing one side to do all tasks.",
+      "messageForIncorrectAnswer": "Incorrect. It's a cultural/mindset shift, not just swapping responsibilities.",
+      "point": "10"
+    },
+    {
+      "question": "How do T-shaped skills help in different DevOps patterns?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By limiting you to one niche role",
+        "By allowing easy transition and adaptability across various tools and practices",
+        "By preventing learning new skills",
+        "By narrowing knowledge scope"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! T-shaped skills enable adapting to diverse DevOps environments and challenges.",
+      "messageForIncorrectAnswer": "Incorrect. Versatility is key in dynamic DevOps contexts.",
+      "point": "10"
+    },
+    {
+      "question": "What is a key takeaway about DevOps methodology?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It's just another job title",
+        "It's a holistic approach combining practices, tools, culture, and mindset for better software delivery",
+        "It only applies to large companies",
+        "It rejects automation"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! DevOps is a comprehensive approach improving software lifecycle efficiency.",
+      "messageForIncorrectAnswer": "Incorrect. DevOps encompasses more than a single aspect.",
+      "point": "10"
+    }
+  ]
+}

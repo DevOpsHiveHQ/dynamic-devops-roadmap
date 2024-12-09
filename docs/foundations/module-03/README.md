@@ -5,6 +5,9 @@ description: "Define goals, prioritize requirements, dive into code modularity, 
 toc_max_heading_level: 2
 ---
 
+import Quiz from '@site/src/components/Quiz';
+import QuizData from './module-03-quiz.json';
+
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
@@ -159,6 +162,10 @@ toc_max_heading_level: 2
 ### Resources {#38-resources}
 
 - [The Importance of Pipeline Quality Gates and How to Implement Them - InfoQ](https://www.infoq.com/articles/pipeline-quality-gates/)
+
+## Quiz - Module 3
+
+<Quiz data={QuizData}/>
 
 ## Project - HiveBox Phase 3
 

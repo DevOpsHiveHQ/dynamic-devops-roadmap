@@ -1,0 +1,608 @@
+{
+  "quizTitle": "Module 6: Optimize - Keep Improving Quiz",
+  "quizSynopsis": "Evaluate your understanding of Agile retrospectives, performance optimization, software supply chain security, multi-environment architecture, Kubernetes operators, end-to-end release automation, continuous deployment, and GitOps with Argo CD.",
+  "progressBarColor": "#64a725",
+  "nrOfQuestions": "20",
+  "questions": [
+    {
+      "question": "What is the purpose of an Agile retrospective?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To assign blame for mistakes",
+        "To ignore past outcomes",
+        "To learn from the past and improve future processes",
+        "To finalize the project without changes"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Retrospectives focus on continuous improvement based on past experience.",
+      "messageForIncorrectAnswer": "Incorrect. Retros aim to enhance future work by reflecting on what happened.",
+      "point": "10"
+    },
+    {
+      "question": "Why maintain a continuous improvement mindset during retros?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To panic when mistakes occur",
+        "To remain stagnant",
+        "To focus only on successes",
+        "To calmly address issues and improve iteration by iteration"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Embrace mistakes as learning opportunities and continually refine processes.",
+      "messageForIncorrectAnswer": "Incorrect. The mindset encourages iterative enhancements.",
+      "point": "10"
+    },
+    {
+      "question": "What characterizes a blameless retrospective?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Focusing on systems and processes rather than blaming individuals",
+        "Pointing fingers at team members",
+        "Hiding data and outcomes",
+        "Discouraging open discussion"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! A safe space fosters honest discussions about improvements without personal blame.",
+      "messageForIncorrectAnswer": "Incorrect. Blameless means no personal attacks, just systemic fixes.",
+      "point": "10"
+    },
+    {
+      "question": "Why use data and metrics in retrospectives?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To guess issues randomly",
+        "To ignore measurable outcomes",
+        "To prioritize improvements based on impact and evidence",
+        "To only trust intuition"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Data-driven decisions help focus on the most beneficial enhancements.",
+      "messageForIncorrectAnswer": "Incorrect. Metrics guide informed priorities.",
+      "point": "10"
+    },
+    {
+      "question": "What should come out of a retrospective?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No actionable outcomes",
+        "Only a list of complaints",
+        "Specific improvements and next steps",
+        "Vague ideas without follow-up"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Actionable improvements make retrospectives worthwhile.",
+      "messageForIncorrectAnswer": "Incorrect. Outcomes should be concrete and actionable.",
+      "point": "10"
+    },
+    {
+      "question": "Should DevOps engineers focus on heavy optimization early?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Always optimize upfront",
+        "Performance never matters",
+        "No, avoid premature optimization and optimize when actual issues appear",
+        "Only if advanced math is known"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Optimize when real bottlenecks arise, not prematurely.",
+      "messageForIncorrectAnswer": "Incorrect. Premature optimization wastes effort.",
+      "point": "10"
+    },
+    {
+      "question": "If you need high performance from the start, what should you do?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Pick any language randomly",
+        "Ignore performance-oriented frameworks",
+        "Select a performance-oriented language/framework early",
+        "Focus only on hardware upgrades"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Choosing a well-suited tool early saves later optimization efforts.",
+      "messageForIncorrectAnswer": "Incorrect. The right tool choice impacts performance greatly.",
+      "point": "10"
+    },
+    {
+      "question": "How does caching help performance optimization?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By slowing responses",
+        "By avoiding repeated costly operations and speeding up responses",
+        "By removing the need for data",
+        "By increasing API calls"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Caching reduces redundant work and improves responsiveness.",
+      "messageForIncorrectAnswer": "Incorrect. Caching optimizes performance by reusing results.",
+      "point": "10"
+    },
+    {
+      "question": "What’s a simple rule to avoid unnecessary work inside loops?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Repeat the same function call inside the loop",
+        "Call functions that don’t change once outside the loop",
+        "Put all computations inside the loop",
+        "Ignore loop optimizations"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Move invariant code outside loops to reduce repetition.",
+      "messageForIncorrectAnswer": "Incorrect. Minimizing repeated work inside loops improves efficiency.",
+      "point": "10"
+    },
+    {
+      "question": "If deeper optimization is needed, what tool helps most?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Guessing performance issues",
+        "Random debugging",
+        "Profiling tools to identify hotspots",
+        "Never analyze performance"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Profilers pinpoint where code spends time, guiding targeted optimization.",
+      "messageForIncorrectAnswer": "Incorrect. Profiling guides effective optimization.",
+      "point": "10"
+    },
+    {
+      "question": "What is software supply chain security about?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ignoring external dependencies",
+        "Focusing only on internal code",
+        "Addressing risks from third-party tools, dependencies, and processes",
+        "A replacement for CI"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! It covers vulnerabilities from external components in your software.",
+      "messageForIncorrectAnswer": "Incorrect. It involves securing all external sources and dependencies.",
+      "point": "10"
+    },
+    {
+      "question": "How can signing Git commits improve security?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It doesn't help",
+        "It ensures changes are from a trusted source, preventing tampering",
+        "Only adds overhead",
+        "Replaces all testing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Signed commits verify authorship and protect integrity.",
+      "messageForIncorrectAnswer": "Incorrect. Signatures build trust in code provenance.",
+      "point": "10"
+    },
+    {
+      "question": "What is an SBOM used for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It’s irrelevant",
+        "A Software Bill of Materials listing all components and dependencies",
+        "Only for hardware inventories",
+        "To hide libraries"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! SBOMs enumerate all parts of your software for audits and security checks.",
+      "messageForIncorrectAnswer": "Incorrect. SBOM clarifies what’s inside the software.",
+      "point": "10"
+    },
+    {
+      "question": "Why run SAST (Static Application Security Testing)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To detect code vulnerabilities early",
+        "To slow down development",
+        "To skip security checks",
+        "Because it's irrelevant"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! SAST finds vulnerabilities early in the SDLC.",
+      "messageForIncorrectAnswer": "Incorrect. Early detection reduces security risks.",
+      "point": "10"
+    },
+    {
+      "question": "What does Shift Left Security mean?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Performing security checks very late",
+        "Running security checks as early as possible in development",
+        "Ignoring security until production",
+        "Only checking after release"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Early checks catch vulnerabilities sooner.",
+      "messageForIncorrectAnswer": "Incorrect. It’s about moving security checks earlier.",
+      "point": "10"
+    },
+    {
+      "question": "Why build multiple environments (dev, test, staging, prod)?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To test only in production",
+        "To skip validation steps",
+        "To complicate workflows",
+        "To safely test and validate changes before impacting real users"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! Multiple environments catch issues early and reduce risk in production.",
+      "messageForIncorrectAnswer": "Incorrect. Non-prod environments help ensure reliability.",
+      "point": "10"
+    },
+    {
+      "question": "How should you represent environments in infrastructure code?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Create a branch per environment",
+        "Use separate directories for each environment",
+        "Mix all configs in one file",
+        "No IaC for multiple environments"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Directory-based structure avoids branching complexity.",
+      "messageForIncorrectAnswer": "Incorrect. Directories keep it organized and clear.",
+      "point": "10"
+    },
+    {
+      "question": "What’s the trade-off with environment isolation?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No cost impact",
+        "Always fully isolate at all costs",
+        "Ignore cost entirely",
+        "Higher isolation may increase costs, so balance isolation against budget"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct! More isolation often means more expense; find a balance.",
+      "messageForIncorrectAnswer": "Incorrect. Consider cost-benefit trade-offs.",
+      "point": "10"
+    },
+    {
+      "question": "Why not use production as a base for other environments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Because production is minimal",
+        "No reason, production is best",
+        "You should create a common base and then extend, not from prod",
+        "To ensure no environment matches prod"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Start from a neutral baseline and customize for each environment.",
+      "messageForIncorrectAnswer": "Incorrect. Don’t derive all from prod.",
+      "point": "10"
+    },
+    {
+      "question": "Why minimize environment drift?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "So staging closely mirrors production, catching issues early",
+        "To ensure big differences",
+        "Drift is desirable",
+        "Because parity doesn't matter"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Similarity ensures tests reflect production conditions.",
+      "messageForIncorrectAnswer": "Incorrect. Minimizing drift reduces surprises at release.",
+      "point": "10"
+    },
+    {
+      "question": "What are Kubernetes Operators?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Built-in resources only",
+        "Scripts with no API integration",
+        "Software extensions using CRDs to manage complex apps",
+        "A replacement for pods"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Operators encode domain knowledge to automate complex workloads.",
+      "messageForIncorrectAnswer": "Incorrect. They use CRDs for domain-specific logic.",
+      "point": "10"
+    },
+    {
+      "question": "What do Custom Resource Definitions (CRDs) do?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They define new resource types for Kubernetes",
+        "They replace pods",
+        "They have no relation to operators",
+        "They remove APIs"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! CRDs extend the K8s API with custom resource types.",
+      "messageForIncorrectAnswer": "Incorrect. CRDs introduce new resource kinds.",
+      "point": "10"
+    },
+    {
+      "question": "What's the ultimate goal of a Kubernetes Operator?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To do nothing",
+        "To remove automation",
+        "To automate complex application management using domain knowledge",
+        "To break the cluster"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Operators handle complex tasks automatically.",
+      "messageForIncorrectAnswer": "Incorrect. They simplify managing stateful apps.",
+      "point": "10"
+    },
+    {
+      "question": "Do you usually need to write your own Operator?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Always write custom operators",
+        "Existing operators are often available, so no need to develop your own",
+        "No operators exist",
+        "Operators are mandatory for all apps"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Many ready-made operators exist in OperatorHub.",
+      "messageForIncorrectAnswer": "Incorrect. Typically you can reuse existing ones.",
+      "point": "10"
+    },
+    {
+      "question": "What do Operator capability levels indicate?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They show how mature and automated an Operator is, from basic to autopilot",
+        "No meaning",
+        "Only applies to pods",
+        "Irrelevant detail"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Levels indicate the depth of automation and intelligence.",
+      "messageForIncorrectAnswer": "Incorrect. They reflect Operator feature maturity.",
+      "point": "10"
+    },
+    {
+      "question": "What is end-to-end release automation?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Manually releasing artifacts",
+        "Producing ready-to-deploy products automatically through CI/CD pipelines",
+        "Skipping version control",
+        "No testing at all"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! It automates making code always deployable.",
+      "messageForIncorrectAnswer": "Incorrect. Automation ensures consistent, reliable releases.",
+      "point": "10"
+    },
+    {
+      "question": "What's a versioned release?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Artifacts without stable IDs",
+        "An artifact released with a specific version number (e.g., 1.0.0)",
+        "Always using rolling pointers",
+        "No versioning at all"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Versioned releases use explicit version identifiers.",
+      "messageForIncorrectAnswer": "Incorrect. Version numbers give clear identity.",
+      "point": "10"
+    },
+    {
+      "question": "What about rolling releases?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They continuously deliver the latest updates via pointers",
+        "They never change",
+        "They require manual upgrades",
+        "They eliminate all versions"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Rolling releases let users always have the latest changes.",
+      "messageForIncorrectAnswer": "Incorrect. Rolling releases update continuously.",
+      "point": "10"
+    },
+    {
+      "question": "What guides release quality?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ignoring CI standards",
+        "Release quality matches the CI pipeline quality and best practices",
+        "Random guesswork",
+        "No correlation with CI"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Strong CI gates lead to reliable releases.",
+      "messageForIncorrectAnswer": "Incorrect. CI quality influences release quality.",
+      "point": "10"
+    },
+    {
+      "question": "Why generate changelogs or release notes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "To confuse consumers",
+        "To inform users about changes and improvements",
+        "To hide updates from stakeholders",
+        "No reason to document"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Changelogs provide transparency on what's new or fixed.",
+      "messageForIncorrectAnswer": "Incorrect. Clarity in updates is essential.",
+      "point": "10"
+    },
+    {
+      "question": "What is Continuous Deployment?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Automatically deploying code artifacts to environments regularly",
+        "Only delivering code without deploying",
+        "Manual updates occasionally",
+        "A replacement for CI"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Continuous Deployment automates pushing code into environments.",
+      "messageForIncorrectAnswer": "Incorrect. It's about frequent, automated deployments.",
+      "point": "10"
+    },
+    {
+      "question": "Is Continuous Deployment always fully automated?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Often there is at least one manual approval step before production",
+        "Always 100% automated",
+        "No approvals ever allowed",
+        "CD never involves humans"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Many pipelines keep a manual check before production.",
+      "messageForIncorrectAnswer": "Incorrect. Partial automation with a human gate is common.",
+      "point": "10"
+    },
+    {
+      "question": "What’s a common (if not ideal) practice for CD?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Using CI tools like GitHub Actions or Jenkins for CD",
+        "Never using CI tools",
+        "Only manual deployments",
+        "Avoiding all automation"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Many teams repurpose CI tools for CD, though specialized tools might be better.",
+      "messageForIncorrectAnswer": "Incorrect. It’s common, though not always best.",
+      "point": "10"
+    },
+    {
+      "question": "Which are common CD deployment strategies?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "No known strategies",
+        "Rolling, Blue-Green, and Canary deployments",
+        "Only manual deploys",
+        "Random guessing"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Rolling, Blue-Green, and Canary are common patterns.",
+      "messageForIncorrectAnswer": "Incorrect. Multiple recognized patterns exist.",
+      "point": "10"
+    },
+    {
+      "question": "Difference between Push and Pull model in CD?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are identical",
+        "Push always better",
+        "Pull model works inside the environment, detecting changes; Push sends updates externally",
+        "No difference at all"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct! Pull model observes desired state within the target environment.",
+      "messageForIncorrectAnswer": "Incorrect. They differ in where and how updates are initiated.",
+      "point": "10"
+    },
+    {
+      "question": "What is GitOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A manual approach to deployments",
+        "Managing deployments declaratively using Git as the single source of truth",
+        "Ignoring version control",
+        "Imperative-only updates"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! GitOps relies on Git and declarative configs for automated deployments.",
+      "messageForIncorrectAnswer": "Incorrect. GitOps centralizes all changes in Git.",
+      "point": "10"
+    },
+    {
+      "question": "How does Argo CD implement GitOps?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "By continuously monitoring Git and reconciling cluster state",
+        "No Git monitoring",
+        "Ignoring desired states",
+        "Manual UI changes only"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Argo CD watches for changes in Git and adjusts the cluster.",
+      "messageForIncorrectAnswer": "Incorrect. It enforces desired state from Git.",
+      "point": "10"
+    },
+    {
+      "question": "What style does Argo CD rely on for deployments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Imperative commands",
+        "Declarative manifests (Helm, Kustomize, YAML)",
+        "Only UI-based",
+        "No configurations"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Argo CD uses declarative definitions to manage deployments.",
+      "messageForIncorrectAnswer": "Incorrect. Declarative style is central to GitOps.",
+      "point": "10"
+    },
+    {
+      "question": "Should you make changes directly in Argo CD’s UI?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yes, always",
+        "No, it breaks the GitOps principle; changes must go through Git",
+        "UI is the sole source of truth",
+        "Ignore Git entirely"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct! Changes should be tracked in Git for auditability.",
+      "messageForIncorrectAnswer": "Incorrect. GitOps requires all changes in version control.",
+      "point": "10"
+    },
+    {
+      "question": "How does Argo CD relate to other Argo projects?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They are distinct projects serving different purposes",
+        "They are identical",
+        "Must use all together",
+        "No difference at all"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct! Argo CD, Workflows, Rollouts, and Events are separate with unique roles.",
+      "messageForIncorrectAnswer": "Incorrect. They differ in functionality.",
+      "point": "10"
+    }
+  ]
+}
