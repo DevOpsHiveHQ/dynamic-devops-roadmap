@@ -10,7 +10,8 @@ function SidebarButton() {
   };
 
   const linkStyle = {
-    whiteSpace: 'normal'
+    whiteSpace: 'normal',
+    margin: '0.5rem 0'
   };
 
   return (
@@ -21,6 +22,13 @@ function SidebarButton() {
         className="button button--secondary button--lm"
         to="https://newsletter.devopsroadmap.io/subscribe">
         Subscribe to Community →
+      </Link>
+      <Link style={linkStyle}
+        title="Community Newsletter"
+        rel="noopener noreferrer"
+        className="button button--secondary button--lm"
+        to="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">
+        Star on GitHub →
       </Link>
     </div>
   );
