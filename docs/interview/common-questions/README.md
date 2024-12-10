@@ -24,9 +24,54 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
-**Work in progress**
+- Explain the concept of branching in Git?
+- What is Git stash?
+- What is a GIT Repository?
+- What is the use of the cherry-pick command in git?
+- What's the Difference Between Git Fetch and Git Pull ?
+- What is Git Bash?
+- What is Git Squashing?
+- What is a merge conflict in Git?
+- What is Git prune?
+- What is a bare repository?
+- What is Git Rebase?
+- What is the difference between Git Merge and Git Rebase?
+- What is the use of SSH?
+- What is sudo command in Linux?
+- Elaborate all the file permission in Linux.
+- What is Shell in Linux?
+- What is the difference between hard links and soft links?
+- How do you list all the processes running in Linux?
+- What is the chmod command in Linux, and how do you use it?
+- What is the rsync command, and how do you use this command for synchronization?
+- What is the find command, and how do you use it?
+- What are the most important Linux commands?
+- What is the grep command used for in Linux?
+- How do you check the status of a service or daemon in Linux?
+- What is the difference between /etc/passwd and /etc/shadow files?
+- How do you schedule recurring tasks in Linux?
+- What is the sed command used for in Linux?
+- What is the purpose of the sudoers file in Linux, and how do you configure sudo access for users?
+- How do you change the ownership of a file or directory in Linux using the chown command?
+- How are files organized in Linux?
+- What’s BASH?
+- What Is the Difference Between a Regular User and a Root User?
+- What Is the Difference Between RPM-Based and Debian-Based Distributions?
+- What Is the Difference Between a Shell and a Terminal in Linux?
+- What Is a Linux Distribution’s Package Repository?
+- What Is the Linux File Permission Model, and How Does It Work?
+- What is Docker?
+- What are the Features of Docker?
+- Name and Explain the Components of Docker.
+- Difference between Docker and Virtualization?
+- How to Start, Stop, and Kill a Container?
 
----
+#### Resources
+
+- [DevOps Interview Questions](https://www.geeksforgeeks.org/devops-interview-questions/)  
+- [Linux Interview Questions](https://www.geeksforgeeks.org/linux-interview-questions/)  
+- [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)  
+- [Docker Interview Questions](https://www.geeksforgeeks.org/docker-interview-questions/)  
 
 ## Module 3
 
