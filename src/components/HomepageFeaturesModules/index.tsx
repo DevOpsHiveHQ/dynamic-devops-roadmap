@@ -95,7 +95,7 @@ const FeatureList: FeatureItem[] = [
     mark: '9',
     description: (
       <>
-        Congratulations, tou finished the roadmap!<br />
+        Congratulations, you finished the roadmap!<br />
         Here what you should do next.
       </>
     ),
