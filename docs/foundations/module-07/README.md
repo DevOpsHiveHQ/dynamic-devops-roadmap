@@ -52,6 +52,6 @@ This project should follow the same MVP approach and work in phases and always r
 - Conduct a final retrospective and identify future work.
 - Write the takeaways of the project.
 
-## Interview Questions - Module 7
+## Interview Questions
 
 Review the interview questions related to [Module 7](../../interview/common-questions#module-7).

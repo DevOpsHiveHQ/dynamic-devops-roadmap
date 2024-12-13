@@ -165,14 +165,14 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 - [3 Ways T-Shaped Skills are Important in DevOps Teams - EXIN](https://www.exin.com/article/devops-the-next-generation-3-ways-t-shaped-skills-are-important-in-devops-teams/): This article discusses what is a T-shaped professional, and why does it matter, and 3 areas where the T-shaped skills so important.
 - [T-shaped skills profiles and the human factor - McKinsey & Company](https://www.mckinsey.com/capabilities/operations/our-insights/operations-blog/ops-40-the-human-factor-a-class-size-of-1): This article covers the abstraction of T-shaped and how it affects organizations.
 
-## Quiz - Module 1
+## Quiz
 
 <Quiz data={QuizData}/>
 
-## Project - HiveBox Phase 1
+## Hands-on
 
 Follow the instructions in the [HiveBox project phase 1](../../projects/hivebox#phase-1).
 
-## Interview Questions - Module 1
+## Interview Questions
 
 Review the interview questions related to [Module 1](../../interview/common-questions#module-1).
