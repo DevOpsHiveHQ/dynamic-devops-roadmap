@@ -24,6 +24,21 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
+- What are Python’s key features that make it suitable for Cloud and DevOps?
+- How does Python handle memory management?
+- What is the difference between deepcopy and shallow copy in Python?
+- Explain the difference between list, tuple, set, and dictionary.
+- How does exception handling work in Python?
+- What is the difference between global and local scope?
+- What is an iterator in Python?
+- What is the __init__() function in Python?
+- When should you use lambda functions in Python?
+- What is Inheritance in Python?
+- What are Membership Operators?
+- Can you copy a List in Python by simply writing: list2 = list1?
+- What is indentation in Python, and why is it important?
+- How can you return a range of characters of a string?
+- What is a class in Python, and how do you use it?
 - Explain the concept of branching in Git?
 - What is Git stash?
 - What is a GIT Repository?
@@ -66,12 +81,15 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 - Difference between Docker and Virtualization?
 - How to Start, Stop, and Kill a Container?
 
-#### Resources
+### Resources
 
 - [DevOps Interview Questions](https://www.geeksforgeeks.org/devops-interview-questions/)  
 - [Linux Interview Questions](https://www.geeksforgeeks.org/linux-interview-questions/)  
 - [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)  
-- [Docker Interview Questions](https://www.geeksforgeeks.org/docker-interview-questions/)  
+- [Docker Interview Questions](https://www.geeksforgeeks.org/docker-interview-questions/)
+- [Python Interview Questions for Cloud & DevOps Engineers](https://cloudsoftsol.com/python-interview-questions-for-cloud-devops-engineers/)
+- [Python Interview Questions - W3Schools](https://www.w3schools.com/python/python_interview_questions.asp)
+
 
 ## Module 3
 
