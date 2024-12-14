@@ -10,7 +10,7 @@ import DocCardList from '@theme/DocCardList';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DetailedIndex from './_detailed-index.mdx';
-import QuickIndex from './_quick-index.json';
+import {HomepageFeaturesModulesOnly as QuickIndex} from '@site/src/components/HomepageFeaturesModules';
 
 <p align="center">
   <img title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
@@ -74,13 +74,23 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 </details>
 
 
+
 ## Roadmap Index
 
 Visit [HiveBox Project](../projects/hivebox/) if interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
 
+<style>
+{`
+  /* Reduce padding */
+  #timeline-content {
+    padding-left: 1rem;
+  }
+`}
+</style>
+
 <Tabs queryString="index">
   <TabItem value="quick" label="Quick Index" default>
-    <DocCardList items={QuickIndex} />
+    <QuickIndex />
   </TabItem>
   <TabItem value="detailed" label="Detailed Index">
     <DetailedIndex />

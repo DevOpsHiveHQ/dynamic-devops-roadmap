@@ -100,7 +100,165 @@ li::marker {
   }
 }
 
-/* Quiz component */
+/*
+———————————————————————
+TimeLine CSS
+HTML/CSS by SAMET ERPIK
+https://www.erpik.com/
+———————————————————————
+*/
+
+/* Base */
+
+#timeline-content {
+  text-align: center;
+  padding-left: 4rem;
+}
+
+section.timeline-outer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1.header {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+/* Timeline */
+
+.timeline {
+  border-left: 8px solid var(--ifm-color-light);
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  margin: 2rem auto 0 auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 2em;
+  margin-left: 1em;
+  padding: 0 20px 20px 30px;
+  list-style: none;
+  text-align: left;
+}
+
+ul.timeline {
+  margin-left: 4em;
+}
+
+.timeline h1,
+.timeline h2,
+.timeline h3 {
+  font-size: 1.4em;
+}
+
+.timeline .event {
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -188px;
+  top: -2px;
+  content: attr(data-prefix);
+  text-align: right;
+  font-weight: 600;
+  font-size: 16px;
+  min-width: 120px;
+  line-height: 1.8em;
+}
+
+.timeline .event:after {
+  box-shadow: 0 0 0 8px #edf6f5;
+  left: -46px;
+  background: var(--ifm-color-primary);
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  height: 11px;
+  width: 11px;
+  content: "";
+  width: 1.5em;
+  height: 1.6em;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+}
+
+.timeline-focus-areas {
+  font-weight: 500;
+}
+
+/*
+Timeline Responsive Style
+*/
+
+@media (max-width: 945px) {
+  section.timeline-outer {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3em;
+  }
+
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .timeline h3 {
+    font-size: 16px;
+  }
+
+  .timeline p {
+    padding-top: 20px;
+  }
+
+  section.lab h3.card-title {
+    padding: 5px;
+    font-size: 16px
+  }
+}
+
+@media(max-width: 480px) {
+  .timeline .event::before {
+    left: .5px;
+    min-width: 0;
+    font-size: 13px;
+    position: initial;
+    text-align: left;
+  }
+
+  ul.timeline {
+    margin-left: 0.5em;
+  }
+
+  .timeline h3 {
+    font-size: 16px
+  }
+
+  .timeline p {
+    padding-top: 10px
+  }
+}
+
+
+/*
+———————————————————————
+Quiz component
+———————————————————————
+*/
 
 .quiz-button-container {
   position: relative;

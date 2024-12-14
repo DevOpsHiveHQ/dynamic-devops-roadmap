@@ -54,7 +54,7 @@ function Feature({ title, Svg, description }: FeatureItem) {
 
 export default function HomepageFeatures(): JSX.Element {
   return (
-    <>
+    <div style={{background: 'var(--ifm-color-light)'}}>
       <Heading as="h2" className={styles.featuresHeader}>
         Dynamic DevOps Roadmap Pillars
       </Heading>
@@ -67,6 +67,6 @@ export default function HomepageFeatures(): JSX.Element {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
