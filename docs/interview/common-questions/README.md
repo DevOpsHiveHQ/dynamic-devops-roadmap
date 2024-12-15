@@ -24,70 +24,53 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
-- What are Python’s key features that make it suitable for Cloud and DevOps?
-- How does Python handle memory management?
-- What is the difference between deepcopy and shallow copy in Python?
+- What are Python's key features that make it suitable for Cloud and DevOps?
 - Explain the difference between list, tuple, set, and dictionary.
-- How does exception handling work in Python?
 - What is the difference between global and local scope?
 - What is an iterator in Python?
-- What is the __init__() function in Python?
-- When should you use lambda functions in Python?
-- What is Inheritance in Python?
-- What are Membership Operators?
-- Can you copy a List in Python by simply writing: list2 = list1?
+- Can you copy a List in Python by simply writing `list2 = list1`?
 - What is indentation in Python, and why is it important?
 - How can you return a range of characters of a string?
-- What is a class in Python, and how do you use it?
+- What is a Git Repository?
 - Explain the concept of branching in Git?
-- What is Git stash?
-- What is a GIT Repository?
-- What is the use of the cherry-pick command in git?
-- What's the Difference Between Git Fetch and Git Pull ?
-- What is Git Bash?
-- What is Git Squashing?
+- What's the difference between `git fetch` and `git pull`?
+- What is Git squashing?
 - What is a merge conflict in Git?
-- What is Git prune?
-- What is a bare repository?
-- What is Git Rebase?
-- What is the difference between Git Merge and Git Rebase?
-- What is the use of SSH?
-- What is sudo command in Linux?
-- Elaborate all the file permission in Linux.
-- What is Shell in Linux?
-- What is the difference between hard links and soft links?
+- What is `git prune`?
+- What is `git rebase`?
+- What is the difference between Git merge and Git rebase?
+- What is the Linux file permission model, and how does it work?
+- What is `sudo` command in Linux?
+- What is shell in Linux?
+- What is the difference between hard links and soft links in Linux?
 - How do you list all the processes running in Linux?
-- What is the chmod command in Linux, and how do you use it?
-- What is the rsync command, and how do you use this command for synchronization?
-- What is the find command, and how do you use it?
 - What are the most important Linux commands?
-- What is the grep command used for in Linux?
+- What is the `chmod` command in Linux, and how do you use it?
+- What is the `find` command, and how do you use it?
+- What is the `grep` command used for in Linux?
+- What is the `sed` command used for in Linux?
 - How do you check the status of a service or daemon in Linux?
-- What is the difference between /etc/passwd and /etc/shadow files?
+- What is the difference between `/etc/passwd` and `/etc/shadow` files?
 - How do you schedule recurring tasks in Linux?
-- What is the sed command used for in Linux?
 - What is the purpose of the sudoers file in Linux, and how do you configure sudo access for users?
 - How do you change the ownership of a file or directory in Linux using the chown command?
 - How are files organized in Linux?
-- What’s BASH?
-- What Is the Difference Between a Regular User and a Root User?
-- What Is the Difference Between RPM-Based and Debian-Based Distributions?
-- What Is the Difference Between a Shell and a Terminal in Linux?
-- What Is a Linux Distribution’s Package Repository?
-- What Is the Linux File Permission Model, and How Does It Work?
+- What is Bash?
+- What is the difference between a regular user and a root user?
+- What is the difference between RPM-based and Debian-based distributions?
+- What is the difference between a shell and a terminal in Linux?
 - What is Docker?
-- What are the Features of Docker?
-- Name and Explain the Components of Docker.
-- Difference between Docker and Virtualization?
-- How to Start, Stop, and Kill a Container?
+- What are the features of Docker?
+- Name and explain the components of Docker.
+- What are the difference between containers and virtualization?
+- How to start, stop, and kill a container?
 
 ### Resources
 
-- [DevOps Interview Questions](https://www.geeksforgeeks.org/devops-interview-questions/)  
-- [Linux Interview Questions](https://www.geeksforgeeks.org/linux-interview-questions/)  
+- [DevOps Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/devops-interview-questions/)  
+- [Linux Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/linux-interview-questions/)  
 - [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)  
-- [Docker Interview Questions](https://www.geeksforgeeks.org/docker-interview-questions/)
-- [Python Interview Questions for Cloud & DevOps Engineers](https://cloudsoftsol.com/python-interview-questions-for-cloud-devops-engineers/)
+- [Docker Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/docker-interview-questions/)
 - [Python Interview Questions - W3Schools](https://www.w3schools.com/python/python_interview_questions.asp)
 
 
