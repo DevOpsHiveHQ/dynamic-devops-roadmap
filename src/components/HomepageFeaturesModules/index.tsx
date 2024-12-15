@@ -227,7 +227,7 @@ export function HomepageFeaturesModulesOnly(): JSX.Element {
 export default function HomepageFeaturesModules(): JSX.Element {
   return (
     <>
-      <Heading as="h2" className={styles.featuresHeader}>
+      <Heading as="h2" className={styles.featuresHeader} id="walkthrough">
         Dynamic DevOps Roadmap Walkthrough
       </Heading>
       <HomepageFeaturesModulesOnly />

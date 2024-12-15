@@ -54,7 +54,7 @@ export default function HomepageFeaturesText(): JSX.Element {
   return (
     <>
       <div style={{background: 'var(--ifm-color-light)'}}>
-        <Heading as="h2" className={styles.featuresHeader}>
+        <Heading as="h2" className={styles.featuresHeader} id="summary">
           Dynamic DevOps Roadmap in Nutshell
         </Heading>
         <section className={styles.features}>
