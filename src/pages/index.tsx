@@ -2,8 +2,9 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeaturesText from '@site/src/components/HomepageFeaturesText';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageFeaturesText from '@site/src/components/HomepageFeaturesText';
+import HomepageFeaturesModules from '@site/src/components/HomepageFeaturesModules';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -46,6 +47,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageFeaturesModules />
         <HomepageFeaturesText />
       </main>
     </Layout>

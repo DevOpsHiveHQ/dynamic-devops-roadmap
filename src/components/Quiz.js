@@ -40,8 +40,22 @@ const closeButtonStyle = {
 
 function Quiz({ data }) {
   const [isOpen, setIsOpen] = useState(false);
-  const openModal = () => setIsOpen(true);
-  const closeModal = () => setIsOpen(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+    document.addEventListener('keydown', handleKeyDown);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+    document.removeEventListener('keydown', handleKeyDown);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Escape') {
+      closeModal();
+    }
+  };
 
   return (
     <div>

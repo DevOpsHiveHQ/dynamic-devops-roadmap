@@ -151,14 +151,14 @@ import QuizData from './module-02-quiz.json';
 - [CLI Cheat Sheet - Docker Docs](https://docs.docker.com/get-started/docker_cheatsheet.pdf): One-page cheat sheet for Docker CLI commands.
 - [21 Essential Commands Every Docker User Should Know - Linux Handbook](https://linuxhandbook.com/essential-docker-commands/): Another good list of common Docker CLI commands.
 
-## Quiz - Module 2
+## Quiz
 
 <Quiz data={QuizData}/>
 
-## Project - HiveBox Phase 2
+## Hands-on
 
 Follow the instructions in the [HiveBox project phase 2](../../projects/hivebox#phase-2).
 
-## Interview Questions - Module 2
+## Interview Questions
 
 Review the interview questions related to [Module 2](../../interview/common-questions#module-2).

@@ -163,14 +163,14 @@ import QuizData from './module-03-quiz.json';
 
 - [The Importance of Pipeline Quality Gates and How to Implement Them - InfoQ](https://www.infoq.com/articles/pipeline-quality-gates/)
 
-## Quiz - Module 3
+## Quiz
 
 <Quiz data={QuizData}/>
 
-## Project - HiveBox Phase 3
+## Hands-on
 
 Follow the instructions in the [HiveBox project phase 3](../../projects/hivebox#phase-3).
 
-## Interview Questions - Module 3
+## Interview Questions
 
 Review the interview questions related to [Module 3](../../interview/common-questions#module-3).

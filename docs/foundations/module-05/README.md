@@ -190,14 +190,14 @@ import QuizData from './module-05-quiz.json';
 - [How to keep up with CI/CD best practices - Continuous delivery best practices - GitLab](https://about.gitlab.com/blog/2022/02/03/how-to-keep-up-with-ci-cd-best-practices/#continuous-delivery-best-practices)
 - [What is Continuous Delivery? Tools and Best Practices - XenonStack](https://www.xenonstack.com/insights/what-is-continuous-delivery)
 
-## Quiz - Module 5
+## Quiz
 
 <Quiz data={QuizData}/>
 
-## Project - HiveBox Phase 5
+## Hands-on
 
 Follow the instructions in the [HiveBox project phase 5](../../projects/hivebox#phase-5).
 
-## Interview Questions - Module 5
+## Interview Questions
 
 Review the interview questions related to [Module 5](../../interview/common-questions#module-5).

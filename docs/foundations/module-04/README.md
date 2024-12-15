@@ -204,14 +204,14 @@ import QuizData from './module-04-quiz.json';
 - [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)
 
-## Quiz - Module 4
+## Quiz
 
 <Quiz data={QuizData}/>
 
-## Project - HiveBox Phase 4
+## Hands-on
 
 Follow the instructions in the [HiveBox project phase 4](../../projects/hivebox#phase-4).
 
-## Interview Questions - Module 4
+## Interview Questions
 
 Review the interview questions related to [Module 4](../../interview/common-questions#module-4).
