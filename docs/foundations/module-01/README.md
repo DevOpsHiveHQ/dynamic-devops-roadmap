@@ -12,7 +12,7 @@ import QuizData from './module-01-quiz.json';
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Module Overview" border="0" src={require('./module-01-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" src={require('./module-01-overview.png').default} />
 </p>
 
 ## 1.1 Overview - What and Why DevOps?

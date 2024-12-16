@@ -7,7 +7,7 @@ image: /img/interview.png
 ---
 
 <p align="center">
-  <img alt="Interview Questions and Best Practices" border="0" src="/img/interview.png" />
+  <img class="page-cover-image" alt="Interview Questions and Best Practices" border="0" src="/img/interview.png" />
 </p>
 
 import DocCardList from '@theme/DocCardList';

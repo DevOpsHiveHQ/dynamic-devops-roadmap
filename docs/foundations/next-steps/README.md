@@ -7,7 +7,7 @@ image: /img/next-steps.png
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Next Steps" border="0" src="/img/next-steps.png" />
+  <img class="page-cover-image" alt="Next Steps" border="0" src="/img/next-steps.png" />
 </p>
 
 Now that you've finished the roadmap, what's next? There is good news and bad news! The good news is that finishing this roadmap should increase your chances in the market. The bad news is that the tech industry is always evolving super fast, and the DevOps domain evolves even faster! So there are no options but to keep going and always stay in shape!

@@ -8,7 +8,7 @@ toc_max_heading_level: 2
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Module Overview" border="0" width="90%" src={require('./module-07-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-07-overview.png').default} />
 </p>
 
 If you reached this point and finished all the previous modules, congratulations! You already did a great job! You passed through many parts of the DevOps ecosystem and even finished the end-to-end hands-on guided project, [HiveBox](../../projects/hivebox/) (if you didn't, you should finish it first).
