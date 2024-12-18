@@ -161,12 +161,9 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - How do you version Helm charts for continuous delivery pipelines?
 - How do you integrate Helm with GitOps practices?
 - How can you automate the deployment of Helm charts in a Kubernetes cluster using GitOps practices?
-- explain Continuous Deployment and its advantages.
-- In what situations would a Continuous Deployment strategy not be appropriate?
-- Can you explain how Continuous Delivery differs from Continuous Deployment?
-- Can you explain the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment?
-- What is GitOps, and how does it differ from traditional CI/CD?
-- Describe the process of blue-green deployment.
+- What role does AWS play in DevOps?
+- What is continuous delivery?
+- Describe Blue-Green deployments in DevOps. How does Blue/Green and Rolling deployment differ in Kubernetes?
 - What is GitOps?
 - What is difference between DevOps and GitOps?
 - What are benefits of GitOps?
@@ -191,8 +188,7 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - [Kubernetes Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/kubernetes-interview-questions/)  
 - [Kubernetes Interview Questions - mentorcruise](https://mentorcruise.com/questions/kubernetes/)  
 - [Helm Interview Questions](https://razorops.com/blog/top-helm-interview-questions-and-answers)  
-- [CI/CD Interview Questions](https://mentorcruise.com/questions/cicd/)  
-- [DevOps Interview Questions](https://roadmap.sh/questions/devops)  
+- [DevOps Interview Questions - turing](https://www.turing.com/interview-questions/devops)
 - [GitOps and ArgoCD Interview Questions](https://www.fosstechnix.com/gitops-and-argocd-interview-questions/)  
 
 ---
