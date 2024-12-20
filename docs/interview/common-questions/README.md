@@ -144,7 +144,6 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 
 Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
-- Why are sprint retrospective meetings important?
 - Why is performance optimization important?
 - What are some common performance optimization techniques?
 - What is caching and how does it improve performance?
@@ -165,19 +164,13 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - What are the common tools for SAST?
 - What is the concept of ‘shift-left’ in security testing?
 - How does container security testing work in CI/CD?
-- How do you implement a Git workflow in a team environment?
-- Explain the Git workflow.
-- Explain the concept of drift in Terraform.
-- What are some ways to prevent or handle drift in Terraform?
+- Mention some advantages of Forking workflow over other Git workflows.
 - How does Kubernetes support multi-tenancy, and what is the role of namespaces in achieving isolation and resource allocation for different teams or projects?
 - How do you manage multi-tenancy in Kubernetes?
 - Explain Kubernetes Architecture.
 - Explain the concept of a Custom Operator in Kubernetes.
 - How does Kubernetes manage configuration?
 - What is a ConfigMap?
-- How does Kubernetes handle container scaling?
-- Explain the difference between a StatefulSet and a Deployment.
-- What are Kubernetes Custom Resource Definitions (CRDs)?
 - How can Helm charts be versioned and maintained?
 - How do you handle Helm chart updates and version upgrades in a production environment?
 - How do you manage Helm chart updates in a rolling deployment strategy?
@@ -202,16 +195,10 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
 ### Resources
 
-- [Agile Interview Questions](https://www.indeed.com/career-advice/interviewing/agile-interview-questions)  
 - [Performance Optimization Interview Questions](https://hellointern.in/blog/performance-optimization-interview-questions-and-answers-17811)  
 - [Software Supply Chain Security Interview Questions](https://www.practical-devsecops.com/software-supply-chain-security-interview-questions-and-answers/)  
 - [Security Testing in CI/CD Interview Questions](https://razorops.com/blog/top-50-security-testing-in-cicd-interview-questions-and-answers/)  
-- [Git Interview Questions](https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions)  
-- [CI/CD Interview Questions](https://in.indeed.com/career-advice/interviewing/ci-cd-interview-questions)  
-- [Infrastructure as Code Interview Questions](https://hellointern.in/blog/infrastructure-as-code-iac-interview-questions-and-answers-1832)  
 - [Kubernetes Interview Questions - practical-devsecops](https://www.practical-devsecops.com/kubernetes-interview-questions/)  
-- [Kubernetes Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/kubernetes-interview-questions/)  
-- [Kubernetes Interview Questions - mentorcruise](https://mentorcruise.com/questions/kubernetes/)  
 - [Helm Interview Questions](https://razorops.com/blog/top-helm-interview-questions-and-answers)  
 - [DevOps Interview Questions - turing](https://www.turing.com/interview-questions/devops)
 - [GitOps and ArgoCD Interview Questions](https://www.fosstechnix.com/gitops-and-argocd-interview-questions/)  
