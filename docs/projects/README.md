@@ -7,7 +7,7 @@ image: /img/devops-hands-on-projects.png
 ---
 
 <p align="center">
-  <img alt="DevOps Hands-On Projects" border="0" src="/img/devops-hands-on-projects.png" />
+  <img class="page-cover-image" alt="DevOps Hands-On Projects" border="0" src="/img/devops-hands-on-projects.png" />
 </p>
 
 import DocCardList from '@theme/DocCardList';

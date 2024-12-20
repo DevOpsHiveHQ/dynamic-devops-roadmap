@@ -12,7 +12,7 @@ import QuizData from './module-01-quiz.json';
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Module Overview" border="0" src={require('./module-01-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" src={require('./module-01-overview.png').default} />
 </p>
 
 ## 1.1 Overview - What and Why DevOps?
@@ -58,18 +58,26 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 
 ## 1.3 Software Production - Agile Software Development
 
+<p align="center">
+  <img title="Shif-Left and Shfit-Right Quality Models" alt="Shif-Left and Shfit-Right Quality Models" border="0" width="90%" src="/img/shift-left-and-shift-right-models.png"/>
+</p>
+
 ### What you need to know {#13-what-you-need-to-know}
 
 - Agile methodologies are among the most common practices in modern software production. They can be considered the default mode, but remember, there is no silver bullet!
 - As mentioned in the previous section, Agile is, at its core, `iterative`. This means it works in phases incrementally to achieve goals instead of linearly (exactly like this roadmap!).
 - There are many implementations of frameworks for Agile methodologies like Scrum, Kanban, and Extreme Programming (XP). And often, new frameworks emerge from the original ones, like [Scrumban](https://teamhood.com/agile-resources/what-is-scrumban/) (which is a mix between Scrum and Kanban).
 - The most important point here is to break down work into bite-size pieces; however, at the same time, avoid [Scope Creep](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)! In short: **Make it work, then make it right, then make it fast!**
+- Shift-Left and Shift-Right are two important quality models, **both are complementary, not contradictory!**
+  - **Shift-Left:** Refers to early detection and prevention of issues. The tests are done as early as possible in the SDLC. Different activity types (like unit, integration, and end-to-end testing) and quality checks are done before going to production (releasing or deployment), which are made in a "continuous" manner.
+  - **Shift-Right:** Refers to late activities in the SDLC after going to production (releasing or deployment). Activities such as A/B testing and runtime security checks are done during this phase, which have more value at the end of the funnel.
 
 ### Resources {#13-resources}
 
 - [What Is Agile Product Management - The Product Manager](https://theproductmanager.com/topics/agile-product-management/)
 - [Software Processes and Agile Practices - Coursera](https://www.coursera.org/learn/software-processes-and-agile-practices?specialization=product-management): 8 hours course that covers the fundamentals of Agile software development and management practices.
 - [Is the Agile Manifesto still a thing? - Atlassian](https://www.atlassian.com/agile/manifesto): This post covers how Agile evolved over time and the changes that happened since the release of the Agile Manifesto (originally published in February 2001).
+- [Shift left vs Shift right: When to use which? - BrowserStack](https://www.browserstack.com/guide/shift-left-vs-shift-right)
 
 ## 1.4 Software Production - Change Management and Golden Triangle
 

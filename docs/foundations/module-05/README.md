@@ -11,7 +11,7 @@ import QuizData from './module-05-quiz.json';
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Module Overview" border="0" width="90%" src={require('./module-05-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-05-overview.png').default} />
 </p>
 
 ## 5.1 Planning - Refine the Goals and Requirements

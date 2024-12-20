@@ -13,7 +13,7 @@ import DetailedIndex from './_detailed-index.mdx';
 import {HomepageFeaturesModulesOnly as QuickIndex} from '@site/src/components/HomepageFeaturesModules';
 
 <p align="center">
-  <img title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
+  <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
 
 ## Before you start

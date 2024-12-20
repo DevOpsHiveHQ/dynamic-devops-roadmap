@@ -7,7 +7,7 @@ toc_max_heading_level: 2
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img alt="Dynamic DevOps Roadmap Pillars" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
+  <img class="page-cover-image" alt="Dynamic DevOps Roadmap Pillars" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
 </p>
 
 ## Overview

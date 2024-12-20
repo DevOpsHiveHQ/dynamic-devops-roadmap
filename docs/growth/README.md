@@ -9,7 +9,7 @@ image: /img/growth.png
 import DocCardList from '@theme/DocCardList';
 
 <p align="center">
-  <img alt="Career Growth and Advanced Topics" border="0" src="/img/growth.png" />
+  <img class="page-cover-image" alt="Career Growth and Advanced Topics" border="0" src="/img/growth.png" />
 </p>
 
 You are now a DevOps Engineer, what are other advanced or promising career paths?
