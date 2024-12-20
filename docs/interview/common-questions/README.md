@@ -84,12 +84,13 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 ### Resources
 
-- [DevOps Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/devops-interview-questions/)  
-- [Linux Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/linux-interview-questions/)  
-- [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)  
+- [DevOps Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/devops-interview-questions/)
+- [Linux Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/linux-interview-questions/)
+- [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)
 - [Docker Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/docker-interview-questions/)
 - [Python Interview Questions - W3Schools](https://www.w3schools.com/python/python_interview_questions.asp)
 
+---
 
 ## Module 3
 
@@ -98,9 +99,8 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 - What are automation testing and continuous testing?
 - What is CI/CD?
 - What are the benefits of CI/CD?
-- What tools are commonly used for CI/CD?
+- What are tools commonly used for CI/CD?
 - Explain the concept of a pipeline in CI/CD.
-- What is a canary release?
 - What is the importance of code quality in CI/CD?
 - How do you implement testing in CI/CD?
 - How does version control integrate with CI/CD?
@@ -109,19 +109,18 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 - How do workflows work in GitHub Actions?
 - What are the different components of a GitHub Actions workflow?
 - What are runners in the context of GitHub Actions?
-- Can you explain the difference between a job and a step in GitHub Actions?
+- What are the differences between a job and a step in GitHub Actions?
 - How do you manage secrets in GitHub Actions?
 - How do you define a workflow trigger in GitHub Actions?
-- How can you run a job only on specific branches?
+- How do you run a job only on specific branches?
 - How do you pass environment variables across jobs?
 - How do you specify a particular runner version?
 
 ### Resources
-[Turing Interview - Questions](https://www.turing.com/interview-questions/devops): list of 100 DevOps interview questions that are most commonly asked during DevOps interviews
 
-[Razorops Interview For GitHub Actions  - Questions](https://razorops.com/blog/top-50-github-actions-interview-question-and-answers/): Top 50 GitHub Actions Interview Question and Answers
-
-[Razorops Interview For CI/CD - Questions](https://razorops.com/blog/top-50-cicd-interview-questions-and-answers/): Top 50 CICD Interview Questions and Answers
+- [Turing Interview Questions](https://www.turing.com/interview-questions/devops): List of 100 DevOps interview questions that are most commonly asked during DevOps interviews.
+- [Razorops Interview Questions For GitHub Actions](https://razorops.com/blog/top-50-github-actions-interview-question-and-answers/): Top 50 GitHub Actions Interview Question and Answers.
+- [Razorops Interview Questions For CI/CD](https://razorops.com/blog/top-50-cicd-interview-questions-and-answers/): Top 50 CICD Interview Questions and Answers.
 
 ---
 
