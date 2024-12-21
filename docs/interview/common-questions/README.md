@@ -144,6 +144,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 
 Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
+- Why are sprint retrospective meetings important?
 - Why is performance optimization important?
 - What are some common performance optimization techniques?
 - What is caching and how does it improve performance?
@@ -164,13 +165,19 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - What are the common tools for SAST?
 - What is the concept of ‘shift-left’ in security testing?
 - How does container security testing work in CI/CD?
-- Mention some advantages of Forking workflow over other Git workflows.
+- How do you implement a Git workflow in a team environment?
+- Explain the Git workflow.
+- Explain the concept of drift in Terraform.
+- What are some ways to prevent or handle drift in Terraform?
 - How does Kubernetes support multi-tenancy, and what is the role of namespaces in achieving isolation and resource allocation for different teams or projects?
 - How do you manage multi-tenancy in Kubernetes?
 - Explain Kubernetes Architecture.
 - Explain the concept of a Custom Operator in Kubernetes.
 - How does Kubernetes manage configuration?
 - What is a ConfigMap?
+- How does Kubernetes handle container scaling?
+- Explain the difference between a StatefulSet and a Deployment.
+- What are Kubernetes Custom Resource Definitions (CRDs)?
 - How can Helm charts be versioned and maintained?
 - How do you handle Helm chart updates and version upgrades in a production environment?
 - How do you manage Helm chart updates in a rolling deployment strategy?
@@ -179,9 +186,12 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - How do you version Helm charts for continuous delivery pipelines?
 - How do you integrate Helm with GitOps practices?
 - How can you automate the deployment of Helm charts in a Kubernetes cluster using GitOps practices?
-- What role does AWS play in DevOps?
-- What is continuous delivery?
-- Describe Blue-Green deployments in DevOps. How does Blue/Green and Rolling deployment differ in Kubernetes?
+- explain Continuous Deployment and its advantages.
+- In what situations would a Continuous Deployment strategy not be appropriate?
+- Can you explain how Continuous Delivery differs from Continuous Deployment?
+- Can you explain the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+- What is GitOps, and how does it differ from traditional CI/CD?
+- Describe the process of blue-green deployment.
 - What is GitOps?
 - What is difference between DevOps and GitOps?
 - What are benefits of GitOps?
@@ -198,8 +208,7 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - [Performance Optimization Interview Questions](https://hellointern.in/blog/performance-optimization-interview-questions-and-answers-17811)  
 - [Software Supply Chain Security Interview Questions](https://www.practical-devsecops.com/software-supply-chain-security-interview-questions-and-answers/)  
 - [Security Testing in CI/CD Interview Questions](https://razorops.com/blog/top-50-security-testing-in-cicd-interview-questions-and-answers/)  
-- [Kubernetes Interview Questions - practical-devsecops](https://www.practical-devsecops.com/kubernetes-interview-questions/)  
-- [Helm Interview Questions](https://razorops.com/blog/top-helm-interview-questions-and-answers)  
+- [Kubernetes Interview Questions - practical-devsecops](https://www.practical-devsecops.com/kubernetes-interview-questions/)
 - [DevOps Interview Questions - turing](https://www.turing.com/interview-questions/devops)
 - [GitOps and ArgoCD Interview Questions](https://www.fosstechnix.com/gitops-and-argocd-interview-questions/)  
 
