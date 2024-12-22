@@ -8,7 +8,7 @@ image: /img/roadmap-faq.png
 ---
 
 <p align="center">
-  <img class="page-cover-image" alt="Frequently Asked Questions" border="0" src="/img/roadmap-faq.png" />
+  <img class="page-cover-image" title="Frequently Asked Questions" alt="Frequently Asked Questions" border="0" src="/img/roadmap-faq.png" />
 </p>
 
 Here are the most common questions about this roadmap. It's highly recommended that you read this page before starting with the roadmap.
@@ -52,7 +52,7 @@ It's simple: Why is it so hard to start a DevOps career nowadays?
   A subset of the Cloud Native landscape (<a target="_blank" href="https://landscape.cncf.io/" imageanchor="1">check the full CNCF landscape</a>)
 </p>
 
-<img class="img-right img-round-corners" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
+<img class="img-right img-round-corners" title="Linear DevOps roadmap is broken by default" alt="Linear DevOps roadmap is broken by default" align="right" width="30%" src="/img/devops-roadmap-linear.png" />
 
 The `DevOps Engineer` role remains among the top 10 most in-demand jobs across all industries (not just the tech field!). However, starting that role is super challenging because the DevOps model has various patterns and topologies. Also, the Cloud Native landscape keeps expanding; there is something new every day!
 
@@ -65,7 +65,7 @@ For more details about the problem aspects, please read: [Your DevOps learning r
 ### The Solution
 
 <p align="center">
-  <img alt="Dynamic DevOps Roadmap Pillars" width="90%" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
+  <img title="Dynamic DevOps Roadmap Pillars" alt="Dynamic DevOps Roadmap Pillars" width="90%" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
 </p>
 
 Based on years of experience mentoring people in different stages (starting their first job, career shift, moving to another work style or company), using a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer has been highly successful.
@@ -117,7 +117,7 @@ Audience groups:
 
 ## What is the expected timeline to finish this roadmap?
 
-<img class="img-right" alt="Golden Triangle: Time, Effort, and Cost" align="right" width="30%" src="/img/golden-triangle-ect.png" />
+<img class="img-right" title="Golden Triangle: Time, Effort, and Cost" alt="Golden Triangle: Time, Effort, and Cost" align="right" width="30%" src="/img/golden-triangle-ect.png" />
 
 It totally depends on your background, available time, and the audience group you are in, whether you are doing it alone, with a learning group, or with a mentor.
 
@@ -138,13 +138,19 @@ Roughly, the timeline is the following:
 
 ## Why is it not recommended to start this roadmap alone?
 
-<img class="img-right img-round-corners" alt="Ducklephant! Not a Duck not an Elephant!" align="right" width="30%" src={require('./ducklephant.jpg').default} />
+<p align="center">
+  <img title="Priming Effect in Learning" alt="Priming Effect in Learning" border="0" width="90%" src="/img/priming-effect.png" />
+  <br/>
+  Working with a mentor or a peer (even on the same level) can influence the learning process and achieve better results.
+</p>
 
 As mentioned above, this roadmap follows the `Guided Learning` model, which works best in a group, either as a mentor-mentee group or a peer group. Without that, many communication skills needed for the DevOps role will be lost!
 
+<img class="img-right img-round-corners" title="Ducklephant! Not a Duck not an Elephant!" alt="Ducklephant! Not a Duck not an Elephant!" align="right" width="30%" src={require('./ducklephant.jpg').default} />
+
 If you cannot get a **paid mentor**, try to get a **community mentor** like your tech local community or [ADPList](https://adplist.org/). If you can't get any mentor at all, try to start **group learning** with other peers who want to start a DevOps career because "**The whole is greater than the sum of its parts**." If you can't find anyone at all, then do it alone, but that should be the last resort.
 
-Why? Because you will probably waste a lot of time and end up with `Ducklephant`, not a Duck, not an Elephant! The final outcome will be unfunctional and doesn't fit the market.
+**Why?** Because you will probably waste a lot of time and end up with `Ducklephant`, not a Duck, not an Elephant! The final outcome will be unfunctional and doesn't fit the market.
 
 <p align="center">
   <div class="buttons_src-pages-index-module">
