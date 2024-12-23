@@ -31,6 +31,10 @@ In conclusion, adopting DevOps enhances collaboration between teams, enhances fe
 - It's also important to know that DevOps has many [implementations and topologies](https://web.devopstopologies.com/), and that's why it's hard to land your first job as a DevOps Engineer (because that could mean many things! Sometimes that title makes sense, and some other times it's misleading!).
 - Finally, just remember that DevOps is not about Dev doing Ops work or vice versa; it's actually a `paradigm shift` (i.e., you need to think differently).
 
+:::tip
+Some topics in this module may seem new or theoretical, but don't worry! Keep reading and learning about those topics, and you will see them in action in this roadmap.
+:::
+
 ### Resources {#11-resources}
 
 - [What is DevOps? - GitLab](https://about.gitlab.com/topics/devops/): A good starting point for an overview of the technical aspects of the DevOps.
@@ -59,7 +63,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ## 1.3 Software Production - Agile Software Development
 
 <p align="center">
-  <img title="Shif-Left and Shfit-Right Quality Models" alt="Shif-Left and Shfit-Right Quality Models" border="0" width="90%" src="/img/shift-left-and-shift-right-models.png"/>
+  <img title="Different Types of Quality Models" alt="Shif-Left and Shfit-Right Quality Models" border="0" width="90%" src="/img/quality-models.png"/>
 </p>
 
 ### What you need to know {#13-what-you-need-to-know}

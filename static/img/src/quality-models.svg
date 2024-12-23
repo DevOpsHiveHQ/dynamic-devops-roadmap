@@ -5,9 +5,9 @@
    viewBox="0 0 1280 640"
    version="1.1"
    id="svg34"
-   sodipodi:docname="shift-left-model.svg"
+   sodipodi:docname="quality-models.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   inkscape:export-filename="shift-left-and-shift-right-models.png"
+   inkscape:export-filename="quality-models.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xml:space="preserve"
@@ -102,8 +102,8 @@
      inkscape:pagecheckerboard="true"
      showgrid="false"
      inkscape:zoom="0.8021329"
-     inkscape:cx="500.5405"
-     inkscape:cy="283.61884"
+     inkscape:cx="690.03528"
+     inkscape:cy="292.34557"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -141,7 +141,7 @@
      height="640"
      x="-4.4726563e-05"
      y="-3.0273436e-06"
-     inkscape:export-filename="shift-left-and-shift-right-models.png"
+     inkscape:export-filename="quality-models.png"
      inkscape:export-xdpi="96"
      inkscape:export-ydpi="96" /><rect
      style="fill:#559e11;fill-opacity:1;stroke-width:0.646144;stroke-opacity:0"
@@ -155,7 +155,7 @@
      inkscape:export-ydpi="96" /><text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.99572"
-     x="253.86649"
+     x="315.58389"
      y="123.53573"
      id="text7142-2-2-7"
      inkscape:export-filename="devops-implementations.png"
@@ -163,9 +163,9 @@
      inkscape:export-ydpi="96"><tspan
        sodipodi:role="line"
        id="tspan7140-9-0-5"
-       x="253.86649"
+       x="315.58389"
        y="123.53573"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.99572">Shift-Left and Shift-Right Quality Models</tspan></text><g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.99572">Different Types of Quality Models</tspan></text><g
      id="g1225"
      transform="matrix(0.88747996,0,0,0.88747996,-2301.2209,920.66897)" /><g
      id="g28751"
@@ -378,4 +378,4 @@
          x="1092.7645"
          y="248.26837"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#d93f3f;fill-opacity:1;stroke-width:0.909272"
-         id="tspan24671">Cost factor</tspan></text></g></svg>
+         id="tspan24671">Cost Factor</tspan></text></g></svg>

@@ -17,6 +17,10 @@ import QuizData from './module-02-quiz.json';
 
 ## 2.1 Code - Python Fundamentals
 
+:::tip
+If you come from a development background, you can use any language you know. Python or Golang are still recommended.
+:::
+
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
 ### What you need to know {#21-what-you-need-to-know}

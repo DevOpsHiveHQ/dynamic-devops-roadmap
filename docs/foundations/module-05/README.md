@@ -89,7 +89,7 @@ import QuizData from './module-05-quiz.json';
   - **Domain-specific language (DSL)**: There are two approaches to writing IaC: either using tools that utilize DSLs like Terraform and Crossplane or using tools that utilize programming languages like Pulumi and AWS CDK.
 - Without going into much detail about [what's declarative and what's not](https://leebriggs.co.uk/blog/2022/07/20/nobody-knows-what-declarative-is) ... you should look for tools that allow you to state how you want your infrastructure to look like [Terraform](https://www.terraform.io/) or [Crossplane](https://www.crossplane.io/) and use DSL for simplicity.
 - In all cases, using imperative scripts in any language (Bash, Python, etc.) is not recommended; that's not the ideal IaC and will hit you hard in the future when you try to automate the IaC via GitOps (it will be covered in the following modules).
-- Finally, in the current container era, Configuration Management tools like Ansible and SaltStack are less used in favor of using a container ecosystem (in this roadmap, we will not cover them).
+- Finally, in the current container era, Configuration Management tools like Ansible and SaltStack are less and less used in favor of a container ecosystem. In this roadmap, we will not cover them; learn one of them when you need it (Ansible is highly recommended).
 
 ### Resources {#54-resources}
 
