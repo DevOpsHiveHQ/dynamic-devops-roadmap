@@ -136,8 +136,51 @@ Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 
 Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-05)
 
-**Work in progress**
+- What is the product backlog?
+- What is the sprint backlog?
+- What is system integration?
+- What are the different types of system integration approaches?
+- Explain the concept of RESTful APIs.
+- What are the different phases of a system integration project?
+- What is Continuous Testing?
+- What is Automation Testing?
+- What are the benefits of Automation Testing?
+- What are the key elements of Continuous Testing tools?
+- What are the different Selenium components?
+- Explain the term "Infrastructure as Code" (IaC) as it relates to configuration management.
+- What are the benefits of infrastructure as code?
+- Why is Terraform used for DevOps?
+- What are the key features of Terraform?
+- Explain the uses of Terraform CLI and list some basic CLI commands?
+- What are modules in Terraform?
+- What is a Private Module Registry?
+- What are the components of Terraform architecture?
+- What do you understand by Terraform in AWS?
+- What is Kubectl?
+- How do you automate Kubernetes deployments?
+- What are the benefits of using Kustomize?
+- What are the key components of Kustomize?
+- Explain the concept of overlays in Kustomize.
+- What is Helm?
+- What are the benefits of using Helm?
+- What are the different types of Helm charts?
+- What is Monitoring in DevOps?
+- What is Logging?
+- How does monitoring differ from logging?
+- What are logs, and why are they important?
+- What is OpenTelemetry?
+- What is log aggregation, and why is it essential?
+- How do you implement centralized logging?
+- What is Continuous Delivery?
 
+### Resourcecs
+
+- [DevOps Interview Questions](https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions)
+- [Terraform Interview Questions and Answers](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
+- [Top 50 Monitoring and Logging Interview Questions and Answers](https://razorops.com/blog/top-50-monitoring-and-logging-interview-question-and-answers/)
+- [Kustomize Interview Questions and Answers](https://www.fosstechnix.com/kustomize-interview-questions-and-answers/)
+- [Top 30 Helm Interview Questions and Answers](https://www.fosstechnix.com/top-30-helm-interview-questions-and-answers/)
+  
 ---
 
 ## Module 6
