@@ -128,7 +128,37 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 
 Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 
-**Work in progress**
+- What is Kubernetes?  
+- Explain the architecture of Kubernetes.  
+- Explain the concept of container orchestration.  
+- What is a pod in Kubernetes?  
+- How does Kubernetes handle container scaling?  
+- What is the difference between a StatefulSet and a Deployment?  
+- What is a service in Kubernetes?  
+- How does Kubernetes manage configurations?  
+- Describe the role of the master node in Kubernetes.  
+- Explain the concept of ingress in Kubernetes.  
+- What is a ConfigMap in Kubernetes?  
+- How do rolling updates work in a deployment?  
+- What is a namespace in Kubernetes?  
+- What is a persistent volume (PV) in Kubernetes?  
+- Describe how a Horizontal Pod Autoscaler (HPA) works.  
+- What are some CI/CD best practices?  
+- How do you promote CI/CD best practices within a team?  
+- What is the difference between monitoring and observability?  
+- What are the primary components of observability?  
+- How does a trace differ from a log?  
+- What are some best practices for logging?  
+- How would you set up monitoring for a Kubernetes cluster?  
+- What are the main differences between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)?  
+- What are some common cloud security threats, and how can they be mitigated?  
+- What are the advantages and disadvantages of using a public cloud versus a private cloud?  
+- Can you describe the role of virtualization in cloud computing?  
+
+### Resources
+- [GeeksforGeeks Interview Questions For K8S](https://www.geeksforgeeks.org/kubernetes-interview-questions/): Kubernetes Interview Questions and Answers.
+- [Razorops Interview Questions For Monitoring & Observality](https://razorops.com/blog/top-50-monitoring-and-observality-interview-questions-and-answers/): Top 50 Monitoring and Observality Interview Questions and Answers.
+- [DataCamp Interview Questions For Cloud Computing ](https://www.datacamp.com/blog/cloud-computing-interview-questions): Top 30 Cloud Computing Interview Questions and Answers.
 
 ---
 
