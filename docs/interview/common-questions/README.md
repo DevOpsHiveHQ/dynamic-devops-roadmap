@@ -3,6 +3,7 @@ title: "DevOps Common Interview Questions"
 sidebar_label: "Interview Questions"
 description: "Most common interview questions for DevOps role"
 sidebar_position: 1
+toc_max_heading_level: 2
 ---
 
 ## Approach
@@ -17,7 +18,7 @@ After you finish the module content and the module project, you review the inter
 Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 - What is DevOps and what is the need for it?
-- What are the fundamental differences between DevOps & Agile? 
+- What are the fundamental differences between DevOps & Agile?
 - What is a DevOps Engineer?
 - What is Requirements to Become a DevOps Engineer?
 - What are the three important DevOps pillars?
@@ -31,9 +32,9 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 ### Resources
 
-- [Turing Interview Questions](https://www.turing.com/interview-questions/devops): List of 100 DevOps interview questions that are most commonly asked during DevOps interviews
-- [Edureka Interview Questions](https://www.edureka.co/blog/interview-questions/top-devops-interview-questions/): 120+ Top DevOps Interview Questions And Answers for 2025
-- [Naukri Interview Questions](https://www.naukri.com/code360/library/devops-interview-questions): Most commonly asked Devops interview questions and their answers
+- [Turing Interview Questions - Turing](https://www.turing.com/interview-questions/devops)
+- [Edureka Interview Questions - Edureka](https://www.edureka.co/blog/interview-questions/top-devops-interview-questions/)
+- [Naukri Interview Questions - Naukri](https://www.naukri.com/code360/library/devops-interview-questions)
 
 ---
 
@@ -86,8 +87,8 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 - [DevOps Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/devops-interview-questions/)
 - [Linux Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/linux-interview-questions/)
-- [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)
 - [Docker Interview Questions - GeeksforGeeks](https://www.geeksforgeeks.org/docker-interview-questions/)
+- [Linux Interview Questions - LambdaTest](https://www.lambdatest.com/learning-hub/linux-interview-questions)
 - [Python Interview Questions - W3Schools](https://www.w3schools.com/python/python_interview_questions.asp)
 
 ---
@@ -118,9 +119,9 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 
 ### Resources
 
-- [Turing Interview Questions](https://www.turing.com/interview-questions/devops): List of 100 DevOps interview questions that are most commonly asked during DevOps interviews.
-- [Razorops Interview Questions For GitHub Actions](https://razorops.com/blog/top-50-github-actions-interview-question-and-answers/): Top 50 GitHub Actions Interview Question and Answers.
-- [Razorops Interview Questions For CI/CD](https://razorops.com/blog/top-50-cicd-interview-questions-and-answers/): Top 50 CICD Interview Questions and Answers.
+- [Turing Interview Questions - Turing](https://www.turing.com/interview-questions/devops)
+- [Razorops Interview Questions For GitHub Actions - Razorops](https://razorops.com/blog/top-50-github-actions-interview-question-and-answers/)
+- [Razorops Interview Questions For CI/CD - Razorops](https://razorops.com/blog/top-50-cicd-interview-questions-and-answers/)
 
 ---
 
@@ -128,37 +129,37 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 
 Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 
-- What is Kubernetes?  
-- Explain the architecture of Kubernetes.  
-- Explain the concept of container orchestration.  
-- What is a pod in Kubernetes?  
-- How does Kubernetes handle container scaling?  
-- What is the difference between a StatefulSet and a Deployment?  
-- What is a service in Kubernetes?  
-- How does Kubernetes manage configurations?  
-- Describe the role of the master node in Kubernetes.  
-- Explain the concept of ingress in Kubernetes.  
-- What is a ConfigMap in Kubernetes?  
-- How do rolling updates work in a deployment?  
-- What is a namespace in Kubernetes?  
-- What is a persistent volume (PV) in Kubernetes?  
-- Describe how a Horizontal Pod Autoscaler (HPA) works.  
-- What are some CI/CD best practices?  
-- How do you promote CI/CD best practices within a team?  
-- What is the difference between monitoring and observability?  
-- What are the primary components of observability?  
-- How does a trace differ from a log?  
-- What are some best practices for logging?  
-- How would you set up monitoring for a Kubernetes cluster?  
-- What are the main differences between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)?  
-- What are some common cloud security threats, and how can they be mitigated?  
-- What are the advantages and disadvantages of using a public cloud versus a private cloud?  
-- Can you describe the role of virtualization in cloud computing?  
+- What is Kubernetes?
+- Explain the architecture of Kubernetes.
+- Explain the concept of container orchestration.
+- What is a Namespace in Kubernetes?
+- What is a Pod in Kubernetes?
+- How does Kubernetes handle container scaling?
+- What is the difference between a StatefulSet and a Deployment?
+- What is a service in Kubernetes?
+- How does Kubernetes manage configurations?
+- Describe the role of the master node in Kubernetes.
+- Explain the concept of ingress in Kubernetes.
+- What is a ConfigMap in Kubernetes?
+- How do rolling updates work in a Deployment?
+- What is a Persistent Volume (PV) in Kubernetes?
+- What are some CI/CD best practices?
+- How do you promote CI/CD best practices within a team?
+- What is the difference between monitoring and observability?
+- What are the primary components of observability?
+- How does a trace differ from a log?
+- What are some best practices for logging?
+- How would you set up monitoring for a Kubernetes cluster?
+- What are the main differences between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)?
+- What are some common cloud security threats, and how can they be mitigated?
+- What are the advantages and disadvantages of using a public cloud versus a private cloud?
+- Can you describe the role of virtualization in cloud computing?
 
 ### Resources
-- [GeeksforGeeks Interview Questions For K8S](https://www.geeksforgeeks.org/kubernetes-interview-questions/): Kubernetes Interview Questions and Answers.
-- [Razorops Interview Questions For Monitoring & Observality](https://razorops.com/blog/top-50-monitoring-and-observality-interview-questions-and-answers/): Top 50 Monitoring and Observality Interview Questions and Answers.
-- [DataCamp Interview Questions For Cloud Computing ](https://www.datacamp.com/blog/cloud-computing-interview-questions): Top 30 Cloud Computing Interview Questions and Answers.
+
+- [GeeksforGeeks Interview Questions For Kubernetes - GeeksforGeeks](https://www.geeksforgeeks.org/kubernetes-interview-questions/)
+- [Razorops Interview Questions For Monitoring & Observality - Razorops](https://razorops.com/blog/top-50-monitoring-and-observality-interview-questions-and-answers/)
+- [DataCamp Interview Questions For Cloud Computing -  DataCamp ](https://www.datacamp.com/blog/cloud-computing-interview-questions)
 
 ---
 
@@ -172,20 +173,18 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 - What are the different types of system integration approaches?
 - Explain the concept of RESTful APIs.
 - What are the different phases of a system integration project?
-- What is Continuous Testing?
-- What is Automation Testing?
-- What are the benefits of Automation Testing?
-- What are the key elements of Continuous Testing tools?
-- What are the different Selenium components?
-- Explain the term "Infrastructure as Code" (IaC) as it relates to configuration management.
-- What are the benefits of infrastructure as code?
+- What is continuous testing?
+- What is automation testing?
+- What are the benefits of automation testing?
+- What are the key elements of continuous testing tools?
+- Explain the term `Infrastructure as Code` (IaC) as it relates to `Configuration Management`.
+- What are the benefits of Infrastructure as Code?
 - Why is Terraform used for DevOps?
 - What are the key features of Terraform?
 - Explain the uses of Terraform CLI and list some basic CLI commands?
 - What are modules in Terraform?
-- What is a Private Module Registry?
+- What is a private module registry?
 - What are the components of Terraform architecture?
-- What do you understand by Terraform in AWS?
 - What is Kubectl?
 - How do you automate Kubernetes deployments?
 - What are the benefits of using Kustomize?
@@ -205,12 +204,12 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 
 ### Resourcecs
 
-- [DevOps Interview Questions](https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions)
-- [Terraform Interview Questions and Answers](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
-- [Top 50 Monitoring and Logging Interview Questions and Answers](https://razorops.com/blog/top-50-monitoring-and-logging-interview-question-and-answers/)
-- [Kustomize Interview Questions and Answers](https://www.fosstechnix.com/kustomize-interview-questions-and-answers/)
-- [Top 30 Helm Interview Questions and Answers](https://www.fosstechnix.com/top-30-helm-interview-questions-and-answers/)
-  
+- [DevOps Interview Questions - Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions)
+- [Terraform Interview Questions and Answers - Simplilearn](https://www.simplilearn.com/terraform-interview-questions-and-answers-article)
+- [Top 50 Monitoring and Logging Interview Questions and Answers - Razorops](https://razorops.com/blog/top-50-monitoring-and-logging-interview-question-and-answers/)
+- [Kustomize Interview Questions and Answers - FOSS TechNix](https://www.fosstechnix.com/kustomize-interview-questions-and-answers/)
+- [Top 30 Helm Interview Questions and Answers - FOSS TechNix](https://www.fosstechnix.com/top-30-helm-interview-questions-and-answers/)
+
 ---
 
 ## Module 6
@@ -218,7 +217,6 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
 - Why are sprint retrospective meetings important?
-- Why is performance optimization important?
 - What are some common performance optimization techniques?
 - What is caching and how does it improve performance?
 - What are the different types of caching?
@@ -227,10 +225,9 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - What is a content delivery network (CDN)?
 - How can database optimization improve performance?
 - What are some best practices for optimizing web applications?
-- What is code profiling?
 - How can you improve the performance of database queries?
 - What is the difference between synchronous and asynchronous operations?
-- What role does a Software Bill of Materials (SBOM) play in securing the supply chain? 
+- What role does a Software Bill of Materials (SBOM) play in securing the supply chain?
 - What is security testing in the context of CI/CD?
 - Why is security testing important in CI/CD?
 - What are the common types of security testing?
@@ -278,17 +275,8 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
 ### Resources
 
-- [Performance Optimization Interview Questions](https://hellointern.in/blog/performance-optimization-interview-questions-and-answers-17811)  
-- [Software Supply Chain Security Interview Questions](https://www.practical-devsecops.com/software-supply-chain-security-interview-questions-and-answers/)  
-- [Security Testing in CI/CD Interview Questions](https://razorops.com/blog/top-50-security-testing-in-cicd-interview-questions-and-answers/)  
-- [Kubernetes Interview Questions - practical-devsecops](https://www.practical-devsecops.com/kubernetes-interview-questions/)
-- [DevOps Interview Questions - turing](https://www.turing.com/interview-questions/devops)
-- [GitOps and ArgoCD Interview Questions](https://www.fosstechnix.com/gitops-and-argocd-interview-questions/)  
-
----
-
-## Module 7
-
-Roadmap Module: [Capstone Project](../../foundations/module-07)
-
-**Work in progress**
+- [Security Testing in CI/CD Interview Questions - Razorops](https://razorops.com/blog/top-50-security-testing-in-cicd-interview-questions-and-answers/)
+- [Software Supply Chain Security Interview Questions - Practical DevSecOps](https://www.practical-devsecops.com/software-supply-chain-security-interview-questions-and-answers/)
+- [Kubernetes Interview Questions - Practical DevSecOps](https://www.practical-devsecops.com/kubernetes-interview-questions/)
+- [DevOps Interview Questions - Turing](https://www.turing.com/interview-questions/devops)
+- [GitOps and ArgoCD Interview Questions - FOSS TechNix](https://www.fosstechnix.com/gitops-and-argocd-interview-questions/)

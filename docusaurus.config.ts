@@ -113,8 +113,8 @@ const config: Config = {
     ],
     announcementBar: {
       id: 'announcement',
-      content: '<b>Announcement:</b> <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe now</a> to the community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.',
-      backgroundColor: '#303846',
+      content: '<a target="_blank" href="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">⭐ Star on GitHub ⭐</a> and <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">✉️ Subscribe to Community ✉️</a>',
+      backgroundColor: '#4d8b15',
       textColor: '#ffffff',
       isCloseable: false,
     },
@@ -167,7 +167,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          label: '✉️ Newsletter',
+          label: '✉️ Community',
           href: 'https://newsletter.devopsroadmap.io/subscribe',
           position: 'right',
         },

@@ -148,7 +148,7 @@ As mentioned above, this roadmap follows the `Guided Learning` model, which work
 
 <img class="img-right img-round-corners" title="Ducklephant! Not a Duck not an Elephant!" alt="Ducklephant! Not a Duck not an Elephant!" align="right" width="30%" src={require('./ducklephant.jpg').default} />
 
-If you cannot get a **paid mentor**, try to get a **community mentor** like your tech local community or [ADPList](https://adplist.org/). If you can't get any mentor at all, try to start **group learning** with other peers who want to start a DevOps career because "**The whole is greater than the sum of its parts**." If you can't find anyone at all, then do it alone, but that should be the last resort.
+If you cannot get a **paid mentor**, try to get a **community mentor** like your tech local community or [ADPList](https://adplist.org/). If you can't get any mentor at all, try to start **group learning**, or even find **one peer** who wants to start a DevOps career because "**The whole is greater than the sum of its parts**." If you can't find anyone at all, then do it alone, but that should be the last resort.
 
 **Why?** Because you will probably waste a lot of time and end up with `Ducklephant`, not a Duck, not an Elephant! The final outcome will be unfunctional and doesn't fit the market.
 
