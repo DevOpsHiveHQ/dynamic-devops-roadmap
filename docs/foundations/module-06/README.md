@@ -118,6 +118,7 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 - So, in the end, what are Kubernetes operators? And why do we need them?
   > Operators are software extensions to Kubernetes that use custom resources to manage applications and their components. The operator's goal is to put domain knowledge into the software that helps to simplify the management of complex applications on Kubernetes.
 - Hence, an Operator simply is a [controller](https://kubernetes.io/docs/concepts/architecture/controller/) that watches events of [custom resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) in the Kubernetes API and takes actions based on the operator’s logic.
+
 <p align="center">
   <img title="Kubernetes Operator flow" alt="Kubernetes Operator flow" border="0" width="90%" src={require('./6.5-kubernetes-operator-flow.png').default} />
 </p>
@@ -189,7 +190,7 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 ## 6.8 Continuous Deployment - GitOps and Argo CD Essentials
 
 <p align="center">
-  <img title="Reconciliation loop" alt="Reconciliation loop" border="0" width="90%" src="/img/reconciliation-loop.png"/>
+  <img class="section-cover-image" title="Reconciliation loop" alt="Reconciliation loop" border="0" width="90%" src="/img/reconciliation-loop.png"/>
 </p>
 
 ### What you need to know {#68-what-you-need-to-know}

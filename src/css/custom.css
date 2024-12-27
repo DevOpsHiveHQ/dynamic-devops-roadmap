@@ -19,6 +19,10 @@
   --ifm-background-color: #fff;
 }
 
+[data-theme='light'] .page-cover-image, .section-cover-image {
+  box-shadow: 0 0 0.2rem 0rem rgba(0, 0, 0, 0.1)
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #78af46;
@@ -105,6 +109,13 @@ li::marker {
 .page-cover-image {
   aspect-ratio: 16/8;
   width: 100%;
+  display: inline;
+  z-index: 999;
+}
+
+.section-cover-image {
+  aspect-ratio: 16/8;
+  width: 90%;
   display: inline;
   z-index: 999;
 }

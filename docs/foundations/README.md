@@ -8,7 +8,7 @@ image: /img/dynamic-devops-roadmap-modules.png
 import DocCardList from '@theme/DocCardList';
 
 <p align="center">
-  <img title="Dynamic DevOps Roadmap" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
+  <img class="page-cover-image" title="Dynamic DevOps Roadmap" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
 
 Build a strong foundation for your DevOps career in an iterative and progressive manner.

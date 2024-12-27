@@ -65,7 +65,7 @@ For more details about the problem aspects, please read: [Your DevOps learning r
 ### The Solution
 
 <p align="center">
-  <img title="Dynamic DevOps Roadmap Pillars" alt="Dynamic DevOps Roadmap Pillars" width="90%" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
+  <img class="page-cover-image" style={{width: '90%'}} title="Dynamic DevOps Roadmap Pillars" alt="Dynamic DevOps Roadmap Pillars" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />
 </p>
 
 Based on years of experience mentoring people in different stages (starting their first job, career shift, moving to another work style or company), using a `dynamic MVP-style roadmap` with hands-on projects designed by an experienced DevOps engineer has been highly successful.
@@ -139,7 +139,7 @@ Roughly, the timeline is the following:
 ## Why is it not recommended to start this roadmap alone?
 
 <p align="center">
-  <img title="Priming Effect in Learning" alt="Priming Effect in Learning" border="0" width="90%" src="/img/priming-effect.png" />
+  <img class="section-cover-image" title="Priming Effect in Learning" alt="Priming Effect in Learning" border="0" width="90%" src="/img/priming-effect.png" />
   <br/>
   Working with a mentor or a peer (even on the same level) can influence the learning process and achieve better results.
 </p>
@@ -151,6 +151,8 @@ As mentioned above, this roadmap follows the `Guided Learning` model, which work
 If you cannot get a **paid mentor**, try to get a **community mentor** like your tech local community or [ADPList](https://adplist.org/). If you can't get any mentor at all, try to start **group learning**, or even find **one peer** who wants to start a DevOps career because "**The whole is greater than the sum of its parts**." If you can't find anyone at all, then do it alone, but that should be the last resort.
 
 **Why?** Because you will probably waste a lot of time and end up with `Ducklephant`, not a Duck, not an Elephant! The final outcome will be unfunctional and doesn't fit the market.
+
+---
 
 <p align="center">
   <div class="buttons_src-pages-index-module">

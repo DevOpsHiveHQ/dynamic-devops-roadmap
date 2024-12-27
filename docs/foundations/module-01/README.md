@@ -63,7 +63,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ## 1.3 Software Production - Agile Software Development
 
 <p align="center">
-  <img title="Different Types of Quality Models" alt="Shif-Left and Shfit-Right Quality Models" border="0" width="90%" src="/img/quality-models.png"/>
+  <img class="section-cover-image" title="Different Types of Quality Models" alt="Shif-Left and Shfit-Right Quality Models" border="0" width="90%" src="/img/quality-models.png"/>
 </p>
 
 ### What you need to know {#13-what-you-need-to-know}
@@ -134,7 +134,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ## 1.6 DevOps Methodology - DevOps, Cloud, Platform Engineer, and SRE
 
 <p align="center">
-  <img title="DevOps Implementations" alt="DevOps Implementations" border="0" width="90%" src="/img/devops-implementations.png"/>
+  <img class="section-cover-image" title="DevOps Implementations" alt="DevOps Implementations" border="0" width="90%" src="/img/devops-implementations.png"/>
 </p>
 
 ### What you need to know {#16-what-you-need-to-know}
@@ -160,7 +160,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ## 1.7 DevOps Methodology - T-Shaped Skills DevOps Engineer
 
 <p align="center">
-  <img title="Skill Set Shapes" alt="Skill Set Shapes" border="0" width="90%" src="/img/skill-set-shapes.png"/>
+  <img class="section-cover-image" title="Skill Set Shapes" alt="Skill Set Shapes" border="0" width="90%" src="/img/skill-set-shapes.png"/>
 </p>
 
 ### What you need to know {#17-what-you-need-to-know}
