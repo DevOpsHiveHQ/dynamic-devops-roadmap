@@ -21,7 +21,8 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle" style={{fontWeight: '600'}}>{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{siteConfig.customFields.description}</p>
         <div className={clsx(styles.buttons, 'hero-buttons')}>
           <Link title="Roadmap Get Started"
             className="button button--secondary button--lg"

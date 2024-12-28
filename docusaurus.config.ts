@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Dynamic DevOps Roadmap',
-  tagline: 'A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! A DevOps Engineer or Software Engineer, this roadmap is all that you need to start, grow, and expand!',
+  tagline: 'Experience-Driven DevOps: Beyond Tools, Where Concepts Meet Real-World Challenges',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -27,6 +27,10 @@ const config: Config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  customFields: {
+    description: 'A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! A DevOps Engineer or Software Engineer, this roadmap is all that you need to start, grow, and expand!',
   },
 
   presets: [

@@ -280,3 +280,11 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 - [Kubernetes Interview Questions - Practical DevSecOps](https://www.practical-devsecops.com/kubernetes-interview-questions/)
 - [DevOps Interview Questions - Turing](https://www.turing.com/interview-questions/devops)
 - [GitOps and ArgoCD Interview Questions - FOSS TechNix](https://www.fosstechnix.com/gitops-and-argocd-interview-questions/)
+
+---
+
+## Module 7
+
+Roadmap Module: [Capstone Project](../../foundations/module-07)
+
+The questions for this section are dynamic based on the actual capstone project.
