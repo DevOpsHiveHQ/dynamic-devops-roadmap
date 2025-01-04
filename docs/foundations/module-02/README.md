@@ -15,6 +15,14 @@ import QuizData from './module-02-quiz.json';
   <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-02-overview.png').default} />
 </p>
 
+## Module Overview
+
+- Learn Python fundamentals, common development tools, and Git basics.
+- Gain Linux essentials, common tools, and bash scripting skills.
+- Cover Docker and containers fundamentals.
+- Implement the progressive hands-on project, HiveBox phase 2.
+- Focus areas: Code (40%), Operating System (40%), Containers (20%).
+
 ## 2.1 Code - Python Fundamentals
 
 :::tip

@@ -14,6 +14,16 @@ import QuizData from './module-04-quiz.json';
   <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-04-overview.png').default} />
 </p>
 
+## Module Overview
+
+- Review goals in planning and requirements.
+- Apply the Twelve-Factor App methodology and REST API best practices.
+- Discover Kubernetes for container orchestration, Cloud Computing, and Cloud Native Applications.
+- Explore observability and its pillars.
+- Apply Continuous Integration best practices and dive into Continuous Delivery solutions.
+- Implement the progressive hands-on project, HiveBox phase 4.
+- Focus areas: Planning (12.5%), Code (25%), Containers (12.5%), Observability (12.5%), Continuous Integration and Continuous Delivery (25%), Infrastructure (12.5%).
+
 ## 4.1 Planning - Review the Goals and Requirements
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>

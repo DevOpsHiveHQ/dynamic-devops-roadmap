@@ -8,10 +8,10 @@ type FeatureItem = {
   prefix: string;
   title: string;
   description: JSX.Element;
-  focuseAreas: string;
+  focusAreas: string;
 };
 
-type FocuseAreasData = {
+type FocusAreasData = {
   data: string;
 };
 
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
         And many other important areas before starting this roadmap.
       </>
     ),
-    focuseAreas: '',
+    focusAreas: '',
   },
   {
     prefix: 'Foundation',
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
         linear roadmaps.
       </>
     ),
-    focuseAreas: 'Learning Strategy • Focus Areas • DevOps Topology • Soft Skills',
+    focusAreas: 'Learning Strategy • Focus Areas • DevOps Topology • Soft Skills',
   },
   {
     prefix: 'Foundation',
@@ -49,10 +49,10 @@ const FeatureList: FeatureItem[] = [
       <>
         An introduction to the DevOps paradigm and the focus areas. Also, the relationship between
         DevOps, DevSecOps, and Agile in light of the Software Development Life Cycle (SDLC), in the end,
-        is the initial phase of the HiveBox project phase 1.
+        is the initial part of the HiveBox project, phase 1.
       </>
     ),
-    focuseAreas: 'Overview • Software Production • DevOps Methodology',
+    focusAreas: 'Foreword • Software Production • DevOps Methodology',
   },
   {
     prefix: 'Foundation',
@@ -61,11 +61,11 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Learn Python fundamentals, common development tools, and Git basics. Then, gain Linux
-        essentials, common tools, and bash scripting skills. Also, cover Docker fundamentals — finally,
-        a hands-on with the HiveBox project phase 2.
+        essentials, common tools, and bash scripting skills. Also, cover Docker and containers fundamentals
+        — finally, a hands-on with the HiveBox project phase 2.
       </>
     ),
-    focuseAreas: 'Code • Operating System • Containers',
+    focusAreas: 'Code • Operating System • Containers',
   },
   {
     prefix: 'Foundation',
@@ -78,7 +78,7 @@ const FeatureList: FeatureItem[] = [
         in continuous integration with GitHub Actions — finally, a hands-on with the HiveBox project phase 3.
       </>
     ),
-    focuseAreas: 'Planning • Code • Containers • Continuous Integration',
+    focusAreas: 'Planning • Code • Containers • Continuous Integration',
   },
   {
     prefix: 'Foundation',
@@ -92,7 +92,7 @@ const FeatureList: FeatureItem[] = [
         with the HiveBox project phase 4.
       </>
     ),
-    focuseAreas: 'Planning • Code • Containers • Observability • Continuous Integration • Continuous Delivery • Infrastructure',
+    focusAreas: 'Planning • Code • Containers • Observability • Continuous Integration • Continuous Delivery • Infrastructure',
   },
   {
     prefix: 'Foundation',
@@ -106,7 +106,7 @@ const FeatureList: FeatureItem[] = [
         project phase 5.
       </>
     ),
-    focuseAreas: 'Planning • Code • Infrastructure • Containers • Observability • Continuous Delivery',
+    focusAreas: 'Planning • Code • Infrastructure • Containers • Observability • Continuous Delivery',
   },
   {
     prefix: 'Foundation',
@@ -121,7 +121,7 @@ const FeatureList: FeatureItem[] = [
         project phase 6.
       </>
     ),
-    focuseAreas: 'Planning • Code • Infrastructure • Containers • Continuous Integration • Continuous Delivery • Continuous Deployment',
+    focusAreas: 'Planning • Code • Infrastructure • Containers • Continuous Integration • Continuous Delivery • Continuous Deployment',
   },
   {
     prefix: 'Foundation',
@@ -134,7 +134,7 @@ const FeatureList: FeatureItem[] = [
         refinement.
       </>
     ),
-    focuseAreas: 'Requirements • Planning • Implementation • Review',
+    focusAreas: 'Requirements • Planning • Implementation • Review',
   },
   {
     prefix: 'Foundation',
@@ -148,7 +148,7 @@ const FeatureList: FeatureItem[] = [
         as a DevOps engineer.
       </>
     ),
-    focuseAreas: '',
+    focusAreas: '',
   },
   {
     prefix: 'Practicing',
@@ -160,7 +160,7 @@ const FeatureList: FeatureItem[] = [
         Docker Best Practices, Release Automation, Deployment Automation, Multi-Environment Setup, and more.
       </>
     ),
-    focuseAreas: '',
+    focusAreas: '',
   },
   {
     prefix: 'Job Finding',
@@ -172,7 +172,7 @@ const FeatureList: FeatureItem[] = [
         what your level is (Junior, Medior, or Senior), here are interview questions and best practices.
       </>
     ),
-    focuseAreas: '',
+    focusAreas: '',
   },
   {
     prefix: 'Advanced',
@@ -184,25 +184,25 @@ const FeatureList: FeatureItem[] = [
         There are many opportunities in different areas, such as DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, AIOps, and more.
       </>
     ),
-    focuseAreas: '',
+    focusAreas: '',
   },
 ];
 
-function FocuseAreas({ data }: FocuseAreasData) {
+function FocusAreas({ data }: FocusAreasData) {
   if (data) {
     return (
-      <><span className="timeline-focus-areas">Focuse areas:</span> {data}</>
+      <><span className="timeline-focus-areas">Focus areas:</span> {data}</>
     );
   }
   return '';
 }
 
-function Feature({ prefix, title, link, description, focuseAreas }: FeatureItem) {
+function Feature({ prefix, title, link, description, focusAreas }: FeatureItem) {
   return (
     <li className="event" data-prefix={prefix}>
       <h3><Link to={link}>{title}</Link></h3>
       <p>{description}</p>
-      <FocuseAreas data={focuseAreas} />
+      <FocusAreas data={focusAreas} />
     </li>
   );
 }

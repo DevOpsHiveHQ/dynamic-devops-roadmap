@@ -15,7 +15,14 @@ import QuizData from './module-01-quiz.json';
   <img class="module-overview-image" alt="Module Overview" border="0" src={require('./module-01-overview.png').default} />
 </p>
 
-## 1.1 Overview - What and Why DevOps?
+## Module Overview
+
+- Introduction to the DevOps paradigm and the focus areas. 
+- Relationship between DevOps, DevSecOps, and Agile in light of the Software Development Life Cycle (SDLC).
+- Implement the progressive hands-on project, HiveBox phase 1.
+- Focus areas: Software Production (50%), DevOps Methodology (50%).
+
+## 1.1 Foreword - What and Why DevOps?
 
 <img title="DevOps Methodology Pillars" alt="DevOps Methodology Pillars" class="img-right" align="right" width="40%" src="/img/devops-methodology-pillars.png"></img>
 

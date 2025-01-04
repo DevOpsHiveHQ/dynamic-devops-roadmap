@@ -14,6 +14,15 @@ import QuizData from './module-05-quiz.json';
   <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-05-overview.png').default} />
 </p>
 
+## Module Overview
+
+- Refine goals and requirements.
+- Integrate code with external systems and write integration tests.
+- Utilize Infrastructure as Code, learn Terraform essentials and Kubernetes configuration management like Helm and Kustomize.
+- Apply Continuous Delivery best practices.
+- Implement the progressive hands-on project, HiveBox phase 5.
+- Focus areas: Planning (12.5%), Code (25%), Infrastructure (25%), Containers (12.5%), Observability (12.5%), Continuous Delivery (12.5%).
+
 ## 5.1 Planning - Refine the Goals and Requirements
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>

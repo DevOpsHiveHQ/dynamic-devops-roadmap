@@ -6,8 +6,6 @@ image: /img/reconciliation-loop.png
 toc_max_heading_level: 2
 ---
 
-**Work in progress.**
-
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-06-quiz.json';
 
@@ -16,6 +14,15 @@ import QuizData from './module-06-quiz.json';
 <p align="center">
   <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-06-overview.png').default} />
 </p>
+
+## Module Overview
+
+- Conduct Agile retrospectives to analyze the improvement areas.
+- Optimize code performance and secure the software supply chain.
+- Implement a multi-environment architecture with a log aggregation system for observability.
+- Set up end-to-end release automation and explored continuous deployment with GitOps and Argo CD.
+- Implement the progressive hands-on project, HiveBox phase 6.
+- Focus areas: Planning (12.5%), Code (12.5%), Infrastructure (12.5%), Containers (12.5%), Continuous Integration (12.5%), Continuous Delivery (12.5%), and Continuous Deployment (25%).
 
 ## 6.1 Planning - Agile Retrospective
 
