@@ -1,8 +1,8 @@
 ---
 title: "DevOps Common Interview Questions"
-sidebar_label: "Interview Questions"
+sidebar_label: "Interview Common Questions"
 description: "Most common interview questions for DevOps role"
-sidebar_position: 1
+sidebar_position: 2
 toc_max_heading_level: 2
 ---
 
@@ -12,6 +12,10 @@ Preparing for the interview is as crucial as the hands-on knowledge. So you need
 Following the Agile MVP style, each module is linked to common interview questions, so you should be ready for the interview at any phase.
 
 After you finish the module content and the module project, you review the interview questions and ensure you understand each one well (but not necessarily 100%).
+
+:::tip
+The common interview questions are basic and usually used in the screening (filtering) interview phase. Once you finish them, move forward with the [Interview Scenario Based Questions](../scenario-questions)
+:::
 
 ## Module 1
 
@@ -288,3 +292,7 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 Roadmap Module: [Capstone Project](../../foundations/module-07)
 
 The questions for this section are dynamic based on the actual capstone project.
+
+---
+
+Done? Move forward with the [Interview Scenario Based Questions](../scenario-questions).

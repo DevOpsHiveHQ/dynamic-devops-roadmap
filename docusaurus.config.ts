@@ -112,7 +112,7 @@ const config: Config = {
     metadata: [
       { name: 'keywords', content: 'devops roadmap, devops, roadmap, career, career shift, sre, cloud, platform, software' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Your FREE Pragmatic Roadmap | Dynamic DevOps Roadmap' },
+      { name: 'twitter:title', content: 'A FREE Pragmatic Roadmap | Dynamic DevOps Roadmap' },
       { name: 'twitter:description', content: 'A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! (also mentorship and bootcamp)' },
     ],
     announcementBar: {
@@ -136,12 +136,6 @@ const config: Config = {
       },
       items: [
         {
-          docId: "faq/README",
-          label: 'FAQ',
-          position: "left",
-          type: "doc",
-        },
-        {
           docId: "getting-started/README",
           label: 'Getting Started',
           position: "left",
@@ -160,13 +154,28 @@ const config: Config = {
           type: "doc",
         },
         {
-          docId: "growth/README",
-          label: 'Growth',
+          label: 'More',
           position: "left",
-          type: "doc",
+          items: [
+            {
+              docId: "general/faq/README",
+              label: 'FAQ',
+              type: "doc",
+            },
+            {
+              docId: "general/learning-plan/README",
+              label: 'Learning Plan',
+              type: "doc",
+            },
+            {
+              docId: "growth/README",
+              label: 'Growth',
+              type: "doc",
+            },
+          ]
         },
         {
-          label: '⭐ Star on GitHub (1.5k+)',
+          label: '⭐ Star on GitHub (1.7k+)',
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
           position: 'right',
         },
@@ -227,7 +236,7 @@ const config: Config = {
               href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
             },
             {
-              label: 'Newsletter',
+              label: 'Community',
               href: 'https://newsletter.devopsroadmap.io/subscribe',
             },
             {

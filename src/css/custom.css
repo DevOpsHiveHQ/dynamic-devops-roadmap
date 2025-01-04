@@ -280,6 +280,41 @@ Timeline Responsive Style
   }
 }
 
+/*
+Timeline Responsive Style in Getting Started page.
+*/
+
+.getting-started .timeline .event::before {
+  left: .5px;
+  min-width: 0;
+  font-size: 14px;
+  position: initial;
+  text-align: left;
+}
+
+.getting-started .timeline .event::after {
+  top: 1.6rem;
+}
+
+.getting-started #timeline-content {
+  padding-left: 1rem;
+}
+
+.getting-started ul.timeline {
+  margin-left: 1.5rem;
+}
+
+.getting-started ul.timeline > li:first-child {
+  display: none;
+}
+
+.getting-started .timeline p {
+  padding-top: 10px
+}
+
+.getting-started .timeline .event {
+  padding-left: 0.9rem;
+}
 
 /*
 ———————————————————————

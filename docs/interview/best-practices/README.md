@@ -1,7 +1,7 @@
 ---
 title: "Interview Best Practices"
 description: "What are the pre/in/post interview best practices?"
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ## Essentials
@@ -23,9 +23,9 @@ sidebar_position: 2
 - There is no need to add unnecessary information about you, like age, marital status, etc.
 - Unless otherwise requested, always export and send your CV in PDF format so it always appears the same way for everybody.
 - Finally, ensure that your CV is readable for humans and machines (check score for ATS, Applicant Tracking System), as you don't know who will read it (**you could be easily filtered because you don't pass the initial screening**).
- 
- ### Cover Letter
- 
+
+### Cover Letter
+
 - The cover letter is usually optional, but post it anyway when applying for the job. Why would you lose a plus point?
 - Unlike the CV, which doesn't need to be changed much across job applications, the cover letter should be tailored for each application! Don't copy/paste your cover letter as it is every time!
 - Ensure to mention the position title and team in the first line of the cover letter.
@@ -33,8 +33,8 @@ sidebar_position: 2
 - Read the job description and update your cover letter to show how you are the best fit for that position.
 - Don't write the cover letter too long; it will be less likely to be read.
 - Don't repeat exactly what's in the CV.
- 
- ### LinkedIn Profile
+
+### LinkedIn Profile
 
 - The previous points are more or less applicable to the LinkedIn profile, but there are some differences here and there.
 - [Customize your LinkedIn URL](https://www.linkedin.com/help/linkedin/answer/a542685/manage-your-public-profile-url?lang=en). Remove any extra characters in the URL and just keep your name like `https://www.linkedin.com/in/john-doe`.
@@ -76,7 +76,7 @@ Remember that technical skills are easy to learn, but behavioral ones are much h
 
 ## In Interview
 
-- Remember, `First impressions are lasting`! Ensure you make a good first impression. Don't be shy or arrogant. Be motivated 
+- Remember, `First impressions are lasting`! Ensure you make a good first impression. Don't be shy or arrogant. Be motivated.
 - Be on time, and it's better to be a bit earlier (if the interview is on-site, go early 30 minutes before the interview and stay in any cafe nearby).
 and show enthusiasm.
 - Listen actively, don't rush to answer the questions, and clarify with the interviewer before you give your full answer.

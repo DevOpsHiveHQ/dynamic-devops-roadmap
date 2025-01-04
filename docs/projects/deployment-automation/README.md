@@ -1,4 +1,4 @@
---- 
+---
 title: "Use-Case Project: GitOps Continuous Deployment Automation"
 sidebar_label: "Deployment Automation"
 description: "End-to-End deployment automation using Continuous Deployment and GitOps"

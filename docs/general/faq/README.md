@@ -1,11 +1,14 @@
 ---
 title: "Frequently Asked Questions"
-sidebar_label: "FAQ"
+slug: /faq
+sidebar_label: "Frequently Asked Questions"
 sidebar_position: 1
-description: "The most common questions about Dynamic DevOps Roadmap"
+description: "The most frequently asked questions about Dynamic DevOps Roadmap"
 toc_max_heading_level: 2
 image: /img/roadmap-faq.png
 ---
+
+import Link from '@docusaurus/Link';
 
 <p align="center">
   <img class="page-cover-image" title="Frequently Asked Questions" alt="Frequently Asked Questions" border="0" src="/img/roadmap-faq.png" />
@@ -156,6 +159,7 @@ If you cannot get a **paid mentor**, try to get a **community mentor** like your
 
 <p align="center">
   <div class="buttons_src-pages-index-module">
-    <a class="button button--secondary button--lg" href="/getting-started">⚡ Get Started Now ⚡</a>
+    <Link class="button button--secondary button--lg"
+          to="/getting-started">⚡ Get Started Now ⚡</Link>
   </div>
 </p>

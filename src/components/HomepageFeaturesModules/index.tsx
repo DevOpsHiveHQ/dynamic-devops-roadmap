@@ -18,13 +18,12 @@ type FocusAreasData = {
 const FeatureList: FeatureItem[] = [
   {
     prefix: 'Kickoff',
-    title: 'Frequently Asked Questions',
-    link: '/faq',
+    title: '⚡ Getting Started ⚡',
+    link: '/getting-started',
     description: (
       <>
-        The most common questions about Dynamic DevOps Roadmap. What is the problem this roadmap is trying to solve?
-        Who is the target audience, and what is the expected timeline for finishing it?
-        And many other important areas before starting this roadmap.
+        Your entrypoint for the Dynamic DevOps Roadmap! It covers topics like before you start, learning plan,
+        the different modes of the roadmap, and the roadmap index.
       </>
     ),
     focusAreas: '',
@@ -176,7 +175,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Advanced',
-    title: 'Career Growth',
+    title: '✨ Career Growth ✨',
     link: '/growth',
     description: (
       <>

@@ -43,7 +43,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Your FREE Pragmatic Roadmap`}
+      title={`A FREE Pragmatic Roadmap`}
       description="A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! (also mentorship and bootcamp)">
       <HomepageHeader />
       <main>

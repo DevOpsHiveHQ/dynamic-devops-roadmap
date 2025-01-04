@@ -17,7 +17,7 @@ import QuizData from './module-01-quiz.json';
 
 ## Module Overview
 
-- Introduction to the DevOps paradigm and the focus areas. 
+- Introduction to the DevOps paradigm and the focus areas.
 - Relationship between DevOps, DevSecOps, and Agile in light of the Software Development Life Cycle (SDLC).
 - Implement the progressive hands-on project, HiveBox phase 1.
 - Focus areas: Software Production (50%), DevOps Methodology (50%).
