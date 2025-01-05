@@ -11,16 +11,18 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DetailedIndex from './_detailed-index.mdx';
 import {HomepageFeaturesModulesOnly as QuickIndex} from '@site/src/components/HomepageFeaturesModules';
-import tags from '../tags.json';
 import TagsFilter from '@site/src/components/TagsFilter';
+import Audience from '@site/src/components/Audience';
+import roles from '../roles.json';
 
 <p align="center">
   <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
 
-<TagsFilter tags={tags} />
+<TagsFilter />
+<Audience roles={roles} />
 
-<div class="tag-section">
+<div class="tag-section devops">
 
 ## Before you start
 
@@ -32,15 +34,7 @@ Here is a pre-start checklist:
 
 </div>
 
-<div class="tag-section devops">
-
-## Frequently Asked Questions
-
-Ensure to read the [frequently asked questions page](../faq/), it has many valuable information that you need before you start (**really, do it!**).
-
-## Learning Plan
-
-This roadmap encourages you to learn in the best way that fits you. It also provide [a generic learning plan](../learning-plan) that could help you to progress in the roadmap (however, the plan could vary [based on your background](../faq#who-is-the-target-audience-for-this-roadmap)).
+<div class="tag-section">
 
 ## How to use this roadmap?
 
@@ -96,7 +90,7 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 </div>
 
-<div class="tag-section devops">
+<div class="tag-section">
 
 ## Roadmap Index
 

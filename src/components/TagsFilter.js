@@ -1,32 +1,27 @@
 import React from 'react';
 
-function TagsFilter({ tags }) {
-  const filterSections = (tag) => {
-    const sections = document.querySelectorAll('.tag-section');
-    sections.forEach((section) => {
-      section.style.display = 'block';
-    });
-
-    if (tag === 'all') {
-      return;
+function TagsFilter() {
+  const filterSections = (e) => {
+    if (e.target.checked) {
+      document.querySelectorAll('.tag-section').forEach(section => {
+        if (section.classList.contains('devops')) {
+          section.style.opacity = 0.4;
+        } else {
+          section.style.opacity = 1;
+        }
+      })
+    } else {
+      document.querySelectorAll('.tag-section').forEach(section => {
+        section.style.opacity = 1;
+      })
     }
-    
-    sections.forEach((section) => {
-      if (section.classList.contains(tag)) {
-        section.style.display = 'block';
-      } else {
-        section.style.display = 'none';
-      }
-    });
   }
+
   return (
-    <div>
-      {tags.map((tag) => (
-        <button key={tag} onClick={() => filterSections(tag)}>
-          {tag}
-        </button>
-      ))}
-    </div>
+    <label for="filter">
+      <input type="checkbox" id="filter" onChange={filterSections} />
+      <span>Hide Detailed Devops topics</span>
+    </label>
   );
 }
 
