@@ -1,5 +1,5 @@
 [![Dynamic DevOps Roadmap](https://img.shields.io/badge/Get_Started_Now-559e11?style=for-the-badge&logo=Vercel&logoColor=white)](https://devopsroadmap.io/getting-started/)
-[![Newsletter](https://img.shields.io/badge/Newsletter-%23FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://newsletter.devopsroadmap.io/subscribe)
+[![Community](https://img.shields.io/badge/Join_Community-%23FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://newsletter.devopsroadmap.io/subscribe)
 [![Telegram Group](https://img.shields.io/badge/Telegram_Group-%232ca5e0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DevOpsHive/985)
 [![License](https://img.shields.io/github/license/DevOpsHiveHQ/dynamic-devops-roadmap?style=for-the-badge&color=ffcb00)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/Status-Ready-ffcb00?style=for-the-badge)](https://devopsroadmap.io/)
@@ -49,9 +49,8 @@ If you like this project, please [give it a star](#top) on GitHub for better vis
 
 Here is a pre-start checklist:
 
-- 📃 <a target="_blank" href="https://devopsroadmap.io/faq">Read the frequently asked questions page</a>, it has many valuable information (**really, do it!**).
 - ⭐ <a target="_blank" href="#top">Star the project repo</a> on GitHub for better visibility.
-- ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
+- ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Join the community</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
 - 🌐 <a target="_blank" href="https://t.me/DevOpsHive/985">Join the Telegram group</a> for interactive communication.
 
 ## The Problem

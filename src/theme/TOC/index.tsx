@@ -17,14 +17,14 @@ function SidebarButton() {
   return (
     <div style={divStyle}>
       <Link style={linkStyle}
-        title="Community Newsletter"
+        title="Join the Community"
         rel="noopener noreferrer"
         className="button button--secondary button--lm"
         to="https://newsletter.devopsroadmap.io/subscribe">
-        Subscribe to Community →
+        Join the Community →
       </Link>
       <Link style={linkStyle}
-        title="Community Newsletter"
+        title="Star on GitHub"
         rel="noopener noreferrer"
         className="button button--secondary button--lm"
         to="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">
