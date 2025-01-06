@@ -13,6 +13,16 @@
   </a>
 </p>
 
+<div align="center">
+
+[🌐 Website](https://devopsroadmap.io/)
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+[✉️ Community](https://newsletter.devopsroadmap.io/subscribe)
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+[💬 Telegram](https://t.me/DevOpsHive/985)
+
+</div>
+
 [Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style!
 
 > Experience-Driven DevOps: Beyond Tools, Where Concepts Meet Real-World Challenges
