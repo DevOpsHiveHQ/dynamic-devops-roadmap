@@ -65,7 +65,7 @@ The Software Development Life Cycle (SDLC) is a process or set of phases that gu
 ### Resources {#12-resources}
 
 - [The Software Development Life Cycle (SDLC) - The Product Manager](https://theproductmanager.com/topics/software-development-life-cycle/): A great resource that covers the main phases and common models of SDLC.
-- [Introduction to Software Product Management - Coursera](https://www.coursera.org/learn/introduction-to-software-product-management?specialization=product-management): 4 course that covers the foundation of software production.
+- [Introduction to Software Product Management - Coursera](https://www.coursera.org/learn/introduction-to-software-product-management?specialization=product-management): A course that covers the foundation of software production.
 
 ## 1.3 Software Production - Agile Software Development
 
