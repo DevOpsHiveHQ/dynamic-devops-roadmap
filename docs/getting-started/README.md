@@ -11,18 +11,21 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DetailedIndex from './_detailed-index.mdx';
 import {HomepageFeaturesModulesOnly as QuickIndex} from '@site/src/components/HomepageFeaturesModules';
-import TagsFilter from '@site/src/components/TagsFilter';
+import AudienceSwitch from '@site/src/components/AudienceSwitch';
 import Audience from '@site/src/components/Audience';
-import roles from '../roles.json';
+import DevopsRoleTopics from '@site/src/components/DevopsRoleTopics';
 
 <p align="center">
   <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
 
-<TagsFilter />
-<Audience roles={roles} />
+<AudienceSwitch />
 
-<div class="tag-section devops">
+## Audience
+
+<Audience roles={['devops', 'software']} />
+
+<DevopsRoleTopics>
 
 ## Before you start
 
@@ -32,9 +35,7 @@ Here is a pre-start checklist:
 - ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
 - 🌐 <a target="_blank" href="https://t.me/DevOpsHive/985">Join the Telegram group</a> for interactive communication.
 
-</div>
-
-<div class="tag-section">
+</DevopsRoleTopics>
 
 ## How to use this roadmap?
 
@@ -77,20 +78,11 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
   </TabItem>
 </Tabs>
 
-
-</div>
-
-<div class="tag-section devops">
-
 ## Study Plan
 
 <details>
   To be added.
 </details>
-
-</div>
-
-<div class="tag-section">
 
 ## Roadmap Index
 
@@ -116,4 +108,3 @@ Visit [HiveBox Project](../projects/hivebox/) if interested in the DevOps hands-
     <DetailedIndex />
   </TabItem>
 </Tabs>
-</div>
