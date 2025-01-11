@@ -36,4 +36,10 @@ This roadmap is designed for the cloud-native post-container era, which means it
 
 ## Soft Skills
 
+<p align="center">
+  <img class="section-cover-image" title="Priming Effect in Learning" alt="Priming Effect in Learning" border="0" width="90%" src="/img/priming-effect.png" />
+  <br/>
+  Working with a mentor or a peer (even on the same level) can influence the learning process and achieve better results.
+</p>
+
 Unlike many other roadmaps, this roadmap doesn't focus only on the purely technical aspects of DevOps but also includes planning and management. Another critical aspect of a successful DevOps Engineer is good communication skills! That's why it's recommended that you do this roadmap in a group. Read more [why it is not recommended to start this roadmap alone?](../../faq#why-is-it-not-recommended-to-start-this-roadmap-alone) And always remember that, DevOps is about collaboration; **DevOps Engineer is not a Lone Wolf!**
