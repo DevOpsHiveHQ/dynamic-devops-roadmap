@@ -11,19 +11,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DetailedIndex from './_detailed-index.mdx';
 import {HomepageFeaturesModulesOnly as QuickIndex} from '@site/src/components/HomepageFeaturesModules';
-import {AudienceSwitch, DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
-
-<AudienceSwitch />
 
 <p align="center">
   <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
-
-## Audience
-
-<TargetAudience roles={['devops', 'software']} />
-
-<DevOpsRoleTopics>
 
 ## Before you start
 
@@ -32,8 +23,6 @@ Here is a pre-start checklist:
 - ⭐ <a target="_blank" href="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">Star the project repo</a> on GitHub for better visibility.
 - ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
 - 🌐 <a target="_blank" href="https://t.me/DevOpsHive/985">Join the Telegram group</a> for interactive communication.
-
-</DevOpsRoleTopics>
 
 ## How to use this roadmap?
 
