@@ -19,11 +19,12 @@ import DevopsRoleTopics from '@site/src/components/DevopsRoleTopics';
   <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/dynamic-devops-roadmap-modules.png" />
 </p>
 
-<AudienceSwitch />
 
 ## Audience
 
 <Audience roles={['devops', 'software']} />
+
+<AudienceSwitch />
 
 <DevopsRoleTopics>
 
