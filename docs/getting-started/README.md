@@ -21,8 +21,16 @@ import {HomepageFeaturesModulesOnly as QuickIndex} from '@site/src/components/Ho
 Here is a pre-start checklist:
 
 - ⭐ <a target="_blank" href="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">Star the project repo</a> on GitHub for better visibility.
-- ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Subscribe to the newsletter</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
+- ✉️ <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">Join the community</a> for the project community activities, which include mentorship, job posting, online meetings, workshops, career tips and tricks, and more.
 - 🌐 <a target="_blank" href="https://t.me/DevOpsHive/985">Join the Telegram group</a> for interactive communication.
+
+## Frequently Asked Questions
+
+Ensure to read the [frequently asked questions page](../faq/), it has many valuable information that you need before you start (**really, do it!**).
+
+## Learning Plan
+
+This roadmap encourages you to learn in the best way that fits you. It also provide [a generic learning plan](../learning-plan) that could help you to progress in the roadmap (however, the plan could vary [based on your background](../faq#who-is-the-target-audience-for-this-roadmap)).
 
 ## How to use this roadmap?
 
@@ -65,25 +73,9 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
   </TabItem>
 </Tabs>
 
-## Study Plan
-
-<details>
-  To be added.
-</details>
-
 ## Roadmap Index
 
 Visit [HiveBox Project](../projects/hivebox/) if interested in the DevOps hands-on project **only**. Continue if you want the full roadmap.
-
-
-<style>
-{`
-  /* Reduce padding */
-  #timeline-content {
-    padding-left: 1rem;
-  }
-`}
-</style>
 
 <Tabs queryString="index">
   <TabItem value="quick" label="Quick Index" default>

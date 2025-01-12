@@ -1,6 +1,6 @@
 import React, { ChangeEvent } from "react";
 import { toggleDevopsSections } from "./AudienceUtils";
-import { useTopics } from "./AudienceTopicsHook";
+import { audienceTopicsHook } from "./AudienceTopicsHook";
 import styles from './Audience.module.css';
 
 const labelText = (
@@ -11,7 +11,7 @@ const labelText = (
 const toggleText = 'Hide detailed DevOps role topics'
 
 function AudienceSwitch(): JSX.Element {
-  const [checked, setChecked] = useTopics();
+  const [checked, setChecked] = audienceTopicsHook();
 
   const filterSections = (e: ChangeEvent<HTMLInputElement>): void => {
     setChecked(e.target.checked);

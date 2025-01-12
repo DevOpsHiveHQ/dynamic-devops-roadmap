@@ -2,7 +2,7 @@ import React from "react";
 
 type UseTopicsHook = [boolean, React.Dispatch<React.SetStateAction<boolean>>];
 
-export function useTopics(): UseTopicsHook {
+export function audienceTopicsHook(): UseTopicsHook {
   const [checked, setChecked] = React.useState<boolean>(false);
 
   const handleCheck = React.useCallback((e: CustomEvent<{ hideDevOpsRoleDetails: boolean }>): void => {
@@ -20,4 +20,4 @@ export function useTopics(): UseTopicsHook {
   return [checked, setChecked];
 }
 
-export default useTopics;
+export default audienceTopicsHook;
