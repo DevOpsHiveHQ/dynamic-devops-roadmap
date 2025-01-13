@@ -4,6 +4,7 @@ import { audienceTopicsHook } from "./AudienceTopicsHook";
 import styles from './Audience.module.css';
 
 const labelText = (
+  'If checked, there is no deep dive into DevOps-specialized topics. ' +
   'Use this switch to show only essential DevOps topics ' +
   'for everyone who works in software production (e.g., Software Engineers).'
 )
