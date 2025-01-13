@@ -1,0 +1,45 @@
+.moduleHeader {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+.moduleHeader > span {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex: 0 auto;
+}
+
+.moduleHeader > span:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: -16px;
+  top: 25%;
+  width: 2px;
+  height: 50%;
+  background-color: var(--ifm-link-color);
+}
+
+.backToIndex a {
+ color: unset;
+ padding-left: 2rem;
+}
+
+.backToIndex a:hover {
+  color: var(--ifm-link-color);
+  text-decoration-line: none;
+}
+
+.backToIndex a::before {
+  position: absolute;
+  content: '⬢';
+  color: var(--ifm-link-color);
+  font-size: 174%;
+  top: -12px;
+  left: 0;
+}

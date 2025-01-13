@@ -1,9 +1,9 @@
 import React from "react";
 import { toggleDevopsSections } from "./AudienceUtils";
-import { useTopics } from "./AudienceTopicsHook";
+import { audienceTopicsHook } from "./AudienceTopicsHook";
 import styles from './Audience.module.css';
 
-type Role = "devops" | "software";
+type Role = "devops" | "software" | "all"
 
 interface RolesMap {
   [key: string]: {
@@ -27,6 +27,12 @@ const rolesMap: RolesMap = {
       "applying engineering principles to meet user and business needs. " +
       "Example: Software Engineer, Developer, Backend, Frontend, etc.",
   },
+  all: {
+    name: "All Roles",
+    details:
+      "All roles who works in software production " +
+      "(e.g., Software Roles, DevOps Roles, and other roles like Product Roles).",
+  },
 };
 
 interface AudienceProps {
@@ -34,22 +40,17 @@ interface AudienceProps {
 }
 
 const TargetAudience: React.FC<AudienceProps> = ({ roles }) => {
-  const [checked, setChecked] = useTopics();
+  const [checked, setChecked] = audienceTopicsHook();
 
   const handleAudienceClick = (role: Role): void => {
-    toggleDevopsSections(!checked);
-    setChecked(!checked);
+    if (!roles.includes("all")) {
+      toggleDevopsSections(!checked);
+      setChecked(!checked);
+    }
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: "1rem",
-        marginBottom: "1rem",
-      }}
-    >
+    <div className={styles.audienceRole}>
       {roles.map((role) => (
         <button
           key={role}

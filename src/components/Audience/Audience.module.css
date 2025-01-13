@@ -5,8 +5,14 @@ AudienceSwitch
 .toggleSwitch {
   position: relative;
   display: flex;
-  gap: 3.5rem;
+  gap: 3rem;
   margin: 1rem 0;
+  cursor: pointer;
+}
+
+.toggleSwitch:hover {
+  color: var(--ifm-link-color);
+  transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
 }
 
 .toggleSwitch input {
@@ -18,22 +24,22 @@ AudienceSwitch
 .toggleSlider {
   position: absolute;
   cursor: pointer;
-  width: 54px;
-  height: 26px;
-  top: 0;
+  width: 44px;
+  height: 22px;
+  top: 2px;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
   transition: .4s;
+  border: var(--ifm-color-primary) solid 1px;
 }
 
 .toggleSlider:before {
   position: absolute;
   content: "";
-  height: 18px;
-  width: 18px;
+  height: 12px;
+  width: 12px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -50,9 +56,7 @@ input:focus+.toggleSlider {
 }
 
 input:checked+.toggleSlider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  transform: translateX(20px);
 }
 
 .toggleSlider.round {
@@ -66,8 +70,13 @@ input:checked+.toggleSlider:before {
 .toggleText::after {
   content: "ℹ️";
   padding-left: 0.5rem;
-  cursor: help;
   font-size: 85%;
+  filter: brightness(1.5) invert(0) sepia(0) hue-rotate(178deg) saturate(0);
+}
+
+.toggleText:hover::after {
+  filter: unset;
+  transition: 1s;
 }
 
 /*
