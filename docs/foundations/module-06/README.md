@@ -6,11 +6,12 @@ image: /img/reconciliation-loop.png
 toc_max_heading_level: 2
 ---
 
+import ModuleHeader from '@site/src/components/ModuleHeader';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-06-quiz.json';
-import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+<ModuleHeader />
 
 <p align="center">
   <img class="module-overview-image" alt="Module Overview" border="0" width="90%"

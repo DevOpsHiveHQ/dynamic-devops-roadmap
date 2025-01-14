@@ -4,7 +4,9 @@ description: "You finished the roadmap, what should you do now?"
 image: /img/next-steps.png
 ---
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+import ModuleHeader from '@site/src/components/ModuleHeader';
+
+<ModuleHeader />
 
 <p align="center">
   <img class="page-cover-image" alt="Next Steps" border="0" src="/img/next-steps.png" />

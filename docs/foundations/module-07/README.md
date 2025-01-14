@@ -5,10 +5,13 @@ description: "Self-driven project to put everything together and create an indus
 toc_max_heading_level: 2
 ---
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+import ModuleHeader from '@site/src/components/ModuleHeader';
+
+<ModuleHeader />
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-07-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+  src={require('./module-07-overview.png').default} />
 </p>
 
 ## Module Overview
