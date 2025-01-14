@@ -7,11 +7,13 @@ toc_max_heading_level: 2
 
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-05-quiz.json';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-05-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+    src={require('./module-05-overview.png').default} />
 </p>
 
 ## Module Overview
@@ -26,6 +28,10 @@ import QuizData from './module-05-quiz.json';
 ## 5.1 Planning - Refine the Goals and Requirements
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
+### Audience {#51-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#51-what-you-need-to-know}
 
@@ -45,6 +51,10 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
+### Audience {#52-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#52-what-you-need-to-know}
 
 - As a DevOps Engineer, you will work or integrate with external systems using code or tools. Those external systems could be third-party APIs, databases, cloud services, or microservices.
@@ -63,6 +73,10 @@ import QuizData from './module-05-quiz.json';
 - [System Integration vs Software Development - Budibase](https://budibase.com/blog/app-building/system-integration-vs-software-development/)
 
 ## 5.3 Code - Writing Integration Tests
+
+### Audience {#53-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#53-what-you-need-to-know}
 
@@ -87,6 +101,10 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
+### Audience {#54-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#54-what-you-need-to-know}
 
 - As a DevOps Engineer, you will hear (and use) the term "Infrastructure as Code" (IaC) a lot. And that's for a good reason, as it's considered one of the DevOps cores. You will also hear about tools like [Terraform](https://www.terraform.io/), [Crossplane](https://www.crossplane.io/), and [Pulumi](https://www.pulumi.com/).
@@ -106,6 +124,10 @@ import QuizData from './module-05-quiz.json';
 - [What is Infrastructure as Code with Terraform? | HashiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code)
 
 ## 5.5 Infrastructure - Terraform Essentials
+
+### Audience {#55-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#55-what-you-need-to-know}
 
@@ -132,6 +154,10 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
+### Audience {#56-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#56-what-you-need-to-know}
 
 - As the containers ecosystem grows, Kubernetes becomes the new platform. Hence, once you have a Kubernetes cluster up and running, you should do everything the Kubernetes way.
@@ -152,6 +178,10 @@ import QuizData from './module-05-quiz.json';
 ## 5.7 Observability - Log Aggregation Systems
 
 <img class="img-right" align="right" width="25%" src="/img/topics/observability.png"></img>
+
+### Audience {#57-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#57-what-you-need-to-know}
 
@@ -179,6 +209,10 @@ import QuizData from './module-05-quiz.json';
 ## 5.8 Continuous Delivery - CD Best Practices
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
+
+### Audience {#58-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#58-what-you-need-to-know}
 
