@@ -33,13 +33,14 @@
 .backToIndex a:hover {
   color: var(--ifm-link-color);
   text-decoration-line: none;
+  opacity: 0.9;
 }
 
 .backToIndex a::before {
   position: absolute;
   content: '⬢';
   color: var(--ifm-link-color);
-  font-size: 174%;
-  top: -12px;
+  font-size: 165%;
+  top: -10px;
   left: 0;
 }

@@ -13,6 +13,7 @@ AudienceSwitch
 .toggleSwitch:hover {
   color: var(--ifm-link-color);
   transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  opacity: 0.9;
 }
 
 .toggleSwitch input {
@@ -97,4 +98,12 @@ button.audienceRole {
   color: var(--ifm-color-primary);
   cursor: pointer;
   padding: 0.5rem;
+}
+
+/*
+DevOpsRoleTopics
+*/
+
+section.devops {
+  margin-top: -1rem;
 }

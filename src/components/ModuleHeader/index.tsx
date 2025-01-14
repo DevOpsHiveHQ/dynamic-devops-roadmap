@@ -6,8 +6,8 @@ const ModuleHeader = () => {
   return (
     <div className={styles.moduleHeader}>
       <span className={styles.backToIndex}>
-        <Link title="Back to the Roadmap index page." to="/getting-started#roadmap-index">
-          Back to Roadmap Index
+        <Link title="Back to the roadmap index page." to="/getting-started#roadmap-index">
+          Back to roadmap index
         </Link>
       </span>
       <span>
