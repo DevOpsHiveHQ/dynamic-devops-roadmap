@@ -6,6 +6,10 @@ sidebar_position: 5
 toc_max_heading_level: 2
 ---
 
+:::info
+**Work in progress.**
+:::
+
 ## 1.1 Introduction to Platform Engineering
 
 Platform Engineering is all about delivering platforms to users as products.
