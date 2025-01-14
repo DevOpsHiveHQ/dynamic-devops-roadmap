@@ -6,13 +6,16 @@ image: /img/reconciliation-loop.png
 toc_max_heading_level: 2
 ---
 
+import ModuleHeader from '@site/src/components/ModuleHeader';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-06-quiz.json';
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+<ModuleHeader />
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-06-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+    src={require('./module-06-overview.png').default} />
 </p>
 
 ## Module Overview
@@ -27,6 +30,10 @@ import QuizData from './module-06-quiz.json';
 ## 6.1 Planning - Agile Retrospective
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#61-what-you-need-to-know}
 
@@ -45,6 +52,10 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 ## 6.2 Code - Performance Optimization
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#62-what-you-need-to-know}
 
@@ -65,11 +76,18 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#63-what-you-need-to-know}
 
 - As mentioned at the beginning of this roadmap, security is embedded in each section and isn't treated as a separate topic. However, software supply chain security is one of the biggest threats to modern software. Hence, it's important to cover it in more detail, especially from the continuous security point of view.
 - Software Supply Chain Security refers to risks and vulnerabilities introduced through third-party software, dependencies, tools, and processes involved in developing, building, deploying, and maintaining software.
 - Implementing proper security practices in each step of the software production and SDLC reduces the risk of vulnerabilities and hacking.
+
+<DevOpsRoleTopics>
+
 - Here are the most important practices that could be embedded in the CI pipelines:
   - Starting from development, each [Git commit should be siggned](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) so other people can be confident that the changes come from a trusted source.
   - Scan the code against secrets and sensitive data to ensure that nothing is mistakenly stored on the Git repository.
@@ -83,6 +101,8 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 In general, adopt `Shift Left Security` so you run security checks early in the development process to spot vulnerabilities as soon as possible.
 - Finally, always ensure that all team members are aware of security best practices; usually, the human factor is the weakest link in the security chain!
 
+</DevOpsRoleTopics>
+
 ### Resources {#63-resources}
 
 - [What is software supply chain security? - Red Hat](https://www.redhat.com/en/topics/security/what-is-software-supply-chain-security)
@@ -92,10 +112,17 @@ In general, adopt `Shift Left Security` so you run security checks early in the 
 
 <img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#64-what-you-need-to-know}
 
 - Unless you test in production (which is really bad), one of the common tasks as a DevOps Engineer is building a multi-environment of your solution. Typically, between 2-4 environments like development, testing, staging, and production.
 - Starting from source control, for the code, there are many styles to manage multi-environment architecture. The famous (but considered legacy now) is `Gitflow` and now [Trunk-based development](https://trunkbaseddevelopment.com/), where you have a single long-lived branch (`main`) and many short-lived feature branches. It's important to decide which branching model you will use because it will affect how you build the multi-environment architecture.
+
+<DevOpsRoleTopics>
+
 - For infrastructure code, avoid branching and use a flat structure where all environments are represented as directories instead of branches.
 - Then, you need to think about environment isolation. Ideally, environments should be completely isolated, but they could not be for many reasons! For example, many start-ups want to go fast and lack the human resources to do it properly or even for cost savings.
 - The balance between isolation and cost is essential. Higher isolation levels mean higher costs, so you need to review all options and make a deliberate decision before going to full isolation. Otherwise, you could easily burn your budget without much return on investment.
@@ -107,6 +134,8 @@ In general, adopt `Shift Left Security` so you run security checks early in the 
 - You should create a cost alert in your cloud provider! If you don't, you will regret it sooner or later.
 Multi-environment setup is not a trivial topic, but like anything else, doing it progressively will help you get results quickly and improve over time.
 
+</DevOpsRoleTopics>
+
 ### Resources {#64-resources}
 
 - [Comparing Git workflows: What you should know - Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows)
@@ -117,7 +146,13 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops']} />
+
 ### What you need to know {#65-what-you-need-to-know}
+
+<DevOpsRoleTopics>
 
 - As mentioned in the previous modules, Kubernetes is one of the best tech inventions of the last ten years, having reshaped the whole tech scene. Before Kubernetes, infrastracture operations were ununified and had a lot of wheel reinvention.
 - Kubernetes comes with a set of built-in primitives like `Pod`, `Deployment`, `ConfigMap`, and, most importantly, `StatefulSet`. However, Kubernetes stateful support is generic, so it's hard to run stateful and complex applications like databases and distributed systems without much extra work.
@@ -141,6 +176,8 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 - You will mostly use an existing operator. You don't need to develop one yourself. Some common operators are [Prometheus](https://github.com/prometheus-operator/prometheus-operator), [ExternalDNS](https://github.com/kubernetes-sigs/external-dns), [Cert-Manager](https://github.com/cert-manager/cert-manager).
 - Finally, you don't need to know much about Kubernetes operators' internals as a start, but you should definitely have a good understanding of that concept as they will run in your cluster.
 
+</DevOpsRoleTopics>
+
 ### Resources {#65-resources}
 
 - [What is an Operator? - OperatorHub](https://operatorhub.io/what-is-an-operator)
@@ -151,6 +188,10 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 ## 6.6 Continuous Delivery - End-to-End Release Automation
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#66-what-you-need-to-know}
 
@@ -177,17 +218,26 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ## 6.7 Continuous Deployment - Introduction and Solutions in the Market
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#67-what-you-need-to-know}
 
 - In simple words, `Continuous Deployment` is a practice part of the CI/CD pipeline in which the code artifact is regularly deployed to different environments automatically or semi-automatically.
 - Don't mix `Continuous Deployment` with `Continuous Delivery`; the delivery part has already been covered in previous sections/modules.
 - The main goal of the CD is to shorten deployment cycles to production and deploy confidently.
+
+<DevOpsRoleTopics>
+
 - Frankly speaking, as the CD is the latest step in the pipeline, many companies don't have 100% automated Continuous Deployment. For many reasons, it's preferred to make at least one manual step with human approval, especially before deploying to the production environment. Aiming for a 90% automated CD pipeline is more than enough for most cases.
 - It's a common practice (not necessarily good) in the market to use CI tools for the CD, like GitHub Actions and Jenkins. However, a better approach is usually using a dedicated tool for CD.
 - There are two common CD models: the `Push Model` and the `Pull Model`. In the **push mode**, the CD system gets the code artifacts and pushes the update to the target environment (e.g., production servers or Kubernetes clusters). In the **pull mode**, the CD system works within the target environment, detects the changes in the code artifacts, and deploys the updates in that environment (this model is more common in the Kubernetes ecosystem).
 - There are many types of CD, like Rolling, Blue-Green, and Canary deployments.
 - Different CD systems like [Argo CD](https://argo-cd.readthedocs.io/en/stable/), [Flux CD](https://fluxcd.io/), and more exist.
 - It's better to use a Cloud-Native CD system, but in general, the system doesn't matter as long as you understand the CD principles and practices.
+
+</DevOpsRoleTopics>
 
 ### Resources {#67-resources}
 
@@ -200,7 +250,13 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
   <img class="section-cover-image" title="Reconciliation loop" alt="Reconciliation loop" border="0" width="90%" src="/img/reconciliation-loop.png"/>
 </p>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops']} />
+
 ### What you need to know {#68-what-you-need-to-know}
+
+<DevOpsRoleTopics>
 
 - As the popularity of CI/CD grew and became an industry standard, more dedicated Continuous Deployment solutions appeared (like Argo CD), and modern practices were introduced (like GitOps).
 - Let's start with `GitOps`:
@@ -215,6 +271,8 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
   - Like most (if not all) GitOps tools, at the core, it uses a declarative style to deploy any software to Kubernetes using Argo CD [Application object](https://argo-cd.readthedocs.io/en/latest/operator-manual/app-any-namespace/).
   - Even though it's recommended to use the declarative manifests to interact with Argo CD, it's still possible to use its UI. Of course, making any changes on the fly from there is against the GitOps approach (really avoid doing that).
   - Argo CD has many useful [plugins](https://argo-cd.readthedocs.io/en/stable/operator-manual/config-management-plugins/), and you can even write your own from a basic shell script, advanced code, or even your deployment tool. But before writing one, ensure that it's not already there.
+
+</DevOpsRoleTopics>
 
 :::tip
 Don't mix between "Argo CD" and other [Argo projects](https://argoproj.github.io/) like "Argo Workflows", "Argo Rollouts", and "Argo Events"! They are totally different projects serving different purposes.

@@ -4,7 +4,9 @@ description: "An overview of our Dynamic DevOps Roadmap and how this MVP-style r
 toc_max_heading_level: 2
 ---
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+import ModuleHeader from '@site/src/components/ModuleHeader';
+
+<ModuleHeader />
 
 <p align="center">
   <img class="page-cover-image" alt="Dynamic DevOps Roadmap Pillars" border="0" src="/img/dynamic-devops-roadmap-pillars.png" />

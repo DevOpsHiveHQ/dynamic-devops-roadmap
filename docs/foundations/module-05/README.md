@@ -5,13 +5,16 @@ description: "Refine goals, integrate code with external systems, and write inte
 toc_max_heading_level: 2
 ---
 
+import ModuleHeader from '@site/src/components/ModuleHeader';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-05-quiz.json';
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+<ModuleHeader />
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-05-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+    src={require('./module-05-overview.png').default} />
 </p>
 
 ## Module Overview
@@ -26,6 +29,10 @@ import QuizData from './module-05-quiz.json';
 ## 5.1 Planning - Refine the Goals and Requirements
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
+### Audience {#51-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#51-what-you-need-to-know}
 
@@ -45,6 +52,10 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
+### Audience {#52-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#52-what-you-need-to-know}
 
 - As a DevOps Engineer, you will work or integrate with external systems using code or tools. Those external systems could be third-party APIs, databases, cloud services, or microservices.
@@ -63,6 +74,10 @@ import QuizData from './module-05-quiz.json';
 - [System Integration vs Software Development - Budibase](https://budibase.com/blog/app-building/system-integration-vs-software-development/)
 
 ## 5.3 Code - Writing Integration Tests
+
+### Audience {#53-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#53-what-you-need-to-know}
 
@@ -87,6 +102,10 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
+### Audience {#54-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#54-what-you-need-to-know}
 
 - As a DevOps Engineer, you will hear (and use) the term "Infrastructure as Code" (IaC) a lot. And that's for a good reason, as it's considered one of the DevOps cores. You will also hear about tools like [Terraform](https://www.terraform.io/), [Crossplane](https://www.crossplane.io/), and [Pulumi](https://www.pulumi.com/).
@@ -96,9 +115,14 @@ import QuizData from './module-05-quiz.json';
   - **Idempotent**: IaC works better when it's idempotent, which means it can produce the same outcome every time it runs. This reduces the risk of errors with every run, makes the outcome always predictable, and avoids side effects.
   - **Declarative**: IaC works better when it's declarative (opposite to imperative) because that approach simplifies using IaC and moves the control flow logic to the IaC tool instead of dealing with it every time in the IaC.
   - **Domain-specific language (DSL)**: There are two approaches to writing IaC: either using tools that utilize DSLs like Terraform and Crossplane or using tools that utilize programming languages like Pulumi and AWS CDK.
+
+<DevOpsRoleTopics>
+
 - Without going into much detail about [what's declarative and what's not](https://leebriggs.co.uk/blog/2022/07/20/nobody-knows-what-declarative-is) ... you should look for tools that allow you to state how you want your infrastructure to look like [Terraform](https://www.terraform.io/) or [Crossplane](https://www.crossplane.io/) and use DSL for simplicity.
 - In all cases, using imperative scripts in any language (Bash, Python, etc.) is not recommended; that's not the ideal IaC and will hit you hard in the future when you try to automate the IaC via GitOps (it will be covered in the following modules).
 - Finally, in the current container era, Configuration Management tools like Ansible and SaltStack are less and less used in favor of a container ecosystem. In this roadmap, we will not cover them; learn one of them when you need it (Ansible is highly recommended).
+
+</DevOpsRoleTopics>
 
 ### Resources {#54-resources}
 
@@ -107,7 +131,13 @@ import QuizData from './module-05-quiz.json';
 
 ## 5.5 Infrastructure - Terraform Essentials
 
+### Audience {#55-audience}
+
+<TargetAudience roles={['devops']} />
+
 ### What you need to know {#55-what-you-need-to-know}
+
+<DevOpsRoleTopics>
 
 - Terraform is one of the key players in the infrastructure-as-code market. It's arguably the most popular IaC tool with multi-cloud support.
 - Terraform is known for the following:
@@ -122,6 +152,8 @@ import QuizData from './module-05-quiz.json';
 - Remember to apply and enforce Terraform best practices in your CI pipelines, such as validating, formatting, linting, and securing Terraform IaC.
 - Terraform is a big topic, but that's the starting point. As usual, start small and expand.
 
+</DevOpsRoleTopics>
+
 ### Resources {#55-resources}
 
 - [Terraform Tutorial – Getting Started With Terraform - Spacelift](https://spacelift.io/blog/terraform-tutorial)
@@ -132,7 +164,13 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
+### Audience {#56-audience}
+
+<TargetAudience roles={['devops']} />
+
 ### What you need to know {#56-what-you-need-to-know}
+
+<DevOpsRoleTopics>
 
 - As the containers ecosystem grows, Kubernetes becomes the new platform. Hence, once you have a Kubernetes cluster up and running, you should do everything the Kubernetes way.
 - There are many tools for Kubernetes configuration management, but the most popular are:
@@ -141,6 +179,8 @@ import QuizData from './module-05-quiz.json';
   - [Helm](https://helm.sh/): It is not part of the Kubernetes project, but it's a de facto standard tool that uses a template approach. A chart contains templates with placeholders that are replaced when it's rendered.
 - You will probably use more than one tool to manage Kubernetes configuration.
 - Always remember that Kubernetes configuration is still an Infrastructure as Code, and it should follow the same practices mentioned in the previous sections, like using a declarative approach and always keeping automation in mind, even if you haven't used any automation yet.
+
+</DevOpsRoleTopics>
 
 ### Resources {#56-resources}
 
@@ -153,6 +193,10 @@ import QuizData from './module-05-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/observability.png"></img>
 
+### Audience {#57-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#57-what-you-need-to-know}
 
 - Logging is the second pillar of observability (`logs`, `metrics`, and `traces`). As mentioned before, each one works differently and serves a different purpose.
@@ -162,13 +206,19 @@ import QuizData from './module-05-quiz.json';
 - Usually, you don't want to alert on the logs if the metrics are already available. Still, you will need to do that in many cases, like when the application metrics are limited or when watching certain log patterns (e.g., repeated errors or failed service calls).
 - A centralized logs system will simplify access, debugging, and correlating events across systems. It will also be easier to manage log retention.
 - There are different types of logs: `Structured`, `Unstructured`, and `Semi-Structured`, learn about each one.
+
+<DevOpsRoleTopics>
+
 - The following are some essential points to remember when working with logs:
- - Always use the `Structured` whenever supported because it makes everything easier (store, query, and analysis).
- - Avoid parsing logs with regex as much as possible. First, check if the log type already has a parser.
- - Enrich logs with all needed metadata to be independent so that at any point in time, it's possible to understand them with no or minimal background about the logs producer.
- - Ensure that sensitive information (e.g., personal data, credentials) is anonymized before being stored and that you follow compliance regulations like GDPR.
- - Capture relevant logs only; otherwise, you will end up with a log swamp. That will reduce costs and make search in logs more efficient.
+  - Always use the `Structured` whenever supported because it makes everything easier (store, query, and analysis).
+  - Avoid parsing logs with regex as much as possible. First, check if the log type already has a parser.
+  - Enrich logs with all needed metadata to be independent so that at any point in time, it's possible to understand them with no or minimal background about the logs producer.
+  - Ensure that sensitive information (e.g., personal data, credentials) is anonymized before being stored and that you follow compliance regulations like GDPR.
+  - Capture relevant logs only; otherwise, you will end up with a log swamp. That will reduce costs and make search in logs more efficient.
 - There are many logging solutions on the market, but if you have the choice, stick with the Cloud provider logging service or [Grafana Loki](https://grafana.com/oss/loki/).
+
+</DevOpsRoleTopics>
+
 
 ### Resources {#57-resources}
 
@@ -179,6 +229,10 @@ import QuizData from './module-05-quiz.json';
 ## 5.8 Continuous Delivery - CD Best Practices
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
+
+### Audience {#58-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#58-what-you-need-to-know}
 

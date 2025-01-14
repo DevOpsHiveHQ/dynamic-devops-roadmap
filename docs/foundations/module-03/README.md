@@ -5,13 +5,16 @@ description: "Define goals, prioritize requirements, dive into code modularity, 
 toc_max_heading_level: 2
 ---
 
+import ModuleHeader from '@site/src/components/ModuleHeader';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-03-quiz.json';
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+<ModuleHeader />
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-03-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+    src={require('./module-03-overview.png').default} />
 </p>
 
 ## Module Overview
@@ -24,6 +27,10 @@ import QuizData from './module-03-quiz.json';
 ## 3.1 Planning - Define Goals and Requirements
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
+### Audience {#31-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#31-what-you-need-to-know}
 
@@ -39,10 +46,13 @@ import QuizData from './module-03-quiz.json';
 - [Top five causes of scope creep and what to do about them - Project Management Institute](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)
 - [Leadership - Managers of One - The GitLab Handbook](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)
 
-
 ## 3.2 Code - Modularity and Reusability
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
+
+### Audience {#32-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#32-what-you-need-to-know}
 
@@ -58,6 +68,10 @@ import QuizData from './module-03-quiz.json';
 - [The Zen of Python](https://peps.python.org/pep-0020/): Python has some great guiding principles for developers that could be applied to any code.
 
 ## 3.3 Code - Testing and Quality Assurance
+
+### Audience {#33-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#33-what-you-need-to-know}
 
@@ -82,6 +96,12 @@ import QuizData from './module-03-quiz.json';
 
 ## 3.4 Code - Writing Unit Tests
 
+### Audience {#34-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
+### What you need to know {#34-what-you-need-to-know}
+
 - As mentioned before, **Unit Testing** focuses on testing individual components, modules, or functions/methods of the code to ensure they work correctly in isolation.
 - Understanding unit testing, in general, is essential and as a DevOps engineer, you should be able to write unit tests in your main coding language.
 - The unit test of any code is a good entry point to understanding any new code.
@@ -89,16 +109,18 @@ import QuizData from './module-03-quiz.json';
 - Your unit test should cover most of your code, however, 100% of unit test code coverage is usually unrealistic and doesn't provide much value.
 - Always remember, unit test is a helper code written to ensure the main code is working as expected, hence, unit test code should be super simple and doesn't contain much logic in it.
 
-### What you need to know {#34-what-you-need-to-know}
+### Resources {#34-resources}
 
 - [Unit Testing: Principles, Benefits & 6 Quick Best Practices - Codefresh](https://codefresh.io/learn/unit-testing/)
 - [Unit Testing and Coding: Why Testable Code Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 
-### Resources {#34-resources}
-
 ## 3.5 Containers - Docker Best Practices
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
+
+### Audience {#35-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#35-what-you-need-to-know}
 
@@ -123,6 +145,10 @@ import QuizData from './module-03-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
 
+### Audience {#36-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#36-what-you-need-to-know}
 
 - In simple words, `Continuous Integration` is a practice where the code changes are regularly merged into a shared repository, and each merge triggers an automated build and testing process, allowing teams to detect errors quickly, ensure code quality, and facilitate the integration of new features.
@@ -138,6 +164,10 @@ import QuizData from './module-03-quiz.json';
 - [7 CI/CD Concepts You Must Know - Codefresh](https://codefresh.io/learn/ci-cd/7-ci-cd-concepts-you-must-know/)
 
 ## 3.7 Continuous Integration - GitHub Actions Essentials
+
+### Audience {#37-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#37-what-you-need-to-know}
 
@@ -157,6 +187,10 @@ import QuizData from './module-03-quiz.json';
 - [How to build a CI/CD pipeline with GitHub Actions in four simple steps - GitHub Blog](https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/)
 
 ## 3.8 Continuous Integration - Pipelines and Quality Gates
+
+### Audience {#38-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#38-what-you-need-to-know}
 
