@@ -3,11 +3,14 @@ sidebar_label: DevOps
 title: DevOps - Advanced
 description: Advanced DevOps topics
 sidebar_position: 1
+toc_max_heading_level: 2
 ---
 
 This section will cover advanced DevOps topics like DevOps Transformation.
 
+:::info
 **Work in progress.**
+:::
 
 ---
 

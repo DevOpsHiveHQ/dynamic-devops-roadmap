@@ -3,11 +3,14 @@ sidebar_label: DevSecOps
 title: DevSecOps - Advanced
 description: Advanced DevSecOps topics
 sidebar_position: 2
+toc_max_heading_level: 2
 ---
 
 This section will cover advanced DevSecOps topics like DevSecOps Transformation and end-to-end vulnerability management.
 
+:::info
 **Work in progress.**
+:::
 
 ---
 

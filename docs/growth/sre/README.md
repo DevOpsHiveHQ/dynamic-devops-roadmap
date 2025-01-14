@@ -3,11 +3,14 @@ sidebar_label: SRE
 title: Site Reliability Engineering (SRE) - Advanced
 description: Advanced SRE topics
 sidebar_position: 4
+toc_max_heading_level: 2
 ---
 
 This section will cover advanced SRE topics like SRE Transformation, Service Metrics (SLA, SLO, SLI), and Capacity Planning.
 
+:::info
 **Work in progress.**
+:::
 
 ---
 

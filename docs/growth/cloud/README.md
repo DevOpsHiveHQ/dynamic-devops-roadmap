@@ -3,11 +3,14 @@ sidebar_label: Cloud
 title: Cloud Engineering - Advanced
 description: Advanced Cloud Engineering topics
 sidebar_position: 3
+toc_max_heading_level: 2
 ---
 
 This section will cover advanced Cloud Engineering topics like Multi Cloud, Cloud Agnosticism, and Edge Computing.
 
-**Work in progress**
+:::info
+**Work in progress.**
+:::
 
 ---
 
