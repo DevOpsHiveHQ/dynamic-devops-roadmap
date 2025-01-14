@@ -6,10 +6,12 @@ image: /img/devops-methodology-pillars-preview.png
 toc_max_heading_level: 2
 ---
 
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
+import ModuleHeader from '@site/src/components/ModuleHeader';
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-01-quiz.json';
 
-[🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
+<ModuleHeader />
 
 <p align="center">
   <img class="module-overview-image" alt="Module Overview" border="0" src={require('./module-01-overview.png').default} />
@@ -29,6 +31,10 @@ import QuizData from './module-01-quiz.json';
 DevOps methodology is a set of `Practices`, `Tools`, `Culture`, and, most importantly, `Mindset` aiming to improve collaboration and communication between software development (Dev) and operations (Ops) teams. It seeks to dismantle the conventional operational silos. It promotes a collaborative, automated, and sustainable culture, which enhances the efficiency of the whole software development lifecycle (starting from planning, coding, testing, deployment, and operations).
 
 In conclusion, adopting DevOps enhances collaboration between teams, enhances feedback loops, ensures faster time to market, improves quality, increases reliability and stability, increases cost efficiency, and, first and foremost, aligns the tech goals with the business objectives.
+
+### Audience {#11-audience}
+
+<TargetAudience roles={['devops', 'software', 'all']} />
 
 ### What you need to know {#11-what-you-need-to-know}
 

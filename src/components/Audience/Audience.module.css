@@ -1,0 +1,100 @@
+/*
+AudienceSwitch
+*/
+
+.toggleSwitch {
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.toggleSwitch:hover {
+  color: var(--ifm-link-color);
+  transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.toggleSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggleSlider {
+  position: absolute;
+  cursor: pointer;
+  width: 44px;
+  height: 22px;
+  top: 2px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border: var(--ifm-color-primary) solid 1px;
+}
+
+.toggleSlider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.toggleSlider {
+  background-color: var(--ifm-color-primary);
+}
+
+input:focus+.toggleSlider {
+  box-shadow: 0 0 1px var(--ifm-color-primary);
+}
+
+input:checked+.toggleSlider:before {
+  transform: translateX(20px);
+}
+
+.toggleSlider.round {
+  border-radius: 34px;
+}
+
+.toggleSlider.round:before {
+  border-radius: 50%;
+}
+
+.toggleText::after {
+  content: "ℹ️";
+  padding-left: 0.5rem;
+  font-size: 85%;
+  filter: brightness(1.5) invert(0) sepia(0) hue-rotate(178deg) saturate(0);
+}
+
+.toggleText:hover::after {
+  filter: unset;
+  transition: 1s;
+}
+
+/*
+TargetAudience
+*/
+
+div.audienceRole {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+button.audienceRole {
+  background: var(--ifm-color-light);
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  padding: 0.5rem;
+}
