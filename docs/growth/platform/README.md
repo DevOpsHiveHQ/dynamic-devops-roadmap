@@ -3,11 +3,14 @@ sidebar_label: Platform
 title: Platform Engineering - Advanced
 description: Advanced Platform Engineering topics
 sidebar_position: 5
+toc_max_heading_level: 2
 ---
 
 ## 1.1 Introduction to Platform Engineering
 
-Platform Engineering is all about delivering platforms to users as products. These users are usually developers themselves, yet they need tooling for their day-to-day work, such as source hosting platforms, task management, or documentation. As a Platform Engineer, you will be tasked with delivering and supporting these platforms' reliability and having a product-centric mindset, as this helps deliver the best experiences for the end users of these platforms.
+Platform Engineering is all about delivering platforms to users as products.
+These users are usually developers themselves, yet they need tooling for their day-to-day work, such as source hosting platforms, task management, or documentation.
+As a Platform Engineer, you will be tasked with delivering and supporting these platforms' reliability and having a product-centric mindset, as this helps deliver the best experiences for the end users of these platforms.
 
 ### What you need to know {#11-what-you-need-to-know}
 
