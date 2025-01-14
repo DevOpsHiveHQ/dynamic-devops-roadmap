@@ -8,11 +8,13 @@ toc_max_heading_level: 2
 
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-02-quiz.json';
+import {TargetAudience} from '@site/src/components/Audience';
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-02-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+    src={require('./module-02-overview.png').default} />
 </p>
 
 ## Module Overview
@@ -31,6 +33,10 @@ If you come from a development background, you can use any language you know. Py
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
+### Audience {#21-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#21-what-you-need-to-know}
 
 - As a start, you need to learn a real programming langauge.
@@ -45,6 +51,10 @@ If you come from a development background, you can use any language you know. Py
 - [Python Track - Exercism](https://exercism.org/tracks/python): More than 130 exercises grouped into 16 Python concepts with code analysis (finish only the `Learning Exercise`).
 
 ## 2.2 Code - Common Development Tools
+
+### Audience {#22-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#22-what-you-need-to-know}
 
@@ -64,6 +74,10 @@ If you come from a development background, you can use any language you know. Py
 
 ## 2.3 Code - Git Basics
 
+### Audience {#23-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#23-what-you-need-to-know}
 
 - When you create the code, you need to store it in a safe place using a Source Code Management (SCM) system.
@@ -81,6 +95,10 @@ If you come from a development background, you can use any language you know. Py
 
 <img class="img-right" align="right" width="25%" src="/img/topics/operating-system.png"></img>
 
+### Audience {#24-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#24-what-you-need-to-know}
 
 - In the servers world, Linux dominates the market. So it's necessary to learn and use Linux OS as a DevOps Engineer.
@@ -97,6 +115,10 @@ If you come from a development background, you can use any language you know. Py
 
 ## 2.5 Operating System - Common Tools and Commands
 
+### Audience {#25-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#25-what-you-need-to-know}
 
 - As mentioned, the terminal is your friend! The power of Linux is in the Terminal and you need to be used to it be because you will use it on a daily basis.
@@ -111,6 +133,10 @@ If you come from a development background, you can use any language you know. Py
 - [20 Linux commands every sysadmin should know - Opensource.com](https://opensource.com/article/17/7/20-sysadmin-commands): Another post about handy CLI tools.
 
 ## 2.6 Operating System - Bash Scripting Basics
+
+### Audience {#26-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#26-w6at-you-need-to-know}
 
@@ -129,6 +155,10 @@ If you come from a development background, you can use any language you know. Py
 ## 2.7 Containers - Docker Fundamentals
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
+
+### Audience {#27-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#27-what-you-need-to-know}
 
@@ -150,6 +180,10 @@ If you come from a development background, you can use any language you know. Py
 - [Learn Docker in 2 Hours - KodeKloud](https://www.youtube.com/watch?v=zJ6WbK9zFpI): A crash course covers a full overview of all the Docker fundamentals.
 
 ## 2.8 Containers - Docker CLI Basics
+
+### Audience {#28-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#28-what-you-need-to-know}
 
