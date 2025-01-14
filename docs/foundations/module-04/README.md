@@ -7,11 +7,13 @@ toc_max_heading_level: 2
 
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-04-quiz.json';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
 <p align="center">
-  <img class="module-overview-image" alt="Module Overview" border="0" width="90%" src={require('./module-04-overview.png').default} />
+  <img class="module-overview-image" alt="Module Overview" border="0" width="90%"
+    src={require('./module-04-overview.png').default} />
 </p>
 
 ## Module Overview
@@ -27,6 +29,10 @@ import QuizData from './module-04-quiz.json';
 ## 4.1 Planning - Review the Goals and Requirements
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
+
+### Audience {#41-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#41-what-you-need-to-know}
 
@@ -46,6 +52,10 @@ import QuizData from './module-04-quiz.json';
 ## 4.2 Code - Twelve-Factor App Methodology
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
+
+### Audience {#42-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#42-what-you-need-to-know}
 
@@ -74,6 +84,10 @@ import QuizData from './module-04-quiz.json';
 
 ## 4.3 Code - REST API Best Practices
 
+### Audience {#43-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#43-what-you-need-to-know}
 
 - In Linux/Unix, you probably heard that `Everything is a file`. In Kubernetes and many other modern software, `Everything is an API`!
@@ -91,6 +105,10 @@ import QuizData from './module-04-quiz.json';
 ## 4.4 Continuous Integration - CI Best Practices
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
+
+### Audience {#44-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#44-what-you-need-to-know}
 
@@ -115,6 +133,10 @@ import QuizData from './module-04-quiz.json';
 ## 4.5 Containers - Kubernetes Overview and Core Concepts
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
+
+### Audience {#45-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#45-what-you-need-to-know}
 
@@ -156,6 +178,10 @@ import QuizData from './module-04-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/observability.png"></img>
 
+### Audience {#46-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#46-what-you-need-to-know}
 
 - A wise person once said, "**You can't manage what you can't measure.**" Maybe it's not always the case, but in the DevOps world, observability plays a major role. Basically, if you don't monitor your managed resources, you will just be walking into darkness!
@@ -176,6 +202,10 @@ import QuizData from './module-04-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
 
+### Audience {#47-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#47-what-you-need-to-know}
 
 - In simple words, `Continuous Delivery` is a practice where code changes are automatically prepared for release to multiple environments, especially production. This involves deploying all code changes to a testing environment and then to a production-like environment after passing automated tests, ensuring the software is always in a deployable state.
@@ -194,6 +224,10 @@ import QuizData from './module-04-quiz.json';
 ## 4.8 Infrastructure - Cloud Computing and Cloud Native Applications
 
 <img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
+
+### Audience {#48-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#48-what-you-need-to-know}
 
