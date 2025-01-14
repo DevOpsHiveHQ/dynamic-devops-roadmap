@@ -142,7 +142,6 @@ import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 
 - Arguably, Kubernetes is one of the best tech inventions of the last ten years, having reshaped the whole tech scene. But first, we need to know what problem Kubernetes is trying to solve.
 - The [CNCF Annual Survey 2022](https://www.cncf.io/reports/cncf-annual-survey-2022/) showed a segneficat year-over-year (YOY) increase of using Kubernetes in production. And [CNCF Annual Survey 2023](https://www.cncf.io/reports/cncf-annual-survey-2023/) showed even more rapid adoption of Kubernetes.
-
 - When the Docker container was introduced in 2013, and many companies adopted the new technology, everything changed, from developing code to working in containers to deploying, monitoring, and operating the software.
 - Hence, the need for a new system emerged to deal with this new ecosystem. And that is exactly what happened. Many systems were born to solve this problem ... "How to manage the containers [in production]?" which implies "How to create and manage Cloud-native software?".
 - Many systems entered the race, and Kubernetes was the winning horse. Since then, Kubernetes (aka K8s) has been the leading container management platform.
@@ -154,6 +153,9 @@ import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
   - Increased productivity and speed up the development cycle.
   - Efficiency in managing infrastructure and reducing costs.
   - Scalability and modularity are supported efficiently.
+
+<DevOpsRoleTopics>
+
 - Kubernetes has become the *de facto* standard for container orchestration and is widely adopted in private and public sectors. According to a survey by the [Cloud Native Computing Foundation (CNCF) 2023](https://www.cncf.io/reports/cncf-annual-survey-2023/), **66% of consumers were using Kubernetes in production** and **18% were evaluating it** (84% total).
 
 <img title="Kubernetes Core Concepts" alt="Kubernetes Core Concepts" class="img-right img-round-corners" align="right" width="40%" src={require('./4.5-kubernetes-core-concepts.png').default} ></img>
@@ -167,6 +169,8 @@ import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
   - **Node:** The computing unit in Kubernetes is easily thought of as one individual machine that runs Pods.
   - **Pod:** A logical host with a collection of one or more containers, the smallest computing unit in Kubernetes.
 - In the next module, we will dive more into Kubernetes and how to use it.
+
+</DevOpsRoleTopics>
 
 ### Resources {#45-resources}
 
@@ -187,9 +191,14 @@ import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 - A wise person once said, "**You can't manage what you can't measure.**" Maybe it's not always the case, but in the DevOps world, observability plays a major role. Basically, if you don't monitor your managed resources, you will just be walking into darkness!
 - As a start, you need to know the 3 pillars of observability which are `logs`, `metrics`, and `traces`. Each one of them works differently and serves a different purpose.
 - Observability is crucial for both application and infrastructure. DevOps teams can detect and troubleshoot issues faster, ensuring higher reliability and stability.
+
+<DevOpsRoleTopics>
+
 - Ultimately, observability helps to reduce downtime, enhance user experience, and optimize resource utilization and costs.
 - Like everything in this roadmap, start small, then expand. Start with essential metrics monitoring and basic alerts, then add more of the observability components.
 - The most known open-source tools in this domain are [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/).
+
+</DevOpsRoleTopics>
 
 ### Resources {#46-resources}
 
@@ -212,9 +221,12 @@ import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 - Following CD practices allows teams to deliver new features and bug fixes more safely and quickly to users, reducing the risk of deployment errors.
 - It's important to know that `CD` could refer to two different things: `Continuous Delivery` and `Continuous Deployment`. They are usually used interchangeably, but in reality, they are two different stages.
 - In many cases, the same [Continuous Integration solutions](../module-03#36-continuous-integration---introduction-and-solutions-in-the-market) could be used for continuous delivery/deployment; however, there are specialized solutions that work best for CD.
-- There are different CD systems, most famous ones within the Kubernetes ecosystem are [Argo CD](https://argo-cd.readthedocs.io/) (we will use that one) and [Flux CD](https://fluxcd.io/).
 - The system doesn't matter as long as you understand the CD principles.
 - The CD is a critical practice for modern software development for faster delivery. However, using a dedicated system could be postponed until your project is more mature. So, until then, use the CI solution as a start for the CD.
+
+:::info
+Continuous Deployment is covered in the module 6.
+:::
 
 ### Resources {#47-resources}
 
