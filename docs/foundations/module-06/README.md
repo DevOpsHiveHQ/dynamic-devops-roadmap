@@ -8,6 +8,7 @@ toc_max_heading_level: 2
 
 import Quiz from '@site/src/components/Quiz';
 import QuizData from './module-06-quiz.json';
+import {DevOpsRoleTopics, TargetAudience} from '@site/src/components/Audience';
 
 [🗂 Back to the Roadmap Index](../../getting-started#roadmap-index)
 
@@ -28,6 +29,10 @@ import QuizData from './module-06-quiz.json';
 
 <img class="img-right" align="right" width="25%" src="/img/topics/planning.png"></img>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#61-what-you-need-to-know}
 
 - By design, Agile is meant to be iterative. Hence, it's critical to review `what went well` and `what could be enhanced`.
@@ -45,6 +50,10 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 ## 6.2 Code - Performance Optimization
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#62-what-you-need-to-know}
 
@@ -64,6 +73,10 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 ## 6.3 Continuous Integration - Software Supply Chain Security
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#63-what-you-need-to-know}
 
@@ -92,6 +105,10 @@ In general, adopt `Shift Left Security` so you run security checks early in the 
 
 <img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#64-what-you-need-to-know}
 
 - Unless you test in production (which is really bad), one of the common tasks as a DevOps Engineer is building a multi-environment of your solution. Typically, between 2-4 environments like development, testing, staging, and production.
@@ -116,6 +133,10 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 ## 6.5 Containers - Kubernetes Operators
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#65-what-you-need-to-know}
 
@@ -152,6 +173,10 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#66-what-you-need-to-know}
 
 - Before diving into Continuous Deployment, we need to have a look at Continuous Delivery end-to-end release automation, which is the process of producing products ready for deployment.
@@ -177,6 +202,10 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ## 6.7 Continuous Deployment - Introduction and Solutions in the Market
 
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
+
 ### What you need to know {#67-what-you-need-to-know}
 
 - In simple words, `Continuous Deployment` is a practice part of the CI/CD pipeline in which the code artifact is regularly deployed to different environments automatically or semi-automatically.
@@ -199,6 +228,10 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 <p align="center">
   <img class="section-cover-image" title="Reconciliation loop" alt="Reconciliation loop" border="0" width="90%" src="/img/reconciliation-loop.png"/>
 </p>
+
+### Audience {#61-audience}
+
+<TargetAudience roles={['devops', 'software']} />
 
 ### What you need to know {#68-what-you-need-to-know}
 
