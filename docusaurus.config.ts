@@ -30,7 +30,7 @@ const config: Config = {
   },
 
   customFields: {
-    description: 'A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! A DevOps Engineer or Software Engineer, this roadmap is all that you need to start, grow, and expand!',
+    description: 'A FREE Pragmatic DevOps learning to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! A DevOps Engineer or Software Engineer, this roadmap is all that you need to start, grow, and expand!',
   },
 
   presets: [
@@ -113,7 +113,7 @@ const config: Config = {
       { name: 'keywords', content: 'devops roadmap, devops, roadmap, career, career shift, sre, cloud, platform, software' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: 'A FREE Pragmatic Roadmap | Dynamic DevOps Roadmap' },
-      { name: 'twitter:description', content: 'A FREE pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! (also mentorship and bootcamp)' },
+      { name: 'twitter:description', content: 'A FREE Pragmatic DevOps learning to kickstart your DevOps career in the Cloud Native era following the Agile MVP style! (also mentorship and bootcamp)' },
     ],
     announcementBar: {
       id: 'announcement',

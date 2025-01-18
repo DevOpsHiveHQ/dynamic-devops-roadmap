@@ -23,7 +23,7 @@
 
 </div>
 
-[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** pragmatic DevOps roadmap to kickstart your DevOps career in the Cloud Native era following the Agile MVP style!
+[Dynamic DevOps Roadmap](https://devopsroadmap.io/) is a **FREE** pragmatic DevOps learning to kickstart your DevOps career in the Cloud Native era following the Agile MVP style!
 
 > Experience-Driven DevOps: Beyond Tools, Where Concepts Meet Real-World Challenges
 
