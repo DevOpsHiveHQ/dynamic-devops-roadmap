@@ -14,7 +14,7 @@ import ModuleHeader from '@site/src/components/ModuleHeader';
 
 ## Overview
 
-Starting a DevOps engineer role is challenging because the DevOps model has various implementations and patterns. It's even more complicated (but still possible) if that's your first job without previous software industry experience. Yet, many roadmaps like [roadmap.sh/devops](https://roadmap.sh/devops) still follow a linear path (i.e., learn some topic to the end, then move to another, and so on). This doesn't work well in the DevOps role because a DevOps engineer should have knowledge about a wide range of topics related to development and operations.
+Starting a DevOps engineer role is challenging because the DevOps model has various implementations and patterns. It's even more complicated (but still possible) if that's your first job without previous software industry experience. Yet, many roadmaps like [roadmap.sh/devops](https://roadmap.sh/devops) still follow a linear path (i.e., learn some topic to the end, then move to another, and so on). This doesn't work well in the DevOps role because a DevOps engineer should know a wide range of topics related to development and operations.
 
 Adopting a non-linear learning roadmap (i.e., learning the use case and the concept behind it before learning the tools and improving the outcome continuously) increases your chances of entering the market and starting your first job as a DevOps engineer without previous software hands-on experience (although, in some cases, it could not be recommended to start a DevOps role as your first job).
 
@@ -28,9 +28,9 @@ This roadmap is designed as a hands-on and progressive project. It's not just ab
 
 ## Focus Areas
 
-Technically, the roadmap focuses on the typical DevOps Engineer working for a software company, yet it still shares at least 90% of the needed skills with other roles like Cloud Engineer, Platform Engineer, and Site reliability Engineer.
+Technically, the roadmap focuses on the typical DevOps Engineer working for a software company. Yet, it still shares at least 90% of the needed skills with other roles like Cloud Engineer, Platform Engineer, and Site Reliability Engineer.
 
-The roadmap has a [multiphase industry-grad project](../../projects/hivebox) that follows the `Learning by Doing` method (aka `Problem-based Learning`), which is also done in iterative phases where in each module you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure. Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+The roadmap has a [multiphase industry-grade project](../../projects/hivebox) that follows the `Learning by Doing` method (aka `Problem-based Learning`), which is also done in iterative phases where in each module you learn as you go and cover the whole DevOps cycle like Code, Containers, Testing, Continuous Integration, Continuous Delivery, Observability, and Infrastructure. Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
 
 ## DevOps Topology
 
