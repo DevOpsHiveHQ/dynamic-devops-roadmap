@@ -47,6 +47,9 @@ import QuizData from './module-05-quiz.json';
 
 - [Backlog Refinement Guide: How to & tips to be successful - Atlassian](https://www.atlassian.com/agile/scrum/backlog-refinement)
 - [5 Strategies for Product Backlog Refinement - Scrum.org](https://www.scrum.org/resources/blog/5-strategies-product-backlog-refinement)
+- [Microservices are small, autonomous services that work together](https://www.youtube.com/watch?v=GBTdnfD6s5Q)
+- [Microservices - Martin Fowler - GOTO 2014](https://www.youtube.com/watch?v=wgdBVIX9ifA)
+- [Microservices • Martin Fowler • YOW! 2016](https://www.youtube.com/watch?v=z8qhToMtYRc)
 
 ## 5.2 Code - Working with External Systems
 
