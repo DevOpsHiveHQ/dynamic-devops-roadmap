@@ -19,7 +19,7 @@
   --ifm-background-color: #fff;
 }
 
-[data-theme='light'] .page-cover-image, .section-cover-image {
+[data-theme='light'] .page-cover-image, .section-cover-image, .module-quiz-image {
   box-shadow: 0 0 0.2rem 0rem rgba(0, 0, 0, 0.1)
 }
 
@@ -325,6 +325,10 @@ Quiz component
 .quiz-button-container {
   position: relative;
   text-align: center;
+}
+
+.module-quiz-image {
+  width: 90%;
 }
 
 .quiz-button-center {

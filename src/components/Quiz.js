@@ -60,12 +60,13 @@ function Quiz({ data }) {
   return (
     <div>
       <div className="quiz-button-container">
+        <img className="module-quiz-image" src="/img/quiz.png"/>
         <button
           type="button"
           className="quiz-button-center button button--secondary"
           onClick={openModal}
         >
-          💡 Test Your Knowledge with the Module Quiz Questions 💡
+          Test Your Knowledge with the Module Quiz Questions
         </button>
       </div>
 
