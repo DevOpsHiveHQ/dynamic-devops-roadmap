@@ -118,7 +118,7 @@ const config: Config = {
     announcementBar: {
       id: 'announcement',
       content: '<a target="_blank" href="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">⭐ Star on GitHub ⭐</a> and <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">✉️ Join the Community ✉️</a>',
-      backgroundColor: '#4d8b15',
+      backgroundColor: '#303846',
       textColor: '#ffffff',
       isCloseable: false,
     },
@@ -175,7 +175,7 @@ const config: Config = {
           ]
         },
         {
-          label: '⭐ Star on GitHub (1.7k+)',
+          label: '⭐ Star on GitHub (1.8k+)',
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
           position: 'right',
         },
