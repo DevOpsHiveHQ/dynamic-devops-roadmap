@@ -29,9 +29,9 @@
 
 Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and most importantly **feasible** because it takes a different approach following 3 principles:
 
-- `Progressive`: MVP-style learning path works in phases.
-- `Non-Linear`: Faster and more solid growth in less time.
-- `T-Shaped`: Depth in expertise, breadth in knowledge.
+- `Progressive`: Real-world experience that matches the job market using an MVP-style learning path works in phases. Acquire skills that employers value.
+- `Non-Linear`: Landing jobs faster and more solid growth in less time than traditional methods. Get ahead of your peers with better strategies.
+- `T-Shaped`: Gaining depth of expertise and breadth of knowledge. Get into jobs like DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, and more.
 
 <!-- omit from toc -->
 ## Give it a Star! ⭐
@@ -92,9 +92,9 @@ For more details about the problem aspects, please read: [What is the problem th
 
 This roadmap following 3 principles:
 
-- `Progressive`: MVP-style learning path works in phases.
-- `Non-Linear`: Faster and more solid growth in less time.
-- `T-Shaped`: Depth in expertise, breadth in knowledge.
+- `Progressive`: Real-world experience that matches the job market using an MVP-style learning path works in phases. Acquire skills that employers value.
+- `Non-Linear`: Landing jobs faster and more solid growth in less time than traditional methods. Get ahead of your peers with better strategies.
+- `T-Shaped`: Gaining depth of expertise and breadth of knowledge. Get into jobs like DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, and more.
 
 That means **first, understanding the problem instead of just learning a bunch of tools** and then **using an iterative style, each iteration will cover most DevOps areas used in the job** to build a T-shaped skills profile from day one!
 

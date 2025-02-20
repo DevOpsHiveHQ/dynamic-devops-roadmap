@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/dynamic-devops-roadmap-progressive.svg').default,
     description: (
       <>
-        MVP-style learning path works in phases
+        Real-world experience that matches the job market using an MVP-style learning path works in phases. Acquire skills that employers value.
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/dynamic-devops-roadmap-non-linear.svg').default,
     description: (
       <>
-        Faster and more solid growth in less time
+        Landing jobs faster and more solid growth in less time than traditional methods. Get ahead of your peers with better strategies.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/dynamic-devops-roadmap-t-shaped.svg').default,
     description: (
       <>
-        Depth in expertise, breadth in knowledge
+        Gaining depth of expertise and breadth of knowledge. Get into jobs like DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, and more.
       </>
     ),
   },
