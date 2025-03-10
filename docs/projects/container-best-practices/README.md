@@ -3,7 +3,12 @@ title: "Use-Case Project: Apply Docker Best Practices"
 sidebar_label: "Docker Best Practices"
 description: "How to work effectively with Docker with top ✅️ Dos & 🚫 Don'ts"
 keywords: ["project", "mini project", "use-case", "container", "docker"]
+image: /img/projects/container-best-practices.png
 ---
+
+<p align="center">
+  <img class="page-cover-image" title="Docker Container Best Practices" alt="Docker Container Best Practices" border="0" src="/img/projects/container-best-practices.png" />
+</p>
 
 ## Situation
 
@@ -71,3 +76,12 @@ http://localhost:3000
 - [Containers - Docker Best Practices](../../foundations/module-03/#35-containers---docker-best-practices)
 - [Continuous Integration - GitHub Actions Essentials](../../foundations/module-03/#37-continuous-integration---github-actions-essentials)
 - [Continuous Integration - Pipelines and Quality Gates](../../foundations/module-03/#38-continuous-integration---pipelines-and-quality-gates)
+
+## Reference
+
+:::tip
+
+Once you are done, compare your solution with the reference [Dockerfile](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/docs/projects/container-best-practices/Dockerfile).
+
+Ensure that you understand all aspects of the reference.
+:::

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="640"
+   viewBox="0 0 1280 640"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="container-best-practices.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="../container-best-practices.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs38">
+    <marker
+       style="overflow:visible"
+       id="marker19882"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker19882-20"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path19880-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="0.52919008"
+     inkscape:cx="666.11226"
+     inkscape:cy="275.8933"
+     inkscape:window-width="1680"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9882"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <sodipodi:guide
+       position="1198.8744,526.30293"
+       orientation="1,0"
+       id="guide2364"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="78.791587,387.70683"
+       orientation="1,0"
+       id="guide2366"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="603.47684,561.65908"
+       orientation="0,-1"
+       id="guide2368"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="528.52181,75.158462"
+       orientation="0,-1"
+       id="guide2370"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <rect
+     style="opacity:1;fill:#ffffff;stroke-width:1.12226;stroke-opacity:0"
+     id="rect2132"
+     width="1280"
+     height="640"
+     x="1.1368684e-13"
+     y="0"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="opacity:1;fill:#559e11;fill-opacity:1;stroke-width:0.397119;stroke-opacity:0"
+     id="rect2558"
+     width="1280"
+     height="80.137337"
+     x="0"
+     y="73.691566"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:42.6667px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82625"
+     x="333.1839"
+     y="126.36825"
+     id="text56388-9-1-3-3"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"><tspan
+       sodipodi:role="line"
+       id="tspan56386-1-8-6-6"
+       x="333.1839"
+       y="126.36825"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:1.82625">Docker Container Best Practices</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="1566.2191"
+     y="537.1803"
+     id="text24733"><tspan
+       sodipodi:role="line"
+       id="tspan24731"
+       x="1566.2191"
+       y="537.1803" /></text>
+  <g
+     id="g9882"
+     transform="matrix(1.2926536,0,0,1.2926536,-442.31099,-150.64463)">
+    <g
+       fill="#559e11"
+       fill-rule="nonzero"
+       stroke="none"
+       stroke-width="1"
+       stroke-linecap="butt"
+       stroke-linejoin="miter"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       stroke-dashoffset="0"
+       font-family="none"
+       font-weight="none"
+       font-size="none"
+       text-anchor="none"
+       style="mix-blend-mode:normal;fill:#8ebf56;fill-opacity:1"
+       id="g4904"
+       transform="matrix(1.3487036,0,0,1.3487036,676.41706,253.50465)">
+      <g
+         transform="scale(5.33333)"
+         id="g4902"
+         style="fill:#8ebf56;fill-opacity:1">
+        <path
+           d="m 47.527,19.847 c -0.13,-0.102 -1.345,-1.007 -3.908,-1.007 -0.677,0.003 -1.352,0.06 -2.019,0.171 -0.496,-3.354 -3.219,-4.93 -3.345,-5.003 l -0.688,-0.392 -0.453,0.644 c -0.567,0.866 -1.068,1.76 -1.311,2.763 -0.459,1.915 -0.18,3.713 0.806,5.25 C 35.417,22.928 33.386,22.986 33,23 H 1.582 c -0.826,0.001 -1.496,0.66 -1.501,1.474 -0.037,2.733 0.353,5.553 1.306,8.119 1.089,2.818 2.71,4.894 4.818,6.164 2.362,1.427 6.2,2.243 10.551,2.243 1.965,0.006 3.927,-0.169 5.859,-0.524 2.686,-0.487 5.271,-1.413 7.647,-2.74 1.958,-1.119 3.72,-2.542 5.219,-4.215 2.505,-2.798 3.997,-5.913 5.107,-8.682 0.149,0 0.298,0 0.442,0 2.743,0 4.429,-1.083 5.359,-1.99 0.618,-0.579 1.101,-1.284 1.414,-2.065 L 48,20.216 Z"
+           id="path4882"
+           style="fill:#8ebf56;fill-opacity:1;stroke:#559e11;stroke-opacity:1" />
+        <path
+           d="M 8,22 H 5 C 4.448,22 4,21.552 4,21 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4884"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 14,22 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4886"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 20,22 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4888"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 26,22 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4890"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 14,16 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4892"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 20,16 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4894"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 26,16 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4896"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="M 26,10 H 23 C 22.448,10 22,9.552 22,9 V 6 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4898"
+           style="fill:#8ebf56;fill-opacity:1" />
+        <path
+           d="m 32,22 h -3 c -0.552,0 -1,-0.448 -1,-1 v -3 c 0,-0.552 0.448,-1 1,-1 h 3 c 0.552,0 1,0.448 1,1 v 3 c 0,0.552 -0.448,1 -1,1 z"
+           id="path4900"
+           style="fill:#8ebf56;fill-opacity:1" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g1246"
+     transform="matrix(0.77898211,0,0,0.77898211,2017.1943,300.37933)">
+    <path
+       id="path1163-6-3"
+       style="fill:#8ebf56;fill-opacity:1;stroke:#559e11;stroke-width:8.85824;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="M 661.42643,391.82919 H 530.33318 504.71939 l -62.26841,50.36598 -0.01,-50.36598 h -43.20104 l -37.1753,-84.73055 37.1753,-84.73056 h 131.09325 131.09325 l 37.1753,84.73056 z"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="roadmap-faq.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       sodipodi:type="star"
+       style="fill:#559e11;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path16249"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.06628892,0,0,0.064256,422.17313,364.71701)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z"
+       inkscape:export-filename="roadmap-faq.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       sodipodi:type="star"
+       style="fill:#559e11;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path29323"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.06628892,0,0,0.064256,501.03924,364.71701)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z"
+       inkscape:export-filename="roadmap-faq.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       sodipodi:type="star"
+       style="fill:#559e11;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+       id="path29325"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="465.93665"
+       sodipodi:cy="-872.64856"
+       sodipodi:r1="299.99118"
+       sodipodi:r2="346.41016"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.06628892,0,0,0.064256,579.90516,364.71701)"
+       d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z"
+       inkscape:export-filename="roadmap-faq.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <path
+     id="path15932-7"
+     style="fill:#add18b;fill-opacity:1;stroke:#559e11;stroke-width:5.74571;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+     d="m 2649.0981,497.43935 h 85.031 16.6138 l 40.3892,32.66886 0.01,-32.66886 h 28.0215 l 24.1129,-54.95871 -24.1131,-54.95874 h -85.0309 -85.031 l -24.1129,54.95874 z"
+     sodipodi:nodetypes="cccccccccccc"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     sodipodi:type="star"
+     style="fill:#559e11;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+     id="path29323-6"
+     inkscape:flatsided="false"
+     sodipodi:sides="6"
+     sodipodi:cx="465.93665"
+     sodipodi:cy="-872.64856"
+     sodipodi:r1="299.99118"
+     sodipodi:r2="346.41016"
+     sodipodi:arg1="0.52359878"
+     sodipodi:arg2="1.0471976"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     transform="matrix(0.04455282,0,0,0.04318649,2713.6911,481.21624)"
+     d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     sodipodi:type="star"
+     style="fill:#559e11;fill-opacity:1;stroke-width:10;stroke-linecap:square;stop-color:#000000"
+     id="path29325-7"
+     inkscape:flatsided="false"
+     sodipodi:sides="6"
+     sodipodi:cx="465.93665"
+     sodipodi:cy="-872.64856"
+     sodipodi:r1="299.99118"
+     sodipodi:r2="346.41016"
+     sodipodi:arg1="0.52359878"
+     sodipodi:arg2="1.0471976"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     transform="matrix(0.04455282,0,0,0.04318649,2766.6969,481.21624)"
+     d="m 725.73663,-722.65297 -86.59492,150.00441 -173.20507,-0.009 -173.20509,0.009 -86.59489,-150.0044 -86.61017,-149.99561 86.61017,-149.99562 86.59492,-150.0044 173.20507,0.01 173.20509,-0.01 86.59489,150.0044 86.61017,149.99556 z"
+     inkscape:export-filename="roadmap-faq.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+</svg>
