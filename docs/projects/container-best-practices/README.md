@@ -1,5 +1,5 @@
 ---
-title: "Use-Case Project: Apply Docker Best Practices"
+title: "Use-Case Project: Apply Docker Container Best Practices"
 sidebar_label: "Docker Best Practices"
 description: "How to work effectively with Docker with top ✅️ Dos & 🚫 Don'ts"
 keywords: ["project", "mini project", "use-case", "container", "docker"]
@@ -16,8 +16,8 @@ You got [a sample JavaScript application](https://github.com/docker/getting-star
 
 ## Task
 
-- Create a `Dockerfile` for the project.
-- Apply Docker best practices.
+- Create a `Dockerfile` to containerize project.
+- Apply Docker container best practices.
 - Create a CI pipeline to automate the best practices checks.
 
 ## Requirements
@@ -81,7 +81,7 @@ http://localhost:3000
 
 :::tip
 
-Once you are done, compare your solution with the reference [Dockerfile](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/docs/projects/container-best-practices/Dockerfile).
+Once you are done, compare your solution with the [reference](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap/blob/main/docs/projects/container-best-practices/reference).
 
 Ensure that you understand all aspects of the reference.
 :::
