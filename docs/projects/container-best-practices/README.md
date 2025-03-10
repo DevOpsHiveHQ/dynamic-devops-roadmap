@@ -17,7 +17,7 @@ You got [a sample JavaScript application](https://github.com/docker/getting-star
 ## Task
 
 - Create a `Dockerfile` to containerize project.
-- Apply Docker container best practices.
+- Apply Docker container best practices to work effectively with top ✅️ Dos & 🚫 Don'ts.
 - Create a CI pipeline to automate the best practices checks.
 
 ## Requirements
