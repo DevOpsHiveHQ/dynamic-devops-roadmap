@@ -19,7 +19,9 @@
   --ifm-background-color: #fff;
 }
 
-[data-theme='light'] .page-cover-image, .section-cover-image, .module-quiz-image {
+[data-theme='light'] .page-cover-image,
+.section-cover-image,
+.module-quiz-image {
   box-shadow: 0 0 0.2rem 0rem rgba(0, 0, 0, 0.1)
 }
 
@@ -304,7 +306,8 @@ Timeline Responsive Style in Getting Started page.
   margin-left: 1.5rem;
 }
 
-.getting-started ul.timeline > li:first-child {
+.getting-started li[data-prefix="Kickoff"],
+.getting-started li[data-prefix="FAQ"] {
   display: none;
 }
 

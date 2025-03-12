@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Your entrypoint for the Dynamic DevOps Roadmap! It covers topics like before you start, learning plan,
-        the different modes of the roadmap, and the roadmap index.
+        the different modes of the roadmap, foundations, and the roadmap index.
       </>
     ),
     focusAreas: '',
@@ -151,7 +151,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Practicing',
-    title: 'More Hands-on Projects',
+    title: '🛠️ More Hands-on Projects 🛠️',
     link: '/projects',
     description: (
       <>
@@ -163,7 +163,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Job Finding',
-    title: 'Interview Preparation',
+    title: '💬 Interview Preparation 💬',
     link: '/interview',
     description: (
       <>
@@ -175,12 +175,24 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Advanced',
-    title: '✨ Career Growth ✨',
+    title: '📈 Career Growth 📈',
     link: '/growth',
     description: (
       <>
         Congratulations! You're now a DevOps Engineer; what are other advanced or promising career paths?
         There are many opportunities in different areas, such as DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, AIOps, and more.
+      </>
+    ),
+    focusAreas: '',
+  },
+  {
+    prefix: 'FAQ',
+    title: 'ℹ️ Frequently Asked Questions ℹ️',
+    link: '/faq',
+    description: (
+      <>
+        The most frequently asked questions about the Dynamic DevOps Roadmap.
+        It's highly recommended that you read this page before starting with the roadmap.
       </>
     ),
     focusAreas: '',
@@ -229,7 +241,9 @@ export default function HomepageFeaturesModules(): JSX.Element {
       <Heading as="h2" className={styles.featuresHeader} id="walkthrough">
         Dynamic DevOps Roadmap Walkthrough
       </Heading>
-      <HomepageFeaturesModulesOnly />
+      <div className={styles.walkthrough}>
+        <HomepageFeaturesModulesOnly />
+      </div>
       <div className="featuresButton">
         <Link title="Roadmap Modules"
           className="button button--secondary button--lg" to="/getting-started">

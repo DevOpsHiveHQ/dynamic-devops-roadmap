@@ -9,3 +9,7 @@
   text-align: center;
   padding-top: 3rem;
 }
+
+.walkthrough li[data-prefix="Foundation"] {
+  display: none;
+}
