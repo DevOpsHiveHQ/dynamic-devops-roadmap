@@ -3,33 +3,35 @@ title: "End-to-End Project: HiveBox"
 sidebar_label: "⭐ HiveBox"
 sidebar_position: 1
 description: "An incremental industry-grad end-to-end project to learn DevOps in a hands-on way"
-keywords: ["project", "full project", "e2e", "end-to-end"]
+keywords: ["project", "full project", "e2e", "end-to-end", "hands-on"]
 image: ./hivebox-architecture-preview.png
 toc_max_heading_level: 2
 ---
 
-<img alt="Beekeeping" class="img-right img-round-corners" align="right" width="30%"  border="0" src={require('./beekeeping.png').default} />
+<p align="center">
+  <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/projects/hivebox-devops-end-to-end-project.png" />
+</p>
 
-Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet).
+Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet). For that reason, in this roadmap our main hands-on project will be for the bees!
 
-For that reason, in this roadmap our main hands-on project will be for the bees! We will utilize the technology and open source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
+In this DevOps end-to-end hands-on project we will utilize the technology and open source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
+
+In this project you will cover many topics like:
+
+- Software Production.
+- Agile Planning.
+- QA and Quality Gates.
+- Code and Programming.
+- Operating System.
+- Docker Containers.
+- Kubernetes and Cloud.
+- Observability and Monitoring.
+- Continuous Integration/Delivery/Deployment.
+- Automation and Infrastructure as Code.
 
 :::tip
 If you are looking for the full roadmap including this project, back to the [getting started page](../../getting-started).
 :::
-
-## Project Badge
-
-Push it forward and add the project badge in your repo to support the community! ⭐
-
-Code:
-
-```
-[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
-```
-Preview:
-
-[![Dynamic DevOps Roadmap](https://devopshive.net/badges/dynamic-devops-roadmap.svg)](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)
 
 ---
 
@@ -42,6 +44,12 @@ Preview:
 This project follows the same Dynamic MVP-style mindset used in the [roadmap](../../getting-started). Which aims to cover the whole Software Development Life Cycle (SDLC). That mean each phase of this project will cover all aspects of the DevOps areas like planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
 
 This project works the best in `Pairing` mode where you have another person helps you whenever you stuck (like a mentor or so). But in case you don't have that, always back to the `Related Module` where it has more details could help you in the project.
+
+**Tips**
+
+- Avoid stereotypes about yourself! You just have to think different this time!
+- Say `NO` more to other things during the project implementation. Even good things, i.e., stay focused!
+- Remember, life is all about tread-offs! [You can do anything if you stop trying to do everything](https://oliveremberton.com/2013/you-can-do-anything-if-you-stop-trying-to-do-everything/).
 
 :::note
 Each phase of this project is tackled gradually part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
@@ -56,7 +64,7 @@ Just applying this project without understanding what the problems to solve will
 
 <p align="center">
   <a target="_blank" href="/img/hivebox-architecture.gif">
-    <img alt="HiveBox Architecture" border="0" src={require('./hivebox-architecture.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture" border="0" src={require('./hivebox-architecture.png').default} border="0" width="60%" />
   </a>
   <br/>
   This project aims to build a real system from code to infrastructure and everything in between in but iterative phases
@@ -67,7 +75,7 @@ Just applying this project without understanding what the problems to solve will
 
 The goal of this project is to build a scalable RESTful API around [openSenseMap](https://opensensemap.org/) but customized to help beekeeper with their chores. The API output should be in JSON. You will start with a basic implementation, then extend the whole system to handles thousands of requests per second. But always remember, every decision has a cost.
 
-You can get senseBox IDs by checking the [openSenseMap](https://opensensemap.org/) website. Use 3 senseBox IDs close to each other (you can use this one [5eba5fbad46fb8001b799786](https://opensensemap.org/explore/5eba5fbad46fb8001b799786) as starting point). Just copy the IDs, you will need them in the next steps.
+Happy DevOpsing ♾️
 
 ---
 
@@ -77,17 +85,25 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-01.png').default}>
-    <img alt="HiveBox Architecture - Phase 1" border="0" src={require('./hivebox-architecture-phase-01.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 1" border="0" src={require('./hivebox-architecture-phase-01.png').default} border="0" width="60%" />
   </a>
 </p>
 
-- Understand your role in this project and how you work with other teams.
-- Brush up on your knowledge about Software Project management (Hint: [What is agile project management?](https://www.apm.org.uk/resources/find-a-resource/agile-project-management/) And [Introduction to Software Product Management](https://www.coursera.org/learn/introduction-to-software-product-management)).
-- Decide which Agile methodology you will use. (Scrum, Kanban, Scrumban, etc.).
-- Document as you go. Always assume that someone else will read your project at any phase.
-- Avoid [Scope Creep](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)! Make it work, then make it right, then make it fast!
-- Each change should be done in order and using pull requests (don’t push directly to the main branch!).
+### 1.1 Kickoff
+
+- Understand your role in this project and how you work with other teams (assume you are in a team and don't act like you are working alone!)
+- Brush up on your knowledge about Software Project management (Hint: [What is agile project management?](https://www.apm.org.uk/resources/find-a-resource/agile-project-management/)).
+- Decide which Agile methodology you will use, such as Scrum, Kanban, or Scrumban (Kanban is recommended for this project).
+- Avoid [Scope Creep](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)! **Make it work, make it right, make it fast**!
 - Don't forget! You are [managers of one](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)!
+
+### 1.2 Preperation
+
+- [Create GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) (if you don't have one), then [fork HiveBox repository on GitHub](https://github.com/DevOpsHiveHQ/devops-hands-on-project-hivebox/fork) and start from there.
+- [Create GitHub project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project) for this repository (use `Kanban` template).
+- Each phase should be presented as a pull request against the `main` branch. Don’t push directly to the main branch!
+- Document as you go. Always assume that someone else will read your project at any phase.
+- You can get senseBox IDs by checking the [openSenseMap](https://opensensemap.org/) website. Use 3 senseBox IDs close to each other (you can use the following [5eba5fbad46fb8001b799786](https://opensensemap.org/explore/5eba5fbad46fb8001b799786), [5c21ff8f919bf8001adf2488](https://opensensemap.org/explore/5c21ff8f919bf8001adf2488), and [5ade1acf223bd80019a1011c](https://opensensemap.org/explore/5ade1acf223bd80019a1011c)). Just copy the IDs, you will need them in the next steps.
 
 ---
 
@@ -97,7 +113,7 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-02.png').default}>
-    <img alt="HiveBox Architecture - Phase 2" border="0" src={require('./hivebox-architecture-phase-02.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 2" border="0" src={require('./hivebox-architecture-phase-02.png').default} border="0" width="60%" />
   </a>
 </p>
 
@@ -134,7 +150,7 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-03.png').default}>
-    <img alt="HiveBox Architecture - Phase 3" border="0" src={require('./hivebox-architecture-phase-03.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 3" border="0" src={require('./hivebox-architecture-phase-03.png').default} border="0" width="60%" />
   </a>
 </p>
 
@@ -189,7 +205,7 @@ Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-04.png').default}>
-    <img alt="HiveBox Architecture - Phase 4" border="0" src={require('./hivebox-architecture-phase-04.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 4" border="0" src={require('./hivebox-architecture-phase-04.png').default} border="0" width="60%" />
   </a>
 </p>
 
@@ -248,7 +264,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-05.png').default}>
-    <img alt="HiveBox Architecture - Phase 5" border="0" src={require('./hivebox-architecture-phase-05.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 5" border="0" src={require('./hivebox-architecture-phase-05.png').default} border="0" width="60%" />
   </a>
 </p>
 
@@ -316,7 +332,7 @@ Roadmap Module: [Optimize - Keep Improving](../../foundations/module-06)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-06.png').default}>
-    <img alt="HiveBox Architecture - Phase 6" border="0" src={require('./hivebox-architecture-phase-06.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 6" border="0" src={require('./hivebox-architecture-phase-06.png').default} border="0" width="60%" />
   </a>
 </p>
 
@@ -344,7 +360,7 @@ Roadmap Module: [Capstone Project](../../foundations/module-07)
 
 <p align="center">
   <a href={require('./hivebox-architecture-phase-07.png').default}>
-    <img alt="HiveBox Architecture - Phase 7" border="0" src={require('./hivebox-architecture-phase-07.png').default} border="0" width="90%" />
+    <img alt="HiveBox Architecture - Phase 7" border="0" src={require('./hivebox-architecture-phase-07.png').default} border="0" width="60%" />
   </a>
 </p>
 
