@@ -93,6 +93,7 @@ Finally, remember that retro is not only about bad things. It's also time to cel
   - Scan the code against secrets and sensitive data to ensure that nothing is mistakenly stored on the Git repository.
   - Setup [SBOM tool](https://www.linuxfoundation.org/research/the-state-of-software-bill-of-materials-sbom-and-cybersecurity-readiness) to report all components, libraries, and dependencies used in your software.
   - Keep code dependencies up-to-date using tools like [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide).
+  - Always use immutable versions, e.g., pin `commit hash` instead of mutable ones like `tags`. (dependencies tools like Dependabot will handle the update process).
   - Run `Static Application Security Testing` (SAST) against your code using tools like [SonarQube](https://www.sonarsource.com/products/sonarqube/).
   - Scan your Dockerfile and container image using [Grype](https://github.com/anchore/grype) or [Docker Scout](https://docs.docker.com/scout/).
   - Once you build and scan your container image, sign it with [Cosign](https://github.com/sigstore/cosign) to ensure no one can manipulate it.
