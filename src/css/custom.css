@@ -306,8 +306,9 @@ Timeline Responsive Style in Getting Started page.
   margin-left: 1.5rem;
 }
 
+.getting-started li[data-prefix="FAQ"],
 .getting-started li[data-prefix="Kickoff"],
-.getting-started li[data-prefix="FAQ"] {
+.getting-started li[data-prefix="Learning"] {
   display: none;
 }
 

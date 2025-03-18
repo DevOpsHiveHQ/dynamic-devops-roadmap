@@ -10,6 +10,28 @@
   padding-top: 3rem;
 }
 
-.walkthrough li[data-prefix="Foundation"] {
+.walkthrough li[data-prefix="Foundations"] {
   display: none;
+}
+
+.inlineList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inlineList li {
+  display: inline;
+}
+
+.inlineList li::after {
+  content: "•";
+  font-size: 1.4rem;
+  vertical-align: bottom;
+  padding: 0 0.4rem;
+  opacity: 0.8;
+}
+
+.inlineList li:last-child::after {
+  content: "";
 }

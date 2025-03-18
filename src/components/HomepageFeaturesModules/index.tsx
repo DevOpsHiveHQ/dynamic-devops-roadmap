@@ -29,7 +29,29 @@ const FeatureList: FeatureItem[] = [
     focusAreas: '',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Learning',
+    title: '🏛️ Foundations 🏛️',
+    link: '/foundations',
+    description: (
+      <>
+        Build a strong foundations for your DevOps career in an iterative and progressive manner.
+        <ul className={styles.inlineList}>
+          <li><Link to="/foundations/introduction">Introduction</Link></li>
+          <li><Link to="/foundations/module-01">Module 1: Welcome to the DevOps World</Link></li>
+          <li><Link to="/foundations/module-02">Module 2: Basics - DevOps Core</Link></li>
+          <li><Link to="/foundations/module-03">Module 3: Start - Laying the Base</Link></li>
+          <li><Link to="/foundations/module-04">Module 4: Expand - Constructing a Shell</Link></li>
+          <li><Link to="/foundations/module-05">Module 5: Transform - Finishing the Structure</Link></li>
+          <li><Link to="/foundations/module-06">Module 6: Optimize - Keep Improving</Link></li>
+          <li><Link to="/foundations/module-07">Module 7: Capstone Project</Link></li>
+          <li><Link to="/foundations/next-steps">Next Steps</Link></li>
+        </ul>
+      </>
+    ),
+    focusAreas: '',
+  },
+  {
+    prefix: 'Foundations',
     title: 'Introduction',
     link: '/foundations/introduction',
     description: (
@@ -41,7 +63,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Learning Strategy • Focus Areas • DevOps Topology • Soft Skills',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 1: Welcome to the DevOps World',
     link: '/foundations/module-01',
     description: (
@@ -54,7 +76,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Foreword • Software Production • DevOps Methodology',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 2: Basics - DevOps Core',
     link: '/foundations/module-02',
     description: (
@@ -67,7 +89,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Code • Operating System • Containers',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 3: Start - Laying the Foundation',
     link: '/foundations/module-03',
     description: (
@@ -80,7 +102,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Planning • Code • Containers • Continuous Integration',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 4: Expand - Constructing a Shell',
     link: '/foundations/module-04',
     description: (
@@ -94,7 +116,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Planning • Code • Containers • Observability • Continuous Integration • Continuous Delivery • Infrastructure',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 5: Transform - Finishing the Structure',
     link: '/foundations/module-05',
     description: (
@@ -108,7 +130,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Planning • Code • Infrastructure • Containers • Observability • Continuous Delivery',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 6: Keep Improving',
     link: '/foundations/module-06',
     description: (
@@ -123,7 +145,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Planning • Code • Infrastructure • Containers • Continuous Integration • Continuous Delivery • Continuous Deployment',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Module 7: Capstone Project',
     link: '/foundations/module-07',
     description: (
@@ -136,7 +158,7 @@ const FeatureList: FeatureItem[] = [
     focusAreas: 'Requirements • Planning • Implementation • Review',
   },
   {
-    prefix: 'Foundation',
+    prefix: 'Foundations',
     title: 'Next Steps',
     link: '/foundations/next-steps',
     description: (
