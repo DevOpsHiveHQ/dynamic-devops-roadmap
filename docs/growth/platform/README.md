@@ -47,7 +47,7 @@ As a Platform Engineer, you will be tasked with delivering and supporting these 
 
 ### Resources {#12-resources}
 
-- [Laying the foundation for a career in platform engineering - Google Cloud Blog](https://platformengineering.org/platform-tooling)
+- [Laying the foundation for a career in platform engineering - Google Cloud Blog](https://cloud.google.com/blog/products/application-development/how-to-become-a-platform-engineer)
 - [What skills do platform engineers require? - GitLab](https://about.gitlab.com/topics/devops/what-is-a-devops-platform-engineer/#what-skills-do-platform-engineers-require)
 
 ## 1.3 Platform Engineer Mindset
