@@ -33,6 +33,9 @@ Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and mo
 - `Non-Linear`: Landing jobs faster and more solid growth in less time than traditional methods. Get ahead of your peers with better strategies.
 - `T-Shaped`: Gaining depth of expertise and breadth of knowledge. Get into jobs like DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, and more.
 
+> [!TIP]
+> **Are you looking for the DevOps hands-on end-to-end project?** Check out [![Hive Box Project](https://img.shields.io/badge/HiveBox_Project-f39200?style=flat-square&logo=artifact-hub&logoColor=white)](https://devopsroadmap.io/projects/hivebox/)
+
 <!-- omit from toc -->
 ## Give it a Star! ⭐
 
