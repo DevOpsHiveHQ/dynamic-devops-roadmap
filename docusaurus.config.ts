@@ -142,6 +142,12 @@ const config: Config = {
           type: "doc",
         },
         {
+          docId: "foundations/README",
+          label: "Foundations",
+          position: "left",
+          type: "doc",
+        },
+        {
           docId: "projects/README",
           label: 'Projects',
           position: "left",
