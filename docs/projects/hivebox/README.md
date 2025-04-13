@@ -125,13 +125,12 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 ### 2.2 Code
 
-- Create GitHub repository for the project.
-- Implement the code requirements.
+- Implement the code requirements in your GitHub repository fork for the project (done in phase 1).
 
 **Requirements:**
 
-- Create a function that print current app version. It should print the version then exit the application.
-- Use [Semantic Versioning](https://semver.org/) for the app version starting with `v0.0.1`.
+- As an initial version of HiveBox app, use the [Semantic Versioning](https://semver.org/) `v0.0.1`.
+- Create a function that prints current app version. It just needs to print the version then exit.
 
 ### 2.3 Containers
 
@@ -141,6 +140,7 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 ### 2.4 Testing
 
 - Locally, run the app container and ensure that it returns the correct value.
+- Ensure to document how to test the application.
 
 ---
 
