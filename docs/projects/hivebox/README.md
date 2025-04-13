@@ -12,11 +12,11 @@ toc_max_heading_level: 2
   <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/projects/hivebox-devops-end-to-end-project.png" />
 </p>
 
-Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate the role that bees play for the planet! Because [bees are essential to people and planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet). For that reason, in this roadmap our main hands-on project will be for the bees!
+Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate bees' role for the planet! Because [bees are essential to people and the planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet). For that reason, our main hands-on project will be for the bees in this roadmap!
 
-In this DevOps end-to-end hands-on project we will utilize the technology and open source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
+In this DevOps end-to-end hands-on project, we will utilize the technology and open-source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
 
-In this project you will cover many topics like:
+In this project, you will cover many topics:
 
 - Software Production.
 - Agile Planning.
@@ -30,7 +30,7 @@ In this project you will cover many topics like:
 - Automation and Infrastructure as Code.
 
 :::tip
-If you are looking for the full roadmap including this project, back to the [getting started page](../../getting-started).
+If you are looking for the full roadmap, including this project, go back to the [getting started page](../../getting-started).
 :::
 
 ---
@@ -41,23 +41,23 @@ If you are looking for the full roadmap including this project, back to the [get
   <img alt="HiveBox Project Overview" border="0" width="90%" src={require('./hivebox-project-overview.png').default} />
 </p>
 
-This project follows the same Dynamic MVP-style mindset used in the [roadmap](../../getting-started). Which aims to cover the whole Software Development Life Cycle (SDLC). That mean each phase of this project will cover all aspects of the DevOps areas like planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
+This project follows the same Dynamic MVP-style mindset used in the [roadmap](../../getting-started), which aims to cover the whole Software Development Life Cycle (SDLC). That means each phase of this project will cover all aspects of the DevOps areas like planning, coding, containers, testing, continuous integration, continuous delivery, infrastructure, etc.
 
-This project works the best in `Pairing` mode where you have another person helps you whenever you stuck (like a mentor or so). But in case you don't have that, always back to the `Related Module` where it has more details could help you in the project.
+This project works best in `Pairing` mode, where you have another person to help you whenever you get stuck (like a mentor or something). But in case you don't have that, always back to the `Related Module` where it has more details could help you in the project.
 
 **Tips**
 
-- Avoid stereotypes about yourself! You just have to think different this time!
+- Avoid stereotypes about yourself! You have to think differently this time!
 - Say `NO` more to other things during the project implementation. Even good things, i.e., stay focused!
 - Remember, life is all about tread-offs! [You can do anything if you stop trying to do everything](https://oliveremberton.com/2013/you-can-do-anything-if-you-stop-trying-to-do-everything/).
 
 :::note
-Each phase of this project is tackled gradually part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
+Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
 :::
 
 :::danger
-Remember, the goal is not only to implement the project but also to learn industry best practices in the DevOps field!
-Just applying this project without understanding what the problems to solve will not help you to be a DevOps Engineer!
+Remember, the goal is to implement the project and learn industry best practices in the DevOps field!
+Just applying this project without understanding the problems to solve will not help you become a DevOps Engineer!
 :::
 
 ## Goal
@@ -67,15 +67,15 @@ Just applying this project without understanding what the problems to solve will
     <img alt="HiveBox Architecture" border="0" src={require('./hivebox-architecture.png').default} border="0" width="60%" />
   </a>
   <br/>
-  This project aims to build a real system from code to infrastructure and everything in between in but iterative phases
+  This project aims to build a real system from code to infrastructure and everything in between in iterative phases
   <a target="_blank" href="/img/hivebox-architecture.gif">
     ⭐ Click on the diagram to see it animated ⭐
   </a>
 </p>
 
-The goal of this project is to build a scalable RESTful API around [openSenseMap](https://opensensemap.org/) but customized to help beekeeper with their chores. The API output should be in JSON. You will start with a basic implementation, then extend the whole system to handles thousands of requests per second. But always remember, every decision has a cost.
+The goal of this project is to build a scalable RESTful API around [openSenseMap](https://opensensemap.org/) but customized to help beekeepers with their chores. The API output should be in JSON. You will start with a basic implementation and then extend the whole system to handle thousands of requests per second. But always remember, every decision has a cost.
 
-Happy DevOpsing ♾️
+**Happy DevOpsing ♾️**
 
 ---
 
@@ -97,7 +97,7 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 - Avoid [Scope Creep](https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675)! **Make it work, make it right, make it fast**!
 - Don't forget! You are [managers of one](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)!
 
-### 1.2 Preperation
+### 1.2 Preparation
 
 - [Create GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) (if you don't have one), then [fork HiveBox repository on GitHub](https://github.com/DevOpsHiveHQ/devops-hands-on-project-hivebox/fork) and start from there.
 - [Create GitHub project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project) for this repository (use `Kanban` template).
@@ -129,18 +129,18 @@ Roadmap Module: [Basics - DevOps Core](../../foundations/module-02)
 
 **Requirements:**
 
-- As an initial version of HiveBox app, use the [Semantic Versioning](https://semver.org/) `v0.0.1`.
-- Create a function that prints current app version. It just needs to print the version then exit.
+- As an initial version of the HiveBox app, use the [Semantic Versioning](https://semver.org/) `v0.0.1`.
+- Create a function that prints the current app version. It just needs to print the version and then exit.
 
 ### 2.3 Containers
 
-- Create Dockerfile for the project.
+- Create a `Dockerfile` for the project.
 - Build the Docker image and run it locally.
 
 ### 2.4 Testing
 
-- Locally, run the app container and ensure that it returns the correct value.
-- Ensure to document how to test the application.
+- Locally, run the app container and ensure it returns the correct value.
+- Ensure that documentation is provided on how to test the application.
 
 ---
 
@@ -179,7 +179,7 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 - Parameters: No parameters.
 - Requirements:
   - Return current average temperature based on all senseBox data.
-  - Ensure that the data is no older 1 hour.
+  - Ensure that the data is no older than 1 hour.
 
 ### 3.3 Containers
 
@@ -188,14 +188,14 @@ Roadmap Module: [Start - Laying the Base](../../foundations/module-03)
 ### 3.4 Continuous Integration
 
 - Create a GitHub Actions workflow for CI.
-- Add step to lint code and Dockerfile.
-- Add step to build the Docker image.
+- Add a step to lint code and Dockerfile.
+- Add a step to build the Docker image.
 - Add step to unit tests.
 - Setup [OpenSSF Scorecard GitHub Action](https://securityscorecards.dev/#using-the-github-action) and fix any issues reported by it.
 
 ### 3.5 Testing
 
-- In the CI pipeline, call the `/version` endpoint and ensure that it returns the correct value.
+- In the CI pipeline, call the `/version` endpoint and ensure it returns the correct value.
 
 ---
 
@@ -234,20 +234,20 @@ Roadmap Module: [Expand - Constructing a Shell](../../foundations/module-04)
 - Endpoint: `/temperature`
 - Parameters: No parameters.
 - Requirements:
-  - Add "status" field based on the temperature average value.
+  - Add a "status" field based on the temperature average value.
     - Less than 10: Too Cold
     - Between 11-36: Good
     - More than 37: Too Hot
 
 ### 4.3 Containers
 
-- Create KIND config to run with Ingress-Nginx.
+- Create a KIND configuration to run with Ingress-Nginx.
 - Create Kubernetes core manifests to deploy the application.
 
 ### 4.4 Continuous Integration
 
 - Run code integration tests.
-- Run SonarQube for code quality, security and static analysis (Hint: [Use SonarQube Quality Gate check](https://github.com/marketplace/actions/sonarqube-quality-gate-check) action, also consider [Semgrep](https://github.com/semgrep/semgrep)).
+- Run SonarQube for code quality, security, and static analysis (Hint: [Use SonarQube Quality Gate check](https://github.com/marketplace/actions/sonarqube-quality-gate-check) action, also consider [Semgrep](https://github.com/semgrep/semgrep)).
 - Run Terrascan for Kubernetes manifest misconfigurations and vulnerabilities (Hint: [Terrascan GitHub Action](https://github.com/marketplace/actions/terrascan-iac-scanner)).
 - Apply Best Practices for CI (Hint: [Best practices when adopting continuous integration](https://github.com/resources/articles/devops/continuous-integration#best-practices-when-adopting-continuous-integration)).
 
@@ -280,14 +280,14 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 **Requirements:**
 
 **General:**
-- Add a caching layer using Redis based project [Valkey](https://github.com/valkey-io/valkey).
+- Add a caching layer using a Redis-Compatible project [Valkey](https://github.com/valkey-io/valkey).
 - Add a storage layer using S3-Compatible project [MinIO](https://min.io/) and store the data periodically every 5 minutes.
 
 **Store:**
 - Endpoint: `/store`
 - Parameters: No parameters.
 - Requirements:
-  - By default, the application will store the data every 5 minutes, but by calling this endpoint, it should store the data directly on MinIO.
+  - By default, the application will store the data every 5 minutes, but by calling this endpoint, it should store it directly on MinIO.
 
 **Metrics:**
 - Endpoint: `/metrics`
@@ -301,7 +301,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 - Requirements:
   - Returns HTTP 200 unless:
     - 50% + 1 of the configured senseBoxes are not accessible.
-    - AND caching content is older than 5 min.
+    - AND caching content is older than 5 minutes.
 
 ### 5.3 Containers
 
@@ -318,7 +318,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 ### 5.5 Continuous Integration
 
 - Create End-to-End test (Hint: [Venom, a declarative test suite](https://github.com/ovh/venom)).
-- Run KIND cluster, deploy the app and infrastructure, then run the End-to-End test.
+- Run the KIND cluster, deploy the app and infrastructure, then run the End-to-End test.
 
 ### 5.6 Continuous Delivery
 
@@ -343,7 +343,7 @@ Here are some highly recommended suggestions:
 - Deploy the application in Declarative GitOps style using [Argo CD](https://argo-cd.readthedocs.io/en/stable/getting_started/).
 - Prepare for production by setup DNS ([ExternalDNS](https://kubernetes-sigs.github.io/external-dns/)) and Certificates ([Cert-Manager](https://cert-manager.io/)).
 - Automate dependency updates with [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide).
-- Move all external services (Like Grafana.com and Terraform Cloud) to Kubernetes cluster using open-source solutions.
+- Move all external services (Like Grafana.com and Terraform Cloud) to the Kubernetes cluster using open-source solutions.
 
 Here are some extra suggestions:
 
@@ -364,4 +364,4 @@ Roadmap Module: [Capstone Project](../../foundations/module-07)
   </a>
 </p>
 
-In this phase, you will design and impelment your own project similar to HiveBox project but with an idea and a tech stack of your choice. Check the [Capstone Project](../../foundations/module-07) page for more details.
+In this phase, you will design and implement your own project similar to the HiveBox project but with an idea and a tech stack of your choice. Check the [Capstone Project](../../foundations/module-07) page for more details.
