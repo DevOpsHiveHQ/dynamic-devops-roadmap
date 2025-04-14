@@ -14,6 +14,7 @@ image: /img/interview.png
 
 - Review wording and avoid typos. Also, use the correct spelling! For example, it's `DevOps`, not `Devops` or `dev-ops`, and so on.
 - Use a template for CVs; don't create one from scratch! No need to reinvent the wheel and there are already good templates for tha propose (**recommended templates:** [Spearmint Resume](https://docs.google.com/document/d/10r0kqVoB0NWty_UQx1exwpqJKE4p8PA83tiyicLPb3U/copy), [Easy Resume](https://gdoc.io/resume-templates/easy-resume-free-google-docs-template/), [ATS Friendly Resume](https://thegoodocs.com/resume-templates/ats-friendly-resume-template.php)).
+- In general, avoid 2-columns layout. It's hard for humans and machines to read!
 - Make your CV short and concise but not too tight. Many people try to make a one-page CV, but they make it unreadable!
 - Write a quick summary about yourself but not that dull "objectives" section.
 - Write your skill set first, then your job experience (`Summary` -> `Skill Set` -> `Experience` -> Anything else).
