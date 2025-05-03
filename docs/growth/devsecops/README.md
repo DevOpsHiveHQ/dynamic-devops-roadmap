@@ -13,7 +13,7 @@ toc_max_heading_level: 2
 **The "Security" Silo**
 
 - As defined earlier in this roadmap, "DevOps" is a set of Practices, Tools, and Culture that makes software delivery fast, efficient, and reliable. In other words, the goal of "DevOps" is to make software delivery faster and more efficient without compromising reliability, which includes many things like functionality (new code shouldn't break existing functionality), performance, and most importantly, "Security".
-As "DevOps" adoption was rising, its tools and processes were also getting more mature and able to cover many aspects of reliability. For example, to ensure that new code doesn't break existing functionality, CI/CD tools allow us to run unit or integration tests as part of the pipeline, and we could even use metrics such as code coverage as an indicator for test quality.
+- As "DevOps" adoption was rising, its tools and processes were also getting more mature and able to cover many aspects of reliability. For example, to ensure that new code doesn't break existing functionality, CI/CD tools allow us to run unit or integration tests as part of the pipeline, and we could even use metrics such as code coverage as an indicator for test quality.
 - However, one aspect of reliability that didn't mature at the same pace was "Security". In other words, as DevOps broke the silo between "Dev" and "Ops", "Security" teams remained in their own silo.
 
 <p align="center">
