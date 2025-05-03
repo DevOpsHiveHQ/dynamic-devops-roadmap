@@ -17,19 +17,17 @@ toc_max_heading_level: 2
 - However, one aspect of reliability that didn't mature at the same pace was "Security". In other words, as DevOps broke the silo between "Dev" and "Ops", "Security" teams remained in their own silo.
 
 <p align="center">
-  <img class="section-cover-image" title="Breaking Down Security Silo with DevSecOps " alt="Breaking Down Security Silo with DevSecOps " border="0" width="90%" src="/img/breaking-down-security-silo.png"/>
+  <img class="section-cover-image" title="Breaking Down Security Silo with DevSecOps " alt="Breaking Down Security Silo with DevSecOps " border="0" width="90%" src="/img/breaking-down-security-silo.png" />
 </p>
 
 **Why "Security" falls behind?**
 
 - There are many challenges making it hard for "Security" to be included within the "DevOps" tools and processes. Let's start by exploring some of these challenges
-
     1. **Human Nature**: When building things, our brains focus on “How things should work” (the happy path), not “What could go wrong”, and hence, Security is usually overlooked.
     2. **Nature of Software**: Software is built on many layers, abstractions, and dependencies. Security issues can be caused by one of these underlying components (e.g., open-source dependencies, cloud configuration, or even the CI/CD pipeline itself). Hence, to secure an application, we need to unpack all of these layers and abstractions and ensure they are properly configured.
     <p align="center">
-    <img title="Application Layers" alt="Application Layers" border="0" width="90%" src={require('./application-layers.png').default} />
+    <img title="Application Layers" alt="Application Layers" border="0" width="80%" src={require('./application-layers.png').default} />
     </p>
-
     3. **Nature of security issues**: 
         * Security issues are rarer than other types of bugs (e.g., stability or performance), but are usually more impactful.
         * Security issues could exist for years without detection, and when discovered, the person fixing the problem is usually not the same person who introduced it.
