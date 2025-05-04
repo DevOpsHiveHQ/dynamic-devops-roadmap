@@ -202,7 +202,17 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Congratulations! You're now a DevOps Engineer; what are other advanced or promising career paths?
-        There are many opportunities in different areas, such as DevOps, DevSecOps, Cloud, SRE, Platform, DataOps, MLOps, AIOps, and more.
+        Let's cover growth opportunities in different areas.
+        <ul className={styles.inlineList}>
+          <li><Link to="/growth/devops">DevOps</Link></li>
+          <li><Link to="/growth/devsecops">DevSecOps</Link></li>
+          <li><Link to="/growth/cloud">Cloud Engineering</Link></li>
+          <li><Link to="/growth/sre">Site Reliability Engineering (SRE)</Link></li>
+          <li><Link to="/growth/platform">Platform Engineering</Link></li>
+          <li><Link to="/growth/dataops">DataOps</Link></li>
+          <li><Link to="/growth/mlops">MLOps</Link></li>
+          <li><Link to="/growth/aiops">AIOps</Link></li>
+        </ul>
       </>
     ),
     focusAreas: '',
