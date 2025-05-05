@@ -12,7 +12,7 @@ toc_max_heading_level: 2
   <img class="page-cover-image" title="Dynamic DevOps Roadmap Modules" alt="Dynamic DevOps Roadmap Modules" border="0" src="/img/projects/hivebox-devops-end-to-end-project.png" />
 </p>
 
-Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.net/) love it too and appreciate bees' role for the planet! Because [bees are essential to people and the planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet). For that reason, our main hands-on project will be for the bees in this roadmap!
+Almost everyone loves honey, and we at [DevOps Hive](https://devopshive.com/) love it too and appreciate bees' role for the planet! Because [bees are essential to people and the planet](https://www.unep.org/news-and-stories/story/why-bees-are-essential-people-and-planet). For that reason, our main hands-on project will be for the bees in this roadmap!
 
 In this DevOps end-to-end hands-on project, we will utilize the technology and open-source software to build an API to track the environmental sensor data from [openSenseMap](https://opensensemap.org/), a platform for open sensor data in which everyone can participate.
 

@@ -135,4 +135,4 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 
 ## License
 
-Dynamic DevOps Roadmap by [DevOps Hive](https://devopshive.net/) and under the open-source license, [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). For more details, please review [LICENSE](LICENSE).
+Dynamic DevOps Roadmap by [DevOps Hive](https://devopshive.com/) and under the open-source license, [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). For more details, please review [LICENSE](LICENSE).

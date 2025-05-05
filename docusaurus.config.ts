@@ -252,7 +252,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Dynamic DevOps Roadmap by <a target="_blank" href="https://devopshive.net/">DevOps Hive</a> and under the open-source license <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © ${new Date().getFullYear()}`,
+      copyright: `Dynamic DevOps Roadmap by <a target="_blank" href="https://devopshive.com/">DevOps Hive</a> and under the open-source license <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,
