@@ -137,8 +137,7 @@ import QuizData from './module-03-quiz.json';
 
 ### Resources {#35-resources}
 
-- [Overview of best practices for writing Dockerfiles - Docker Docs](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-- [Best practices for Dockerfile instructions - Docker Docs](https://docs.docker.com/develop/develop-images/instructions/)
+- [Dockerfile building best practices - Docker Docs](https://docs.docker.com/build/building/best-practices/)
 - [Docker Best Practices Workshop - Ahmed AbouZaid](https://tech.aabouzaid.com/2021/09/docker-best-practices-workshop-presentation.html)
 
 ## 3.6 Continuous Integration - Introduction and Solutions in the Market
