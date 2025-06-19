@@ -30,7 +30,7 @@ Ensure to read the [frequently asked questions page](../faq/), it has many valua
 
 ## Learning Plan
 
-This roadmap encourages you to learn in the best way that fits you. It also provide [a generic learning plan](../learning-plan) that could help you to progress in the roadmap (however, the plan could vary [based on your background](../faq#who-is-the-target-audience-for-this-roadmap)).
+This roadmap encourages you to learn in the best way that fits you. It also provides [a generic learning plan](../learning-plan) that could help you to progress in the roadmap (however, the plan could vary [based on your background](../faq#who-is-the-target-audience-for-this-roadmap)).
 
 ## How to use this roadmap?
 
