@@ -14,6 +14,8 @@ keywords:
   - Growth
   - Job
   - Role
+  - advanced devops roles
+  - devops career growth
 ---
 
 import DocCardList from '@theme/DocCardList';

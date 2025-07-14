@@ -9,7 +9,7 @@ tags:
   - Kubernetes
   - Mini Project
   - Project
-  - Use-case
+  - Use-Case
 keywords:
   - Cloud Native
   - Coding
@@ -17,7 +17,7 @@ keywords:
   - Kubernetes
   - Mini Project
   - Project
-  - Use-case
+  - Use-Case
 ---
 
 TBA

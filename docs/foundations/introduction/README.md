@@ -12,6 +12,8 @@ keywords:
   - Getting Started
   - Introduction
   - Overview
+  - dynamic devops roadmap
+  - devops mvp learning
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';

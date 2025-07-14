@@ -8,14 +8,14 @@ tags:
   - Hands-on
   - Mini Project
   - Project
-  - Use-case
+  - Use-Case
 keywords:
   - Continuous Delivery
   - Continuous Integration
   - Hands-on
   - Mini Project
   - Project
-  - Use-case
+  - Use-Case
 ---
 
 TBA

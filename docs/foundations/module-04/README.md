@@ -53,7 +53,7 @@ import QuizData from './module-04-quiz.json';
 - Implement the progressive hands-on project, HiveBox phase 4.
 
 :::tip Focus areas
-[Planning](/tags/planning) (12.5%), [Code](/tags/code) (25%), [Containers](/tags/containers) (12.5%), [Observability](/tags/observability) (12.5%), [Continuous Integration](/tags/continuous-integration) and [Continuous Delivery](/tags/continuous-delivery) (25%), [Infrastructure](/tags/infrastructure) (12.5%)
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (25%), [Containers](/tags/containers) (12.5%), [Observability](/tags/observability) (12.5%), [Continuous Integration](/tags/continuous-integration), [Continuous Delivery](/tags/continuous-delivery) (25%), [Infrastructure](/tags/infrastructure) (12.5%)
 :::
 
 ## 4.1 Planning - Review the Goals and Requirements

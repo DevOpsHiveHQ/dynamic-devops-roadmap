@@ -12,7 +12,7 @@ tags:
   - Mini Project
   - Monitoring
   - Project
-  - Use-case
+  - Use-Case
 keywords:
   - Cloud Computing
   - Cloud Native
@@ -23,7 +23,7 @@ keywords:
   - Mini Project
   - Monitoring
   - Project
-  - Use-case
+  - Use-Case
 ---
 
 TBA

@@ -53,7 +53,7 @@ import QuizData from './module-06-quiz.json';
 - Implement the progressive hands-on project, HiveBox phase 6.
 
 :::tip Focus areas
-[Planning](/tags/planning) (12.5%), [Code](/tags/code) (12.5%), [Infrastructure](/tags/infrastructure) (12.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (12.5%), [Continuous Delivery](/tags/continuous-delivery) (12.5%), and [Continuous Deployment](/tags/continuous-deployment) (25%)
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (12.5%), [Infrastructure](/tags/infrastructure) (12.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (12.5%), [Continuous Delivery](/tags/continuous-delivery) (12.5%), [Continuous Deployment](/tags/continuous-deployment) (25%)
 :::
 
 ## 6.1 Planning - Agile Retrospective
