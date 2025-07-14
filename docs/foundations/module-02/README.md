@@ -4,6 +4,26 @@ sidebar_label: "2. Basics - DevOps Core"
 description: "Learn Python fundamentals, common development tools, and Git basics. Then, gain Linux essentials, common tools, and bash scripting skills. Also, cover Docker fundamentals — finally, a hands-on with the HiveBox project"
 image: /img/devops-core-preview.png
 toc_max_heading_level: 2
+tags:
+  - Bash
+  - Code
+  - Containers
+  - Development
+  - Docker
+  - Git
+  - Linux
+  - Operating System
+  - Python
+keywords:
+  - Bash
+  - Code
+  - Containers
+  - Development
+  - Docker
+  - Git
+  - Linux
+  - Operating System
+  - Python
 ---
 
 import {TargetAudience} from '@site/src/components/Audience';

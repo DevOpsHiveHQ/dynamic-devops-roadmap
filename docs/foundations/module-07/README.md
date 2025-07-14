@@ -3,6 +3,30 @@ title: "Module 7: Capstone Project"
 sidebar_label: "7. Capstone Project"
 description: "Self-driven project to put everything together and create an industry-grade project which includes defining the requirements gathering, setting the plan, implementation, and review"
 toc_max_heading_level: 2
+tags:
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous Integration
+  - DevOps Methodology
+  - Infrastructure
+  - Observability
+  - Operating System
+  - Planning
+  - Software Production
+keywords:
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous Integration
+  - DevOps Methodology
+  - Infrastructure
+  - Observability
+  - Operating System
+  - Planning
+  - Software Production
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';

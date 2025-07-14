@@ -3,6 +3,28 @@ title: "Module 3: Start - Laying the Base"
 sidebar_label: "3. Start - Laying the Base"
 description: "Define goals, prioritize requirements, dive into code modularity, and then move to testing and quality assurance. Implement unit tests, follow Docker best practices, and explore quality gates in continuous integration with GitHub Actions — finally, a hands-on with the HiveBox project"
 toc_max_heading_level: 2
+tags:
+  - Best Practices
+  - Code
+  - Containers
+  - Continuous Integration
+  - Development
+  - Docker
+  - GitHub Actions
+  - Planning
+  - Testing
+  - Unit Test
+keywords:
+  - Best Practices
+  - Code
+  - Containers
+  - Continuous Integration
+  - Development
+  - Docker
+  - GitHub Actions
+  - Planning
+  - Testing
+  - Unit Test
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';
@@ -114,7 +136,7 @@ import QuizData from './module-03-quiz.json';
 - [Unit Testing: Principles, Benefits & 6 Quick Best Practices - Codefresh](https://codefresh.io/learn/unit-testing/)
 - [Unit Testing and Coding: Why Testable Code Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 
-## 3.5 Containers - Docker Best Practices
+## 3.5 Containers - Docker c
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 

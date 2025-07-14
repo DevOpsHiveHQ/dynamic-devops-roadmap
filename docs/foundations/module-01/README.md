@@ -4,6 +4,28 @@ sidebar_label: "1. Welcome to the DevOps World"
 description: "An introduction to the DevOps paradigm and the focus areas. Also, the relationship between DevOps, DevSecOps, and Agile in light of the Software Development Life Cycle (SDLC), in the end, is the initial phase of the HiveBox project."
 image: /img/devops-methodology-pillars-preview.png
 toc_max_heading_level: 2
+tags:
+  - Agile
+  - Change Management
+  - DevOps Pillars
+  - DevOps Roles
+  - DevOps Topologies
+  - DevSecOps
+  - Shift-Left
+  - Software Development
+  - Software Development Life Cycle
+  - T-Shaped Skills
+keywords:
+  - Agile
+  - Change Management
+  - DevOps Pillars
+  - DevOps Roles
+  - DevOps Topologies
+  - DevSecOps
+  - Shift-Left
+  - Software Development
+  - Software Development Life Cycle
+  - T-Shaped Skills
 ---
 
 import {TargetAudience} from '@site/src/components/Audience';

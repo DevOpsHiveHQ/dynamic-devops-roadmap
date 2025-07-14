@@ -3,6 +3,32 @@ title: "Module 4: Expand - Constructing a Shell"
 sidebar_label: "4. Expand - Constructing a Shell"
 description: "Review goals in planning, then apply the Twelve-Factor App methodology and REST API best practices. Embrace Kubernetes for container orchestration. Then explore observability, dive into continuous delivery solutions, also an overview of Cloud Computing — and finally, a hands-on with the HiveBox project"
 toc_max_heading_level: 2
+tags:
+  - Planning
+  - Code
+  - Containers
+  - Observability
+  - Continuous Integration
+  - Continuous Delivery
+  - Infrastructure
+  - Best Practices
+  - Kubernetes
+  - Monitoring
+  - Cloud Computing
+  - Cloud Native
+keywords:
+  - Planning
+  - Code
+  - Containers
+  - Observability
+  - Continuous Integration
+  - Continuous Delivery
+  - Infrastructure
+  - Best Practices
+  - Kubernetes
+  - Monitoring
+  - Cloud Computing
+  - Cloud Native
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';

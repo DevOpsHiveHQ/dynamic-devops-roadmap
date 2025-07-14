@@ -3,6 +3,30 @@ title: "Module 5: Transform - Finishing the Structure"
 sidebar_label: "5. Transform - Finishing the Structure"
 description: "Refine goals, integrate code with external systems, and write integration tests. Also, utilize Infrastructure as Code, learn Terraform essentials, and Kubernetes configuration management like Helm and Kustomize. Then, implement CD best practices — and finally, a hands-on with the HiveBox project"
 toc_max_heading_level: 2
+tags:
+  - Best Practices
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Infrastructure
+  - Infrastructure as Code
+  - Integration Tests
+  - Kubernetes
+  - Logging
+  - Observability
+  - Planning
+keywords:
+  - Best Practices
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Infrastructure
+  - Infrastructure as Code
+  - Integration Tests
+  - Kubernetes
+  - Logging
+  - Observability
+  - Planning
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';
