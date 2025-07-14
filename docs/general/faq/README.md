@@ -6,6 +6,14 @@ sidebar_position: 1
 description: "The most frequently asked questions about Dynamic DevOps Roadmap"
 toc_max_heading_level: 2
 image: /img/roadmap-faq.png
+tags:
+  - Getting Started
+  - Meta
+  - Overview
+keywords:
+  - Getting Started
+  - Meta
+  - Overview
 ---
 
 import Link from '@docusaurus/Link';
