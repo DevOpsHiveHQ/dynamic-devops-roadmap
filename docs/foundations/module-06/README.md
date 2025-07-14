@@ -51,7 +51,10 @@ import QuizData from './module-06-quiz.json';
 - Implement a multi-environment architecture with a log aggregation system for observability.
 - Set up end-to-end release automation and explored continuous deployment with GitOps and Argo CD.
 - Implement the progressive hands-on project, HiveBox phase 6.
-- Focus areas: Planning (12.5%), Code (12.5%), Infrastructure (12.5%), Containers (12.5%), Continuous Integration (12.5%), Continuous Delivery (12.5%), and Continuous Deployment (25%).
+
+:::tip Focus areas
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (12.5%), [Infrastructure](/tags/infrastructure) (12.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (12.5%), [Continuous Delivery](/tags/continuous-delivery) (12.5%), and [Continuous Deployment](/tags/continuous-deployment) (25%)
+:::
 
 ## 6.1 Planning - Agile Retrospective
 

@@ -44,7 +44,7 @@ If you reached this point and finished all the previous modules, congratulations
 
 The capstone project will be a bit different, where you will do everything from A to Z, where you will come up with the project idea, define the `requirements,` set the `plan,` work on the `implementation,` and `review` the outcome.
 
-Focus areas: Requirements (20%), Planning (15%), Implementation (40%), Review (25%).
+**Focus areas:** Requirements (20%), Planning (15%), Implementation (40%), Review (25%).
 
 :::warning
 Unlike the [HiveBox project](../../projects/hivebox/) where pairing is recommended, this **capstone project cannot be done without pairing!** You should do it with someone more experienced than you.

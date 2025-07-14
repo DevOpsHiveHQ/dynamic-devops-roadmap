@@ -48,7 +48,10 @@ import QuizData from './module-05-quiz.json';
 - Utilize Infrastructure as Code, learn Terraform essentials and Kubernetes configuration management like Helm and Kustomize.
 - Apply Continuous Delivery best practices.
 - Implement the progressive hands-on project, HiveBox phase 5.
-- Focus areas: Planning (12.5%), Code (25%), Infrastructure (25%), Containers (12.5%), Observability (12.5%), Continuous Delivery (12.5%).
+
+:::tip Focus areas
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (25%), [Infrastructure](/tags/infrastructure) (25%), [Containers](/tags/containers) (12.5%), [Observability](/tags/observability) (12.5%), [Continuous Delivery](/tags/continuous-delivery) (12.5%)
+:::
 
 ## 5.1 Planning - Refine the Goals and Requirements
 

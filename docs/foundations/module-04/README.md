@@ -51,7 +51,10 @@ import QuizData from './module-04-quiz.json';
 - Explore observability and its pillars.
 - Apply Continuous Integration best practices and dive into Continuous Delivery solutions.
 - Implement the progressive hands-on project, HiveBox phase 4.
-- Focus areas: Planning (12.5%), Code (25%), Containers (12.5%), Observability (12.5%), Continuous Integration and Continuous Delivery (25%), Infrastructure (12.5%).
+
+:::tip Focus areas
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (25%), [Containers](/tags/containers) (12.5%), [Observability](/tags/observability) (12.5%), [Continuous Integration](/tags/continuous-integration) and [Continuous Delivery](/tags/continuous-delivery) (25%), [Infrastructure](/tags/infrastructure) (12.5%)
+:::
 
 ## 4.1 Planning - Review the Goals and Requirements
 

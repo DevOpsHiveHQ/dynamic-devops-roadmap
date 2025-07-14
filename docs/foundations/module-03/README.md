@@ -44,7 +44,10 @@ import QuizData from './module-03-quiz.json';
 - Define goals, prioritize requirements, explore code modularity, and then move on to testing and quality assurance.
 - Implement unit tests, follow Docker best practices, and explore quality gates in continuous integration with GitHub Actions.
 - Implement the progressive hands-on project, HiveBox phase 3.
-- Focus areas: Planning (12.5%), Code (37.5%), Containers (12.5%), Continuous Integration (37.5%).
+
+:::tip Focus areas
+[Planning](/tags/Planning) (12.5%), [Code](/tags/code) (37.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (37.5%)
+:::
 
 ## 3.1 Planning - Define Goals and Requirements
 
