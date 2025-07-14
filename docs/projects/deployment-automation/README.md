@@ -8,12 +8,14 @@ tags:
   - Hands-on
   - Mini Project
   - Project
+  - Use-Case
 keywords:
   - Continuous Deployment
   - GitOps
   - Hands-on
   - Mini Project
   - Project
+  - Use-Case
 ---
 
 TBA

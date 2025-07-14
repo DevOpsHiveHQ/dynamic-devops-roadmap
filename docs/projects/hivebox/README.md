@@ -6,12 +6,12 @@ description: "An incremental industry-grad end-to-end project to learn DevOps in
 image: ./hivebox-architecture-preview.png
 toc_max_heading_level: 2
 tags:
-  - End-to-end Project
+  - End-to-End Project
   - Full Project
   - Hands-on
   - Project
 keywords:
-  - End-to-end Project
+  - End-to-End Project
   - Full Project
   - Hands-on
   - Project
