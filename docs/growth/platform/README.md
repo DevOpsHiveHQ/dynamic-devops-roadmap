@@ -4,6 +4,18 @@ title: Platform Engineering - Advanced
 description: Advanced Platform Engineering topics
 sidebar_position: 5
 toc_max_heading_level: 2
+tags:
+  - Advanced
+  - Growth
+  - Job
+  - Platform
+  - Role
+keywords:
+  - Advanced
+  - Growth
+  - Job
+  - Platform
+  - Role
 ---
 
 :::info

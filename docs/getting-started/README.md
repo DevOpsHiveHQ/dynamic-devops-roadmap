@@ -4,6 +4,14 @@ sidebar_position: 1
 description: How to start with the Dynamic DevOps Roadmap
 image: /img/dynamic-devops-roadmap-modules.png
 toc_max_heading_level: 2
+tags:
+  - Getting Started
+  - Meta
+  - Overview
+keywords:
+  - Getting Started
+  - Meta
+  - Overview
 ---
 
 import DocCardList from '@theme/DocCardList';

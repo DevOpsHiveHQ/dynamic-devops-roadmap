@@ -4,6 +4,18 @@ title: Site Reliability Engineering (SRE) - Advanced
 description: Advanced SRE topics
 sidebar_position: 4
 toc_max_heading_level: 2
+tags:
+  - Advanced
+  - SRE
+  - Growth
+  - Job
+  - Role
+keywords:
+  - Advanced
+  - SRE
+  - Growth
+  - Job
+  - Role
 ---
 
 This section will cover advanced SRE topics like SRE Transformation, Service Metrics (SLA, SLO, SLI), and Capacity Planning.

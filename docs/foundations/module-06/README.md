@@ -4,6 +4,32 @@ sidebar_label: "6. Optimize - Keep Improving"
 description: "Conduct Agile retrospective to analyze the improvement areas, optimize code performance, and secure the software supply chain. Then, implement a multi-environment architecture with a log aggregation system for observability. Also, set up end-to-end release automation, explore continuous deployment with GitOps and Argo CD — and finally, a hands-on with the HiveBox project"
 image: /img/reconciliation-loop.png
 toc_max_heading_level: 2
+tags:
+  - Agile
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous Integration
+  - GitOps
+  - Infrastructure
+  - Kubernetes
+  - Observability
+  - Planning
+  - Supply Chain Security
+keywords:
+  - Agile
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous Integration
+  - GitOps
+  - Infrastructure
+  - Kubernetes
+  - Observability
+  - Planning
+  - Supply Chain Security
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';
@@ -25,7 +51,10 @@ import QuizData from './module-06-quiz.json';
 - Implement a multi-environment architecture with a log aggregation system for observability.
 - Set up end-to-end release automation and explored continuous deployment with GitOps and Argo CD.
 - Implement the progressive hands-on project, HiveBox phase 6.
-- Focus areas: Planning (12.5%), Code (12.5%), Infrastructure (12.5%), Containers (12.5%), Continuous Integration (12.5%), Continuous Delivery (12.5%), and Continuous Deployment (25%).
+
+:::tip Focus areas
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (12.5%), [Infrastructure](/tags/infrastructure) (12.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (12.5%), [Continuous Delivery](/tags/continuous-delivery) (12.5%), [Continuous Deployment](/tags/continuous-deployment) (25%)
+:::
 
 ## 6.1 Planning - Agile Retrospective
 
@@ -53,7 +82,7 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
-### Audience {#61-audience}
+### Audience {#62-audience}
 
 <TargetAudience roles={['devops', 'software']} />
 
@@ -76,7 +105,7 @@ Finally, remember that retro is not only about bad things. It's also time to cel
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-integration.png"></img>
 
-### Audience {#61-audience}
+### Audience {#63-audience}
 
 <TargetAudience roles={['devops', 'software']} />
 
@@ -113,7 +142,7 @@ In general, adopt `Shift Left Security` so you run security checks early in the 
 
 <img class="img-right" align="right" width="25%" src="/img/topics/infrastructure.png"></img>
 
-### Audience {#61-audience}
+### Audience {#64-audience}
 
 <TargetAudience roles={['devops', 'software']} />
 
@@ -147,7 +176,7 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
-### Audience {#61-audience}
+### Audience {#65-audience}
 
 <TargetAudience roles={['devops']} />
 
@@ -190,7 +219,7 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 <img class="img-right" align="right" width="25%" src="/img/topics/continuous-delivery.png"></img>
 
-### Audience {#61-audience}
+### Audience {#66-audience}
 
 <TargetAudience roles={['devops', 'software']} />
 
@@ -219,7 +248,7 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
 
 ## 6.7 Continuous Deployment - Introduction and Solutions in the Market
 
-### Audience {#61-audience}
+### Audience {#67-audience}
 
 <TargetAudience roles={['devops', 'software']} />
 
@@ -251,7 +280,7 @@ Multi-environment setup is not a trivial topic, but like anything else, doing it
   <img class="section-cover-image" title="Reconciliation loop" alt="Reconciliation loop" border="0" width="90%" src="/img/reconciliation-loop.png"/>
 </p>
 
-### Audience {#61-audience}
+### Audience {#68-audience}
 
 <TargetAudience roles={['devops']} />
 

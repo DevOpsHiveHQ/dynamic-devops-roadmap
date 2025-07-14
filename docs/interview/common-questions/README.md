@@ -5,6 +5,10 @@ description: "Most common interview questions for DevOps role"
 sidebar_position: 2
 toc_max_heading_level: 2
 image: /img/interview.png
+tags:
+  - Interview
+keywords:
+  - Interview
 ---
 
 ## Approach

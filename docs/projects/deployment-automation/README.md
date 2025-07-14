@@ -2,7 +2,20 @@
 title: "Use-Case Project: GitOps Continuous Deployment Automation"
 sidebar_label: "Deployment Automation"
 description: "End-to-End deployment automation using Continuous Deployment and GitOps"
-keywords: ["project", "mini project", "use-case", "deployment", "gitops", "cd"]
+tags:
+  - Continuous Deployment
+  - GitOps
+  - Hands-on
+  - Mini Project
+  - Project
+  - Use-Case
+keywords:
+  - Continuous Deployment
+  - GitOps
+  - Hands-on
+  - Mini Project
+  - Project
+  - Use-Case
 ---
 
 TBA

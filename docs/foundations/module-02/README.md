@@ -4,6 +4,26 @@ sidebar_label: "2. Basics - DevOps Core"
 description: "Learn Python fundamentals, common development tools, and Git basics. Then, gain Linux essentials, common tools, and bash scripting skills. Also, cover Docker fundamentals — finally, a hands-on with the HiveBox project"
 image: /img/devops-core-preview.png
 toc_max_heading_level: 2
+tags:
+  - Bash
+  - Code
+  - Containers
+  - Development
+  - Docker
+  - Git
+  - Linux
+  - Operating System
+  - Python
+keywords:
+  - Bash
+  - Code
+  - Containers
+  - Development
+  - Docker
+  - Git
+  - Linux
+  - Operating System
+  - Python
 ---
 
 import {TargetAudience} from '@site/src/components/Audience';
@@ -24,13 +44,12 @@ import QuizData from './module-02-quiz.json';
 - Gain Linux essentials, common tools, and bash scripting skills.
 - Cover Docker and containers fundamentals.
 - Implement the progressive hands-on project, HiveBox phase 2.
-- Focus areas: Code (40%), Operating System (40%), Containers (20%).
+
+:::tip Focus areas
+[Code](/tags/code) (40%), [Operating System](/tags/operating-system) (40%), [Containers](/tags/containers) (20%)
+:::
 
 ## 2.1 Code - Python Fundamentals
-
-:::tip
-If you come from a development background, you can use any language you know. Python or Golang are still recommended.
-:::
 
 <img class="img-right" align="right" width="25%" src="/img/topics/code.png"></img>
 
@@ -45,6 +64,10 @@ If you come from a development background, you can use any language you know. Py
 - Learn the basics like data types, control flow, loops, and functions.
 - Yet, the idea is not just learning the syntax but also adapting the developer mindset (i.e., don't write Python code like you write your Bash scripts!).
 - More advanced topics will be covered in the next modules.
+
+:::tip
+If you come from a development background, you can use any language you know. Python or Golang are still recommended.
+:::
 
 ### Resources {#21-resources}
 

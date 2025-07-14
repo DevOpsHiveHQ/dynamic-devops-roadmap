@@ -1,9 +1,22 @@
 ---
-title: "Use-Case Project: Apply Docker Container Best Practices"
+title: "Use-Case Project: Apply Docker Containers Best Practices"
 sidebar_label: "Docker Best Practices"
 description: "How to work effectively with Docker with top ✅️ Dos & 🚫 Don'ts"
-keywords: ["project", "mini project", "use-case", "container", "docker"]
 image: /img/projects/container-best-practices.png
+tags:
+  - Best Practices
+  - Containers
+  - Docker
+  - Hands-on
+  - Project
+  - Use-Case
+keywords:
+  - Best Practices
+  - Containers
+  - Docker
+  - Hands-on
+  - Project
+  - Use-Case
 ---
 
 <p align="center">

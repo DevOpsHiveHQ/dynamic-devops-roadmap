@@ -4,6 +4,18 @@ title: Cloud Engineering - Advanced
 description: Advanced Cloud Engineering topics
 sidebar_position: 3
 toc_max_heading_level: 2
+tags:
+  - Advanced
+  - Cloud
+  - Growth
+  - Job
+  - Role
+keywords:
+  - Advanced
+  - Cloud
+  - Growth
+  - Job
+  - Role
 ---
 
 This section will cover advanced Cloud Engineering topics like Multi Cloud, Cloud Agnosticism, and Edge Computing.

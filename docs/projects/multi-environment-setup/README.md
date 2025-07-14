@@ -1,8 +1,29 @@
 ---
 title: "Use-Case Project: Build Multi-Environment Setup"
 sidebar_label: "Multi-Environment Setup"
-description: "Create and mange multi-environment infrastructure and applications"
-keywords: ["project", "mini project", "use-case", "infrastructure", "cloud", "IaC"]
+description: "Create and manage multi-environment infrastructure and applications"
+tags:
+  - Cloud Computing
+  - Cloud Native
+  - Hands-on
+  - Infrastructure
+  - Infrastructure as Code
+  - Kubernetes
+  - Mini Project
+  - Monitoring
+  - Project
+  - Use-Case
+keywords:
+  - Cloud Computing
+  - Cloud Native
+  - Hands-on
+  - Infrastructure
+  - Infrastructure as Code
+  - Kubernetes
+  - Mini Project
+  - Monitoring
+  - Project
+  - Use-Case
 ---
 
 TBA

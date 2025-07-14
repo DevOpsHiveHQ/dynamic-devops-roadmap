@@ -3,6 +3,30 @@ title: "Module 5: Transform - Finishing the Structure"
 sidebar_label: "5. Transform - Finishing the Structure"
 description: "Refine goals, integrate code with external systems, and write integration tests. Also, utilize Infrastructure as Code, learn Terraform essentials, and Kubernetes configuration management like Helm and Kustomize. Then, implement CD best practices — and finally, a hands-on with the HiveBox project"
 toc_max_heading_level: 2
+tags:
+  - Best Practices
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Infrastructure
+  - Infrastructure as Code
+  - Integration Tests
+  - Kubernetes
+  - Logging
+  - Observability
+  - Planning
+keywords:
+  - Best Practices
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Infrastructure
+  - Infrastructure as Code
+  - Integration Tests
+  - Kubernetes
+  - Logging
+  - Observability
+  - Planning
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';
@@ -24,7 +48,10 @@ import QuizData from './module-05-quiz.json';
 - Utilize Infrastructure as Code, learn Terraform essentials and Kubernetes configuration management like Helm and Kustomize.
 - Apply Continuous Delivery best practices.
 - Implement the progressive hands-on project, HiveBox phase 5.
-- Focus areas: Planning (12.5%), Code (25%), Infrastructure (25%), Containers (12.5%), Observability (12.5%), Continuous Delivery (12.5%).
+
+:::tip Focus areas
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (25%), [Infrastructure](/tags/infrastructure) (25%), [Containers](/tags/containers) (12.5%), [Observability](/tags/observability) (12.5%), [Continuous Delivery](/tags/continuous-delivery) (12.5%)
+:::
 
 ## 5.1 Planning - Refine the Goals and Requirements
 

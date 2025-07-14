@@ -3,9 +3,18 @@ title: "End-to-End Project: HiveBox"
 sidebar_label: "⭐ HiveBox"
 sidebar_position: 1
 description: "An incremental industry-grad end-to-end project to learn DevOps in a hands-on way"
-keywords: ["project", "full project", "e2e", "end-to-end", "hands-on"]
 image: ./hivebox-architecture-preview.png
 toc_max_heading_level: 2
+tags:
+  - End-to-End Project
+  - Full Project
+  - Hands-on
+  - Project
+keywords:
+  - End-to-End Project
+  - Full Project
+  - Hands-on
+  - Project
 ---
 
 <p align="center">

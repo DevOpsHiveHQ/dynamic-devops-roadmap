@@ -3,6 +3,32 @@ title: "Module 4: Expand - Constructing a Shell"
 sidebar_label: "4. Expand - Constructing a Shell"
 description: "Review goals in planning, then apply the Twelve-Factor App methodology and REST API best practices. Embrace Kubernetes for container orchestration. Then explore observability, dive into continuous delivery solutions, also an overview of Cloud Computing — and finally, a hands-on with the HiveBox project"
 toc_max_heading_level: 2
+tags:
+  - Planning
+  - Code
+  - Containers
+  - Observability
+  - Continuous Integration
+  - Continuous Delivery
+  - Infrastructure
+  - Best Practices
+  - Kubernetes
+  - Monitoring
+  - Cloud Computing
+  - Cloud Native
+keywords:
+  - Planning
+  - Code
+  - Containers
+  - Observability
+  - Continuous Integration
+  - Continuous Delivery
+  - Infrastructure
+  - Best Practices
+  - Kubernetes
+  - Monitoring
+  - Cloud Computing
+  - Cloud Native
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';
@@ -25,7 +51,10 @@ import QuizData from './module-04-quiz.json';
 - Explore observability and its pillars.
 - Apply Continuous Integration best practices and dive into Continuous Delivery solutions.
 - Implement the progressive hands-on project, HiveBox phase 4.
-- Focus areas: Planning (12.5%), Code (25%), Containers (12.5%), Observability (12.5%), Continuous Integration and Continuous Delivery (25%), Infrastructure (12.5%).
+
+:::tip Focus areas
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (25%), [Containers](/tags/containers) (12.5%), [Observability](/tags/observability) (12.5%), [Continuous Integration](/tags/continuous-integration), [Continuous Delivery](/tags/continuous-delivery) (25%), [Infrastructure](/tags/infrastructure) (12.5%)
+:::
 
 ## 4.1 Planning - Review the Goals and Requirements
 

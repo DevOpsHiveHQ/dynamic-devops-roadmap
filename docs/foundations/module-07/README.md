@@ -3,6 +3,30 @@ title: "Module 7: Capstone Project"
 sidebar_label: "7. Capstone Project"
 description: "Self-driven project to put everything together and create an industry-grade project which includes defining the requirements gathering, setting the plan, implementation, and review"
 toc_max_heading_level: 2
+tags:
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous Integration
+  - DevOps Methodology
+  - Infrastructure
+  - Observability
+  - Operating System
+  - Planning
+  - Software Production
+keywords:
+  - Code
+  - Containers
+  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous Integration
+  - DevOps Methodology
+  - Infrastructure
+  - Observability
+  - Operating System
+  - Planning
+  - Software Production
 ---
 
 import ModuleHeader from '@site/src/components/ModuleHeader';
@@ -20,7 +44,7 @@ If you reached this point and finished all the previous modules, congratulations
 
 The capstone project will be a bit different, where you will do everything from A to Z, where you will come up with the project idea, define the `requirements,` set the `plan,` work on the `implementation,` and `review` the outcome.
 
-Focus areas: Requirements (20%), Planning (15%), Implementation (40%), Review (25%).
+**Focus areas:** Requirements (20%), Planning (15%), Implementation (40%), Review (25%).
 
 :::warning
 Unlike the [HiveBox project](../../projects/hivebox/) where pairing is recommended, this **capstone project cannot be done without pairing!** You should do it with someone more experienced than you.
