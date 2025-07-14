@@ -46,7 +46,7 @@ import QuizData from './module-03-quiz.json';
 - Implement the progressive hands-on project, HiveBox phase 3.
 
 :::tip Focus areas
-[Planning](/tags/Planning) (12.5%), [Code](/tags/code) (37.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (37.5%)
+[Planning](/tags/planning) (12.5%), [Code](/tags/code) (37.5%), [Containers](/tags/containers) (12.5%), [Continuous Integration](/tags/continuous-integration) (37.5%)
 :::
 
 ## 3.1 Planning - Define Goals and Requirements
@@ -139,7 +139,7 @@ import QuizData from './module-03-quiz.json';
 - [Unit Testing: Principles, Benefits & 6 Quick Best Practices - Codefresh](https://codefresh.io/learn/unit-testing/)
 - [Unit Testing and Coding: Why Testable Code Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 
-## 3.5 Containers - Docker c
+## 3.5 Containers - Docker Best Practices
 
 <img class="img-right" align="right" width="25%" src="/img/topics/containers.png"></img>
 
