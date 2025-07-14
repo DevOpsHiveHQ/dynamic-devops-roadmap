@@ -2,7 +2,20 @@
 title: "Use-Case Project: Artifact Release Automation"
 sidebar_label: "Release Automation"
 description: "End-to-End release automation using CI/CD"
-keywords: ["project", "mini project", "use-case"]
+tags:
+  - Continuous Delivery
+  - Continuous Integration
+  - Hands-on
+  - Mini Project
+  - Project
+  - Use-case
+keywords:
+  - Continuous Delivery
+  - Continuous Integration
+  - Hands-on
+  - Mini Project
+  - Project
+  - Use-case
 ---
 
 TBA

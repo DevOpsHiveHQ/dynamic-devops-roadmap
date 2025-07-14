@@ -2,7 +2,22 @@
 title: "Use-Case Project: Develop Kubernetes Operator"
 sidebar_label: "Develop Kubernetes Operator"
 description: "Create Kubernetes Operator from scratch"
-keywords: ["project", "mini project", "use-case", "kubernetes", "coding"]
+tags:
+  - Cloud Native
+  - Coding
+  - Hands-on
+  - Kubernetes
+  - Mini Project
+  - Project
+  - Use-case
+keywords:
+  - Cloud Native
+  - Coding
+  - Hands-on
+  - Kubernetes
+  - Mini Project
+  - Project
+  - Use-case
 ---
 
 TBA
