@@ -4,6 +4,16 @@ sidebar_label: Growth
 sidebar_position: 5
 description: You are now a DevOps Engineer, what are other advanced or promising career paths?
 image: /img/growth.png
+tags:
+  - Advanced
+  - Growth
+  - Job
+  - Role
+keywords:
+  - Advanced
+  - Growth
+  - Job
+  - Role
 ---
 
 import DocCardList from '@theme/DocCardList';

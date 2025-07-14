@@ -5,6 +5,18 @@ description: Advanced DevSecOps topics
 sidebar_position: 2
 toc_max_heading_level: 2
 image: /img/breaking-down-security-silo.png
+tags:
+  - Advanced
+  - DevSecOps
+  - Growth
+  - Job
+  - Role
+keywords:
+  - Advanced
+  - DevSecOps
+  - Growth
+  - Job
+  - Role
 ---
 
 ## 1. DevOps vs DevSecOps
