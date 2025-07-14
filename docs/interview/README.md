@@ -4,6 +4,10 @@ sidebar_label: Interview
 sidebar_position: 4
 description: How to prepare for the DevOps interview?
 image: /img/interview.png
+tags:
+  - Interview
+keywords:
+  - Interview
 ---
 
 <p align="center">

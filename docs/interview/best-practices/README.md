@@ -3,6 +3,12 @@ title: "⭐ Interview Best Practices"
 description: "What are the pre/in/post interview best practices?"
 sidebar_position: 1
 image: /img/interview.png
+tags:
+  - Interview
+  - Best Practices
+keywords:
+  - Interview
+  - Best Practices
 ---
 
 ## Essentials
