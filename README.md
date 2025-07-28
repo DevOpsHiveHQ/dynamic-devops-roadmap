@@ -39,6 +39,12 @@ Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and mo
 <!-- omit from toc -->
 ## Give it a Star! ⭐
 
+<p align="center">
+  <a href="#top" style="display: block; padding: .5em 0; text-align: center;">
+    <img alt="Star the project" border="0" width="100%" src="./img/star-the-project.png" />
+  </a>
+</p>
+
 If you like this project, please [give it a star](#top) on GitHub for better visibility. Thanks!
 
 </br>
