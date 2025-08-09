@@ -58,7 +58,7 @@ This project works best in `Pairing` mode, where you have another person to help
 
 - Avoid stereotypes about yourself! You have to think differently this time!
 - Say `NO` more to other things during the project implementation. Even good things, i.e., stay focused!
-- Remember, life is all about tread-offs! [You can do anything if you stop trying to do everything](https://oliveremberton.com/2013/you-can-do-anything-if-you-stop-trying-to-do-everything/).
+- Remember, life is all about tread-offs! [You can do anything if you stop trying to do everything](https://www.oliveremberton.com/p/you-can-do-anything-if-you-stop-trying).
 
 :::note
 Each phase of this project is tackled gradually as part of the roadmap modules. But it's also **standalone**, and you can work on it if you have the required knowledge for each phase.
