@@ -1,0 +1,78 @@
+name: HiveBox CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  # Job 1: Check Quality
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pylint flask requests
+          
+      - name: Lint Python Code
+        run: pylint app.py
+        
+      - name: Lint Dockerfile
+        uses: hadolint/hadolint-action@v3.1.0
+        with:
+          dockerfile: Dockerfile
+
+  # Job 2: Run Unit Tests
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest requests-mock
+          
+      - name: Run Unit Tests
+        run: pytest
+
+  # Job 3: Build & Integration Test
+  build:
+    needs: [lint, test] # Wait for lint and test to pass first
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Build Docker Image
+        run: docker build -t hivebox:${{ github.sha }} .
+        
+      - name: Run Container
+        run: docker run -d -p 5000:5000 --name hivebox-ci hivebox:${{ github.sha }}
+        
+      - name: Wait for App to Start
+        run: sleep 5
+        
+      - name: Test Endpoint (Integration)
+        run: |
+          response=$(curl -s http://localhost:5000/version)
+          echo "Response: $response"
+          if [[ "$response" != *'"version":"v0.0.1"'* ]]; then
+            echo "Integration Test Failed!"
+            exit 1
+          fi
+          echo "Integration Test Passed!"
