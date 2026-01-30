@@ -2,10 +2,15 @@ name: HiveBox CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - "main"
+      - "phase-*"      
+      - "feat-*"     
+      - "fix-*"
   pull_request:
-    branches: [ "main" ]
-
+    branches:
+      - "main"
+      - "phase-*"
 jobs:
   # Job 1: Check Quality
   lint:
