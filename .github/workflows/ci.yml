@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - "main"
-      - "phase-*"      
-      - "feat-*"     
+      - "phase-*"
+      - "feat-*"
       - "fix-*"
   pull_request:
     branches:
@@ -13,7 +13,7 @@ on:
       - "phase-*"
 
 jobs:
-  # Job 1: Check Quality (Python & Dockerfile)
+  # Job 1: Check Quality
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -72,18 +72,40 @@ jobs:
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
 
-  # Job 4: Build & Integration Test
+  # Job 4: Build, Test & Push (CD)
   build:
-    needs: [lint, test, security_scan] # Must wait for Security Scan too!
+    needs: [lint, test, security_scan]
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write # Required to push to GHCR
+    
     steps:
       - uses: actions/checkout@v3
+
+      # Fix: Convert repo name to lowercase for Docker tag
+      - name: Lowercase Repo Name
+        run: |
+          echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
+
+      # 1. Log in to GitHub Container Registry
+      - name: Log in to the Container registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Build Docker Image
-        run: docker build -t hivebox:${{ github.sha }} .
-        
-      - name: Run Container
-        run: docker run -d -p 5000:5000 --name hivebox-ci hivebox:${{ github.sha }}
+      # 2. Build and Tag Image
+      # We tag it twice: with the commit SHA (for history) and 'latest'
+      - name: Build and Tag Docker Image
+        run: |
+          docker build . --tag ghcr.io/${{ env.REPO }}:${{ github.sha }}
+          docker build . --tag ghcr.io/${{ env.REPO }}:latest
+
+      # 3. Run Container (Integration Test)
+      - name: Run Container for Testing
+        run: docker run -d -p 5000:5000 --name hivebox-ci ghcr.io/${{ env.REPO }}:${{ github.sha }}
         
       - name: Wait for App to Start
         run: sleep 5
@@ -97,3 +119,9 @@ jobs:
             exit 1
           fi
           echo "Integration Test Passed!"
+
+      # 4. Push Image to Registry
+      - name: Push Docker Image
+        run: |
+          docker push ghcr.io/${{ env.REPO }}:${{ github.sha }}
+          docker push ghcr.io/${{ env.REPO }}:latest
