@@ -47,16 +47,16 @@ def get_temperature():
             for sensor in sensors:
                 if sensor['title'] == 'Temperature' and 'lastMeasurement' in sensor:
                     last_measurement = sensor['lastMeasurement']
-                    
+
                     created_at_str = last_measurement['createdAt']
                     created_at_str = created_at_str.replace('Z', '+00:00')
                     created_at = datetime.datetime.fromisoformat(created_at_str)
-                    
+
                     now = datetime.datetime.now(datetime.timezone.utc)
                     if (now - created_at).total_seconds() < 3600:
                         temperatures.append(float(last_measurement['value']))
-                    
-                    break 
+
+                    break
 
         except (requests.RequestException, ValueError) as error:
             print(f"Error fetching data for box {box_id}: {error}")
@@ -66,7 +66,7 @@ def get_temperature():
         return jsonify({"message": "No valid temperature data found"}), 404
 
     avg_temp = sum(temperatures) / len(temperatures)
-    
+
     # Logic for status
     if avg_temp < 10:
         status = "Too Cold"
@@ -85,4 +85,3 @@ def get_temperature():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-    

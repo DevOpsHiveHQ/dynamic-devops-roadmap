@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hivebox
 spec:
-  replicas: 1 
+  replicas: 1
   selector:
     matchLabels:
       app: hivebox
@@ -14,13 +14,28 @@ spec:
       labels:
         app: hivebox
     spec:
+      # --- Security Fix 1: AppUser ---
+      # Ensure the pod runs as the user we created in Dockerfile (1000)
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 2000
+        runAsNonRoot: true
+
       containers:
       - name: hivebox
-        image: hivebox:v0.0.1 
-        imagePullPolicy: Never 
+        image: hivebox:v0.0.1
+        imagePullPolicy: Never
         ports:
         - containerPort: 5000
         
+        # --- Security Fix 2: ReadOnly FS & Capabilities ---
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          capabilities:
+            drop:
+              - ALL
 
         readinessProbe:
           httpGet:
@@ -28,7 +43,6 @@ spec:
             port: 5000
           initialDelaySeconds: 15
           periodSeconds: 10
-        
         livenessProbe:
           httpGet:
             path: /version
@@ -36,7 +50,6 @@ spec:
           initialDelaySeconds: 30
           periodSeconds: 15
           
-        
         resources:
           requests:
             memory: "128Mi"
