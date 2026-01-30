@@ -17,3 +17,4 @@ requests==2.32.5
 tomlkit==0.14.0
 urllib3==2.6.3
 Werkzeug==3.1.5
+prometheus-flask-exporter

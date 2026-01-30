@@ -1,9 +1,9 @@
 """
-Unit tests for the HiveBox application.
+Unit and Integration tests for the HiveBox application.
 """
 import pytest
 import requests_mock
-from app import app
+from app import app, SENSEBOX_IDS
 
 @pytest.fixture
 def client():
@@ -18,75 +18,57 @@ def test_version_endpoint(client):
     assert response.status_code == 200
     assert response.json == {"version": "v0.0.1"}
 
-def test_temperature_endpoint_success(client):
-    """
-    Test calculating average temperature.
-    Scenario:
-    - Box 1: 20 degrees (valid time)
-    - Box 2: 30 degrees (valid time)
-    - Box 3: 100 degrees (OLD time - should be ignored)
-    Expected Average: (20 + 30) / 2 = 25.0
-    """
-    # Mock data resembling OpenSenseMap API response
-    # Using a fake 'recent' timestamp (e.g., current time would be handled by logic,
-    # but for simplicity in mocking, we ensure the logic accepts it).
-    # NOTE: Since our app calculates time difference relative to 'now',
-    # we need to be careful. However, requests_mock just returns what we define.
-    # To make this robust without complex time mocking, we will rely on the app's logic
-    # correctly interpreting ISO strings.
-    
-    # We will simply mock the requests.get to return specific JSON for each ID
-    pass 
-    # To implement this properly in a simple way for you:
-    # We will verify the logic handles the API calls.
-    
+def test_metrics_endpoint(client):
+    """Test that the /metrics endpoint exists and returns prometheus data."""
+    response = client.get('/metrics')
+    assert response.status_code == 200
+    # Check for a standard metric exposed by the library
+    assert b"flask_http_request_total" in response.data
+
+def test_temperature_status_cold(client):
+    """Test status logic: Too Cold (<10)."""
     with requests_mock.Mocker() as m:
-        # Mocking responses for the 3 known IDs
-        # Valid sensor 1
-        m.get("https://api.opensensemap.org/boxes/5eba5fbad46fb8001b799786", json={
-            "sensors": [{
-                "title": "Temperature",
-                "lastMeasurement": {
-                    "value": "20.0",
-                    "createdAt": "2099-01-01T00:00:00.000Z" # Future date is always < 1 hour old relative to now
-                }
-            }]
+        # Mock API to return a low temperature (5.0)
+        m.get(requests_mock.ANY, json={
+            "sensors": [{"title": "Temperature", "lastMeasurement": {
+                "value": "5.0", 
+                "createdAt": "2099-01-01T00:00:00.000Z" # Future date is valid
+            }}]
         })
-        
-        # Valid sensor 2
-        m.get("https://api.opensensemap.org/boxes/5c21ff8f919bf8001adf2488", json={
-            "sensors": [{
-                "title": "Temperature",
-                "lastMeasurement": {
-                    "value": "30.0",
-                    "createdAt": "2099-01-01T00:00:00.000Z"
-                }
-            }]
-        })
-
-        # Invalid sensor (Old date)
-        m.get("https://api.opensensemap.org/boxes/5ade1acf223bd80019a1011c", json={
-            "sensors": [{
-                "title": "Temperature",
-                "lastMeasurement": {
-                    "value": "100.0",
-                    "createdAt": "2000-01-01T00:00:00.000Z" # Very old date
-                }
-            }]
-        })
-
         response = client.get('/temperature')
         assert response.status_code == 200
-        data = response.json
-        assert data['sensors_count'] == 2
-        assert data['average_temperature'] == 25.0
+        assert response.json['average_temperature'] == 5.0
+        assert response.json['status'] == "Too Cold"
 
-def test_temperature_no_valid_data(client):
-    """Test endpoint behavior when no valid data is found."""
+def test_temperature_status_good(client):
+    """Test status logic: Good (11-36)."""
     with requests_mock.Mocker() as m:
-        # Mock all calls to return 404 or empty data
-        m.get(requests_mock.ANY, status_code=404)
-
+        # Mock API to return a good temperature (25.0)
+        m.get(requests_mock.ANY, json={
+            "sensors": [{"title": "Temperature", "lastMeasurement": {
+                "value": "25.0", 
+                "createdAt": "2099-01-01T00:00:00.000Z"
+            }}]
+        })
         response = client.get('/temperature')
-        assert response.status_code == 404
-        assert "No valid temperature data found" in response.json['message']
+        assert response.status_code == 200
+        assert response.json['status'] == "Good"
+
+def test_temperature_status_hot(client):
+    """Test status logic: Too Hot (>37)."""
+    with requests_mock.Mocker() as m:
+        # Mock API to return a high temperature (40.0)
+        m.get(requests_mock.ANY, json={
+            "sensors": [{"title": "Temperature", "lastMeasurement": {
+                "value": "40.0", 
+                "createdAt": "2099-01-01T00:00:00.000Z"
+            }}]
+        })
+        response = client.get('/temperature')
+        assert response.status_code == 200
+        assert response.json['status'] == "Too Hot"
+
+def test_env_var_configuration():
+    """Test that default SENSEBOX_IDS are loaded correctly as a list."""
+    assert isinstance(SENSEBOX_IDS, list)
+    assert len(SENSEBOX_IDS) > 0

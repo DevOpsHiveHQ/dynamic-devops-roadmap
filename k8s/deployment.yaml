@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hivebox-deployment
+  labels:
+    app: hivebox
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: hivebox
+  template:
+    metadata:
+      labels:
+        app: hivebox
+    spec:
+      containers:
+      - name: hivebox
+        image: hivebox:v0.0.1 
+        imagePullPolicy: Never 
+        ports:
+        - containerPort: 5000
+        
+
+        readinessProbe:
+          httpGet:
+            path: /version
+            port: 5000
+          initialDelaySeconds: 15
+          periodSeconds: 10
+        
+        livenessProbe:
+          httpGet:
+            path: /version
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 15
+          
+        
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+            
+        env:
+        - name: SENSEBOX_IDS
+          value: "5eba5fbad46fb8001b799786,5c21ff8f919bf8001adf2488,5ade1acf223bd80019a1011c"
