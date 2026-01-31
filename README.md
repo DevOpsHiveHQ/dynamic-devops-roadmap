@@ -1,4 +1,3 @@
-```markdown
 # 🐝 MyHiveBox
 
 ![CI Status](https://github.com/mohamedkhaledoct/MyHiveBox/actions/workflows/ci.yml/badge.svg)
@@ -46,8 +45,6 @@ docker run -d -p 5000:5000 --name hivebox hivebox:local
 # Test endpoints
 curl http://localhost:5000/version
 curl http://localhost:5000/temperature
-
-```
 
 ### 2. Run on Kubernetes (Kind)
 
