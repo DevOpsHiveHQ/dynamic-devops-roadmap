@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - "main"
-      - "phase-*"
-      - "feat-*"
+      - "phase-*"      
+      - "feat-*"     
       - "fix-*"
   pull_request:
     branches:
@@ -18,98 +18,86 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-          
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pylint flask requests prometheus-flask-exporter
-          
       - name: Lint Python Code
         run: pylint app.py
-        
       - name: Lint Dockerfile
         uses: hadolint/hadolint-action@v3.1.0
         with:
           dockerfile: Dockerfile
 
-  # Job 2: Run Unit Tests
+  # Job 2: Static Analysis (Semgrep)
+  semgrep:
+    name: Semgrep Security Scan
+    runs-on: ubuntu-latest
+    container:
+      image: returntocorp/semgrep
+    if: (github.actor != 'dependabot[bot]')
+    steps:
+      - uses: actions/checkout@v3
+      - run: semgrep scan --config=auto
+
+  # Job 3: Run Unit Tests
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-          
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest requests-mock
-          
       - name: Run Unit Tests
         run: pytest
 
-  # Job 3: Security Scan (Infrastructure as Code)
+  # Job 4: Security Scan (K8s)
   security_scan:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Run Trivy Vulnerability Scanner (K8s)
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'config'
           scan-ref: './k8s'
-          exit-code: '1' # Fail pipeline if CRITICAL/HIGH issues found
+          exit-code: '1'
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
 
-  # Job 4: Build, Test & Push (CD)
+  # Job 5: Build & Push
   build:
-    needs: [lint, test, security_scan]
+    needs: [lint, semgrep, test, security_scan]
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write # Required to push to GHCR
-    
+      packages: write 
     steps:
       - uses: actions/checkout@v3
-
-      # Fix: Convert repo name to lowercase for Docker tag
-      - name: Lowercase Repo Name
-        run: |
-          echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
-
-      # 1. Log in to GitHub Container Registry
       - name: Log in to the Container registry
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      
-      # 2. Build and Tag Image
-      # We tag it twice: with the commit SHA (for history) and 'latest'
       - name: Build and Tag Docker Image
         run: |
-          docker build . --tag ghcr.io/${{ env.REPO }}:${{ github.sha }}
-          docker build . --tag ghcr.io/${{ env.REPO }}:latest
-
-      # 3. Run Container (Integration Test)
+          docker build . --tag ghcr.io/${{ github.repository }}/hivebox:${{ github.sha }}
+          docker build . --tag ghcr.io/${{ github.repository }}/hivebox:latest
       - name: Run Container for Testing
-        run: docker run -d -p 5000:5000 --name hivebox-ci ghcr.io/${{ env.REPO }}:${{ github.sha }}
-        
+        run: docker run -d -p 5000:5000 --name hivebox-ci ghcr.io/${{ github.repository }}/hivebox:${{ github.sha }}
       - name: Wait for App to Start
         run: sleep 5
-        
       - name: Test Endpoint (Integration)
         run: |
           response=$(curl -s http://localhost:5000/version)
@@ -119,9 +107,7 @@ jobs:
             exit 1
           fi
           echo "Integration Test Passed!"
-
-      # 4. Push Image to Registry
       - name: Push Docker Image
         run: |
-          docker push ghcr.io/${{ env.REPO }}:${{ github.sha }}
-          docker push ghcr.io/${{ env.REPO }}:latest
+          docker push ghcr.io/${{ github.repository }}/hivebox:${{ github.sha }}
+          docker push ghcr.io/${{ github.repository }}/hivebox:latest
