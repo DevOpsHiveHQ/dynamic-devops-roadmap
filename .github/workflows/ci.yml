@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - "main"
-      - "phase-*"
-      - "feat-*"
+      - "phase-*"      
+      - "feat-*"     
       - "fix-*"
   pull_request:
     branches:
@@ -13,7 +13,7 @@ on:
       - "phase-*"
 
 jobs:
-  # Job 1: Check Quality
+  # Job 1: Check Quality (Python & Dockerfile)
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -37,7 +37,18 @@ jobs:
         with:
           dockerfile: Dockerfile
 
-  # Job 2: Run Unit Tests
+  # Job 2: Static Analysis (Semgrep)
+  semgrep:
+    name: Semgrep Security Scan
+    runs-on: ubuntu-latest
+    container:
+      image: returntocorp/semgrep
+    if: (github.actor != 'dependabot[bot]')
+    steps:
+      - uses: actions/checkout@v3
+      - run: semgrep scan --config=auto
+
+  # Job 3: Run Unit Tests
   test:
     runs-on: ubuntu-latest
     steps:
@@ -57,7 +68,7 @@ jobs:
       - name: Run Unit Tests
         run: pytest
 
-  # Job 3: Security Scan (Infrastructure as Code)
+  # Job 4: Security Scan (Infrastructure as Code)
   security_scan:
     runs-on: ubuntu-latest
     steps:
@@ -72,40 +83,36 @@ jobs:
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
 
-  # Job 4: Build, Test & Push (CD)
+  # Job 5: Build & Integration Test & Push (Fixed for Lowercase)
   build:
-    needs: [lint, test, security_scan]
+    needs: [lint, semgrep, test, security_scan]
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write # Required to push to GHCR
-    
+      packages: write 
+      
     steps:
       - uses: actions/checkout@v3
-
-      # Fix: Convert repo name to lowercase for Docker tag
-      - name: Lowercase Repo Name
-        run: |
-          echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
-
-      # 1. Log in to GitHub Container Registry
+      
       - name: Log in to the Container registry
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      
-      # 2. Build and Tag Image
-      # We tag it twice: with the commit SHA (for history) and 'latest'
+
+      # --- Fix: Convert repo name to lowercase ---
+      - name: Lowercase Repo Name
+        run: echo "REPO_LC=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
+
       - name: Build and Tag Docker Image
         run: |
-          docker build . --tag ghcr.io/${{ env.REPO }}:${{ github.sha }}
-          docker build . --tag ghcr.io/${{ env.REPO }}:latest
+          # Use env.REPO_LC instead of github.repository
+          docker build . --tag ghcr.io/${{ env.REPO_LC }}/hivebox:${{ github.sha }}
+          docker build . --tag ghcr.io/${{ env.REPO_LC }}/hivebox:latest
 
-      # 3. Run Container (Integration Test)
       - name: Run Container for Testing
-        run: docker run -d -p 5000:5000 --name hivebox-ci ghcr.io/${{ env.REPO }}:${{ github.sha }}
+        run: docker run -d -p 5000:5000 --name hivebox-ci ghcr.io/${{ env.REPO_LC }}/hivebox:${{ github.sha }}
         
       - name: Wait for App to Start
         run: sleep 5
@@ -120,8 +127,7 @@ jobs:
           fi
           echo "Integration Test Passed!"
 
-      # 4. Push Image to Registry
       - name: Push Docker Image
         run: |
-          docker push ghcr.io/${{ env.REPO }}:${{ github.sha }}
-          docker push ghcr.io/${{ env.REPO }}:latest
+          docker push ghcr.io/${{ env.REPO_LC }}/hivebox:${{ github.sha }}
+          docker push ghcr.io/${{ env.REPO_LC }}/hivebox:latest
