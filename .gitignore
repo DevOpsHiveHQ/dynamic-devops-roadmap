@@ -18,3 +18,25 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+
+# --- Phase 5: Secrets & Data ---
+.env
+.env.*
+/data
+/minio_data
+
+
+
+# Python Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
