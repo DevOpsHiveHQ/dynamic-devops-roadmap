@@ -46,7 +46,7 @@ The roadmap has a [multiphase industry-grade project](../../projects/hivebox) th
 
 ## DevOps Topology
 
-This roadmap is designed for the cloud-native post-container era, which means it will mainly focus on modern practices like Cloud, Docker, and Kubernetes. That doesn't mean everything should be complex, but just about [treating your servers like cattle, not pets](https://www.hava.io/blog/cattle-vs-pets-devops-explained). For example, using Kubernetes doesn't always mean you need to create or manage Kubernetes clusters! Many serverless Kubernetes solutions are now like AWS EKS Fargate or GCP GKE Autopilot. So this roadmap doesn't claim one way of doing DevOps because DevOps already has many [implementations and topologies](https://web.devopstopologies.com/), but as mentioned, it focuses on modern practices and technologies.
+This roadmap is designed for the cloud-native post-container era, which means it will mainly focus on modern practices like Cloud, Docker, and Kubernetes. That doesn't mean everything should be complex, but rather about [designing servers as ephemeral, replaceable infrastructure](https://www.hava.io/blog/cattle-vs-pets-devops-explained). For example, using Kubernetes doesn't always mean you need to create or manage Kubernetes clusters! Many serverless Kubernetes solutions are now like AWS EKS Fargate or GCP GKE Autopilot. So this roadmap doesn't claim one way of doing DevOps because DevOps already has many [implementations and topologies](https://web.devopstopologies.com/), but as mentioned, it focuses on modern practices and technologies.
 
 ## Soft Skills
 
