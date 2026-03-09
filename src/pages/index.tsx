@@ -27,11 +27,15 @@ function HomepageHeader() {
           <Link title="Roadmap Get Started"
             className="button button--secondary button--lg"
             to="/getting-started">
-            ⚡ Get Started ⚡
+            ⭐ Walkthrough
+          </Link>
+          <Link title="Roadmap Quick Start"
+            className="button button--primary-right button--lg" to="/foundations">
+            ⚡ Quick Start
           </Link>
           <Link title="Roadmap FAQ"
             className="button button--primary-right button--lg" to="/faq">
-            FAQ →
+            💬 FAQ
           </Link>
         </div>
       </div>

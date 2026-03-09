@@ -18,7 +18,7 @@ type FocusAreasData = {
 const FeatureList: FeatureItem[] = [
   {
     prefix: 'Kickoff',
-    title: '⚡ Getting Started ⚡',
+    title: '⭐ Getting Started ⭐',
     link: '/getting-started',
     description: (
       <>
