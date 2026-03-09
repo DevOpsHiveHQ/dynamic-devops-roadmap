@@ -100,3 +100,8 @@ and show enthusiasm.
 - Ask for feedback from the interviewer and enhance what could be enhanced.
 - Once you get to the interview stage, try to keep the interviews active between 3 and 5 to ensure you have enough time to make any enhancements. Otherwise, you will make the same mistakes again and again in many interviews!
 - Prepare for the next interview.
+
+
+## Resources
+
+- [CV and Interview Best Practices - SkillMine.io](https://skillmine.io/interview/best-practices)
