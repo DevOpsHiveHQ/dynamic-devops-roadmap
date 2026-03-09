@@ -286,6 +286,10 @@ Timeline Responsive Style
 Timeline Responsive Style in Getting Started page.
 */
 
+.getting-started .timeline {
+  min-width: 100%;
+}
+
 .getting-started .timeline .event::before {
   left: .5px;
   min-width: 0;
