@@ -122,7 +122,7 @@ const config: Config = {
     ],
     announcementBar: {
       id: 'announcement',
-      content: '<a target="_blank" href="https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap">⭐ Star on GitHub ⭐</a> and <a target="_blank" href="https://newsletter.devopsroadmap.io/subscribe">✉️ Join the Community ✉️</a>',
+      content: '<strong>Community Post Picks:</strong> <a target="_blank" href="https://newsletter.devopsroadmap.io/p/stop-babysitting-your-team-let-your-team-evolve">Stop Babysitting Your Team: Let your team evolve! ↗️</a>',
       backgroundColor: '#303846',
       textColor: '#ffffff',
       isCloseable: false,
@@ -186,7 +186,7 @@ const config: Config = {
           ]
         },
         {
-          label: '⭐ Star on GitHub (2.4k+)',
+          label: '⭐ Star on GitHub (2.5k+)',
           href: 'https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap',
           position: 'right',
         },
