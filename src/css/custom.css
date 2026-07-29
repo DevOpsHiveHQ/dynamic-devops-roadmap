@@ -270,7 +270,8 @@ Timeline Responsive Style
   }
 
   ul.timeline {
-    margin-left: 0.5em;
+    margin-left: 0rem;
+    width: 100%;
   }
 
   .timeline h3 {
@@ -280,6 +281,19 @@ Timeline Responsive Style
   .timeline p {
     padding-top: 10px
   }
+
+  #timeline-content {
+    padding-left: 2rem;
+  }
+
+  .getting-started ul.timeline {
+    margin-left: 1rem !important;
+  }
+
+  .getting-started .timeline .event {
+    padding-left: 0.1rem !important;
+  }
+
 }
 
 /*
@@ -303,7 +317,7 @@ Timeline Responsive Style in Getting Started page.
 }
 
 .getting-started #timeline-content {
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 
 .getting-started ul.timeline {
