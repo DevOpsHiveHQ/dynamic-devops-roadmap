@@ -105,3 +105,4 @@ and show enthusiasm.
 ## Resources
 
 - [CV and Interview Best Practices - SkillMine.io](https://skillmine.io/interview/best-practices)
+- [CVExpert ATS Health Check](https://cvexpert.com/tools/ats-health-check) - Free browser-local checks for common CV readability foundations; no sign-up or file upload, and it does not predict employer decisions.
