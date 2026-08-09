@@ -105,3 +105,4 @@ and show enthusiasm.
 ## Resources
 
 - [CV and Interview Best Practices - SkillMine.io](https://skillmine.io/interview/best-practices)
+- [CVExpert ATS Health Check](https://cvexpert.com/tools/ats-health-check) — free, no-sign-up checks of pasted CV text for common readability and structure issues. It runs in the browser without uploading or saving the text and does not simulate an employer's ATS or guarantee a result.
