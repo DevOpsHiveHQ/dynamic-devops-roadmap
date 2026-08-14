@@ -133,8 +133,8 @@ This roadmap is `polymorphic`, which means it's designed to work in different mo
 ## Star History
 
 <p align="center">
-  <a href="https://star-history.com/#DevOpsHiveHQ/dynamic-devops-roadmap&Date" imageanchor="1">
-    <img alt="Star History Chart" border="0" width="90%" src="https://api.star-history.com/svg?repos=DevOpsHiveHQ/dynamic-devops-roadmap&type=Date" />
+  <a href="https://star-history.dera.page/#DevOpsHiveHQ/dynamic-devops-roadmap&Date" imageanchor="1">
+    <img alt="Star History Chart" border="0" width="90%" src="https://star-history.dera.page/svg?repos=DevOpsHiveHQ/dynamic-devops-roadmap&type=Date" />
   </a>
 </p>
 
