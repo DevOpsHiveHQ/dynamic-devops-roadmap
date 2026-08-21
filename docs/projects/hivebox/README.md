@@ -322,7 +322,7 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 ### 5.4 Infrastructure as Code
 
 - Deploy Grafana agent to collect logs and metrics (Hint: Create [Grafana Cloud](https://grafana.com/products/cloud/) free account to Use Loki and Grafana).
-- Create a Kubernetes cluster using Terraform IaC (Hint: Use free tier from any Cloud provider).
+- Create a Kubernetes cluster using Terraform IaC (Hint: Use free tier from any Cloud provider or use local emulator such as [Floci](https://github.com/floci-io/floci)).
 
 ### 5.5 Continuous Integration
 

@@ -289,6 +289,7 @@ Continuous Deployment is covered in the module 6.
 
 - [What Is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is Cloud Native? - AWS](https://aws.amazon.com/what-is/cloud-native/)
+- [Floci](https://github.com/floci-io/floci) - A free, open-source local AWS emulator for development, testing, and CI.
 
 ## Quiz
 
