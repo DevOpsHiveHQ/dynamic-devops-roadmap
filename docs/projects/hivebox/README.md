@@ -289,14 +289,30 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 **Requirements:**
 
 **General:**
-- Add a caching layer using a Redis-Compatible project [Valkey](https://github.com/valkey-io/valkey).
-- Add a storage layer using S3-Compatible project [MinIO](https://min.io/) and store the data periodically every 5 minutes.
+- **Cache:**
+  - Add a caching layer using the Redis-compatible project [Valkey](https://github.com/valkey-io/valkey).
+  - Set the caching cycle to 5 minutes. During each cycle, the application should refresh the cache with the latest version of the data.
+- **Store:**
+  - Add a storage layer using the S3-compatible project [MinIO](https://min.io/).
+  - Set the storage cycle to 5 minutes. During each cycle, the application should store another copy of the data.
+
+**Temperature:**
+- Endpoint: `/temperature`
+- Parameters: No parameters.
+- Requirements:
+  - The application should read data from the cache unless the cached data is stale, in which case it should refresh the cache first.
+
+**Cache:**
+- Endpoint: `/cache`
+- Parameters: No parameters.
+- Requirements:
+  - By calling this endpoint, it should update the cached data directly on Valkey (outside of the cycle).
 
 **Store:**
 - Endpoint: `/store`
 - Parameters: No parameters.
 - Requirements:
-  - By default, the application will store the data every 5 minutes, but by calling this endpoint, it should store it directly on MinIO.
+  - By calling this endpoint, it should store a new copy of the data directly on MinIO (outside of the cycle).
 
 **Metrics:**
 - Endpoint: `/metrics`
@@ -310,7 +326,8 @@ Roadmap Module: [Transform - Finishing the Structure](../../foundations/module-0
 - Requirements:
   - Returns HTTP 200 unless:
     - 50% + 1 of the configured senseBoxes are not accessible.
-    - AND caching content is older than 5 minutes.
+    - OR if the **cached** content is older than 2 cycles (that means the cached data is stale and something is not working as expected).
+    - OR if the **stored** content is older than 2 cycles (that means the stored data is stale and something is not working as expected).
 
 ### 5.3 Containers
 
