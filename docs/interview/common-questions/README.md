@@ -37,7 +37,7 @@ Roadmap Module: [Welcome to the DevOps World](../../foundations/module-01)
 - What are some technical and business benefits of DevOps methodology?
 - How would you strategize for a successful DevOps implementation?
 - What are the core operations of DevOps in terms of development and infrastructure?
-- What is Diffrance between DevOps & SRE & Cloud & Platform Engineer?
+- What is the difference between DevOps, SRE, Cloud, and Platform Engineer?
 
 ### Resources
 
