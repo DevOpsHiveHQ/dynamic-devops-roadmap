@@ -212,16 +212,29 @@ ul.timeline {
 }
 
 .timeline .event:after {
-  box-shadow: 0 0 0 8px #edf6f5;
-  left: -46px;
-  background: var(--ifm-color-primary);
-  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
-  height: 11px;
-  width: 11px;
-  content: "";
-  width: 1.5em;
-  height: 1.6em;
-  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  left: -2.65em;
+  background: var(--ifm-color-light);
+  width: 1.8em;
+  height: 2em;
+  content: '';
+}
+
+#career-roadmap .timeline .event::after {
+  content: attr(data-icon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#career-roadmap .timeline .event::after {
+  top: -6px;
+}
+
+.getting-started #career-roadmap .timeline .event::after {
+  top: 0.4em;
 }
 
 .timeline-focus-areas {

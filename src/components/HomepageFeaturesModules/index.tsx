@@ -7,6 +7,7 @@ type FeatureItem = {
   link: string;
   prefix: string;
   title: string;
+  icon: string;
   description: JSX.Element;
   focusAreas: string;
 };
@@ -18,7 +19,8 @@ type FocusAreasData = {
 const FeatureList: FeatureItem[] = [
   {
     prefix: 'Kickoff',
-    title: '⭐ Getting Started ⭐',
+    title: 'Getting Started',
+    icon: '⭐',
     link: '/getting-started',
     description: (
       <>
@@ -30,7 +32,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Learning',
-    title: '🏛️ Foundations 🏛️',
+    title: 'Foundations',
+    icon: '🏛️',
     link: '/foundations',
     description: (
       <>
@@ -53,6 +56,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Introduction',
+    icon: '📖',
     link: '/foundations/introduction',
     description: (
       <>
@@ -65,6 +69,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 1: Welcome to the DevOps World',
+    icon: '🌱',
     link: '/foundations/module-01',
     description: (
       <>
@@ -78,6 +83,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 2: Basics - DevOps Core',
+    icon: '⚙️',
     link: '/foundations/module-02',
     description: (
       <>
@@ -91,6 +97,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 3: Start - Laying the Foundation',
+    icon: '🏗️',
     link: '/foundations/module-03',
     description: (
       <>
@@ -104,6 +111,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 4: Expand - Constructing a Shell',
+    icon: '🧱',
     link: '/foundations/module-04',
     description: (
       <>
@@ -118,6 +126,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 5: Transform - Finishing the Structure',
+    icon: '🔧',
     link: '/foundations/module-05',
     description: (
       <>
@@ -132,6 +141,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 6: Keep Improving',
+    icon: '🚀',
     link: '/foundations/module-06',
     description: (
       <>
@@ -147,6 +157,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Module 7: Capstone Project',
+    icon: '🎓',
     link: '/foundations/module-07',
     description: (
       <>
@@ -160,6 +171,7 @@ const FeatureList: FeatureItem[] = [
   {
     prefix: 'Foundations',
     title: 'Next Steps',
+    icon: '🎯',
     link: '/foundations/next-steps',
     description: (
       <>
@@ -173,7 +185,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Practicing',
-    title: '🛠️ More Hands-on Projects 🛠️',
+    title: 'More Hands-on Projects',
+    icon: '🛠️',
     link: '/projects',
     description: (
       <>
@@ -185,7 +198,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Job Finding',
-    title: '💬 Interview Preparation 💬',
+    title: 'Interview Preparation',
+    icon: '💼',
     link: '/interview',
     description: (
       <>
@@ -197,7 +211,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'Advanced',
-    title: '📈 Career Growth 📈',
+    title: 'Career Growth',
+    icon: '📈',
     link: '/growth',
     description: (
       <>
@@ -219,7 +234,8 @@ const FeatureList: FeatureItem[] = [
   },
   {
     prefix: 'FAQ',
-    title: 'ℹ️ Frequently Asked Questions ℹ️',
+    title: 'Frequently Asked Questions',
+    icon: 'ℹ️',
     link: '/faq',
     description: (
       <>
@@ -240,9 +256,9 @@ function FocusAreas({ data }: FocusAreasData) {
   return '';
 }
 
-function Feature({ prefix, title, link, description, focusAreas }: FeatureItem) {
+function Feature({ prefix, title, icon, link, description, focusAreas }: FeatureItem) {
   return (
-    <li className="event" data-prefix={prefix}>
+    <li className="event" data-prefix={prefix} data-icon={icon}>
       <h3><Link to={link}>{title}</Link></h3>
       <p>{description}</p>
       <FocusAreas data={focusAreas} />
