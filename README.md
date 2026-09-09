@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://devopsroadmap.io/" style="display: block; padding: .5em 0; text-align: center;">
-    <img alt="Dynamic DevOps Roadmap" border="0" width="90%" src="./static/img/dynamic-devops-roadmap-with-logo.png" />
+    <img alt="Dynamic DevOps Roadmap" border="0" width="90%" src="https://devopsroadmap.io/img/dynamic-devops-roadmap-with-logo.png" />
   </a>
 </p>
 
@@ -41,7 +41,7 @@ Unlike many other roadmaps, this roadmap is **effective**, **impactful**, and mo
 
 <p align="center">
   <a href="#top" style="display: block; padding: .5em 0; text-align: center;">
-    <img alt="Star the project" border="0" width="100%" src="./img/star-the-project.png" />
+    <img alt="Star the project" border="0" width="100%" src="https://devopsroadmap.io/img/star-the-project.png" />
   </a>
 </p>
 
