@@ -217,6 +217,7 @@ ul.timeline {
   width: 1.8em;
   height: 2em;
   content: '';
+  border-radius: 53% 31% 47% 39% / 36% 57% 33% 47%;
 }
 
 #career-roadmap .timeline .event::after {
